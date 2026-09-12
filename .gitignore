@@ -1,0 +1,21 @@
+# Local files and credentials
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Large data/weights: document storage and retrieval in manifests
+**/data/**
+**/data_processed/**
+**/checkpoints/**
+!**/data/**/
+!**/data_processed/**/
+!**/checkpoints/**/
+!.gitkeep
+
+# Raw logs, manifests, notebook outputs, metrics and reports are NOT ignored.
