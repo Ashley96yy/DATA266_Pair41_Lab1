@@ -1,0 +1,42 @@
+{
+  "verified_at_utc": "2026-09-14T16:19:37.603228+00:00",
+  "status": "implementation checks passed; model untrained; no optimizer steps",
+  "device": "cpu",
+  "config": {
+    "seed": 640,
+    "vocab_size": 104,
+    "max_seq_len": 256,
+    "d_model": 128,
+    "n_heads": 4,
+    "n_layers": 2,
+    "d_ff": 512,
+    "dropout": 0.1,
+    "layer_norm_eps": 1e-05
+  },
+  "model_config_sha256": "886e4b69b9af4e89fa2eba2fd9bdf2f083d4d94837617d0e75e45ef13b8e79f9",
+  "vocabulary_sha256": "3a934ab025faca0d5ece140f24807338b21d4cacd874949459e8e2ee0340d88b",
+  "preprocessing_manifest_sha256": "c062b2794e74867264192ee44c2ca2d29ad75fda73ac0ef5d964c3e42138849d",
+  "parameter_count": 456192,
+  "logits_shape": [
+    2,
+    256,
+    104
+  ],
+  "maximum_future_attention_weight": 0.0,
+  "maximum_prefix_change_after_future_perturbation": 0.0,
+  "initialization_diagnostic_cross_entropy": 4.672317028045654,
+  "initialization_diagnostic_gradient_norm": 4.347315821101846,
+  "checks": {
+    "prefix_consistency": true,
+    "context_length_boundaries": true,
+    "all_parameter_gradients_finite": true,
+    "token_and_position_embeddings_receive_gradients": true,
+    "weights_unchanged": true,
+    "state_dict_restoration": true
+  },
+  "versions": {
+    "python": "3.9.7",
+    "numpy": "1.23.5",
+    "torch": "2.8.0"
+  }
+}
