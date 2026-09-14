@@ -1,0 +1,16 @@
+{
+  "train_story_count": 100000,
+  "validation_story_count": 10000,
+  "train_seed": 640,
+  "validation_seed": 641,
+  "context_length": 256,
+  "sequence_stride": 256,
+  "size_unit": "stories",
+  "sampling": "reservoir over unique parsed stories; preserve official split",
+  "reader": "UTF-8; standalone <|endoftext|> delimiter; strip story edges; skip empty",
+  "tokenization": "Unicode characters; training-only sorted vocabulary",
+  "story_separator": "\n\n",
+  "unknown_id": 0,
+  "array_dtype": "int32",
+  "incomplete_window": "discard"
+}

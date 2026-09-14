@@ -1,0 +1,49 @@
+{
+  "saved_at_utc": "2026-09-14T16:02:57.367859+00:00",
+  "config": "task1_llm/Yuyao_Ding/configs/preprocessing.json",
+  "versions": {
+    "python": "3.9.7",
+    "numpy": "1.23.5",
+    "torch": "2.8.0"
+  },
+  "sources": {
+    "task1_llm/data/TinyStories-train.txt": {
+      "bytes": 1924281556,
+      "sha256": "c5cf5e22ff13614e830afbe61a99fbcbe8bcb7dd72252b989fa1117a368d401f"
+    },
+    "task1_llm/data/TinyStories-valid.txt": {
+      "bytes": 19447282,
+      "sha256": "94e431816c4cce81ff71e4408ff8d3bda9a42e8d2663986697c3954288cb38b4"
+    }
+  },
+  "statistics": {
+    "vocabulary_size": 104,
+    "train_tokens": 88792995,
+    "validation_tokens": 8693309,
+    "train_sequences": 346847,
+    "validation_sequences": 33958,
+    "validation_unknown_tokens": 2
+  },
+  "artifacts": {
+    "task1_llm/Yuyao_Ding/data_processed/train_ids.npy": {
+      "bytes": 355172108,
+      "sha256": "4fb76851ae80bc06718af4a22b16ce8b61f271c6e3771d22ad0274fad86001d9"
+    },
+    "task1_llm/Yuyao_Ding/data_processed/valid_ids.npy": {
+      "bytes": 34773364,
+      "sha256": "8460e4fe32119baad3bda06236845a80d9faf42d62b840dba3d3f10145350753"
+    },
+    "task1_llm/Yuyao_Ding/data_processed/vocabulary.json": {
+      "bytes": 765,
+      "sha256": "3a934ab025faca0d5ece140f24807338b21d4cacd874949459e8e2ee0340d88b"
+    },
+    "task1_llm/Yuyao_Ding/data_processed/split_story_hashes.json": {
+      "bytes": 7920042,
+      "sha256": "3a16cabbb71a1bbda55f852cc9541852719afe0557d343ccd01f1df94b3ccd85"
+    },
+    "task1_llm/Yuyao_Ding/configs/preprocessing.json": {
+      "bytes": 541,
+      "sha256": "4493a2bd972fe35b9f36bf994ffa44ec53fd6a3b6f21295c7ce3cdd8b47ea26a"
+    }
+  }
+}
