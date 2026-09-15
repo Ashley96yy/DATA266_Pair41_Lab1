@@ -1,0 +1,31 @@
+{
+  "run_id": "smoke_20260914T210637Z_96ddf7b3",
+  "smoke": true,
+  "completed_epochs": 1,
+  "best_epoch": 1,
+  "checkpoint": "task1_llm/Yuyao_Ding/checkpoints/smoke_20260914T210637Z_96ddf7b3/epoch_001.pt",
+  "checkpoint_sha256": "c3bd12c73ffc580ab4b172a82e48a07c3bf66dc3600cc97854ea4a4475159ffe",
+  "training_evaluation": {
+    "cross_entropy": 4.217446645100911,
+    "perplexity": 67.85999224664441,
+    "bits_per_character": 6.084489360100881,
+    "top1_accuracy": 0.19466145833333334,
+    "target_tokens": 1536
+  },
+  "validation_evaluation": {
+    "cross_entropy": 4.220266103744507,
+    "perplexity": 68.05159066332104,
+    "bits_per_character": 6.088556979103988,
+    "top1_accuracy": 0.1923828125,
+    "target_tokens": 1024
+  },
+  "generalization_gap": 0.0028194586435956737,
+  "parameter_count": 456192,
+  "training_seconds_excluding_evaluation_and_checkpoints": 0.05837137499999989,
+  "training_tokens_per_second": 26314.26790957045,
+  "this_segment_wall_seconds": 0.11615579200000026,
+  "memory_observations_this_segment": {
+    "process_lifetime_peak_rss_bytes": 367771648
+  },
+  "nonfinite_events": 0
+}

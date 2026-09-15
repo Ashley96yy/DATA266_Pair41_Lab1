@@ -1,0 +1,109 @@
+{
+  "smoke": false,
+  "checkpoint": "task1_llm/Yuyao_Ding/checkpoints/train_20260914T211231Z_98b2aa86/epoch_010.pt",
+  "checkpoint_sha256": "23933799df14748236f4a89d726f347a41485ba1885a9a654916d5be51c2eac6",
+  "hardware": {
+    "device": "mps",
+    "cpu": "Apple M3",
+    "gpu": "Apple M3 (Apple MPS)",
+    "python": "3.9.7",
+    "numpy": "1.23.5",
+    "torch": "2.8.0"
+  },
+  "ngram_unit": "characters in completions, excluding prompts",
+  "repeated_4gram_definition": "(total 4grams - unique 4grams) / total 4grams",
+  "diversity_by_method": {
+    "greedy": {
+      "distinct_1": 0.03777777777777778,
+      "distinct_2": 0.18394648829431437,
+      "distinct_3": 0.30089485458612975,
+      "repeated_4gram_rate": 0.6240179573512907
+    },
+    "temperature_sampling": {
+      "distinct_1": 0.04111111111111111,
+      "distinct_2": 0.25863991081382387,
+      "distinct_3": 0.5391498881431768,
+      "repeated_4gram_rate": 0.3007856341189674
+    }
+  },
+  "samples": [
+    {
+      "prompt": "Once upon a time,",
+      "completion": " there was a little girl named Lily. She loved to play with her toys and play with her toys. One day, she saw a big boy who wanted to go on a big box. She was so excited to see what her mom said yes. She was so excited to see her mom and dad said, \"I want to play with you. I will be careful. I will ",
+      "text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and play with her toys. One day, she saw a big boy who wanted to go on a big box. She was so excited to see what her mom said yes. She was so excited to see her mom and dad said, \"I want to play with you. I will be careful. I will ",
+      "method": "greedy",
+      "temperature": null,
+      "seed": 640,
+      "prompt_unknown_characters": 0,
+      "generated_tokens": 300,
+      "generation_seconds": 15.588987249999263,
+      "generation_tokens_per_second": 19.244354696615343,
+      "unknown_output_suppressed": true
+    },
+    {
+      "prompt": "Once upon a time,",
+      "completion": " there was a little girl named Lily. She loved to play outside with her toys and friends on the swings. One day, Lily wanted to learn that she loved to play with her toys. But she was feeling so proud of her new toys, but it was a for to collect from her hard to make them a map story.\nHer mom said t",
+      "text": "Once upon a time, there was a little girl named Lily. She loved to play outside with her toys and friends on the swings. One day, Lily wanted to learn that she loved to play with her toys. But she was feeling so proud of her new toys, but it was a for to collect from her hard to make them a map story.\nHer mom said t",
+      "method": "temperature_sampling",
+      "temperature": 0.8,
+      "seed": 640,
+      "prompt_unknown_characters": 0,
+      "generated_tokens": 300,
+      "generation_seconds": 6.7024002079997445,
+      "generation_tokens_per_second": 44.760084550297485,
+      "unknown_output_suppressed": true
+    },
+    {
+      "prompt": "A little girl found",
+      "completion": " a big box of car and a big box. She was so excited to see the box and said, \"I want to share your friends. I will be careful.\"\nThe box was so happy and said, \"I want to see you take the box. I will be careful. I will be careful. I will be careful. I will be careful.\"\nThe box was so happy and said, ",
+      "text": "A little girl found a big box of car and a big box. She was so excited to see the box and said, \"I want to share your friends. I will be careful.\"\nThe box was so happy and said, \"I want to see you take the box. I will be careful. I will be careful. I will be careful. I will be careful.\"\nThe box was so happy and said, ",
+      "method": "greedy",
+      "temperature": null,
+      "seed": 641,
+      "prompt_unknown_characters": 0,
+      "generated_tokens": 300,
+      "generation_seconds": 6.063171292000334,
+      "generation_tokens_per_second": 49.47905733684548,
+      "unknown_output_suppressed": true
+    },
+    {
+      "prompt": "A little girl found",
+      "completion": " it what are you doing to have the girl.\"\nThe model was sad and sad. She looked at her friends and said, \"Okay, Mom. What we do you will be a good. It is not good. It's okay and you can buy it not mean to be surprised.\"\nMom said, \"I know why we can hurt you to study and play with your blanket. We ca",
+      "text": "A little girl found it what are you doing to have the girl.\"\nThe model was sad and sad. She looked at her friends and said, \"Okay, Mom. What we do you will be a good. It is not good. It's okay and you can buy it not mean to be surprised.\"\nMom said, \"I know why we can hurt you to study and play with your blanket. We ca",
+      "method": "temperature_sampling",
+      "temperature": 0.8,
+      "seed": 641,
+      "prompt_unknown_characters": 0,
+      "generated_tokens": 300,
+      "generation_seconds": 6.073318249999829,
+      "generation_tokens_per_second": 49.3963905151864,
+      "unknown_output_suppressed": true
+    },
+    {
+      "prompt": "The dog wanted to",
+      "completion": " see what he was wrong. He was so happy to have a big special special place. He was so happy to help him find him and said, \"I want to be careful and share you to be careful. I will be careful.\"\nThe dog was so happy and said, \"I want to play with you. I will be careful. I will be careful.\"\nThe dog w",
+      "text": "The dog wanted to see what he was wrong. He was so happy to have a big special special place. He was so happy to help him find him and said, \"I want to be careful and share you to be careful. I will be careful.\"\nThe dog was so happy and said, \"I want to play with you. I will be careful. I will be careful.\"\nThe dog w",
+      "method": "greedy",
+      "temperature": null,
+      "seed": 642,
+      "prompt_unknown_characters": 0,
+      "generated_tokens": 300,
+      "generation_seconds": 5.905984375000116,
+      "generation_tokens_per_second": 50.79593526692899,
+      "unknown_output_suppressed": true
+    },
+    {
+      "prompt": "The dog wanted to",
+      "completion": " see what they were doing to away.\nSo, they were happy to be friends and sad to their perming strong. They started to put it on their cars. They saw the ball gather and shaked a sun that she was very big passage, and heled happy.\nLily was happy to have a good of fun together. She thought it was very",
+      "text": "The dog wanted to see what they were doing to away.\nSo, they were happy to be friends and sad to their perming strong. They started to put it on their cars. They saw the ball gather and shaked a sun that she was very big passage, and heled happy.\nLily was happy to have a good of fun together. She thought it was very",
+      "method": "temperature_sampling",
+      "temperature": 0.8,
+      "seed": 642,
+      "prompt_unknown_characters": 0,
+      "generated_tokens": 300,
+      "generation_seconds": 6.041841249999379,
+      "generation_tokens_per_second": 49.65373759200158,
+      "unknown_output_suppressed": true
+    }
+  ]
+}

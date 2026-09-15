@@ -1,0 +1,4 @@
+{
+  "checkpoint": "task1_llm/Yuyao_Ding/checkpoints/train_20260914T211231Z_98b2aa86/epoch_010.pt",
+  "validation_ce": 0.8760242209402774
+}

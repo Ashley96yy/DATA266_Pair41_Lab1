@@ -1,0 +1,53 @@
+{
+  "run_id": "train_20260914T211231Z_98b2aa86",
+  "mode": "formal",
+  "status": "complete",
+  "training_config": {
+    "seed": 640,
+    "epochs": 10,
+    "batch_size": 64,
+    "eval_batch_size": 64,
+    "learning_rate": 0.0003,
+    "min_learning_rate": 3e-05,
+    "warmup_fraction": 0.05,
+    "weight_decay": 0.01,
+    "gradient_clip": 1.0,
+    "log_every": 100,
+    "device": "auto"
+  },
+  "model_config": {
+    "seed": 640,
+    "vocab_size": 104,
+    "max_seq_len": 256,
+    "d_model": 128,
+    "n_heads": 4,
+    "n_layers": 2,
+    "d_ff": 512,
+    "dropout": 0.1,
+    "layer_norm_eps": 1e-05
+  },
+  "hardware": {
+    "device": "mps",
+    "cpu": "Apple M3",
+    "gpu": "Apple M3 (Apple MPS)",
+    "python": "3.9.7",
+    "numpy": "1.23.5",
+    "torch": "2.8.0"
+  },
+  "data": {
+    "vocabulary_sha256": "3a934ab025faca0d5ece140f24807338b21d4cacd874949459e8e2ee0340d88b",
+    "preprocessing_config_sha256": "4493a2bd972fe35b9f36bf994ffa44ec53fd6a3b6f21295c7ce3cdd8b47ea26a",
+    "train_array_sha256": "4fb76851ae80bc06718af4a22b16ce8b61f271c6e3771d22ad0274fad86001d9",
+    "valid_array_sha256": "8460e4fe32119baad3bda06236845a80d9faf42d62b840dba3d3f10145350753"
+  },
+  "source_code_sha256": "29031b9a1468a755110aa29e800e2b3ad6cd68354dcea8367bd5407b99eaaf96",
+  "raw_log": "reproducibility/raw_logs/Yuyao_Ding/train_20260914T211231Z_98b2aa86.jsonl",
+  "resume_from": null,
+  "steps_per_epoch": 5420,
+  "total_planned_steps": 54200,
+  "precision": "float32",
+  "evaluation": "full selected split, eval mode, token-weighted CE",
+  "metrics": "task1_llm/Yuyao_Ding/outputs/train_20260914T211231Z_98b2aa86/metrics.json",
+  "completed_epochs": 10,
+  "best_checkpoint": "task1_llm/Yuyao_Ding/checkpoints/train_20260914T211231Z_98b2aa86/epoch_010.pt"
+}

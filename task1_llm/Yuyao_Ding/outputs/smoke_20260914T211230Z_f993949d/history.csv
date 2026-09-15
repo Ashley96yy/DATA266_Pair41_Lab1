@@ -1,0 +1,2 @@
+epoch,global_step,train_online_ce,validation_ce,validation_accuracy,training_target_tokens,training_seconds,training_tokens_per_second,max_gradient_norm_before_clip,last_learning_rate
+1,3,4.456339359283447,4.220266103744507,0.1923828125,1536,0.05703020800000047,26933.0948258156,4.30333137512207,3e-05

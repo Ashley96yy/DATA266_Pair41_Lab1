@@ -1,0 +1,57 @@
+{
+  "smoke": true,
+  "checkpoint": "task1_llm/Yuyao_Ding/checkpoints/smoke_20260914T210637Z_96ddf7b3/epoch_001.pt",
+  "checkpoint_sha256": "c3bd12c73ffc580ab4b172a82e48a07c3bf66dc3600cc97854ea4a4475159ffe",
+  "hardware": {
+    "device": "cpu",
+    "cpu": "arm",
+    "gpu": null,
+    "python": "3.9.7",
+    "numpy": "1.23.5",
+    "torch": "2.8.0"
+  },
+  "ngram_unit": "characters in completions, excluding prompts",
+  "repeated_4gram_definition": "(total 4grams - unique 4grams) / total 4grams",
+  "diversity_by_method": {
+    "greedy": {
+      "distinct_1": 0.08333333333333333,
+      "distinct_2": 0.09090909090909091,
+      "distinct_3": 0.1,
+      "repeated_4gram_rate": 0.8888888888888888
+    },
+    "temperature_sampling": {
+      "distinct_1": 0.8333333333333334,
+      "distinct_2": 1.0,
+      "distinct_3": 1.0,
+      "repeated_4gram_rate": 0.0
+    }
+  },
+  "samples": [
+    {
+      "prompt": "Once upon a time,",
+      "completion": "            ",
+      "text": "Once upon a time,            ",
+      "method": "greedy",
+      "temperature": null,
+      "seed": 640,
+      "prompt_unknown_characters": 0,
+      "generated_tokens": 12,
+      "generation_seconds": 0.0074526249999999905,
+      "generation_tokens_per_second": 1610.1709129333644,
+      "unknown_output_suppressed": true
+    },
+    {
+      "prompt": "Once upon a time,",
+      "completion": "\t!laK FxkEx ",
+      "text": "Once upon a time,\t!laK FxkEx ",
+      "method": "temperature_sampling",
+      "temperature": 0.8,
+      "seed": 640,
+      "prompt_unknown_characters": 0,
+      "generated_tokens": 12,
+      "generation_seconds": 0.007113957999999698,
+      "generation_tokens_per_second": 1686.824690277973,
+      "unknown_output_suppressed": true
+    }
+  ]
+}

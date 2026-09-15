@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "three-step CPU smoke training",
+    "atomic checkpoint save/load",
+    "per-step raw logs",
+    "token-weighted evaluation including partial batch",
+    "warm-up/cosine endpoints",
+    "plot generation",
+    "greedy and temperature decoding",
+    "long-prompt cropping",
+    "fixed-seed sampling repeatability",
+    "epoch-boundary resume equals uninterrupted weights on a three-window test fixture"
+  ],
+  "smoke_run": "task1_llm/Yuyao_Ding/outputs/smoke_20260914T210637Z_96ddf7b3",
+  "formal_training_executed": false,
+  "resume_fixture_windows": 3,
+  "verified_at_utc": "2026-09-14T21:09:47.722290+00:00",
+  "source_code_sha256": "29031b9a1468a755110aa29e800e2b3ad6cd68354dcea8367bd5407b99eaaf96",
+  "device": "cpu"
+}

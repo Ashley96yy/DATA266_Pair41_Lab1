@@ -1,5 +1,5 @@
 {
-  "verified_at_utc": "2026-09-14T16:19:37.603228+00:00",
+  "verified_at_utc": "2026-09-14T21:12:30.673948+00:00",
   "status": "implementation checks passed; model untrained; no optimizer steps",
   "device": "cpu",
   "config": {
@@ -15,7 +15,7 @@
   },
   "model_config_sha256": "886e4b69b9af4e89fa2eba2fd9bdf2f083d4d94837617d0e75e45ef13b8e79f9",
   "vocabulary_sha256": "3a934ab025faca0d5ece140f24807338b21d4cacd874949459e8e2ee0340d88b",
-  "preprocessing_manifest_sha256": "c062b2794e74867264192ee44c2ca2d29ad75fda73ac0ef5d964c3e42138849d",
+  "preprocessing_manifest_sha256": "6e65ca855d4caa8dbe963a7c15a1fd553b4d0baa60bd8d6bff01d604a7849a39",
   "parameter_count": 456192,
   "logits_shape": [
     2,
