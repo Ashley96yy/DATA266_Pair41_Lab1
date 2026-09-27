@@ -1,0 +1,17 @@
+{
+  "status": "analysis_complete",
+  "required_per_category": 5,
+  "available_rows": 20,
+  "shortages": {
+    "confident_false_positive": 0,
+    "confident_false_negative": 0,
+    "near_threshold": 0,
+    "slice_specific": 0
+  },
+  "selection": "Distinct wrong predictions; confidence extremes, closest to the fixed threshold, and predefined long/negation slices.",
+  "note": "Confidence is ranked, not required to exceed a fixed threshold. No errors are invented to fill a category.",
+  "analyzed_rows": 20,
+  "analysis_time_utc": "2026-09-27T03:16:39.391436+00:00",
+  "analysis_method": "Case-by-case reading of raw and processed text; direct input loss is distinguished from hypothesized model behavior.",
+  "proposed_changes_tested": false
+}

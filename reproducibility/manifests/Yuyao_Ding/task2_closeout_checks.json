@@ -1,0 +1,119 @@
+{
+  "session_id": "task2_formal_20260927T020054Z_ba87cd57",
+  "time_utc": "2026-09-27T03:20:40.421923+00:00",
+  "status": "passed",
+  "original_training_artifacts_unchanged": 58,
+  "original_executed_notebook_unchanged": true,
+  "case_analysis": {
+    "baseline": {
+      "rows": 20,
+      "original_prediction_fields_unchanged": true
+    },
+    "textcnn": {
+      "rows": 20,
+      "original_prediction_fields_unchanged": true
+    },
+    "bilstm": {
+      "rows": 20,
+      "original_prediction_fields_unchanged": true
+    }
+  },
+  "demo_prediction_parity": {
+    "baseline": {
+      "cpu": {
+        "test_rows": 64,
+        "max_absolute_probability_difference": 1.142338561521683e-07,
+        "probability_tolerance": 0.001,
+        "labels_match": true
+      },
+      "cuda": {
+        "test_rows": 64,
+        "max_absolute_probability_difference": 8.792877193020132e-08,
+        "probability_tolerance": 0.001,
+        "labels_match": true
+      }
+    },
+    "textcnn": {
+      "cpu": {
+        "test_rows": 64,
+        "max_absolute_probability_difference": 0.00010883793228150251,
+        "probability_tolerance": 0.001,
+        "labels_match": true
+      },
+      "cuda": {
+        "test_rows": 64,
+        "max_absolute_probability_difference": 4.451464843957531e-07,
+        "probability_tolerance": 0.001,
+        "labels_match": true
+      }
+    },
+    "bilstm": {
+      "cpu": {
+        "test_rows": 64,
+        "max_absolute_probability_difference": 0.00029950949935914073,
+        "probability_tolerance": 0.001,
+        "labels_match": true
+      },
+      "cuda": {
+        "test_rows": 64,
+        "max_absolute_probability_difference": 0.00012010627517700101,
+        "probability_tolerance": 0.001,
+        "labels_match": true
+      }
+    }
+  },
+  "cold_demo_without_raw_data_or_current_notebook": {
+    "passed": true,
+    "device": "cpu",
+    "files": [
+      "task2_sentiment/Yuyao_Ding/src/demo.py",
+      "task2_sentiment/Yuyao_Ding/outputs/latest.json",
+      "task2_sentiment/Yuyao_Ding/outputs/task2_formal_20260927T020054Z_ba87cd57/bilstm/evaluation.json",
+      "task2_sentiment/Yuyao_Ding/checkpoints/task2_formal_20260927T020054Z_ba87cd57/bilstm/best.pt",
+      "reproducibility/manifests/Yuyao_Ding/task2_formal_20260927T020054Z_ba87cd57/source_notebook.ipynb"
+    ],
+    "result": {
+      "model": "bilstm",
+      "run_id": "task2_formal_20260927T020054Z_ba87cd57_bilstm",
+      "epoch": 3,
+      "device": "cpu",
+      "sentiment": "negative",
+      "probability_positive": 0.05545856058597565,
+      "threshold": 0.5,
+      "processed_tokens": 5,
+      "truncated": false
+    }
+  },
+  "mismatched_checkpoint_rejected": true,
+  "portable_demo_test_directory": "local_handoff\\task2_demo_minimal_20260927T032044Z",
+  "physical_operating_systems_tested": [
+    "Windows"
+  ],
+  "physical_platform_tests_pending": [
+    "macOS",
+    "Linux",
+    "Colab"
+  ],
+  "source_hashes": {
+    "demo.py": "1a29cf9dd259fbe10c2af3bc9fb32e8bfaf2c0075e3d0f9a0cab558d98280e5d",
+    "smoke_test.py": "5d1739bb436b253e5c308d251f65587f7ccf936a74d13110dc2b2cff0de6f4a9",
+    "task2_sentiment.ipynb": "876af078c93dd3d68168dd3fd774d8661dda2e621d81a4aeae414fbe37136181"
+  },
+  "one_command_smoke": {
+    "status": "passed",
+    "session_id": "task2_smoke_20260927T031851Z_188e9814",
+    "executed_code_cells": 45,
+    "test_rows_per_model": 64,
+    "executed_notebook": "task2_sentiment/Yuyao_Ding/outputs/smoke_checks/smoke_20260927T031903Z_8865c84f.ipynb",
+    "formal_metrics_and_latest_preserved": true
+  },
+  "report_local_links_verified": true,
+  "completed_documentation": [
+    "task2_sentiment/Yuyao_Ding/README.md",
+    "task2_sentiment/Yuyao_Ding/results.md",
+    "task2_sentiment/Yuyao_Ding/failure_analysis.md",
+    "README.md",
+    "report/README.md",
+    "report/Task2_Yuyao_Ding.md"
+  ]
+}

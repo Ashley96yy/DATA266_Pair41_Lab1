@@ -1,10 +1,10 @@
 {
-  "saved_at_utc": "2026-09-14T21:12:29.326150+00:00",
+  "saved_at_utc": "2026-09-27T00:05:04.902202+00:00",
   "config": "task1_llm/Yuyao_Ding/configs/preprocessing.json",
   "versions": {
-    "python": "3.9.7",
-    "numpy": "1.23.5",
-    "torch": "2.8.0"
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "torch": "2.8.0+cu128"
   },
   "sources": {
     "task1_llm/data/TinyStories-train.txt": {

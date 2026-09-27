@@ -1,0 +1,65 @@
+SID4: 640
+SEED: 640
+SLICE: 640
+HP_ID: 4
+CLS_A: 0
+CLS_B: 4
+TinyStories-train.txt: 1924.3 MB
+TinyStories-valid.txt: 19.4 MB
+
+Story 1 | 699 characters
+One day, a little girl named Lily found a needle in her room. She knew it was difficult to play with it because it was sharp. Lily wanted to share the needle with her mom, so she could sew a button on her shirt.
+Lily went to her mom and said, "Mom, I found this needle. Can you share it with me and sew my shirt?" Her mom smiled and said, "Yes, Lily, we can share the needle and fix your shirt."
+Together, they shared the needle and sewed the button on Lily's shirt. It was not difficult for them because they were sharing and helping each other. After they finished, Lily thanked her mom for sharing the needle and fixing her shirt. They both felt happy because they had shared and worked together.
+
+Story 2 | 703 characters
+Once upon a time, there was a little car named Beep. Beep loved to go fast and play in the sun. Beep was a healthy car because he always had good fuel. Good fuel made Beep happy and strong.
+One day, Beep was driving in the park when he saw a big tree. The tree had many leaves that were falling. Beep liked how the leaves fall and wanted to play with them. Beep drove under the tree and watched the leaves fall on him. He laughed and beeped his horn.
+Beep played with the falling leaves all day. When it was time to go home, Beep knew he needed more fuel. He went to the fuel place and got more healthy fuel. Now, Beep was ready to go fast and play again the next day. And Beep lived happily ever after.
+Training sampling complete.
+
+Training stories: 100,000
+Validation stories: 10,000
+Training duplicates: 0
+Validation duplicates: 0
+Train–validation overlap: 0
+Sampling seeds: train=640, validation=641
+
+First selected training story:
+Once upon a time there was a little girl who was very grumpy. She scrunched up her face and complained a lot. One day, her mommy told her to take a break and relax. The little girl said no. She wanted to keep doing what she was doing. But her mommy said it was time to take a break, so the little gir
+Vocabulary size (including <UNK>): 104
+Training tokens: 88,792,995
+Validation tokens: 8,693,309
+Validation <UNK> rate: 0.000023%
+
+First 15 vocabulary entries:
+[("'<UNK>'", 0), ("'\\t'", 1), ("'\\n'", 2), ("' '", 3), ("'!'", 4), ('\'"\'', 5), ("'#'", 6), ("'$'", 7), ("'%'", 8), ("'&'", 9), ('"\'"', 10), ("'('", 11), ("')'", 12), ("'*'", 13), ("'+'", 14)]
+
+Original text: 'Once upon a time there was a little girl who was very grumpy. She scrunched up h'
+Character tokens: ['O', 'n', 'c', 'e', ' ', 'u', 'p', 'o', 'n', ' ', 'a', ' ', 't', 'i', 'm', 'e', ' ', 't', 'h', 'e', 'r', 'e', ' ', 'w', 'a', 's', ' ', 'a', ' ', 'l', 'i', 't', 't', 'l', 'e', ' ', 'g', 'i', 'r', 'l', ' ', 'w', 'h', 'o', ' ', 'w', 'a', 's', ' ', 'v', 'e', 'r', 'y', ' ', 'g', 'r', 'u', 'm', 'p', 'y', '.', ' ', 'S', 'h', 'e', ' ', 's', 'c', 'r', 'u', 'n', 'c', 'h', 'e', 'd', ' ', 'u', 'p', ' ', 'h']
+Integer IDs: [47, 75, 64, 66, 3, 82, 77, 76, 75, 3, 62, 3, 81, 70, 74, 66, 3, 81, 69, 66, 79, 66, 3, 84, 62, 80, 3, 62, 3, 73, 70, 81, 81, 73, 66, 3, 68, 70, 79, 73, 3, 84, 69, 76, 3, 84, 62, 80, 3, 83, 66, 79, 86, 3, 68, 79, 82, 74, 77, 86, 17, 3, 51, 69, 66, 3, 80, 64, 79, 82, 75, 64, 69, 66, 65, 3, 82, 77, 3, 69]
+Reconstructed text: 'Once upon a time there was a little girl who was very grumpy. She scrunched up h'
+Training stories: 100,000
+Validation stories: 10,000
+Training sequences: 346,847
+Validation sequences: 33,958
+Input shape: (256,)
+Target shape: (256,)
+
+First 20 input IDs: [47, 75, 64, 66, 3, 82, 77, 76, 75, 3, 62, 3, 81, 70, 74, 66, 3, 81, 69, 66]
+First 20 target IDs: [75, 64, 66, 3, 82, 77, 76, 75, 3, 62, 3, 81, 70, 74, 66, 3, 81, 69, 66, 79]
+
+Input text preview:
+'Once upon a time there was a little girl who was very grumpy. She scrunched up h'
+Target text preview (shifted by one character):
+'nce upon a time there was a little girl who was very grumpy. She scrunched up he'
+
+All preprocessing checks passed.
+Verified sampling seeds: train=640, validation=641
+Saved and verified: task1_llm/Yuyao_Ding/data_processed/train_ids.npy
+Saved and verified: task1_llm/Yuyao_Ding/data_processed/valid_ids.npy
+Saved and verified: task1_llm/Yuyao_Ding/data_processed/vocabulary.json
+Saved and verified: task1_llm/Yuyao_Ding/data_processed/split_story_hashes.json
+Saved and verified: task1_llm/Yuyao_Ding/configs/preprocessing.json
+Manifest: reproducibility\manifests\Yuyao_Ding\preprocessing_manifest.json
+All preprocessing artifacts saved and verified.

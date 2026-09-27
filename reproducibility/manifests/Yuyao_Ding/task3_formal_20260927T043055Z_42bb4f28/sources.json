@@ -1,0 +1,8 @@
+{
+  "cyclegan.py": "1c3efb9e490cd3c0b83d187eae69b1c2d8166da96ce1fef3fb277ae9ddc424fe",
+  "demo.py": "83fc8f4ffdf04fea4ba9fd98468c0d41c0d9081cd590f6d5d223b0281c701731",
+  "evaluate.py": "a0b44cc49343202eb165d13dbfc0cb973ea535df9324d02d512197e501e9c42d",
+  "smoke_test.py": "4716587b989e03ef1286b7db994af9e6fb2f341f577665a75528e87cb8571dad",
+  "task3_gan.ipynb": "8a85b4a029ddda1f5cb5f566ca25db6f898041c8ea261fde00f14e8112605c6c",
+  "requirements.txt": "092ea681d42ce2616af7526712ae29012b4b04c4667e97d3d3fdaefb724da956"
+}

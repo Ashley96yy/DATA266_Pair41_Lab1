@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "model_class_ast_unchanged": true,
+  "metric_formulas_unchanged": true,
+  "posix_checkpoint_pointer": "/project/task3_gan/Yuyao_Ding/checkpoints/task3_formal_20260927T075834Z_d335ae80/best.pt",
+  "posix_audit_pointer_matches": true,
+  "final_checkpoint_epoch": 70,
+  "model_outputs_before_vs_after_helper_change": {
+    "A2B": 0.0,
+    "B2A": 0.0
+  },
+  "cold_process_demos": [
+    {
+      "device": "cpu",
+      "direction": "A2B",
+      "output": "cpu_A2B.jpg",
+      "mean_pixel_difference_from_recorded_cuda_jpeg": 0.0,
+      "maximum_pixel_difference_from_recorded_cuda_jpeg": 0.0,
+      "matches_recorded_file_sha256": true
+    },
+    {
+      "device": "cpu",
+      "direction": "B2A",
+      "output": "cpu_B2A.jpg",
+      "mean_pixel_difference_from_recorded_cuda_jpeg": 0.00032552084303461015,
+      "maximum_pixel_difference_from_recorded_cuda_jpeg": 3.0,
+      "matches_recorded_file_sha256": false
+    },
+    {
+      "device": "cuda",
+      "direction": "A2B",
+      "output": "cuda_A2B.jpg",
+      "mean_pixel_difference_from_recorded_cuda_jpeg": 0.0,
+      "maximum_pixel_difference_from_recorded_cuda_jpeg": 0.0,
+      "matches_recorded_file_sha256": true
+    },
+    {
+      "device": "cuda",
+      "direction": "B2A",
+      "output": "cuda_B2A.jpg",
+      "mean_pixel_difference_from_recorded_cuda_jpeg": 0.0,
+      "maximum_pixel_difference_from_recorded_cuda_jpeg": 0.0,
+      "matches_recorded_file_sha256": true
+    }
+  ],
+  "legacy_six_block_cpu_demo": "passed",
+  "protected_files_unchanged": 11767,
+  "human_rating_forms_untouched": true,
+  "notebook_unchanged_sha256": "1dccd7230f828eee2554fd89fd658d1d1aebbd489ff0dab86c563bf114eb7067",
+  "best_checkpoint_sha256": "d22ff9d9de85ed8103f0cc7124a9007cd155ca4eaf21f993704cfcf02d2ddfbf",
+  "current_source_sha256": {
+    "cyclegan.py": "70cdb2f46abfec770566e13300ee4b153a5f0afe16eaed154cb7921514e6af56",
+    "evaluate.py": "abf0f737db5fe810bd73d3556ab7ed77876c032d87844843febea17cb62e718f",
+    "demo.py": "83fc8f4ffdf04fea4ba9fd98468c0d41c0d9081cd590f6d5d223b0281c701731"
+  },
+  "checked_at_utc": "2026-09-27T18:53:18.282310+00:00",
+  "run_id": "task3_formal_20260927T075834Z_d335ae80",
+  "verified_logged_updates": 100000,
+  "verified_logged_epochs": 100,
+  "nonfinite_logged_values": 0,
+  "baseline_comparison_same_split_evaluator_and_metric_weights": true,
+  "generated_submission_values": {
+    "FID": 105.25040408693064,
+    "MiFID": 0.4190854877233505
+  },
+  "docs": [
+    "task3_gan/Yuyao_Ding/results.md",
+    "task3_gan/Yuyao_Ding/failure_analysis.md",
+    "report/Task3_Yuyao_Ding.md",
+    "task3_gan/Yuyao_Ding/README.md"
+  ],
+  "unchanged": "Training notebook, config, all original logs, checkpoints, evaluations, human forms, raw data and official notebook.",
+  "pending": [
+    "Two independent human raters",
+    "Actual Kaggle submission, scores and rank",
+    "Teammate comparison and final team PDF",
+    "Remote archive URL",
+    "Physical Mac/Linux/Colab execution"
+  ]
+}

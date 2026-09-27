@@ -1,0 +1,78 @@
+{
+  "run_id": "task2_smoke_20260927T015718Z_bd069b3e_bilstm",
+  "model_name": "bilstm",
+  "mode": "smoke",
+  "status": "complete",
+  "model_config": {
+    "vocab_size": 1767,
+    "embedding_dim": 128,
+    "pad_idx": 0,
+    "hidden_dim": 128,
+    "num_layers": 1,
+    "dropout": 0.4
+  },
+  "training_config": {
+    "seed": 640,
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "epochs": 1,
+    "patience": 2,
+    "max_batches": 3,
+    "gradient_clip": 1.0,
+    "decision_threshold": 0.5
+  },
+  "hardware": {
+    "device": "cuda",
+    "cpu": "Intel(R) Core(TM) i9-14900KF",
+    "cpu_count": 32,
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "torch": "2.8.0+cu128",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1",
+      "pyarrow": "23.0.1",
+      "matplotlib": "3.11.2"
+    },
+    "torch_cuda_build": "12.8",
+    "cudnn_version": 91002,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "float32_matmul_precision": "highest"
+  },
+  "data_fingerprint": "2b4b2024ad61630db256d5ce530de1fc4892f6282ce6b03f9883490ec9df755c",
+  "preprocessing_manifest": "reproducibility/manifests/Yuyao_Ding/task2_smoke_20260927T015718Z_bd069b3e/preprocessing.json",
+  "source_hashes": {
+    "notebook_code": "d8415c046eaddcfaae04430be6452c62738154831996bebd91043a7ba08ed663"
+  },
+  "raw_log": "reproducibility/raw_logs/Yuyao_Ding/task2_smoke_20260927T015718Z_bd069b3e_bilstm.jsonl",
+  "output_dir": "task2_sentiment/Yuyao_Ding/outputs/task2_smoke_20260927T015718Z_bd069b3e/bilstm",
+  "best_checkpoint": "task2_sentiment/Yuyao_Ding/checkpoints/task2_smoke_20260927T015718Z_bd069b3e/bilstm/best.pt",
+  "last_checkpoint": "task2_sentiment/Yuyao_Ding/checkpoints/task2_smoke_20260927T015718Z_bd069b3e/bilstm/last.pt",
+  "resume_from": null,
+  "summary": {
+    "run_id": "task2_smoke_20260927T015718Z_bd069b3e_bilstm",
+    "model_name": "bilstm",
+    "mode": "smoke",
+    "completed_epochs": 1,
+    "best_epoch": 1,
+    "best_validation_loss": 0.6908211478820214,
+    "parameter_count": 490625,
+    "training_loop_seconds": 0.05659769999329001,
+    "training_examples_per_second": 848.0910002648639,
+    "training_wall_seconds_this_segment": 0.08552339999005198,
+    "memory": {
+      "process_lifetime_peak_rss_bytes": 3162132480,
+      "cuda_peak_allocated_bytes": 59796992
+    },
+    "training_wall_seconds_including_resume": 0.08552339999005198,
+    "epochs_trained_this_segment": 1,
+    "best_checkpoint": "task2_sentiment/Yuyao_Ding/checkpoints/task2_smoke_20260927T015718Z_bd069b3e/bilstm/best.pt",
+    "best_checkpoint_sha256": "49f48465ecbb2ae8418c00ce2da5a84d9978c8d75d4780d88f73367bf3d9a3d7",
+    "nonfinite_events": 0
+  },
+  "evaluation": "task2_sentiment/Yuyao_Ding/outputs/task2_smoke_20260927T015718Z_bd069b3e/bilstm/evaluation.json"
+}

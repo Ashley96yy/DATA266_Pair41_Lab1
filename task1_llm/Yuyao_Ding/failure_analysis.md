@@ -1,24 +1,38 @@
 # Yuyao Ding - Task 1 Sequence Model Failure Analysis
 
-Analyze three observed failures from the formal-run text samples in [notebook Section 1.3.5](src/task1_llm.ipynb). All samples use the best checkpoint (epoch 10) from run `train_20260914T211231Z_98b2aa86` and contain 300 generated characters.
+Analyze three observed failures from the formal-run text samples in [notebook Section 1.3.5](src/task1_llm.ipynb). All samples use the best checkpoint (epoch 10) from run `train_20260927T000510Z_b9df2210` and contain 300 generated characters.
 
-Source: [saved generation samples](outputs/train_20260914T211231Z_98b2aa86/generations_20260914T232627Z_059e7b30.json). Sample numbers below refer to the one-based order in that file. Abrupt endings caused by the generation limit are excluded from the failure analysis.
+Source: [saved generation samples](outputs/train_20260927T000510Z_b9df2210/generations_20260927T002606Z_9466d7d0.json). Sample numbers below refer to the one-based order in that file. Abrupt endings caused by the generation limit are excluded from the failure analysis.
 
 ## 1.4.1 Case 1: Repetition
 
-**Prompt:** `A little girl found`
+**Prompt:** `The dog wanted to`
 
-**Decoding:** Greedy; sample 3.
+**Decoding:** Greedy; sample 5.
 
 **Generated snippet:**
 
-> I will be careful. I will be careful. I will be careful. I will be careful.
+> They were happy and sad. They had a big box of the box. They were happy and sad. They had a big box of the box. They were happy and sad.
 
-**Observation:** The same sentence appears four times consecutively in the box's dialogue. It adds no new information and stops the story from progressing.
+**Observation:** The same sentence and box phrase repeat without introducing an event or advancing the story.
 
-**Possible explanation:** Greedy decoding selects the highest-probability next character at every step. In this sample, the resulting context repeatedly leads back to the same phrase. This is consistent with a repetitive decoding loop; it does not establish that greedy decoding always causes repetition.
+**Possible explanation:** Greedy decoding repeatedly selects the most likely next character. The resulting context returns to the same phrases here, which is consistent with a decoding loop.
 
 ## 1.4.2 Case 2: Broken Grammar
+
+**Prompt:** `A little girl found`
+
+**Decoding:** Temperature sampling (`temperature=0.8`, `seed=641`); sample 4.
+
+**Generated snippet:**
+
+> It's okay and you can buy it not mean to buy like to play with my friend.
+
+**Observation:** The sequence "buy it not mean to buy like to play" joins several verb phrases without a clear grammatical relationship. Recognizable words do not form a well-structured sentence.
+
+**Possible explanation:** The character model has learned common words and short phrases but does not reliably combine them into sentences. This example does not separate the effect of the trained model from the sampling method.
+
+## 1.4.3 Case 3: Loss of Coherence
 
 **Prompt:** `Once upon a time,`
 
@@ -26,30 +40,16 @@ Source: [saved generation samples](outputs/train_20260914T211231Z_98b2aa86/gener
 
 **Generated snippet:**
 
-> but it was a for to collect from her hard to make them a map story.
+> there was a little girl named Lily. The bird loved to take a special music. They were happy and loved to play together. One day, Lily's mom was delicious and called Ben.
 
-**Observation:** The phrase "a for to collect" has no grammatical structure, and "from her hard" does not form a clear relationship between the words. Although the individual words are recognizable, the sentence has no clear meaning.
+**Observation:** A bird appears without being introduced, "they" has no clear referent, and Lily's mother is described as "delicious" without supporting context. The passage shifts subjects and meaning instead of developing one event.
 
-**Possible explanation:** The character-level model can produce familiar words without consistently organizing them into grammatical sentences. Sampling allows alternative next characters, but this single example cannot establish whether sampling or the learned model is the main cause of the error.
-
-## 1.4.3 Case 3: Loss of Coherence
-
-**Prompt:** `The dog wanted to`
-
-**Decoding:** Temperature sampling (`temperature=0.8`, `seed=642`); sample 6.
-
-**Generated snippet:**
-
-> Lily was happy to have a good of fun together.
-
-**Observation:** The sample begins with a dog, then uses "they" without a clear referent, and later introduces Lily without explaining her connection to the dog or preceding events. The quoted sentence illustrates this unexplained character transition. The failure is the missing narrative connection, not merely the appearance of a new character.
-
-**Possible explanation:** The model does not maintain a consistent narrative focus in this sample. Generation uses only the most recent 256 characters, which may limit access to earlier context as text grows. However, this example alone does not prove that context cropping caused the transition.
+**Possible explanation:** The model produces familiar story phrases without keeping their subjects and meanings consistent. Small capacity may contribute, but this sample alone does not identify the cause.
 
 ## 1.4.4 Comparison and Limitations
 
-Across the three completions per method, the saved character-level repeated 4-gram rate is **62.40% for greedy decoding** and **30.08% for temperature sampling**. It is computed as `(total 4-grams - unique 4-grams) / total 4-grams`, excluding prompts and without creating 4-grams across sample boundaries. This supports the greater repetition observed in these greedy samples, but common character sequences can also contribute to this metric.
+Across the three completions per method, the saved character-level repeated 4-gram rate is **63.08% for greedy decoding** and **26.71% for temperature sampling**. It is computed as `(total 4-grams - unique 4-grams) / total 4-grams`, excluding prompts and without creating 4-grams across sample boundaries. This supports the greater repetition observed in these greedy samples, but common character sequences can also contribute to this metric.
 
 The sampled text still contains grammatical and coherence errors. These six short outputs illustrate specific failures; they do not establish a general ranking of decoding methods. The explanations above are hypotheses, not conclusions from controlled experiments.
 
-Best-checkpoint SHA-256: `23933799df14748236f4a89d726f347a41485ba1885a9a654916d5be51c2eac6`. Aggregate results and evaluation definitions are in [results.md](results.md); all required metrics are in [metrics_report.csv](metrics_report.csv).
+Best-checkpoint SHA-256: `5cde3d36c7cb5b29224e19644e50be952a97c0e440c4cc3199169d6a2c8518ef`. Aggregate results and evaluation definitions are in [results.md](results.md); all required metrics are in [metrics_report.csv](metrics_report.csv).

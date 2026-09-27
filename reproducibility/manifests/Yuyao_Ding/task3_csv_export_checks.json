@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "original_metric_rows_unchanged": 71,
+  "added_epoch_rows_matched_to_original_raw_logs": 1300,
+  "all_100_epochs_have_13_training_metrics": true,
+  "all_three_current_csv_copies_identical": true,
+  "metric_functions_unchanged": [
+    "InceptionFeatures",
+    "frechet_distance",
+    "course_mifid",
+    "kernel_distance",
+    "distribution_metrics",
+    "reconstruction_metrics",
+    "prepare_audit"
+  ],
+  "completed_human_scores_survive_reexport": true,
+  "historical_and_smoke_exports_leave_current_summary_unchanged": true,
+  "fresh_formal_export_updates_summary": true,
+  "export_only_cli_does_not_call_inference": true,
+  "protected_files_unchanged": 753,
+  "synthetic_ratings_used_only_in_deleted_test_fixture": true,
+  "evaluate_source_sha256": "dec83f18219149033608dc362bc82b1441246efba5422a6bc3f4aa96cfaba76b"
+}

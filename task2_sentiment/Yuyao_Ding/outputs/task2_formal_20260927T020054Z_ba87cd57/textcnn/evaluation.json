@@ -1,0 +1,71 @@
+{
+  "run_id": "task2_formal_20260927T020054Z_ba87cd57_textcnn",
+  "mode": "formal",
+  "test_rows": 38000,
+  "metrics": {
+    "accuracy": 0.9388421052631579,
+    "precision_macro": 0.93890420352105,
+    "recall_macro": 0.9388421052631579,
+    "f1_macro": 0.9388399419590551,
+    "precision_micro": 0.9388421052631579,
+    "recall_micro": 0.9388421052631579,
+    "f1_micro": 0.9388421052631579,
+    "precision_weighted": 0.9389042035210499,
+    "recall_weighted": 0.9388421052631579,
+    "f1_weighted": 0.938839941959055,
+    "roc_auc": 0.9849425900277009,
+    "pr_auc": 0.9853405325955158,
+    "average_precision": 0.9853409699170025,
+    "mcc": 0.877746306587563,
+    "brier_score": 0.04530254751443863,
+    "ece": 0.0026231402033253352
+  },
+  "confusion_matrix": [
+    [
+      17725,
+      1275
+    ],
+    [
+      1049,
+      17951
+    ]
+  ],
+  "confidence_intervals": {
+    "accuracy_ci": [
+      0.9364736842105263,
+      0.9413690789473684
+    ],
+    "macro_f1_ci": [
+      0.9364730804696425,
+      0.9413600308645099
+    ],
+    "mcc_ci": [
+      0.8730396510845929,
+      0.8827774729159241
+    ]
+  },
+  "protocol": {
+    "threshold": 0.5,
+    "ece_bins": 10,
+    "bootstrap_resamples": 1000,
+    "bootstrap_seed": 640,
+    "smoke_bootstrap_resamples": 50,
+    "errors_per_category": 5,
+    "length_slice_quantiles": [
+      0.25,
+      0.75
+    ],
+    "length_bounds_from_training": [
+      51.0,
+      173.0
+    ],
+    "max_length": 192,
+    "pr_auc": "trapezoidal area under precision-recall curve",
+    "average_precision": "non-interpolated average precision; reported separately",
+    "ece": "equal-width confidence bins, predicted-class confidence",
+    "bootstrap": "IID paired row resampling; percentile intervals"
+  },
+  "checkpoint": "task2_sentiment/Yuyao_Ding/checkpoints/task2_formal_20260927T020054Z_ba87cd57/textcnn/best.pt",
+  "checkpoint_sha256": "70f90b9299dee6d429b32341b09bf877fad946806f3925771ad25ee6b142dec2",
+  "predictions_sha256": "658d5d9190d29405de68122c648f0ee6d8ff6dfff36dc9139ff2116dae2f0a9a"
+}

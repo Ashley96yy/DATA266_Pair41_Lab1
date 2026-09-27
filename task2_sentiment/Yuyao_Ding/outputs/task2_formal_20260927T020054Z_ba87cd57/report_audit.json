@@ -1,0 +1,54 @@
+{
+  "session_id": "task2_formal_20260927T020054Z_ba87cd57",
+  "created_utc": "2026-09-27T03:16:39.391436+00:00",
+  "split_counts": {
+    "train": {
+      "rows": 503934,
+      "negative": 251959,
+      "positive": 251975,
+      "empty_processed": 35,
+      "truncated": 23774
+    },
+    "val": {
+      "rows": 55993,
+      "negative": 27996,
+      "positive": 27997,
+      "empty_processed": 4,
+      "truncated": 2710
+    },
+    "test": {
+      "rows": 38000,
+      "negative": 19000,
+      "positive": 19000,
+      "empty_processed": 1,
+      "truncated": 1751
+    }
+  },
+  "accuracy_gain_percentage_points_vs_baseline": {
+    "baseline": 0.0,
+    "textcnn": 0.6394736842105342,
+    "bilstm": 1.507894736842108
+  },
+  "case_rows": {
+    "baseline": 20,
+    "textcnn": 20,
+    "bilstm": 20
+  },
+  "unique_review_ids": 53,
+  "annotation_fields_modified": [
+    "error_type",
+    "observation",
+    "testable_fix"
+  ],
+  "source_evaluations": {
+    "baseline": "task2_sentiment/Yuyao_Ding/outputs/task2_formal_20260927T020054Z_ba87cd57/baseline/evaluation.json",
+    "textcnn": "task2_sentiment/Yuyao_Ding/outputs/task2_formal_20260927T020054Z_ba87cd57/textcnn/evaluation.json",
+    "bilstm": "task2_sentiment/Yuyao_Ding/outputs/task2_formal_20260927T020054Z_ba87cd57/bilstm/evaluation.json"
+  },
+  "source_summary_files": {
+    "baseline": "task2_sentiment/Yuyao_Ding/outputs/task2_formal_20260927T020054Z_ba87cd57/baseline/training_summary.json",
+    "textcnn": "task2_sentiment/Yuyao_Ding/outputs/task2_formal_20260927T020054Z_ba87cd57/textcnn/training_summary.json",
+    "bilstm": "task2_sentiment/Yuyao_Ding/outputs/task2_formal_20260927T020054Z_ba87cd57/bilstm/training_summary.json"
+  },
+  "proposed_improvements_tested": false
+}

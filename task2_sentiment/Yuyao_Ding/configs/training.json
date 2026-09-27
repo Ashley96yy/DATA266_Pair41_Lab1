@@ -1,0 +1,14 @@
+{
+  "seed": 640,
+  "device": "auto",
+  "batch_size": 256,
+  "num_workers": 0,
+  "learning_rate": 0.001,
+  "epochs": 5,
+  "patience": 2,
+  "bilstm_gradient_clip": 1.0,
+  "smoke_train_rows": 256,
+  "smoke_test_rows": 64,
+  "smoke_batch_size": 16,
+  "smoke_max_batches": 3
+}

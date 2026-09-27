@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-27T07:48:27.643979+00:00",
+  "scope": "Shorter FP32 training budget and less frequent checkpoint writes; no new formal training.",
+  "configuration_changes": {
+    "checkpoint_every": {
+      "before": null,
+      "after": 5
+    },
+    "decay_start_epoch": {
+      "before": 100,
+      "after": 50
+    },
+    "epochs": {
+      "before": 200,
+      "after": 100
+    },
+    "steps_per_epoch": {
+      "before": null,
+      "after": 1000
+    }
+  },
+  "total_updates": 100000,
+  "source_sha256": {
+    "task3_gan.ipynb": "28996fe07e4b2e9c17b109c89db9105b0363d3bf7c4fce1ee116fc180446e98c",
+    "training.json": "62fdd700fdd1ccae47372d64c2b23decee7c1a24277c96f26a4ddcc126191430",
+    "cyclegan.py": "e86c65639bfb32d8e65a7650932c861ddace5ed8602456d99e58ffacae805d70"
+  },
+  "unchanged": [
+    "data split",
+    "UnpairedImages and DataLoader sampling",
+    "models",
+    "losses",
+    "FP32 precision",
+    "validation and final evaluator"
+  ],
+  "sampling": {
+    "train_Monet": 240,
+    "train_photo": 5631,
+    "guaranteed_full_coverage_per_epoch": false,
+    "mean_Monet_draws_per_training_image_per_epoch": 4.166666666666667
+  },
+  "learning_rate_checks": {
+    "constant_epochs": 50,
+    "decay_epochs": 50,
+    "all_positive_and_decay_monotonic": true,
+    "first": 0.0002,
+    "epoch_50": 0.0002,
+    "epoch_51": 0.000196078431372549,
+    "final": 3.92156862745098e-06
+  },
+  "cuda_smoke_evaluation_and_resume": {
+    "evidence": "task3_gan/Yuyao_Ding/outputs/smoke_checks/task3_smoke_20260927T074534Z_6a0be604_checks.json",
+    "maximum_weight_differences": {
+      "G_A2B": 0.0,
+      "G_B2A": 0.0,
+      "D_A": 0.0,
+      "D_B": 0.0
+    }
+  },
+  "cpu_checkpoint_cadence": {
+    "controlled_validation_scores": true,
+    "epochs": 6,
+    "save_events": [
+      {
+        "at_epoch": 5,
+        "file": "best_epoch_003.pt",
+        "state_epoch": 3
+      },
+      {
+        "at_epoch": 5,
+        "file": "last.pt",
+        "state_epoch": 5
+      },
+      {
+        "at_epoch": 6,
+        "file": "last.pt",
+        "state_epoch": 6
+      },
+      {
+        "at_epoch": 6,
+        "file": "best.pt",
+        "state_epoch": 3
+      }
+    ],
+    "best_epoch_3_saved_at_epoch_5_maximum_weight_differences": {
+      "G_A2B": 0.0,
+      "G_B2A": 0.0,
+      "D_A": 0.0,
+      "D_B": 0.0
+    },
+    "planned_stop_epoch_4_resume_maximum_weight_differences": {
+      "G_A2B": 0.0,
+      "G_B2A": 0.0,
+      "D_A": 0.0,
+      "D_B": 0.0
+    },
+    "frozen_best_history_verified": true
+  },
+  "protected_existing_files_verified": 3322,
+  "interrupted_full_epoch_trial": {
+    "run_id": "task3_formal_20260927T072822Z_22de690c",
+    "user_interrupt": true,
+    "saved_checkpoints": 0,
+    "executed_notebook_preserved": "task3_gan/Yuyao_Ding/outputs/task3_formal_20260927T072822Z_22de690c/training_notebook.ipynb"
+  },
+  "limits": [
+    "Small checks do not establish translation quality.",
+    "Physical Mac, Linux and Colab were not tested."
+  ]
+}

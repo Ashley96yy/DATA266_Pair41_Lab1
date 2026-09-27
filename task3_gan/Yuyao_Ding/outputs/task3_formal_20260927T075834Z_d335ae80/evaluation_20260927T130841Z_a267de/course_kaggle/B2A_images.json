@@ -1,0 +1,1802 @@
+[
+  {
+    "source": "task3_gan\\data\\photo_jpg\\00068bc07f.jpg",
+    "source_sha256": "06684ea9ffb9ff2edfbdf34aa5a83cc58be6d151212b5a07493caa174e53de79",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\00068bc07f.jpg",
+    "generated_sha256": "c1e08bafe34788a416e5857656860e38fc8f769880088592063a0e5680e04ec6"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\000910d219.jpg",
+    "source_sha256": "1b13e2ad458faff70aa49fb5d2e6edef52484cf5463b385daac653a89c77af81",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\000910d219.jpg",
+    "generated_sha256": "eac159ccb90b73b177244f28d32a44f8eb36dac19777144606726bc8c3859382"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\000ded5c41.jpg",
+    "source_sha256": "88c77c12b985b9fc353186a2ba6a53ccca6a867ae462f8d3d1080a6768c5e6b5",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\000ded5c41.jpg",
+    "generated_sha256": "f78b38f30a4460a95488c5f806035a26491c33770637e674e798a34c2c2edb12"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\00104fd531.jpg",
+    "source_sha256": "052728d5373655c7dac21f9d827d5a416e06a6a865018614309731fc9381e68e",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\00104fd531.jpg",
+    "generated_sha256": "3158174e7e8cb4ea77a33e3a33b2bfa79caac17c4e0b885bc4682450ed870fcf"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\001158d595.jpg",
+    "source_sha256": "e0818517c190298e1931285d5c48de9988633ded94dfe4b72ad28c3c071d3bd6",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\001158d595.jpg",
+    "generated_sha256": "b14bb97f09d25337b8ccc389a27316aa84d35d884ddea70efe3dfefa2fc22e7c"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0033c5f971.jpg",
+    "source_sha256": "2a1a83e6a7f69b915e1837ba7809226587e61214fe04a010c388538f846a19b1",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0033c5f971.jpg",
+    "generated_sha256": "29cad453b1bee0fbf64c95922c12cec87911fc508272900ca36d1d6066f3ed1c"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0039ebb598.jpg",
+    "source_sha256": "ffda8243866f3941298cd634924108877f48dee28aff84abd5d17995a6af7bc7",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0039ebb598.jpg",
+    "generated_sha256": "45912a8ddcc725dd1fa444fae80fa77d967c028b34fad5351b2d42e9013e403b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\003aab6fdd.jpg",
+    "source_sha256": "3caae725766dcdea8f9cbe9c3fc65cabf3c1e22ca6bd0d9cae95b28ab3259ae4",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\003aab6fdd.jpg",
+    "generated_sha256": "51281c30b8ba47d4d969941fac3c30435c275ad18969a89303e6271daebe3768"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\003c6c30e0.jpg",
+    "source_sha256": "68e83788db102234b106a3c8a98d097fc4f221eba406c6578653e319acb6f158",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\003c6c30e0.jpg",
+    "generated_sha256": "f9fe8635dec7a5355994f13d3c3acbed7c3e726cd183007ef3183556bfd2816e"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\00479e2a21.jpg",
+    "source_sha256": "70c229dcfa63b206cc5b5cfe4dc862c5607ba57c23f9ae781d5b07e3815f6f8b",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\00479e2a21.jpg",
+    "generated_sha256": "a98db6503059bbba8c7f498488bb1d463f472eb2f8cc03aab0d95402e0be4026"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\005f987f56.jpg",
+    "source_sha256": "e4132550491d686ca4683d03d0daf770674ebab76ec6765dfcebc49638781c5f",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\005f987f56.jpg",
+    "generated_sha256": "baf24c127a367278167eb4eb59023785bbfc2f6047abec046e7a221cf4fcbd7e"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0080f94ebc.jpg",
+    "source_sha256": "d951b2f2c463c00bf6ece4ec31ffaad7ada3dbfa1d6413b8cff6a22a79fbfe23",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0080f94ebc.jpg",
+    "generated_sha256": "d80476fa10e3fabbc5787cfe2411084b9ca9de5ed5f74eeae4bfdf36b8071859"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\00882b7e1d.jpg",
+    "source_sha256": "2e108edc74fd30a098b49ee1b12adbe44d9dc6ae453b428ce272c5f11dab940e",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\00882b7e1d.jpg",
+    "generated_sha256": "345406187c4f20fea334e3b90f0224fcc27ee23825a23d72cdda7e3259355cc6"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\009d534136.jpg",
+    "source_sha256": "df65c08272670510d33b43e8b75dc9fc1357fc7be90ac4c2b9fece809ec580e7",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\009d534136.jpg",
+    "generated_sha256": "419434ec1c5be8b09624281e6e617d13173b04144459480ee28b985381238e28"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\009ddaed1f.jpg",
+    "source_sha256": "f1a644486b3a3831490c8717a64e84c925c2873b56f07625518c6ab8b0cdb288",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\009ddaed1f.jpg",
+    "generated_sha256": "7f57de05d11172263b71cb2766b4b7b108007ad453ea3e40e117c81521801460"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\00aeb60e25.jpg",
+    "source_sha256": "4cad2ef1b6cd752f3bca37b32ba1dc43c1a50a8ca613ed502d6c4ad763d5fc04",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\00aeb60e25.jpg",
+    "generated_sha256": "2e72877955f4ad6cfaf28bf83df9d65f28b8f3046a8c75c5a13fa8da33689b22"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\00c6a0ad1e.jpg",
+    "source_sha256": "2f75990a7d22e304efc4e66b0993de3507b516786fba18a06a1051d70865dd86",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\00c6a0ad1e.jpg",
+    "generated_sha256": "22945a96ba265691f9fa9a393912c037ecd054a48b0ffc84368f1b4d0f27b00d"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\00dcf0f1e3.jpg",
+    "source_sha256": "215826fd748e6710fa3e5813abf544f089188529b31f20cbee71c7297368f6f5",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\00dcf0f1e3.jpg",
+    "generated_sha256": "cdec91045e54cbf4ac14f3bbef4caa98c6a25cca930d3cd5e338a559d0b0b29a"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\00dff09ebe.jpg",
+    "source_sha256": "f7a430c14744d93d97ed64799398e8e4a8b44cbc60c9738c6430bf4e45859aa6",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\00dff09ebe.jpg",
+    "generated_sha256": "87925f810379cf02d9a2f0c829057f4a497f928b74955338f490eb21012421e5"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\00e1798585.jpg",
+    "source_sha256": "bbaca1cd83ce4f9987580266c7cdacc82a1bb199c0669f68abefd6a87b50e00e",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\00e1798585.jpg",
+    "generated_sha256": "72d3c796ab8c0c1ca04aab2e3413529e714b9c9a57dfe9322878aff16abdb5d9"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\00e64e1b2c.jpg",
+    "source_sha256": "b8baa6e8bec6f8a71a95937a34c10793e6efa46d641c565f61a940d23443333c",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\00e64e1b2c.jpg",
+    "generated_sha256": "6d077df69ebff716d18783a60524670caa3fd9ace5b7f0863e85673ae5d2fa96"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\00f78547f0.jpg",
+    "source_sha256": "4e3a39a0d1653f33e6bff02d15e9ed7649808bd134e138adc322bd6018c00aa2",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\00f78547f0.jpg",
+    "generated_sha256": "1627423a15c120fd0c3dcdb1eca2a6802727b54a83b7092a250e962d4559192e"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\00fcff630e.jpg",
+    "source_sha256": "6940c89fba6504bbfe267d23ba6204c5172ba4af20c607a055440f4fe34174cc",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\00fcff630e.jpg",
+    "generated_sha256": "6ce7c3c9f14577a875773e829634695ca7ebf9c0139e6c0f4c7f6925848f3d6e"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\01135e4771.jpg",
+    "source_sha256": "d831f127e2b1017c5f898e57e5c2a024aa61be53c6f3f316ef3c99df33923653",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\01135e4771.jpg",
+    "generated_sha256": "7eaa50dfb32ad3e0bd59e3f5c526215241c573fcfcdf95ff6dd65fa97cd5f8fb"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\011f46de73.jpg",
+    "source_sha256": "bd33d265f88de786347e951840e558bfaa0b4d622782f7aa15f8c99515e18bba",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\011f46de73.jpg",
+    "generated_sha256": "28f0e653ee0d82a26723d4cee24a9640dd43e6f4e1d74a6fe761e66011496515"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\012df5ce29.jpg",
+    "source_sha256": "67776e02f8bbe7ed0f76408ad9d65397530e138c294677adccecffd1e63cb04c",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\012df5ce29.jpg",
+    "generated_sha256": "26c3ce1bed0dd8b862f5fd28388415c031820f42a24e7199f6b38c1b933ea363"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\01416e7ada.jpg",
+    "source_sha256": "ce3088f37cc03f7e05043e54ca61c223f280c8cd9f7afa8e51d1636476231cee",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\01416e7ada.jpg",
+    "generated_sha256": "12a3261ec33baac83f5c8d101e61dbe10a9573743e948823b912ba2722e15920"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\01480da48f.jpg",
+    "source_sha256": "8e8efb29c1a196e82be5f187695cc977eb35ff5984814129a221f811f7021772",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\01480da48f.jpg",
+    "generated_sha256": "362195850529a903477a129cafa5cadc855c908d84321c8dedcd9fa7c6c436e0"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0159685c51.jpg",
+    "source_sha256": "bf99cfbcde79063d29c4d7e46f9457c2f0e3585c765d92efd3bc141e31e3c1a6",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0159685c51.jpg",
+    "generated_sha256": "acb2eb024e33a73073ac2e8999fee4a2938488b98b39cb48a660a4fa1d9b9e44"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\015f79b672.jpg",
+    "source_sha256": "5b6746c097372e031476497f36b74e1a4358b823818b7d335636a9e830c2ffe6",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\015f79b672.jpg",
+    "generated_sha256": "e31dd22f334b7e4ee96c43642c37929de4b7a594af14aec449e3513e0aab4d50"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\01622039ef.jpg",
+    "source_sha256": "54fd5707ce5328de2835f4a5d80a013e4ab07c18c2b43cf1371948165a8d294d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\01622039ef.jpg",
+    "generated_sha256": "ef4bdee0a6f71b5fcd56a0ef027e19314da0241cb6c749aa18654bfe67eaa4fb"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0162322d2d.jpg",
+    "source_sha256": "552bfbb2f24738e7fcc36c0ba620b0034bf717246b2e820c82f82d19e9d6fd79",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0162322d2d.jpg",
+    "generated_sha256": "83a7d48b4c9f1aacaa15f6d80d9fb4d71a1b040556610ffa9717e64058890470"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\016d408833.jpg",
+    "source_sha256": "191fc276607fa842592e55bb11edb61cd189691886507709f3f03140d46e4fcd",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\016d408833.jpg",
+    "generated_sha256": "6fd1797ddf59795c569341edd4d23d9c7771ca133f8fe61d28d3412d8e7d71d3"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\016f524878.jpg",
+    "source_sha256": "1e7e9fcf713cabda3ea526ad0c98bf1a72674881494ba23a0d742791f31d16a1",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\016f524878.jpg",
+    "generated_sha256": "212d0f1d542198c82a3fb0fb7443291c9b02af222ca7246aaccb8098ae1d9963"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\017018f377.jpg",
+    "source_sha256": "365e5079b599bd647260619aa37b9845029ef4b63fafcb5849173dc789220802",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\017018f377.jpg",
+    "generated_sha256": "24b2c76a68eb707eb9078b76cc1b222dedfc9dc689ee59c114981834b7c9dfe1"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\01771d99c3.jpg",
+    "source_sha256": "13b18ceaf1e5f2e61ffae4ac4209dbaeab8698f214a748b5bb4e07f8c23c5870",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\01771d99c3.jpg",
+    "generated_sha256": "2de302501240fdd9812035e09ae7e08806af35818ef1263f7a178086eaa34b2f"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\017aacad6e.jpg",
+    "source_sha256": "1a5efb75c5e0395a0bf85d1ced1c632ce42dea62cbb2354fabb20ac3514de714",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\017aacad6e.jpg",
+    "generated_sha256": "97969fc3e10eac34fa5fa47e44f7665122a8670cc52229face7db9e4992f828d"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\018be60883.jpg",
+    "source_sha256": "cdc5861e9f7dbae10b60657b81d7825d016828a61c2a60fbb512a93afd20f5ca",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\018be60883.jpg",
+    "generated_sha256": "7b95164b6f0d259e54cb61feb8d57876ff0d02687652aade5d55140ef5f393e0"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\018db0f253.jpg",
+    "source_sha256": "18a95ac048dbb56697f3a58b4cabd454363d6f5cda9075e1a6d705d611ae10f2",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\018db0f253.jpg",
+    "generated_sha256": "ead39918e48c225f96715510873f80141b8500c62b02389b2f5366ef6956cc46"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\01952c7673.jpg",
+    "source_sha256": "d7b880af99a66c1b88dceb01f8546a098f6c45de41f2347cb190218bb4f3f4d1",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\01952c7673.jpg",
+    "generated_sha256": "9cb0b309b533459d2c756656fcdfa410f9f2bf572d3a197e5a6a22e0e4f37eb2"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\01971e48e5.jpg",
+    "source_sha256": "24927b49d6a9fff9c11e2afe6d292fd23be506d608dbb611784ae05e4e0a9524",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\01971e48e5.jpg",
+    "generated_sha256": "6bb8c2d0a9f44bf58e781fc93d94b0d227ac5e34eefbca36a4984431ffc7eb8a"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\019cf7682d.jpg",
+    "source_sha256": "ce48a41f24f077513b5944967b71753ef3daa8ab464f831a147353b398174029",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\019cf7682d.jpg",
+    "generated_sha256": "40abbe14842e08bb58a5f22f872d84e427646dec9998bcab101d5e5e410350fd"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\01ae8be57e.jpg",
+    "source_sha256": "1f676bcae34e6621a40f67e25207bfc70581dcbb1d7d2c6d4d7247fd291d4e09",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\01ae8be57e.jpg",
+    "generated_sha256": "20d2218a8e7e3acdb792dd9227e114e1c68fcefde19b92fba71507a517cfe069"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\01af5f8623.jpg",
+    "source_sha256": "e53d885a6350e639331f718201c53747730ff0b010afce443ce2f3576e0fe00a",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\01af5f8623.jpg",
+    "generated_sha256": "c39684e1ccf274d23a2f2470ada376af0a09b416a1300875a3329e98a23678fe"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\01bce47d3f.jpg",
+    "source_sha256": "7856397544848f75989514421742633ce8934288aa8d79d89a30776d79a89730",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\01bce47d3f.jpg",
+    "generated_sha256": "a9b863c7a9c7d2cbac91a30a3e799fd616d1f0b0c4d60920860a06b96bb64585"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\01c4f86e3e.jpg",
+    "source_sha256": "8d707f938111f7d7a16ea409562017390d9262cf4a2e2b69bfa3f4fb73df94ed",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\01c4f86e3e.jpg",
+    "generated_sha256": "55dd10c1940637f99259b11c3cf0cb5a577a3aa3d79ee1bd5be168bb11d5c565"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\01f7a6398e.jpg",
+    "source_sha256": "83381a5d3608f6c3ec2bef56a94ee2844659d365ede692ac08a879bcf5c2b050",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\01f7a6398e.jpg",
+    "generated_sha256": "9e44f8f64c88175b6cf4965980728a8f564d5a08c6290f0610fa06606910aaf1"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\02001e59af.jpg",
+    "source_sha256": "be41aa59a6c81c553f68221a9b1e385464cae0cb769a9c7a9139c65b6ee2c4ed",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\02001e59af.jpg",
+    "generated_sha256": "88d923ab5a1febe285dc322a57b628ae85129ff87b2d727f8cc46ce9034d650f"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0212257854.jpg",
+    "source_sha256": "3616d4f17c46458f80da2d99ac702c0cc5f64af84a830400c2347457d64f3a11",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0212257854.jpg",
+    "generated_sha256": "741b3bc2317319a91e839a653b3c86c320451d107ec4c827bc0fd304304f0c75"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\021df2c226.jpg",
+    "source_sha256": "5f5954d825b7084dcd28ad05752dacb829508412e3f30a06bad902e08be1a806",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\021df2c226.jpg",
+    "generated_sha256": "096826ac75850942e829022e18b2524ff48a33c8d133208f93ad4e7217ec2543"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\022ca16b0f.jpg",
+    "source_sha256": "52d7eea3a18896e5fa8f962e96fc5b13faffdccd6d4427cc6405a9fb526060a9",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\022ca16b0f.jpg",
+    "generated_sha256": "39b1ef560793dd57fcbbd8b79ec1111154cffa8b0bafcdb830e2e537628d24c1"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\023637f8fb.jpg",
+    "source_sha256": "30752654dfc74159ed5731cd9ae93bd2e6f8dfe1c098c829c077258fc9fc5841",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\023637f8fb.jpg",
+    "generated_sha256": "4bbe984cc4f8c165103577f3a5724b5e11a222d359819cccfa5309494a2dbcd3"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\023eed0385.jpg",
+    "source_sha256": "8ed86bd831b9015c24d57bffb1934f9259535e6a78917b5f565670a8a891b449",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\023eed0385.jpg",
+    "generated_sha256": "a23fe6213056508ee23b2506eaeed432f8ba1bd62595adb14cbd89e12731ec55"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\023f3cbb75.jpg",
+    "source_sha256": "3ccace4b4c337319756c89bd1bd94b388baa87d3c8a0377b050fc50e4a399237",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\023f3cbb75.jpg",
+    "generated_sha256": "5efbe4678d1a721951584a3dcf8e57ab7a6b459a80d80ecdbec580dbcced839d"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0240a597f5.jpg",
+    "source_sha256": "ff60ddf624604560211bca39b6c36cfe4bbb001d73bc1f4a642eea7f0fab01b0",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0240a597f5.jpg",
+    "generated_sha256": "404a1e0b3f5c611160567bfde4f385aa12e182dcb5ddda8213b6cfd468fea12d"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\024d98032b.jpg",
+    "source_sha256": "31df0ed2fd6b369f62d7f8a33ffc9c779c50ae36c470c6451770f05b1ac623d5",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\024d98032b.jpg",
+    "generated_sha256": "73421cc0d0777355de4fc8b231a3a1d9d66060324e461f3344e5e10dae522b5f"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0254fc91bd.jpg",
+    "source_sha256": "cf43d5ab7284c176870e723a329cdbadb1c0f32ea5f036e176e8cfe891898b4b",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0254fc91bd.jpg",
+    "generated_sha256": "6b1db66ce09696645cd3cb05c1e6aae373de0b228258f69a692429bc69c083f7"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\02620a36f7.jpg",
+    "source_sha256": "0364b9e0e69fffc6665b64193aa4749b756f0f3a12163036fa172a6093c2923a",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\02620a36f7.jpg",
+    "generated_sha256": "91347021633fa4aef9005d883bac047eeaeb9a08cbcf12f649b5e08cda43ba14"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\026ac33f9c.jpg",
+    "source_sha256": "6dadd5d7ab97e5742f8041f87afceff96d0a69946614bee3f5022cfadbe69f5d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\026ac33f9c.jpg",
+    "generated_sha256": "2be1f640992d5ddee0a316f928fb0c89318b3a350c572fae044a0b672f6d5109"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\029524fd91.jpg",
+    "source_sha256": "ba73f08f1f086b9cede63ca9bfa9f05c83035199e2baa01596c1aeeb17907dfe",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\029524fd91.jpg",
+    "generated_sha256": "1499ff9ca84345976ae3541b6a75f5bbafa0342f4dc7ebc880bb2ef2399cf603"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\029854a790.jpg",
+    "source_sha256": "7ded62ee54c02f1865877b8add06efc35dc2301afdb023784d295f9306a047e1",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\029854a790.jpg",
+    "generated_sha256": "18c14ee0fa95cf8dd9bcf1c99b5718f8567f8b32dad6be7931e73bbea2d82cda"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\02a1366c74.jpg",
+    "source_sha256": "777cee0b6d5306268d8ec08a6b1f5dfc714a39b1149462da1cad971de3bd8230",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\02a1366c74.jpg",
+    "generated_sha256": "ec36b4b71ebdfc0e59f7a4a1ffe0dbfe30b934088869524e702d3724735cc91e"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\02a4445906.jpg",
+    "source_sha256": "785e9355dcb71c50dbd4f116d1330dcc57bbec9b95c5d4af9bcb8c981228a4e6",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\02a4445906.jpg",
+    "generated_sha256": "253dc03845d5b320f4cb8f37dc24a32b4c94bc78343252d566c915d25caed92f"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\02b232fc78.jpg",
+    "source_sha256": "c272bf752f26d1281e2d1f313fde6c03da611252525af76e7a2a1540dc75e31f",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\02b232fc78.jpg",
+    "generated_sha256": "68f76fb75b6b71b304d4789d3b8122b0e9f446bf815f2f51091e2225b6aa6e08"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\02c43186c8.jpg",
+    "source_sha256": "366ac54631306868eb0721d346367272261d6cada2133bda39e0fcdeca3e45a8",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\02c43186c8.jpg",
+    "generated_sha256": "7a840ac4af492407b7865fc997e256f1cb5e60298d4b678f93b42c77d48f831b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\02c6c1f6a9.jpg",
+    "source_sha256": "e8577c3d02df7143f689b0e44993a6bb5b9e8797cb6de9773971cccac3532442",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\02c6c1f6a9.jpg",
+    "generated_sha256": "d74ac6fbce1fd323c9c0146ab1d77bfe4adc53095ea271efd1205f30c9babd3a"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\02cd89f56d.jpg",
+    "source_sha256": "13841d9d45184a55ef0060a599cf9fd6f3f60af7c91b189d543eec91443db410",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\02cd89f56d.jpg",
+    "generated_sha256": "504fad7528913b64d97822546d04db50fbc1fb2f4976fb6a4fc6106dc19e49d3"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\02d763f1c2.jpg",
+    "source_sha256": "b31561c9f98000c0f069acffcb8fc874e449f053e96b48c169a10f665232d380",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\02d763f1c2.jpg",
+    "generated_sha256": "dc1dc27af85695dd9f979ea5ca3a1115520573f632df279d478f0b53baeadc83"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\02ded12bbd.jpg",
+    "source_sha256": "c4682c8696167e1cea00b0c6287b3129d55215740849372813c31dba6725aad7",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\02ded12bbd.jpg",
+    "generated_sha256": "7ef42435f89b5bd21c295ebba0d7b8c660c0227695b2e77a4225f6aa79b01520"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\02ea18a456.jpg",
+    "source_sha256": "8f80452b607f2018eb4d90c82e3039289f42a004bfbe64fe3409ebef4abbb65a",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\02ea18a456.jpg",
+    "generated_sha256": "ca5369119bfa2654759eb642b55275f34c03e33c9e9076f1196f0d6a20ac4be4"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\02ec33e094.jpg",
+    "source_sha256": "92bf0cf683b950d3261bb9b9a8e6b0e576122ac7c5f59296113e341c976ffa13",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\02ec33e094.jpg",
+    "generated_sha256": "1b789559e2ff58ce5a4645546922111a08ddc545b51cb9a32ec4c08634707e47"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0312af1e14.jpg",
+    "source_sha256": "95d54a300330d60654cc5f46d180b78fb67ff54f0c61c255aea70b58b4b9e238",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0312af1e14.jpg",
+    "generated_sha256": "2ce7954c957e2157774923b9bb1c6f6b253b5012d7e5397e8d2af56e5a5f3060"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\032389e868.jpg",
+    "source_sha256": "c00a21382b955965d497bb145b2055f03eb3bde00d7bfea339e03209186d3f68",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\032389e868.jpg",
+    "generated_sha256": "1b2cb770be33345390602416d3a84571d7d72b7078e1ac517c5f3c492459842c"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03242238ae.jpg",
+    "source_sha256": "eac098a4bcb6d3f1c8f564a94e1abce5ffcccc96ccd430c37f1c6eb8c17a81dd",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03242238ae.jpg",
+    "generated_sha256": "3cc52addce1d4f1869707c3f772c3ffbfa06059ac0e54de22051018434533f8b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0324f82fee.jpg",
+    "source_sha256": "f3cb3d834de5d0ac84d963f041994c55992ef8f447bf9a00e50902201ec80fe6",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0324f82fee.jpg",
+    "generated_sha256": "65f2995771b847d4774f02642556374df1d0d5b9b808dc17dcecb0a441109c89"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0341fa51d0.jpg",
+    "source_sha256": "a06326c96509e38497b1f4037fc820dc773d01b11e3ddb43c55b279168c04fa1",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0341fa51d0.jpg",
+    "generated_sha256": "4025ff9fb752cc5551b1c4e1cc544550e8def61c6c464e983c702a5cc69521e5"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0344a47135.jpg",
+    "source_sha256": "582526ca112d3cdc0deb055b1478c029ebf23735dafe3bd52e82589582741cbf",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0344a47135.jpg",
+    "generated_sha256": "26bcbb0ffab5c82431015c4d50345098378ddef855568fb888ebbc837d505a40"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\034627340c.jpg",
+    "source_sha256": "53d99376bd983a59f7c09634cb43a662cf0ef00a112e740aca7df38aecbd34ac",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\034627340c.jpg",
+    "generated_sha256": "86b2f163d1e6441d32acbce4f01e1855adf2caf86526805e9098a0975c0e8b60"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0362dd81bb.jpg",
+    "source_sha256": "88a7d8b0124b4505c7cc0fa44797d8d0f5bc53fe99b42a8cd9c7c1404e014366",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0362dd81bb.jpg",
+    "generated_sha256": "e1c542472522664f1e84a7eec44026437920ef8c77d49d78853e3e2c29cb4278"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0378bcc7c9.jpg",
+    "source_sha256": "5f66e83667ca7561d7bc29b3905d110e2523d96c91dee9a0f0e80896a160ca86",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0378bcc7c9.jpg",
+    "generated_sha256": "2d24989ef2f045f90b60d917998f8bae478cae3821a87e5714e43e796a5d5246"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03950208ff.jpg",
+    "source_sha256": "f1245425f6c88dff9c72fa11807b3a5f2b117437aa1e1c2f0450a098cf16e71d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03950208ff.jpg",
+    "generated_sha256": "5debb1990a673b854966f97f7ac92e6d37b14e7b38fc6cd552a8911461f2b508"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03a17d96e1.jpg",
+    "source_sha256": "cf595ca3ffd12cfed84ccbad0b1a8e2d8f15c26224db29aeb1d173001f1c4c44",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03a17d96e1.jpg",
+    "generated_sha256": "24038ca812bbe08d6e5d35ff8128cc96f480ee882b21b73d8f5f321154dd6e2a"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03a21c1b9c.jpg",
+    "source_sha256": "25728a41384e33d9b31a140b0b5aa7009236ce804472d55dc84c275443eb7315",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03a21c1b9c.jpg",
+    "generated_sha256": "6eb687240ec45dff5436694c933cb8a7e37cce38cb137f09516d6b967da9e753"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03a2b7ce83.jpg",
+    "source_sha256": "e45175f43301550f81371f51edd775227bd2389ad05775467bebae4b4e4687a5",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03a2b7ce83.jpg",
+    "generated_sha256": "117e1ea886028d64f1f500d4e4762040326076a479980e5954eedd9b89eed909"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03ae080a47.jpg",
+    "source_sha256": "1d85a900b749293c5813aaae256cc787bae1c08a5591590c4decfadaed3f5ecd",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03ae080a47.jpg",
+    "generated_sha256": "e6a22381365f11d20b8cb61aaa20c36619bca60be9328b7035a0faaf582b7157"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03ae26ed88.jpg",
+    "source_sha256": "5e732088d2c7861814bf8dc1c7d8f084f3a7ff6066c541f34fce205ac3503c17",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03ae26ed88.jpg",
+    "generated_sha256": "b60a925247e6d4dba53a33f1660f6ace26201723518c531128db00ee9219866f"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03bac83f64.jpg",
+    "source_sha256": "1d360b89f7a07204a618cbf2cf2081b27750241e3c63fef8302324244a158d77",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03bac83f64.jpg",
+    "generated_sha256": "7e0e54f59245c5b277f553b5bcd169d8c7ea76ce24bf101d596321fe6c77cb5e"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03be88270f.jpg",
+    "source_sha256": "c122f7623320298e891027726bfde6f54cca30c60978757e57aec916155a7498",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03be88270f.jpg",
+    "generated_sha256": "fbf9aa5c88d7edf00321714c66c71a73bb3edb3d99e1513205aae1bbf54d0b95"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03c5d1d098.jpg",
+    "source_sha256": "da93e6eb834598f115c421f3dd005af5bd1cc14fd76c555bc223050d627a7cc8",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03c5d1d098.jpg",
+    "generated_sha256": "52f70d62d94e8babf1f8c0e510e9459c2782cfa33e128d6f817bddfc6ebf1735"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03c9f2e3c2.jpg",
+    "source_sha256": "20a62af07ce66dfdb48696953e7acf4bae24b0b8e3fff9e44b18bdcdf25392b9",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03c9f2e3c2.jpg",
+    "generated_sha256": "f26852b90cdf0b7371c33e0ffdc71b4ba6cbc6a9996ab9f4a39fdb3c1a9c80b5"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03c9f3d584.jpg",
+    "source_sha256": "2cef72136398aac1ce7c8166eadf0cdf3eacd0353039e3a7c47eb250bcdcf8ac",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03c9f3d584.jpg",
+    "generated_sha256": "5fab57827e2e546c2057f985070e14873b70ace22941607b4f54936d2d2f31d9"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03cc206144.jpg",
+    "source_sha256": "5b99a7f8fd1f253c43583bf7b60353368a827f93c9a2197cc187fe975b726454",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03cc206144.jpg",
+    "generated_sha256": "3ecd270bc9c6981851e392d35df2059679daaadf05a5126a0e46594df3135d9f"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03d47c18a5.jpg",
+    "source_sha256": "90bcacfae1fae209f147d1dcc7f72924c19c159aea0e0275cc04b7044315f6cb",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03d47c18a5.jpg",
+    "generated_sha256": "ff61950cb6f480affc68ba48878b403cd892ac721a1e9e7d16239f50a3fad60f"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03d6a4d860.jpg",
+    "source_sha256": "91d859de998dbd64b3ac4368f7af24a47b2f0c0dfc88484508b6f7dea223bd52",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03d6a4d860.jpg",
+    "generated_sha256": "94587752bdcee41e58b90a2694bef20aeb12e7b7988cc4fff78a8dfd1285ea73"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03dde7a28f.jpg",
+    "source_sha256": "565005dfa140f7750c1f5aadb309aad700e628830869e5125f25945e8a1038f8",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03dde7a28f.jpg",
+    "generated_sha256": "183c14bdf68c8af676fa276f5b3baf2f336602983e70b8d100013e2ada5c8e2d"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03e48faafa.jpg",
+    "source_sha256": "0997d867b35896f0ea5a37f3e107c8fcd37c5e24d9289544174f4880b211c2b8",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03e48faafa.jpg",
+    "generated_sha256": "b212bd2f4e699a21622ae58f0d30542d4fc0ce65da383984d04ee1071b9f876f"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03fd7067c1.jpg",
+    "source_sha256": "e54e670adc1ccf5cb48c5081da440cf97c30b9aee69a8291133f5c33c2db3a4f",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03fd7067c1.jpg",
+    "generated_sha256": "b5f26aad117fed780425034427946184dbd16dbea3ce3d5f50340faa0de60479"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03fe5d2263.jpg",
+    "source_sha256": "0b9b70f481e8c312f2d395ccf4deadcdc90da8d5b904477a9287db7f216debd6",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\03fe5d2263.jpg",
+    "generated_sha256": "6fd237fac388326695588f070911d834eb977e8cc8b4b98fa54bdf47821f44e2"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0409e76de0.jpg",
+    "source_sha256": "1aa5a0bfae22684e98ab1c77ca7eef9fdf41aa1cbc5bfc41e7367b69d7351bba",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0409e76de0.jpg",
+    "generated_sha256": "f364d8122fae5741979c77a23c85903daad7378dfcb9f412019e45844bcdda73"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0425fc7ce5.jpg",
+    "source_sha256": "ecb0922c49e1132b24cd7892962f980e5240035e25205260feea6bc04e80a929",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0425fc7ce5.jpg",
+    "generated_sha256": "2efa62a79d6b90c5662aaad4644bf02cc90a8781025ad8dcb4be367d4c893972"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\042f0e804d.jpg",
+    "source_sha256": "6c455b8f7b710df91311602012096a58615fb1abfac5d79836b2160ff47cf8f1",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\042f0e804d.jpg",
+    "generated_sha256": "e5f8690ad9aa75faa811395950897b4013ac3517ff97faa889bcd2249163a42d"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0435dc46a4.jpg",
+    "source_sha256": "6966e53bfe54c0a248da5478e6c9067c2c3a9ec04a379a43d423fc33d21bc1e7",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0435dc46a4.jpg",
+    "generated_sha256": "8dc9210eeaa8895d3c925bc377a405b5b04136c7e436387473e4208355d82e98"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0436aaaf16.jpg",
+    "source_sha256": "a61854260b6678c49b954e700b414c528a2cda8ad421297dc01afc66c14e9d9f",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0436aaaf16.jpg",
+    "generated_sha256": "9447360213b5a1452f641a3907561a546c36d8688ac9cdf3c83e0b05d7c5d5ce"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04387e4338.jpg",
+    "source_sha256": "8abeb9ca711f292d6d697ecbd9d8983868bc04d64984719dc214b5c821afe855",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\04387e4338.jpg",
+    "generated_sha256": "1606ae3b91c0266a388d97a2935a44e5926a71cfcbc7b78f029135d7a11f04e9"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\043b541b77.jpg",
+    "source_sha256": "5e1270ba557b50a642d688e597bb49c1cbb076bdb510f8bcbfd52fc3ac7f1192",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\043b541b77.jpg",
+    "generated_sha256": "01a40a27a160ddac78082c9d2310a719ee66e7848075c24e61cbfb86dd76d506"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\044c1653cf.jpg",
+    "source_sha256": "31cc604545eb1bb197c95dd27cd1acca5de3363eb909d73a558944eefb7d6a66",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\044c1653cf.jpg",
+    "generated_sha256": "2350ded82cf58e67a21d360cd3d08561bd67f476614d909462d97fc5f937daff"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0450d4f8ae.jpg",
+    "source_sha256": "8d0afcb4b6417376cf7a96f355cc7961c2a732cc182e03ab763ae98f1b577502",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0450d4f8ae.jpg",
+    "generated_sha256": "c94ffc1c7a214ce3ce1d4c45d1b254be87bcfc00dd4542aadce3bae9e5e1c4f4"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0451cdb867.jpg",
+    "source_sha256": "0192d0874c132e1b88d2ec2019c273b7e9c91c52398d86b683fdc7af8e3cacfd",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0451cdb867.jpg",
+    "generated_sha256": "aab1b9932f70984a23fd43c23ead4208879039f77718f4c76e5d02afcbeaf3db"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\045e937903.jpg",
+    "source_sha256": "227277abd3667fc844926efcce53e709589de3779a6b980be09386631fc01d53",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\045e937903.jpg",
+    "generated_sha256": "9d13d4e448b30742166eaefe64491afcab304d2fea277f1f1b3fc4510431ea86"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0466d4cdf9.jpg",
+    "source_sha256": "23220ea03b9aa1cfe8f1cbeb51e0acdbc468ea4bf98342425850accde6dfeb6d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0466d4cdf9.jpg",
+    "generated_sha256": "4fb33ed89d04409c9a5c6801e7999ae7baf4ca53589c699e83a53fa2fe502d5b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0473a25050.jpg",
+    "source_sha256": "6a2fb6b4835d26f0ef94508c9998bd88ebb5a606962985a3aa1e92b597596e36",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0473a25050.jpg",
+    "generated_sha256": "f8877aadfffb0e7534320723faa9332aeddb90fb1c9e61f0b01dc9db52a4f6c2"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\047acab66b.jpg",
+    "source_sha256": "03ec79374c791724d32b46eee9b6823625a2cff58f8f46b94709d386717de539",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\047acab66b.jpg",
+    "generated_sha256": "c3bc029c79aff7f7c5f97d16121d08211de9048e0f53c1148f9f61ddab8b2c1a"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\047da870f6.jpg",
+    "source_sha256": "e792f3b73d104dd392b5ae971cc667f08debd06e1543fb2200b7e1314abb0dec",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\047da870f6.jpg",
+    "generated_sha256": "d15653d88d9d3bba1b2e2c4ac689221724bea1354c6987c9dd1844ceccc9bc85"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04838b8b1e.jpg",
+    "source_sha256": "f5958fdbb36a21d7a89230112e2350fb551aa07e858ff40ede6d461cdae87af4",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\04838b8b1e.jpg",
+    "generated_sha256": "a1e8a3084bb082e816a1d7f4f51a4b90599e35060afec57b9afbfb450d188a33"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\049576d31c.jpg",
+    "source_sha256": "100b633a331c764ca40d73523c4c63d808cb5e0b44a1756e4bd349cda5c41a1d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\049576d31c.jpg",
+    "generated_sha256": "76a253ec3918a8483d3477671eea744b8c5a9261e9ee20620b23ede563cfd1ff"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\049b0ece59.jpg",
+    "source_sha256": "a5df20c12a10227c777f75c959219e1a4eb24d2dc43cc90e1d30d06fdcf01b5c",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\049b0ece59.jpg",
+    "generated_sha256": "0290f9f786aefa63751f5fbfb5371e614aaceaf340646d87f0e2ce4b55d068cd"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04a5fc42e1.jpg",
+    "source_sha256": "b8513f5648196465a451d4f0fcdecd127d8ed48200fe7edf6bff65ee2534774f",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\04a5fc42e1.jpg",
+    "generated_sha256": "0bdeecc47b0f8b05f0939c82229065d4bdc6db19d0ca7dbd3522175ccf238f55"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04b8bfdb1c.jpg",
+    "source_sha256": "98a4143c59863b4363a432dbc8f854279fade20841885e3925625242b78164a6",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\04b8bfdb1c.jpg",
+    "generated_sha256": "18336e8214157aa31c8ab8368386adeede1b5c4221552ff6938936f78662c02f"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04cb1f4705.jpg",
+    "source_sha256": "e17e590fcb5e1976c086eb3bc576270f1fa9974e82fec45ac708871ecd96048a",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\04cb1f4705.jpg",
+    "generated_sha256": "960e722764074c7589cad9af0a5947434304c0104831020ff5127dbcb8afaff5"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04cf8e6d5f.jpg",
+    "source_sha256": "55b82d111a348e35d3e4c73a86605bed1c97e00886f775dcdb1bdedbd4d74379",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\04cf8e6d5f.jpg",
+    "generated_sha256": "968a1dea49699f7f0c879c0ec096d86a3f68b6a30c24c30c7e798300cdb5d42d"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04d7e14fbe.jpg",
+    "source_sha256": "30080263b62580a6400b40326122471bbdb1c117be55761d1662a5ec28750b64",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\04d7e14fbe.jpg",
+    "generated_sha256": "fa33a847cc4952b532b606e11446207527d2ddaf3e72ac12af0d0f600cb10757"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04d91d7bda.jpg",
+    "source_sha256": "967b3c23713e9cfe3e6c8f25033754858df98c2aa9f18ee5a2adba3859ccf7b6",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\04d91d7bda.jpg",
+    "generated_sha256": "b1103a18c826d3eb8433607f2baa70124d34189ef49d6467dfd0494edc6bd837"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04e32c4dc1.jpg",
+    "source_sha256": "4f351aeb505ab30b677e5beb51910a02bf44430df8568c8b6005632a8228cc99",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\04e32c4dc1.jpg",
+    "generated_sha256": "044e207b2b5efab2aab7888f1852bfd1c122dc6b3f1fcf986911d4ea58341692"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04ec8c9ec2.jpg",
+    "source_sha256": "bc4945a6759498763730d2a03e03ad5ba231c6df35301379a86859ddc1b415f0",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\04ec8c9ec2.jpg",
+    "generated_sha256": "a88f894d0fb5a0fd2d2cc341dbe1e6dbea149c9df89a69186923e1e7010f1da2"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04f59976b5.jpg",
+    "source_sha256": "ea061a12431834bdbe1c88cf7da651c21bc894cdeaa3a39f487f5fe732595bcb",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\04f59976b5.jpg",
+    "generated_sha256": "2f87d2f34540967cbdc6369cf5152ff9c7160699ff8fc00614c12990cf3e5b1b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04f71da37b.jpg",
+    "source_sha256": "ab236b1d1a586e24dcc4a278baa5ddd62bc6a243807e9538f1580231648d1361",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\04f71da37b.jpg",
+    "generated_sha256": "fb8f92f67d96e4bdbcc3c1259decc84a8050027464e5524b005884afe49ac44d"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04f72d81b0.jpg",
+    "source_sha256": "f9e59a88d2967c637861711ad36a7eafd44b4396edbd91fd892d16c696fc45a6",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\04f72d81b0.jpg",
+    "generated_sha256": "8c830c8bf3e8b97f1e5302895781549beca2806a5c6ddf8dcfa63fb498cbcdd4"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04f80539d7.jpg",
+    "source_sha256": "639a6cf1b44772026ee3fcfead8bfb2da2e615231785a447aa9a1e9f1b9b3045",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\04f80539d7.jpg",
+    "generated_sha256": "91aa0e158a20db0fa7dc0be9a3e3352f875fd0d61b584ad0ef691b2c18c4a6ee"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04fa2a606d.jpg",
+    "source_sha256": "7f9710c72af1b125a794f767c9fdae62112174476175cb1bd128ca45d68607a0",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\04fa2a606d.jpg",
+    "generated_sha256": "2afc2c9e08507d3a40b936eba8195be9e99992af57ae3874057524640308f375"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04fa456bc9.jpg",
+    "source_sha256": "8ba53ef1c0ab0cd3a131fbbf6b3a711ed9ac65873776e5102cc7c25c4fdc749d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\04fa456bc9.jpg",
+    "generated_sha256": "f4610b987b14d29cd9d382d3a051ed4cb3b3dff2994304f5f9117508f4a3c753"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\05057d04f7.jpg",
+    "source_sha256": "9391dd1b2d613feb24ddb2b5338f84b8b7d2a5560ae32d2a4df1db2d25aa84d6",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\05057d04f7.jpg",
+    "generated_sha256": "8994c8441f5a4abc7c28bb25cb0d1734fbd20734fb90819b6e855226fca7af51"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0506726dbd.jpg",
+    "source_sha256": "355b1eeb86095219e620de1c48bebf1aba84add18617a07e356bdf835fa3c882",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0506726dbd.jpg",
+    "generated_sha256": "f7965e7116dc02d5a244d227fd7d505f9cd574b82d453b2863a51ac9025a4ce6"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\050da171c0.jpg",
+    "source_sha256": "4cfc24f8925524d2bb10b2fdbba94bf2bf80cb70c37635ddce615cc03bca28c4",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\050da171c0.jpg",
+    "generated_sha256": "4ca24ddbf45dfa75c9739c50cf898e3d963453b46b18ee888362138126f1ee96"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\051159e33a.jpg",
+    "source_sha256": "df8822a1408f67d74fdefc4591b87310419243825431ec4e9af82294cc463d34",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\051159e33a.jpg",
+    "generated_sha256": "a2a54503c1e841006ed5d0238e68746daf649243d262aba11a48821ea160a7a8"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\051a7c9ae6.jpg",
+    "source_sha256": "10efee66a6ca84810c61bf6525e3a9979b0b788eb95297cca8b52430748d636e",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\051a7c9ae6.jpg",
+    "generated_sha256": "f2e6ce69fd3d8aa836c3c4864ba7167542816451bb986fd43c3e02246705c84e"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\051bde8166.jpg",
+    "source_sha256": "1c789edcb759b8dbca65dc1bec285c5022a6600291889b3423ed46d620e962fe",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\051bde8166.jpg",
+    "generated_sha256": "a51643c90dc2f0c99814c96c5e9cc7067033d181c12da5457abb43b44a21eb16"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\051c1b5ee3.jpg",
+    "source_sha256": "38f0c30ee84cf67aea303f28c90ebf0184e5ef830b496f60fd08ed1f868c577d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\051c1b5ee3.jpg",
+    "generated_sha256": "8f305fcffd92fd4d775b41a0e64813f99fa65af70b8bfbb76424ddb00fb94129"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0529dd48c8.jpg",
+    "source_sha256": "f1e19bd3f91279b2e77d869e4372715b59392ac94d317c31198d444e354a37eb",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0529dd48c8.jpg",
+    "generated_sha256": "adcb349403f973a3cc0e401bd715a40a4f5e90dc15277f30756a94f74b549782"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\053024baa2.jpg",
+    "source_sha256": "a10aa87c5d11c70af0b30b22e4c8b0473280ac6df8f5903651c4549dfcd92203",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\053024baa2.jpg",
+    "generated_sha256": "b50ec7110c222a8a5007f1bd1bbc4be546641597ee677df28f19c74785bf5e32"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0541ce0c1a.jpg",
+    "source_sha256": "fd08e7a84a188bbf597c86aaf280194082b7c73f63afb45d6a05b273a3644545",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0541ce0c1a.jpg",
+    "generated_sha256": "97f6923505084b70512be393091dd3988cf00ebbac46ef8c7dee412a29ae1495"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0547a52b93.jpg",
+    "source_sha256": "004ed8ed50b0ecea77f0d7e57f4d7ddd804fee9b74a110219692bf7ee3ba7a98",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0547a52b93.jpg",
+    "generated_sha256": "fe8a811e776a7703c72645bd48edc3f11b914aa7957fe97613e20f4d07b2fd3b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\054f264b2e.jpg",
+    "source_sha256": "699d99c61264ad5977c2a95d1988c07025c097e40b91ce96ceb028e4000c001d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\054f264b2e.jpg",
+    "generated_sha256": "47f48f5c92987f6a4ec68a77779d7b7472a2da4f1e06ed57255c71a0c2222c88"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\054f375c69.jpg",
+    "source_sha256": "6e1262bad2edb829e1b3015adf9c50037088b4eb4b225d908cfc6584450a6e80",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\054f375c69.jpg",
+    "generated_sha256": "817e11541ff795bbb11274572d3b07cb41a530ecac187a94fde7a89b39fa3158"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\05557b0148.jpg",
+    "source_sha256": "e5c628ac8dbc56fc5420cdc58bfca802f6928a93a21117369081333230137174",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\05557b0148.jpg",
+    "generated_sha256": "5b5386356a54c2889c0893fb2b4eb68a43f99b3e55eeb0eef60966bd73f189a4"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\055c3026f8.jpg",
+    "source_sha256": "f533d014435d3e899bea2832de73edca802b0ce174b512736bf6bfa4ae183e2f",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\055c3026f8.jpg",
+    "generated_sha256": "64834a31aa72f772365e96636d5f3705e50bb8dc2b7a04b1c599b91a519bb944"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\055dac1e18.jpg",
+    "source_sha256": "14ee73595bfa22d51f74e2d262c3e17affad3a072005508fec38c32b2a9ef6e5",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\055dac1e18.jpg",
+    "generated_sha256": "6b31f49f90e159bd5b866d3227750c8b411956e8fc376ab80c76f50c890ec0aa"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\055e5dca6e.jpg",
+    "source_sha256": "55924d6d89bc8f4dd5aa60b34a8277f3db105c948f0671d2ed2faed516df32e0",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\055e5dca6e.jpg",
+    "generated_sha256": "552c03552c97016223558c2152a01ba2f9fb125ef59b1c826befd1a87810204b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\05646c5cdb.jpg",
+    "source_sha256": "72f72330c6292691b39510d3289b7434be33de87fe358daa385c7c25e5076e09",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\05646c5cdb.jpg",
+    "generated_sha256": "c1a5f8bc69470d8f98681230211e3ddf98e8f617445dee957c68b2eb6835329b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0572f32305.jpg",
+    "source_sha256": "c773deee2a40b7bad6a20179bcb714bc081a7f50fc9a730475476fed0aa9acf7",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0572f32305.jpg",
+    "generated_sha256": "d90a14d11632618eadf8516d369b621929b90c23471fefbdfc18a65de3155c9a"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\057d83cdee.jpg",
+    "source_sha256": "b7be7de5707a84c49bf9d63a0d9ce42d4c5302063e16d022dcea9dcb32fd728f",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\057d83cdee.jpg",
+    "generated_sha256": "852966ade505e7c060ac1526574aa325851d5f6b0463f06a890637a49f296a34"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\058af422c6.jpg",
+    "source_sha256": "bf99d89767537710dda8fcb4b23e43a177368e42c835dfbcfdba6753dcec535a",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\058af422c6.jpg",
+    "generated_sha256": "be5445194a1feb91824062f38a6661ece9715805eb3f3ceb1629e3cc1defb95c"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0597c38d69.jpg",
+    "source_sha256": "db9b33337822a1c11451ef5bcb980dea20d5236474c1e19ed641a512c5fe6d71",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0597c38d69.jpg",
+    "generated_sha256": "591f9690e8219a297d14a2d0b4a181f4a8aad8c15fb517a2a403c07a3abc102c"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\05a3801bed.jpg",
+    "source_sha256": "94e399756e9f0d06da460b5e2b31bff14714b987bca1a739eb898774cd34f447",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\05a3801bed.jpg",
+    "generated_sha256": "decb9899767cad30fc2e27cd77568e25ca166440011e4436212dc9b6e87867a7"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\05a84fad61.jpg",
+    "source_sha256": "a75e0a303c76a97ca516fadee2ed8d4e43ec71e76af1f8e80aede33670f2f63f",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\05a84fad61.jpg",
+    "generated_sha256": "4d2d4b69cb6aaf60756a64d08cbba5e89a413e217bf2f348052a90ee4cc59359"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\05c885c810.jpg",
+    "source_sha256": "e251a21c1a0b0de7b8abdea8c02d0da71ef48453f9f0b914821345e9bbad1b55",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\05c885c810.jpg",
+    "generated_sha256": "4e006f2dd3161716367a2a6a766a644039eb47632a6e8d808ef7b8544822c7e8"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\05ca68299e.jpg",
+    "source_sha256": "0d39efdda479e0d197d1705a335daad2b0b62abee325165972e875c37043abee",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\05ca68299e.jpg",
+    "generated_sha256": "c92e98ee4472b31bbeba46d39f052e05e127d239d7663f9d5659d32fba24644d"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\05e37a8900.jpg",
+    "source_sha256": "9973452710c164af1257c5205a8b95e64c8b278d335485e9fbe440560f8827b4",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\05e37a8900.jpg",
+    "generated_sha256": "e331f631c4e0117cc002433dd76c776a237df0156f6b48997bee43f31c76c7d3"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\05e88ecd0a.jpg",
+    "source_sha256": "7d28473df4e3118fb3ba20196fb311415095036e905e5f9a575e0bfe4c209906",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\05e88ecd0a.jpg",
+    "generated_sha256": "dbeac2fea79ef5c1959b54f54bbb43ab3da8e70d06756a02bafd04975df0cdc2"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\05f0db4d14.jpg",
+    "source_sha256": "2fe4a7f34a0c8bc4116e73325e958e887a1cdffbe2e95650efeecaeabd4681be",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\05f0db4d14.jpg",
+    "generated_sha256": "42a502379358114dd94689fe9dbdb435f399c251a3f686be131e51e3bf3d7bc8"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\05f22b97da.jpg",
+    "source_sha256": "54f61988459c34b066f8d8b3fcef608f1d5b8f3f2131a1bea46b85f255408a24",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\05f22b97da.jpg",
+    "generated_sha256": "a70542b925b9b00f874a6e83f5de4b7647b1b8b61a3386e84dac967f684f51cc"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\05f4b38e6e.jpg",
+    "source_sha256": "8aca2a77505943aed5319a1bba9f535c8aa85b1ef415b90693ab60231b6a9311",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\05f4b38e6e.jpg",
+    "generated_sha256": "af5d579bdd8055b52b14501e5440c5a338629d42cae1775bb93722d151b744d6"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\06058e6cb0.jpg",
+    "source_sha256": "b1bafcf2fe461481239e93d5f2ccabbd777a5b669bcd4ea38c83ec6122d5a363",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\06058e6cb0.jpg",
+    "generated_sha256": "3e3b9bf7a0108538886fbf6f652868e2eb328cef5c8d4846d5d663f69ec9ad4b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0606110c45.jpg",
+    "source_sha256": "8923917521faddef9f4210a5c51d485e1faef833c427b5cb28f366ab3688f522",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0606110c45.jpg",
+    "generated_sha256": "a84505db427579f7898856c6a916c9336cbe2cc29752bff3e4a452c84bbf28fb"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\061bb611e0.jpg",
+    "source_sha256": "0fa25cea9efe17cb8792abbe1aed19ead4f3252228964061a119971fab57eba1",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\061bb611e0.jpg",
+    "generated_sha256": "6efbe9e69fdc4e7d26a87e249678d7b54163ea277555d6bfdfcf249f8c080339"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\061f0095f0.jpg",
+    "source_sha256": "cc131d9c1ca51ae3016d072f1c3d0dc8c03a348ece712b4aeb96a7918d18b6da",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\061f0095f0.jpg",
+    "generated_sha256": "3050f1db51f00ff0cee36c3fc111ed0519a8973b6b61be882e3a554484d48f30"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\062313a97c.jpg",
+    "source_sha256": "818451c4db0af1516287771fe587730358f624151dcfea8defceb6c4a80d3797",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\062313a97c.jpg",
+    "generated_sha256": "e207a8ed64a399de973360b37f8da9a31193990797cb5a49ad82f946292d0ca3"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\06371834cb.jpg",
+    "source_sha256": "260d94597c9fbf9eea1b5fe5cdfbe8440fcea7472147091612e67b1428a9e9c7",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\06371834cb.jpg",
+    "generated_sha256": "ab1cc5e78e9dfbb1898748cb07c243e23a0f4298e855f6c3b224d7b97f719b4c"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\063ab57d41.jpg",
+    "source_sha256": "8bc55926a714cdeac742039b2b102ed53d2eacc25754fcdf639de681cfec32df",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\063ab57d41.jpg",
+    "generated_sha256": "6df2d07edc512ad4e586b67c6844d276cb3832a1c166d733401d78c3d18bb801"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\064b9119de.jpg",
+    "source_sha256": "9e7a3e8d2ddb9cacd34a6002933595e19b8f9219dc31f926fba27da120d803dd",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\064b9119de.jpg",
+    "generated_sha256": "f4224a427dca5b646eccf1cfa0acdead03cf1d1cd3b37509cf2f4d3753f749c7"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\064babb7f0.jpg",
+    "source_sha256": "2e6789adb109ce622a13cd6e326bc78dbefb263de312899e26c55d6e6b2b0403",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\064babb7f0.jpg",
+    "generated_sha256": "ab4c1e70b035c8c53a520a551917f1a59cf7c1c3654a8c27eea1377b7b8065a9"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\064f91250d.jpg",
+    "source_sha256": "6f87a31ae50b04f09c5e3a9f10fef4fe868b77c93aabd28efa7adc6a1976d113",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\064f91250d.jpg",
+    "generated_sha256": "d0bf369d3e30da04e4f6d5153397b8fdf3b946057dfdd71f9a181b08547cac53"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\065b649ac7.jpg",
+    "source_sha256": "41cd34c796d5481007e96dffdcb2d6e891f2509b707b9ff185ce180d1d6c8228",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\065b649ac7.jpg",
+    "generated_sha256": "d77d0bed8f6e57f6280a5d8a159ee013659affb432a41e86294f4342a069a036"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0665264678.jpg",
+    "source_sha256": "1c1803f9ee51b61e0998bf7b30f8c9392bddca06afa80347443eb99565b62ee8",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0665264678.jpg",
+    "generated_sha256": "b93d737d56a9082dc8db315ad59f57317265d29c86c3ffc0fe64b1dd118eba89"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\066b81e0f9.jpg",
+    "source_sha256": "9fe3ae179599c186f4e1c9feae6069375a68d93ac72c97a23d56f21963030932",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\066b81e0f9.jpg",
+    "generated_sha256": "4936b2cd4d90d668ac958fa15e129a4baa933f73ec4a1e882dd81c4d08e0b331"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\068381ad63.jpg",
+    "source_sha256": "54a0ec0bb6b9b0a006e3c68c8220e6612ee5682bb980b2bd9035c63e59790e86",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\068381ad63.jpg",
+    "generated_sha256": "500f2353f1f86cde19ec819f73be06e7d42af787ace677da94ba8d2332c132e6"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\068cc6fe3f.jpg",
+    "source_sha256": "c42d9b39bde0762fb8e99a3db67d98e90e1a1afb09138b20b3d2856eae44c735",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\068cc6fe3f.jpg",
+    "generated_sha256": "bdb3fbf45664f25bbf9c60bea6e521c91781bb1cc81d2af4d19c53a64e9f06d0"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0696f8142e.jpg",
+    "source_sha256": "b97ba756ea5b7ed117b098c4d5d51756c5c38797ef22f416f4c995eea61ba55a",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0696f8142e.jpg",
+    "generated_sha256": "91c05ee37d610cdd4093260615e79859ad07c996a88c539881b8f2624bab5534"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\069e6e5b82.jpg",
+    "source_sha256": "1fb564999802f45ddd31705e951c957792b7d20a6027ea8ced3327fcd39a69b7",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\069e6e5b82.jpg",
+    "generated_sha256": "24fcb33f9c6e36936a5db61b9d81c2c1aa86a869b096b6707d4482d21493e8ba"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\06a5930183.jpg",
+    "source_sha256": "a6ec05953b24f1e811f4d772089f32e5c6db02282475c17d334a1958d7c41729",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\06a5930183.jpg",
+    "generated_sha256": "7299e4154ee304ff8bcc2f86befbe029db718e3a15eb1f8d1afa21c717129e2a"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\06a9cf2d11.jpg",
+    "source_sha256": "5d408ef7533f2526c27605451fe7df8fb9454bcd2e5d73214550fd57c617e4cd",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\06a9cf2d11.jpg",
+    "generated_sha256": "918860a91839a17579ce832495a4e083302f81074a997ac35c7bd39793bf7647"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\06b2c2dfca.jpg",
+    "source_sha256": "ef3f69066adea6c194dda4947627bbe361024dfefb58ecf76c470891b7f3661a",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\06b2c2dfca.jpg",
+    "generated_sha256": "f108dd378cec148376d6c0107cadbdc297a56fd6b79a9a00aa0ba10e1cf8e972"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\06b8114f82.jpg",
+    "source_sha256": "520cb98ede88277ae2ae18a0e918aad1f28e69fa9ecf96d90f2f8df1960fb1f7",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\06b8114f82.jpg",
+    "generated_sha256": "24c7096e93eed9c2035b4dd56b8d50b6d82fdea75bf01802fb7a2c74a5709d55"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\06c2d19658.jpg",
+    "source_sha256": "ff262530572b393586aeaf1531ebf008695f4a4071d6146704cdd3427537c249",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\06c2d19658.jpg",
+    "generated_sha256": "90e3d7157f11c404d3174acfd6cc34859eeb5da6d825b29e752c3c1d1fe84f54"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\06c549794b.jpg",
+    "source_sha256": "8786d56a2be38fdec225fb8a0ed3d8d0fdfb47ab9110a380e35fcddbccb9b7fb",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\06c549794b.jpg",
+    "generated_sha256": "66e5dd907e134995d51bbac2f044289006045a4a2e553077b2bf1c9690ac797d"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\06c89c4c23.jpg",
+    "source_sha256": "f7867ba9392b768654a9465c6d30e4ccec346ac518311f36c655e7e36bddebf8",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\06c89c4c23.jpg",
+    "generated_sha256": "161c0bf630814b0e379d12a53196756d6c0be1e3ca0f6070bd8bf9287d66250e"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\06c9326c86.jpg",
+    "source_sha256": "e3f6b9e1cf03b91bc92ebd924932d178a8273a2a249ca415644c7efe8376bcb0",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\06c9326c86.jpg",
+    "generated_sha256": "c0b09224ce21e96e8ef660e2d91701f62da23e1d0aa7f7f48235ec1f27eeddd1"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\06e117b31e.jpg",
+    "source_sha256": "7bd9c99a127f6c87770c41055869382eeffa68e1bd106a2c1fb353f3c072894f",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\06e117b31e.jpg",
+    "generated_sha256": "b6da8cd3bcf7f3c4cea01d5926147a7cf25636218117447175245b9dc65502c3"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\06e156d8ba.jpg",
+    "source_sha256": "4d546186c456dd158f19f731c9e7260d52670b5f2bb2c141b1308f791dabfdaa",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\06e156d8ba.jpg",
+    "generated_sha256": "25cc972edb473a0d38e6d078be2cc9d15a8528af967c95f8e8285f1bd5ad341b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\06f749912b.jpg",
+    "source_sha256": "1cebb461e5e729cbd241876644b2ced86c99499925a2b01d96267dfacee14fd9",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\06f749912b.jpg",
+    "generated_sha256": "664d34fbffb3b5aae9c610e5171128df624574e0d046a51d84735044e690b75a"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\07054731ab.jpg",
+    "source_sha256": "a8845dfac5a148a07eeb8dc93285c2bc6a06184adf75e81f1bae237a3cb4e628",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\07054731ab.jpg",
+    "generated_sha256": "b52b565541cffad670e3d6c7997760349fa3c9a102db52bf825e4599f7a0ef90"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0709ff32ee.jpg",
+    "source_sha256": "350a59ab3e60229917990a22e1087ccea05f6e6ebb73a0f7b83503538914c0f9",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0709ff32ee.jpg",
+    "generated_sha256": "a38510e7526ecdf549d13a1fb38b9d126bb9203054a5b1e2d2f00d4b83ff019d"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0711866dcd.jpg",
+    "source_sha256": "b9771c814c3b59ff96d68a17121aed017ea69467a159feeb452ad970187e4416",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0711866dcd.jpg",
+    "generated_sha256": "7841ad32cf12d7e14c56e691e0dee9175141d11db9a4f9f5ef1244b4c9b71fa2"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\071c375c2c.jpg",
+    "source_sha256": "cefa46137dafd0d0c63ddb421bb0d885e7ab850a7ee9573c60981a9183f7b420",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\071c375c2c.jpg",
+    "generated_sha256": "74573ee7679b5e80f2bd0dcca40da28c733464b27f56827bdcd247cc36645c2d"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0723d52098.jpg",
+    "source_sha256": "70c0d0c392e9d1c9a4af33073741fc976ead7aaffe1f98ef4ce8c07fc0008114",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0723d52098.jpg",
+    "generated_sha256": "3ad9491df725f80341f30aaef256a397b1e2245f556410e16dfb74a3a50ddee2"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0724805941.jpg",
+    "source_sha256": "273c68d3546d616145d2b8e8f732a2451628f0d112a347ebac2929308797bcc5",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0724805941.jpg",
+    "generated_sha256": "e26dfc55ad215612b31092595a20831f83d446393847e598bf3259d0606c09ba"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\072f1336c9.jpg",
+    "source_sha256": "f57463f6e374d82457129b3c9d6bac3ffc8af35ad903c564bffd47cae247c419",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\072f1336c9.jpg",
+    "generated_sha256": "f8c3f24d4008b5c6d30830e169a8ff2312cfc69a5ce20e80f82f3741a4e77780"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\07362b3f42.jpg",
+    "source_sha256": "435f48e388ececee51049b36c1cdd74c46c9ebf13a8db33161e0d594141bd64f",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\07362b3f42.jpg",
+    "generated_sha256": "30cbe1f44084856477ff52d864c2c3ac7c51c667882cebf40b63ce83487b57a1"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\073e8b3056.jpg",
+    "source_sha256": "6331fcc2dd59da16cc77cbab98c5d45e94f73253c03f32c7d4a8621fca47d0d7",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\073e8b3056.jpg",
+    "generated_sha256": "56d855a6be7e081c644717dcbd007df824c05fe78c7a5758ae18a0bc8dca4131"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\074218de82.jpg",
+    "source_sha256": "09ae906c9097990f38b560642595a66cad7e84767f19565f226af077d6f7ff9b",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\074218de82.jpg",
+    "generated_sha256": "6fc09893841d10772b487122c8aff1809cef7a1125449c730d41c2ef2b3cd5d9"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\074ea8cb6e.jpg",
+    "source_sha256": "0e7a7d561c71d1c860a98a46a76af2afe06d62de39e5b42837f8a01f029a33c2",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\074ea8cb6e.jpg",
+    "generated_sha256": "ad8fa37f7ede2d057ab4debb8530a8b95db8334fffe2613132b4c2743671938a"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\07573a95f6.jpg",
+    "source_sha256": "f9460fba0cd3992a4c6f2b86340c77aa6aac308b072b15978dacfb06fbe55408",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\07573a95f6.jpg",
+    "generated_sha256": "c444aa08e749cfd136ad4a0dd5191c1157e8988af658fd3b216a415fb2740db2"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\075e8d4617.jpg",
+    "source_sha256": "b8faf815fb25696c8b659d627092dd740a00b07ad8da2201c8a2879213d295ed",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\075e8d4617.jpg",
+    "generated_sha256": "d3c6ed58af707a93921daf43221348026cc50cce07e21cfe4951a2ce71d986c1"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0761281e3b.jpg",
+    "source_sha256": "647d8c14028b2380f84460f2430170151f13ac9184f6ae61cccc979fc4923f1e",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0761281e3b.jpg",
+    "generated_sha256": "3c0777d095b0d7000093755bf762ff07edcf0e611f876d7906b80e715a99e167"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\076c62582d.jpg",
+    "source_sha256": "e1dbb912ef1697c1ae8c3d70f9d56ebc3229fe78453f0209cf24032849b39a50",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\076c62582d.jpg",
+    "generated_sha256": "8049becfeb0d2cbda970ffe82e25a62508e93d6d56f2c1d267f493b9035d9461"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0770ea1a07.jpg",
+    "source_sha256": "9fecaf849f35c0c5fe11086f235962350d870e594b448192ab300b3bd95de000",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0770ea1a07.jpg",
+    "generated_sha256": "b512c0670ddef18c261bf7c909b78c3316baec4a5c23af9d7ae022c202da40e1"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\077bf7e451.jpg",
+    "source_sha256": "a884a7c62c8ca4dba47c2d98d8737b81f3df310d44a6d9c3f9daacac0e999f28",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\077bf7e451.jpg",
+    "generated_sha256": "30db65018cf9702aa816e539d0b4f6c769c2dc3520e3376ad62a6cf9b68e0e42"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\078cd3ce07.jpg",
+    "source_sha256": "0a7c950d913721fbb8874616ff0775c684e0c8a6510d9a76488721282604beaa",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\078cd3ce07.jpg",
+    "generated_sha256": "db17b2d4ccc178d05d92b22ac346b03111ffeae42da802311f35e4b86acede7b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\078fd1bc42.jpg",
+    "source_sha256": "64810a8fb2c60ae3a6ad0c4a089d62c9bebf659b401b6b0278a8bc1b73b2c89d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\078fd1bc42.jpg",
+    "generated_sha256": "eae2e25c6ecae6c81799a2d321b6db5db8bb3dbb3da43bf7bdfdf45357748039"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\07939b1fde.jpg",
+    "source_sha256": "61d765f279976874a46760c10504b7130d64c7549ab4cdaba16a077fa443fd20",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\07939b1fde.jpg",
+    "generated_sha256": "043d31a13a42642e63c4aec2594b5eca996a67f15bfa165493f7a0f0cb854fc5"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\079da3af1e.jpg",
+    "source_sha256": "6c840856860da9d47358b9a46446df5e8e5b93b4344a07ab290fb9121169d400",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\079da3af1e.jpg",
+    "generated_sha256": "45464ef8fc34baf69136b8f529f87ab7b6bb7aabce2a2be76d7bb85bc046edd5"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\07b7fdff1b.jpg",
+    "source_sha256": "38dd075bd5efbfcd79f75b8b59081f038e92d1d6e27b12b8a3dbc7eff4df1fbf",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\07b7fdff1b.jpg",
+    "generated_sha256": "92f96772ba83573a124eb69e363be55d1f85a832c3c806b6292aa9b53776b606"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\07bf7d7df1.jpg",
+    "source_sha256": "de8902c338ed20f80b6cfe8162f8c466c301d4c0537abaf7830c40cdb3c45502",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\07bf7d7df1.jpg",
+    "generated_sha256": "ed98d58c12c311d9fb9535ce32fce36fb1443daff858bf9ee4fcb2f2f5add442"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\07cb260548.jpg",
+    "source_sha256": "368f6ecc3d1c613cce2acb1f02a7774810d27a8bfc5ac6f7d1fb89ba7e03f889",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\07cb260548.jpg",
+    "generated_sha256": "783d76e134522618c2697c7d56afcb8625d6b84587d5daa4ec0ee748334f50bd"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\07e9bc5956.jpg",
+    "source_sha256": "00bd1e8430e3969c9031d0fcbcec02bfbceca9a6d0d5bd8767b7a39c296331e5",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\07e9bc5956.jpg",
+    "generated_sha256": "01b38b2684458f940abe1f7992ba61065be5e50ab6deb4568753a0b52dd27d91"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\07ea3a38d2.jpg",
+    "source_sha256": "b035a7f0a461539d93d9f0b670add2ef5edd8d9ac699c9cdafe6601d244f6cca",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\07ea3a38d2.jpg",
+    "generated_sha256": "669e371e8a9c10e35b4e213bcdc84b2c17c3827adb1eed1481706b7a7b2936d6"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\07f37dfe50.jpg",
+    "source_sha256": "57c87d4864f7c88eef8ee3b235cd2a52a8237dd329e8525e999dfa5ce323ea03",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\07f37dfe50.jpg",
+    "generated_sha256": "c31ecde8e05cdcd74a94daa2b493770332a181352e8321061710f66694814e4f"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\07f730ef9a.jpg",
+    "source_sha256": "37573f1084698d438dc7885ffacf33e351b283eafe8fe21ff69344adc066baa1",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\07f730ef9a.jpg",
+    "generated_sha256": "8cfd12fea2eff6f4483ec0abb05b8725c404a28e9ea59ed8831626b9e492b3b3"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08009f0be5.jpg",
+    "source_sha256": "c2a7032696fd24c0ba839fff291423f968d9ee042abea512bea6e02c1f3dff6d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08009f0be5.jpg",
+    "generated_sha256": "d40dd8e76ffbea70991e9334d09cabed4548641e73cfa8de775460aa46e15f88"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0811c84b0c.jpg",
+    "source_sha256": "ac6eb08239acefe0b0e99da2461f5e8f4f870962ba0c2209393f32d0ded66e22",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0811c84b0c.jpg",
+    "generated_sha256": "c6a18662c0debd5f0c48fde9ba966de54dd8b566945b3d867b8752148279524b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\081955febb.jpg",
+    "source_sha256": "b01f16c7dd723985e947546749f5b8b69d25aa60473744024ba321a60cf0f88d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\081955febb.jpg",
+    "generated_sha256": "67f960d97945fa0f8b104534ec3d2d1367b839771f564ca13a46a6b6b306f6ca"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08247a7020.jpg",
+    "source_sha256": "9074fc7f14b1f954eec9d50ceb0fa7a079c66c7ceeff2f1e7cdff395a0859b06",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08247a7020.jpg",
+    "generated_sha256": "f6b23397630e8eae161bf783cac06aac9a86a8e70323520478855dd4cdc8967c"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\082786cc1f.jpg",
+    "source_sha256": "27c78642fa50b2361ef62b44d924b6b997a09dc085a0d26ba0b81e78be0622ba",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\082786cc1f.jpg",
+    "generated_sha256": "80066dfd88a7123dc1ef4f3638166666b758fb39d7b0662e1a38795a4813d6e3"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08341635fa.jpg",
+    "source_sha256": "d572bbe081d4bcd3c81ead07542dfece567085ca47c1257a0d810035fa0318c8",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08341635fa.jpg",
+    "generated_sha256": "b546ea7330a755ecc1e22198c31c088f9ea6748eaa05822cad550f0f4320808a"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0844c2cddf.jpg",
+    "source_sha256": "f0392b7b85232c607ca078ef93c8f7cbf77403481fc09afce2075b23209ab8ee",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0844c2cddf.jpg",
+    "generated_sha256": "8f797b62b203d5b456781198b98c008162e06f31a1b10c8a6207ad3bd63baa37"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0845e8dc24.jpg",
+    "source_sha256": "5104a575842fd87d6bb86bca30e4662417845ad51f3755796dca8a3dfeb7e31d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0845e8dc24.jpg",
+    "generated_sha256": "dee3c9f2ea0df43314fea95cad4d9ca94c51ad9c03a1f266c04d4dcba97c9cb2"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\085c73097f.jpg",
+    "source_sha256": "7b56330fc3dd8de5f4e38ef6fd792da9a0fc44f53533488208ccd7916fe08ef7",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\085c73097f.jpg",
+    "generated_sha256": "07843531f0a7f2a863d8e9855cba12ba015cce385c8245ccfc653b1fffff3a68"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0860f1e141.jpg",
+    "source_sha256": "ffb6648a831e05f0b423698a6944785898d63fa511e7b7accdd31bbbed86ab3d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0860f1e141.jpg",
+    "generated_sha256": "2866fed765a0dca797d12a1060db8afdb4ef73d258f2ef80a9d52c8b78344b95"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08645ef69b.jpg",
+    "source_sha256": "5137f3639962cb71d3defb1e541d5c700ad08d134b09441186d330ea7d233081",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08645ef69b.jpg",
+    "generated_sha256": "6a3f1bbffc9a6e4826ca3816017e170bb2925dfc63c60bfc11586a11e04b66b7"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\087e779e73.jpg",
+    "source_sha256": "f92e84c26cd21c83a1fbd4cda76ecfab8b2f1c00268912443c4ac3544dc08ecb",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\087e779e73.jpg",
+    "generated_sha256": "d1772f70c76d3928f403c5ea3dcd36d5f36f5c324d776cdd27706bc492647772"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08874a6ee1.jpg",
+    "source_sha256": "ba4874b7329f2d0a7b8f9790eddf7f7350c8f107dc4e614d05ef6eed6b0a998e",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08874a6ee1.jpg",
+    "generated_sha256": "04f1b3bb6fefeb46073b30c191289522e687ec2359b3c07846a02ea7ee3d27f3"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\088972cf3f.jpg",
+    "source_sha256": "cc17b9742346a68ed3da939fb2e14e5c4c4eddc815b7d79fb236d5f8f96b3acc",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\088972cf3f.jpg",
+    "generated_sha256": "026658c8300824e66d346a4144a5d1c3559d717b0657c89a1a0d03934367b8fb"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\089406822c.jpg",
+    "source_sha256": "81946c20c7b65db09d0bc4c21e5fe1ef38fdf057bbb8ddfe5328b0830c828640",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\089406822c.jpg",
+    "generated_sha256": "95107d85bd311818e4d95a3b3bf8319434287282e955ac2eda236b90ccc5f3c7"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08a203b59d.jpg",
+    "source_sha256": "265e8b94c4511ad4dccafb6ad675b5764157e322ccf866138f75fd48274818fb",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08a203b59d.jpg",
+    "generated_sha256": "302e7b73661bb5ad3aab25feb044302d1f42793646f9190387895a718b391ac1"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08acc490a3.jpg",
+    "source_sha256": "669f62848e58dddfdf5fb8d10c724204f9b823601ca6e797ab31691dbe1864fd",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08acc490a3.jpg",
+    "generated_sha256": "6bb032cb03a0cddc5d56872bff90df035d55fce1744b2925a4928c675ad85b7a"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08b790bca7.jpg",
+    "source_sha256": "e431067af2da06e5e838816e35de8e5b612845ca2ce12c38cc981b37c8fb7d6f",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08b790bca7.jpg",
+    "generated_sha256": "b4c30d07a07e920c22db05d25cd3ea30296940fe535685953c4ea6d4a5065ba7"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08c1754f70.jpg",
+    "source_sha256": "7cd15b4296d1b04e9248f6b1e9bbcb7847c9174758f460a6e96b11f2afbe7691",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08c1754f70.jpg",
+    "generated_sha256": "405e0f0a1648350a433f063095497d155f42b54e06a64f34853274f2fb17c7a0"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08cbd0d6c4.jpg",
+    "source_sha256": "7d44a2bd6ad99d28cef8ac8941dc349023762966cbcce9bf2505895f06a0c537",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08cbd0d6c4.jpg",
+    "generated_sha256": "d2966b56d83e6238196df005ef28b855067374a4800a65138604b31e37060173"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08cbd51033.jpg",
+    "source_sha256": "f61706bd36f2f7445b2e6b1ceb4f7042641b550865998983cd4268d93539efdc",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08cbd51033.jpg",
+    "generated_sha256": "6a4968a4354ba7c63b41ec87a19a3d513a972b7bf1b893552c5262f3c5ded974"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08d7603c9c.jpg",
+    "source_sha256": "9e5bc90344c1d03175c9238081ab8de59b8cacb39ee3343acccf96872560b8d4",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08d7603c9c.jpg",
+    "generated_sha256": "425be3280c9008f2cfa10fad02e617572a629def0bfcc4b6e0d7676b5e5f2bf3"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08da1e5774.jpg",
+    "source_sha256": "fbe9787c578eb5353b0daf24e7cbed988b9c38cf36e11b459fe694a0f3909fc8",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08da1e5774.jpg",
+    "generated_sha256": "7b5d6c0fa535bb8ce6602faa29fb54b7927d26b1ed2ce83233e9c6d2387e2deb"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08e3354189.jpg",
+    "source_sha256": "11d64fbeb4a319cf14f8a14063ddd22f09537573c71b929b910a550db9f653d7",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08e3354189.jpg",
+    "generated_sha256": "aa9c0ce1a4bc23125ca377b4863a836940004ea81c09c18d1055ac73d3ba5f36"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08fa88c02c.jpg",
+    "source_sha256": "3e188cf8045e5cfda110a87bc641778c2e8aa0cf379452ac1064f1249094144d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08fa88c02c.jpg",
+    "generated_sha256": "ffe41a5e7a16a6b71853061951ba7e24ce7ebf58d99c45f6e6e907a95b9237e8"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08fa8a6f26.jpg",
+    "source_sha256": "15b3581b87883e299229c9abfb234f902c27579c3247d486955052e0d77f99a6",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08fa8a6f26.jpg",
+    "generated_sha256": "27b0fa8b392fd592dd054e94496e8a0d814a62c54f6d002a93b282492c13355b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08fd7ac09b.jpg",
+    "source_sha256": "c28b8d2791f2095f0fcfe360775dce51b985f673db98db7618103216352c2657",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\08fd7ac09b.jpg",
+    "generated_sha256": "667af656776bd28b685ac288e8f924ee1e7974da6dcead64d5f4a4bc2d480020"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\090d5b3cca.jpg",
+    "source_sha256": "d838ea14f58883a86dae005efc061c4f790a575c3a66d1d6becd4beb246b73e8",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\090d5b3cca.jpg",
+    "generated_sha256": "7e09c938592cd191f9688f09a33dd1cd55295def7fb79b7e88b095d1942cd449"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\091b6b9b07.jpg",
+    "source_sha256": "ee3cb2c50ec3fab0ef5eb720914ee9a0d68f424e9a56777e30930c519d79fff0",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\091b6b9b07.jpg",
+    "generated_sha256": "bd7e8080c284c5d4ea4c21279ef848a6f0b222fad49ef5a4b979950ff1e1e391"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0922bbb3c1.jpg",
+    "source_sha256": "f2c843c88c9f9973158bd48382cc53d7fa9f5c8c76c899e68bcf602aac762af9",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0922bbb3c1.jpg",
+    "generated_sha256": "cc90159ba26f5e280dd372535df0cdebb01777735e8a78d0f3ae58558d1b4be1"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0932ad9605.jpg",
+    "source_sha256": "19df6f1cd520ae6cbe1afe9a1f45cf73d0d2d59c4e041e46b950504847b961ce",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0932ad9605.jpg",
+    "generated_sha256": "c4d04fb13e53b3c60c996a391a33089c7d725295d97c9adbc584aff7041ca2d4"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0938dc0298.jpg",
+    "source_sha256": "5a0e4df5824ac1101dd55fd93646b4f6671380c747946b4864b6278f0067df51",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0938dc0298.jpg",
+    "generated_sha256": "1b245676336d121b278476d643e5014a2ef61e4cf16b6c6b85cb6b047f79e8ed"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0939723138.jpg",
+    "source_sha256": "55db3e59beea9ca837cc8aac8d61d49b7360a7273413200157a37a829e68d026",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0939723138.jpg",
+    "generated_sha256": "0c81dbd9a2a009e9e3cf27685f0f4ab1ace7c7f3e44ea85315f99e50bca87924"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\093be92a48.jpg",
+    "source_sha256": "1ad5e2b624f173de38605c9955c9934cb82e4afb5d3b95b6c63aca9f32f52e05",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\093be92a48.jpg",
+    "generated_sha256": "d5c610dbdd5fc73359329b977ebf76270a90997d1bdc2793a85cf0827f883f4b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\093e24f728.jpg",
+    "source_sha256": "cf662f441878da4d7fedd85d2f2ffafdb6cf7e4cd37a615490980b038a5a4345",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\093e24f728.jpg",
+    "generated_sha256": "2d449d25046b8aaa3d94273278520bef478efc7dd007889ede9124274ef41252"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0945008455.jpg",
+    "source_sha256": "80b805e721a8f62cf686bcee4f6c85e2a45e8903fe5c5c9684ef7bb0c2f58602",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0945008455.jpg",
+    "generated_sha256": "27107589a5d487c6f9ad058606238f6a7eee44ebef44d3b0780ae2121a9cc454"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09591edd0a.jpg",
+    "source_sha256": "db1931b193b48ceac05d2e09d44c60464c3f6832ce30fc7103bdcc45559128fd",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09591edd0a.jpg",
+    "generated_sha256": "87a431be69c984e0f57e4d728ce98adb5bf2e386903119a62ac83fd6740c525a"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\095bc5a33d.jpg",
+    "source_sha256": "bda6f3112bbefdc9bec80aa8bcd6016056aba8c6bd4e39a6f6f4a1a8f7431c40",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\095bc5a33d.jpg",
+    "generated_sha256": "a0a5176d2fbe695cef892fc7a7cf1ff666632e22599326d9a6cb98b851f56359"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\096165f6f0.jpg",
+    "source_sha256": "38222839973ff79c18301780ee736b822c738c24b2c187a9b52ac52e700fccbe",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\096165f6f0.jpg",
+    "generated_sha256": "4dfe051d6e11fa257d5727f121343639e4f3d275c82f82a010d65f07372e81c3"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0962094f25.jpg",
+    "source_sha256": "b101ee5f605c0f262c6168bf66b144cfd11326a70808767d9a125a6cfbdff2f2",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0962094f25.jpg",
+    "generated_sha256": "f5e4dd478b4d6edde1d29236921500b0411458adfe6fbeddad18bccfb4f01dd7"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0963accefe.jpg",
+    "source_sha256": "2a0ecccb0c03cc46d46d8a47e9010d36f7162b5ae30236d5d37176d35ce3679a",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0963accefe.jpg",
+    "generated_sha256": "6605e143375ec6509a3f05c9f379315886f8abc6f6d9404b28612609557f0f98"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\096495c50c.jpg",
+    "source_sha256": "cee7908ccdff6f69ab930959057198258a0a3bc2d6f4c46d300cf0bfe3d28717",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\096495c50c.jpg",
+    "generated_sha256": "084f4c3766b96b6b034bcab6cd86adea3a7fb1326bec68ae61bde85050849f77"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\096bae8cd9.jpg",
+    "source_sha256": "4c92c073438c122ad53db7ea989f98df7e0232167d1c698216e802236d06df80",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\096bae8cd9.jpg",
+    "generated_sha256": "c1d76dce136178b90b593baf1b87b2a850bed6f484e00cd59357d94f62cc8f72"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\096da37ff7.jpg",
+    "source_sha256": "8f1810eb5482a190e2e87014eac5b80cb6b5d05cf001cd25131578d8140075a3",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\096da37ff7.jpg",
+    "generated_sha256": "3723cb615ca2c4ceb0b1e21e04b763988114956b296bbfafe9efc44185afcab2"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\096f009762.jpg",
+    "source_sha256": "14c4c120aa9184751ff1a4390cbf7f2f34768b0efb48e1f19b7fe5bba4731099",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\096f009762.jpg",
+    "generated_sha256": "a33aa8cde6fe1e1f8356be0ccc0120e23d25993ad36220f6e03ccaedcc7da12e"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09748274a3.jpg",
+    "source_sha256": "11608dd8214d056b280e769d30e7048dba04a8f2224fa581f0879d84e8080b26",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09748274a3.jpg",
+    "generated_sha256": "d6cad4e8bd4706cdea1a508f02616de7ee807112e2ecbdf6283315991f8b853c"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09756af6f7.jpg",
+    "source_sha256": "621f7c2af36c0c74cb47211b7b340d78ab03374bd519da5150f8dbcd9d3b6539",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09756af6f7.jpg",
+    "generated_sha256": "4c2037e4e0efc74dd40d862aae1ac29407670c320589ef7485aca03b8d90a1c2"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\097b3ce81a.jpg",
+    "source_sha256": "dff6139a7535b3085967dcffb638927c023b0ef70ea4942352ac229ecd63b76b",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\097b3ce81a.jpg",
+    "generated_sha256": "6a05515d553e2bf979eed31de173b692e053e1b7cd8ce2c7d083453d3e5f65db"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\097d38ef3b.jpg",
+    "source_sha256": "f3252eeb44576e4a5800d633b84b6d10ded9b0cb0177f07f3ec45e737020eb5b",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\097d38ef3b.jpg",
+    "generated_sha256": "d18b570613c0349fd3dad5a80a145d215ef2d85fd09e09cbd68bed360e8899c7"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09816286d3.jpg",
+    "source_sha256": "640e5ded3f0c1d68cfe497b8852cc4a6261dc9949a265219e76b1a455215ca3a",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09816286d3.jpg",
+    "generated_sha256": "ec10957f3ffd07c56b58421ee8b08a821fff2fb06da38f7c476693ef98b38abd"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0984136f36.jpg",
+    "source_sha256": "476b3f0160c1bec57b93359dd613acb52919a86a6f2105ae2edf9b764471726c",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0984136f36.jpg",
+    "generated_sha256": "34a723fbec7eea776401387c162cf921557ccabf6821c54904e00243d8cfffc3"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\098b35d919.jpg",
+    "source_sha256": "daeaad849330dd0099906a4c3adbeff68c989cb7db59550440680794d8790aeb",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\098b35d919.jpg",
+    "generated_sha256": "ecb2368ff05ed2586bc2b7b4352c8cc05c97a57d29d3d6dd8d4c8afe4b9d2f50"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\098c0ce670.jpg",
+    "source_sha256": "176d13584ecb4332ebcb087cb26dff3811be207fb80d701e69f0005f88acb814",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\098c0ce670.jpg",
+    "generated_sha256": "171709917e575da06fa7cd37cb2f87f17a8b9d57c86700b117eda34a784de682"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\098fde2b22.jpg",
+    "source_sha256": "cf5d51ffe72c8e7624192fec11ef165a521e3305232d4e625eba34fcf94f844c",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\098fde2b22.jpg",
+    "generated_sha256": "1832cddbbc19dab092089105959a586d4e0765f20912d2758718b867c2b37037"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\099159901a.jpg",
+    "source_sha256": "db7a2929f3b57ce9e2791ee828049981e624ecebd4cfd4e44ed95ecf41f583a7",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\099159901a.jpg",
+    "generated_sha256": "fef82039585335781d012467d62950488e4b3d1cf4539f74c895abcdb592ec3b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\099395535c.jpg",
+    "source_sha256": "9e3b4e8f2aa90429174960cbba7fcc3b30ec1967feabfa9428fdbaf29839b611",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\099395535c.jpg",
+    "generated_sha256": "987e672423f7d1de820978dc2dfca199322aa9b716295d290ef9f4980076a325"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09986b5a14.jpg",
+    "source_sha256": "7cddcce4a5e2c0adcc5ffc8962109653a43158f7f42965c7aaf57b57af571542",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09986b5a14.jpg",
+    "generated_sha256": "8d52b554f066d7005a175bee2f68c42c5e41e64dc9aa480e00e2479bba9db979"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09a43d2264.jpg",
+    "source_sha256": "8e4845821c90b5352839e49c2d96282bdb79a6e6d03a7efb09e618cd6708d84c",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09a43d2264.jpg",
+    "generated_sha256": "4f189ea2b8d72b47b6afcabc7c8fb68f77b61ef805267ac83c464feae5fb600c"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09bebf108f.jpg",
+    "source_sha256": "01242a711927449b091e01bfad07861a8552c8e4472ea59bf1c4931f1310cefe",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09bebf108f.jpg",
+    "generated_sha256": "15d2ee7e24d3933571aaca5ce2d89dffc9ca4a5a0fd39fbc54ac3a866ff0f1c5"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09c874df81.jpg",
+    "source_sha256": "915408d4607182b48f06def29c1672099fbbea1c5398de45239703d74057e6f0",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09c874df81.jpg",
+    "generated_sha256": "441e203004a707820f542c6555271a9c5b532738e208bd89d51750c592548dc2"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09d34f7412.jpg",
+    "source_sha256": "2dd7b6372da81deeec81fffdb4d1a17802173b1f83c165245b75c8aea083fbbd",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09d34f7412.jpg",
+    "generated_sha256": "3bcf07a0c97ea456ee2f505ced18f25584b3a7603aea8497200e22c678784d9f"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09ddb5e4c9.jpg",
+    "source_sha256": "3403616c72900923f573fee3fe5862d464809a2fbb2b093eb1c6f3b4ad66a037",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09ddb5e4c9.jpg",
+    "generated_sha256": "d2c908ff53830ebb96e68f882390e35cceae0ee9ca4af551cacb2b651c92438d"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09e084658a.jpg",
+    "source_sha256": "3324c465d58bcffccb51cd48f809d6cb67730e1ec18f44209b92df57d9c0a55d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09e084658a.jpg",
+    "generated_sha256": "fa5e8da25484abe93f4ec3ac1a421782ab7d9f340cdf80ea9198293982b1059d"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09e1b696b4.jpg",
+    "source_sha256": "2174f6aadde5c8a4b88278e8c32809e5cc83eb9b3914b0356584d221ee027923",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09e1b696b4.jpg",
+    "generated_sha256": "56b9c70613ec9be066dd3bf7b7cfb0c242e62ac59dbbae3f5d7ff8ef5afaa992"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09e2982b82.jpg",
+    "source_sha256": "d66033fda0948a89ccb44e34bf44cf3d8489ef787c1160bded65aa00a663dc36",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09e2982b82.jpg",
+    "generated_sha256": "d2000253826bcf3683cf8aa4b6a0e479d14ba98b1661ed260dc9cd5a8ad91a50"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09e8393bd1.jpg",
+    "source_sha256": "7c9f3af7709f36daa8a2bebdc57243dfdef22acc610036653efaff586d53179e",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09e8393bd1.jpg",
+    "generated_sha256": "7195b07c1c77bef01ae35c98e0c54c5f729cce08a013c4d32c3e227359c59cee"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09ec565e3a.jpg",
+    "source_sha256": "f0bcd48328b0bf4bc1d9cc4dc25008ddd90e568e6a4fef5d836a7963f9a16411",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09ec565e3a.jpg",
+    "generated_sha256": "e6cf8b7e0517bd981515acb25d251058a94ef7a3344b3a3b3e9cc4a1a5c4a2e7"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09f57ab8c5.jpg",
+    "source_sha256": "5d4d815acff7dd08635b4ea76c3935ddecc289d27f34315d7115f354b4421b20",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09f57ab8c5.jpg",
+    "generated_sha256": "0e1f20c3085a1e2a648480a4429069254936d8848799882c3d286fdb8b8a9ed8"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09fc404e31.jpg",
+    "source_sha256": "d684756dd7fb9628573f3ecdbfd176ec6f61fe3b4e2c7e5b754901f0aced5cb1",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09fc404e31.jpg",
+    "generated_sha256": "11ea26ea36c02426da4cd6e57cb6332f16faeecd4571888689731fafb7507a98"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\09fcd10b7e.jpg",
+    "source_sha256": "c0fc151b5bca05228698ef5b48d920cf093f501bc76c5eb4c6b997cfefa3953c",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\09fcd10b7e.jpg",
+    "generated_sha256": "fd497a4c8c78dfdfef7d14e1d72b99055de669253acd45546edef20bdd8068f5"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0a0c3a6d07.jpg",
+    "source_sha256": "ce4667646d8a81699da32c583cbfa8d21e1a5b88f1a9ec2c94c98b8cd9e5fe39",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0a0c3a6d07.jpg",
+    "generated_sha256": "26cfe51e21738804c55b86e2fb908ccf8a87129d81fce523713ac62b6b1dc353"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0a0d3e6ea7.jpg",
+    "source_sha256": "7a3437da17cf0cff969e937da369dabd5e47f3d3caa752dc9ff3540e8665377b",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0a0d3e6ea7.jpg",
+    "generated_sha256": "46b6323649b5537e42e4ba36a20a27e863dac82b85bb929955276eff84ae8627"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0a1d1b9f8e.jpg",
+    "source_sha256": "698d4f7a42db5625382dd4cf041db9c3d84d18135b98ab07ec4fb4eb1e411862",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0a1d1b9f8e.jpg",
+    "generated_sha256": "50b4d34a1b8fb70596465ddabf1f09b2272c2eb2dbd5fdb83308b0bf8573a1c0"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0a271892d0.jpg",
+    "source_sha256": "3514ac19684e595c373856d8ac19334d9e413c1d082dbd0b69bf1bfd0445e8e1",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0a271892d0.jpg",
+    "generated_sha256": "eac0379bb586b1f0cf4c7b0523f389e3974e310322583f2577426b0bf08f320a"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0a284dbed0.jpg",
+    "source_sha256": "8ae563764961ed6626bc022cefb5c5be6a4183dcf3f08ab8dda2fbc87467440d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0a284dbed0.jpg",
+    "generated_sha256": "3cae24a394d13628b2257d1104facdce165978885f5ea053c528961dda33ea50"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0a2e5f728d.jpg",
+    "source_sha256": "49c81f1d9a058f8345b8bfc5f26dbe3fed19db5b16a8225cf86115da11d10d79",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0a2e5f728d.jpg",
+    "generated_sha256": "b8d8fc0b4feaacfd5631c5a74853aaed1ed224b740ba34c6d11271fa30621bd6"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0a325fc655.jpg",
+    "source_sha256": "19494a0a8b7ec7dc832d4c8523aa9983caf721e39d93127437064268e464b73e",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0a325fc655.jpg",
+    "generated_sha256": "c4bb5c99c03758eb489192c9a8537f395cd5115cb3d035d47d87cc3cfcedbbba"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0a44c8287d.jpg",
+    "source_sha256": "8f9ba85e070d8ba4aff2e4ccb6ecb8515d5d6ebc1823c2b9587a50e8eefd93b8",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0a44c8287d.jpg",
+    "generated_sha256": "8827c222c02c8705a79dacae4407a3c7a611b726b97694b301cde5b43fd28c8e"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0a49020ae5.jpg",
+    "source_sha256": "da0cfec6a05560efde14d25dce2e093e1080ced2b76465433aa60df40e849acc",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0a49020ae5.jpg",
+    "generated_sha256": "d462262e0ea9670da8f12316e42f17e76391e252ed6d2ccf60271a253ec64f99"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0a497f768d.jpg",
+    "source_sha256": "0673563d87785ff66436c08b43c2cf2cfef9bdcf29326101f8cab725b6b48e28",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0a497f768d.jpg",
+    "generated_sha256": "a06c8334f9bd132d306db4416250f54c5f6fd0e7c331f231d0f7f21b8bdcc256"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0a6091114d.jpg",
+    "source_sha256": "093f3bef7a1c5f5dddff094a91e9493c179c084da3750dac330df03663464a5d",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0a6091114d.jpg",
+    "generated_sha256": "16da9ef1231aa6db1117c3c6023306fa1819b483e6922a8a0b9a57544fb50b25"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0a6279ef66.jpg",
+    "source_sha256": "575cbc9b3c43940d20b1d06d145cda29ccd6951556f71ff7c074e7e8e685f3b2",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0a6279ef66.jpg",
+    "generated_sha256": "29e4cd01bde525fd4936415aeebad5b1b13c3faa382e16f191bb43f9749ac16d"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0a6e92d928.jpg",
+    "source_sha256": "c606ab5e12934c5bfd5097ca2437dfa54eb9a1a644593f987922ce057192c205",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\course_kaggle\\pred_B2A\\0a6e92d928.jpg",
+    "generated_sha256": "fb3a62261167c04da1f8c37968fa44aeed02ec6542e276dd3db35df55aafff34"
+  }
+]

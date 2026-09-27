@@ -1,0 +1,71 @@
+{
+  "preprocessing": {
+    "dataset": "Yelp Polarity",
+    "seed": 640,
+    "train_file": "train-00000-of-00001.parquet",
+    "test_file": "test-00000-of-00001.parquet",
+    "archive": "yelp_polarity.zip",
+    "expected_train_rows": 560000,
+    "expected_test_rows": 38000,
+    "validation_fraction": 0.1,
+    "max_vocab_size": 50000,
+    "min_frequency": 2,
+    "max_length": 192,
+    "preserved_words": [
+      "no",
+      "not",
+      "nor",
+      "never",
+      "but",
+      "against",
+      "very",
+      "too"
+    ]
+  },
+  "models": {
+    "embedding_dim": 128,
+    "baseline": {
+      "dropout": 0.3
+    },
+    "textcnn": {
+      "num_filters": 128,
+      "kernel_sizes": [
+        3,
+        4,
+        5
+      ],
+      "dropout": 0.5
+    },
+    "bilstm": {
+      "hidden_dim": 128,
+      "num_layers": 1,
+      "dropout": 0.4
+    }
+  },
+  "training": {
+    "seed": 640,
+    "device": "auto",
+    "batch_size": 256,
+    "num_workers": 0,
+    "learning_rate": 0.001,
+    "epochs": 5,
+    "patience": 2,
+    "bilstm_gradient_clip": 1.0,
+    "smoke_train_rows": 256,
+    "smoke_test_rows": 64,
+    "smoke_batch_size": 16,
+    "smoke_max_batches": 3
+  },
+  "evaluation": {
+    "threshold": 0.5,
+    "ece_bins": 10,
+    "bootstrap_resamples": 1000,
+    "bootstrap_seed": 640,
+    "smoke_bootstrap_resamples": 50,
+    "errors_per_category": 5,
+    "length_slice_quantiles": [
+      0.25,
+      0.75
+    ]
+  }
+}

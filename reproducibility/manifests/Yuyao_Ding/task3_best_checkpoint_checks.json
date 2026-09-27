@@ -1,0 +1,140 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-27T07:57:31.337965+00:00",
+  "scope": "Save best.pt immediately on validation improvement; last.pt every five epochs includes its best snapshot. STOP_AFTER_EPOCH=None. No formal training launched.",
+  "changed_notebook_cells": [
+    2,
+    11,
+    12
+  ],
+  "source_sha256": {
+    "task3_gan.ipynb": "1d3695dab8525500dcbe844399a59291b8474ef445a61bf6d2a3b9d600537701",
+    "training.json": "62fdd700fdd1ccae47372d64c2b23decee7c1a24277c96f26a4ddcc126191430",
+    "cyclegan.py": "e86c65639bfb32d8e65a7650932c861ddace5ed8602456d99e58ffacae805d70"
+  },
+  "unchanged": [
+    "training budget: 100 epochs x 1000 updates",
+    "official unpaired sampling",
+    "models",
+    "losses",
+    "FP32",
+    "split",
+    "validation",
+    "final evaluator",
+    "other production Python sources"
+  ],
+  "launch_parameters": {
+    "RUN_FORMAL_TRAINING": true,
+    "STOP_AFTER_EPOCH": null,
+    "RESUME_CHECKPOINT": null,
+    "RUN_EVALUATION": true
+  },
+  "cuda_smoke_evaluation_and_resume": {
+    "evidence": "task3_gan/Yuyao_Ding/outputs/smoke_checks/task3_smoke_20260927T075517Z_c9f7260d_checks.json",
+    "maximum_weight_differences": {
+      "G_A2B": 0.0,
+      "G_B2A": 0.0,
+      "D_A": 0.0,
+      "D_B": 0.0
+    }
+  },
+  "cpu_checkpoint_tests": {
+    "controlled_validation": true,
+    "uninterrupted_save_events": [
+      {
+        "at_epoch": 1,
+        "file": "best.pt",
+        "state_epoch": 1
+      },
+      {
+        "at_epoch": 2,
+        "file": "best.pt",
+        "state_epoch": 2
+      },
+      {
+        "at_epoch": 3,
+        "file": "best.pt",
+        "state_epoch": 3
+      },
+      {
+        "at_epoch": 5,
+        "file": "last.pt",
+        "state_epoch": 5,
+        "embedded_best_epoch": 3
+      },
+      {
+        "at_epoch": 7,
+        "file": "best.pt",
+        "state_epoch": 7
+      },
+      {
+        "at_epoch": 10,
+        "file": "last.pt",
+        "state_epoch": 10,
+        "embedded_best_epoch": 7
+      },
+      {
+        "at_epoch": 10,
+        "file": "best.pt",
+        "state_epoch": 7
+      }
+    ],
+    "best_snapshot_maximum_weight_differences": {
+      "G_A2B": 0.0,
+      "G_B2A": 0.0,
+      "D_A": 0.0,
+      "D_B": 0.0
+    },
+    "resume_maximum_weight_differences": {
+      "G_A2B": 0.0,
+      "G_B2A": 0.0,
+      "D_A": 0.0,
+      "D_B": 0.0
+    },
+    "unexpected_interrupt_epoch": 8,
+    "last_epoch_at_interrupt": 5,
+    "best_epoch_at_interrupt": 7,
+    "embedded_best_epoch_at_interrupt": 3,
+    "resume_with_only_last_and_sidecar": true,
+    "parent_best_preserved": true,
+    "planned_stop_save_events": [
+      {
+        "at_epoch": 1,
+        "file": "best.pt",
+        "state_epoch": 1
+      },
+      {
+        "at_epoch": 2,
+        "file": "best.pt",
+        "state_epoch": 2
+      },
+      {
+        "at_epoch": 3,
+        "file": "best.pt",
+        "state_epoch": 3
+      },
+      {
+        "at_epoch": 4,
+        "file": "last.pt",
+        "state_epoch": 4,
+        "embedded_best_epoch": 3
+      },
+      {
+        "at_epoch": 4,
+        "file": "best.pt",
+        "state_epoch": 3
+      }
+    ]
+  },
+  "checkpoint_files_per_run": [
+    "best.pt",
+    "best.json",
+    "last.pt",
+    "last.json"
+  ],
+  "protected_existing_files_verified": 4598,
+  "limits": [
+    "Small execution checks do not establish model quality.",
+    "Physical Mac, Linux and Colab not tested."
+  ]
+}

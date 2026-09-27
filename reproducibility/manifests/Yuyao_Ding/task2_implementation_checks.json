@@ -1,0 +1,58 @@
+{
+  "checked_at_utc": "2026-09-27T01:38:19.329235+00:00",
+  "implementation": "single self-contained notebook; no external project Python modules",
+  "notebook_sha256": "77ef87ae53aec98df18318102dd2d683a2d85609d2229f849b3b18fad712624d",
+  "code_cells": 45,
+  "code_lines_before": 2512,
+  "code_lines_after": 1475,
+  "jupyter_checks": {
+    "cpu": {
+      "result": {
+        "status": "passed",
+        "device": "cpu",
+        "data": "synthetic fixtures",
+        "code_cells": 45,
+        "no_external_python_modules": true,
+        "outputs": "task2_sentiment\\Yuyao_Ding\\outputs\\task2_smoke_20260927T013548Z_a5f4e125"
+      },
+      "evidence": "local_handoff/single_task2_cpu_mqbfx5ye/check_result.json"
+    },
+    "cuda": {
+      "result": {
+        "status": "passed",
+        "device": "cuda",
+        "data": "synthetic fixtures",
+        "code_cells": 45,
+        "no_external_python_modules": true,
+        "outputs": "task2_sentiment\\Yuyao_Ding\\outputs\\task2_smoke_20260927T013548Z_a3e28f91"
+      },
+      "evidence": "local_handoff/single_task2_cuda_7m_c5hwe/check_result.json"
+    }
+  },
+  "regression_checks": {
+    "status": "passed",
+    "count": 8,
+    "source": "actual definitions extracted from the current notebook",
+    "coverage": [
+      "metrics vs sklearn",
+      "ECE and PR-AUC",
+      "padding and batch-size-one",
+      "data isolation",
+      "paired IDs and shortages",
+      "ZIP extraction",
+      "CPU exact resume and interrupted save",
+      "CUDA resume and interrupted save within 1e-6"
+    ]
+  },
+  "formal_yelp_training_completed": false,
+  "raw_yelp_data_present": false,
+  "platforms_not_physically_tested": [
+    "Mac/MPS",
+    "Linux",
+    "Colab"
+  ],
+  "unchanged_original_files": 153,
+  "scope": "Task 1 and teammate files unchanged",
+  "development_archive": "../local_handoff/task2_single_notebook_dev",
+  "before_change_backup": "../local_handoff/task2_before_single_notebook.zip"
+}

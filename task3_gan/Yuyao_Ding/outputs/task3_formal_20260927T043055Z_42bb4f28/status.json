@@ -1,0 +1,14 @@
+{
+  "run_id": "task3_formal_20260927T043055Z_42bb4f28",
+  "mode": "formal",
+  "status": "complete",
+  "nan_or_inf_events": 0,
+  "parent_checkpoint": null,
+  "parent_checkpoint_sha256": null,
+  "completed_epoch": 40,
+  "best_epoch": 39,
+  "best_validation_KID": 0.01882364226454054,
+  "best_checkpoint": "task3_gan\\Yuyao_Ding\\checkpoints\\task3_formal_20260927T043055Z_42bb4f28\\best.pt",
+  "best_checkpoint_sha256": "b5246cd4b770602e33deb62b8b2e3a5d12f2710539cbe11be3088482c2ff960c",
+  "last_checkpoint": "task3_gan\\Yuyao_Ding\\checkpoints\\task3_formal_20260927T043055Z_42bb4f28\\last.pt"
+}

@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "scope": "Official-setting alignment checks; no new formal training or quality claim.",
+  "config": {
+    "seed": 41,
+    "device": "auto",
+    "image_size": 256,
+    "resize_size": 286,
+    "width": 64,
+    "residual_blocks": 9,
+    "upsampling": "transpose",
+    "discriminator_width": 64,
+    "batch_size": 1,
+    "epochs": 200,
+    "steps_per_epoch": null,
+    "decay_start_epoch": 100,
+    "learning_rate": 0.0002,
+    "beta1": 0.5,
+    "beta2": 0.999,
+    "lambda_cycle": 10.0,
+    "lambda_identity": 5.0,
+    "pool_size": 50,
+    "cuda_bfloat16": false,
+    "validation_fraction": 0.1,
+    "test_fraction": 0.1,
+    "validation_images_per_domain": 30,
+    "evaluation_batch_size": 16,
+    "kid_subsets": 50,
+    "kid_subset_size": 100,
+    "nearest_k": 5,
+    "audit_samples_per_direction": 15
+  },
+  "sources": {
+    "task3_gan\\Yuyao_Ding\\src\\cyclegan.py": "e86c65639bfb32d8e65a7650932c861ddace5ed8602456d99e58ffacae805d70",
+    "task3_gan\\Yuyao_Ding\\src\\task3_gan.ipynb": "1d55dc97d87c6d3ea46260d6c4b9d7dc2ef4a8ea6d785c53383197af7d139dc0",
+    "task3_gan\\Yuyao_Ding\\configs\\training.json": "e3918b72ec555e95b7f5ed6b257075c9c1ef22b566eaf636b2329e2fd38ba724",
+    "task3_gan\\Yuyao_Ding\\src\\evaluate.py": "a0b44cc49343202eb165d13dbfc0cb973ea535df9324d02d512197e501e9c42d",
+    "task3_gan\\Yuyao_Ding\\src\\demo.py": "83fc8f4ffdf04fea4ba9fd98468c0d41c0d9081cd590f6d5d223b0281c701731",
+    "task3_gan\\Yuyao_Ding\\src\\smoke_test.py": "4716587b989e03ef1286b7db994af9e6fb2f341f577665a75528e87cb8571dad",
+    "task3_gan\\Part3_Evaluation_Script.ipynb": "702a1265433bf2f15c7900c83442c626d10ac0918094d093dde8ef82069d4cef"
+  },
+  "official_reference": {
+    "url": "https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/models/networks.py",
+    "retrieved_utc": "2026-09-27",
+    "tested_class_excerpt_sha256": "caae6ded0a58ffc2f707be0fb2539ac05fd93799e8de27391cd5c95ca9f611a0"
+  },
+  "network_forward_max_difference": {
+    "generator": 0.0,
+    "discriminator": 0.0
+  },
+  "original_checkpoint_forward_max_difference": {
+    "G_A2B": 0.0,
+    "G_B2A": 0.0
+  },
+  "full_epoch_updates": 5631,
+  "sampling_matches_official": true,
+  "learning_rate_matches_official_all_200_epochs": true,
+  "transpose_weight_initialization_std": [
+    0.01994592510163784,
+    0.019940054044127464
+  ],
+  "parameter_counts": {
+    "G_A2B": 11378179,
+    "G_B2A": 11378179,
+    "D_A": 2764737,
+    "D_B": 2764737
+  },
+  "full_size_fp32_cuda_training_steps": 8,
+  "short_check_seconds_per_step_median": 0.1946307999896817,
+  "short_check_peak_cuda_allocated_mib": 2498.8603515625,
+  "timing_limit": "Eight development steps on this Windows RTX 4090. Not full-run wall time; excludes image loading and epoch-level overhead.",
+  "cuda_smoke_check": "task3_gan\\Yuyao_Ding\\outputs\\smoke_checks\\task3_smoke_20260927T071816Z_a563bcad_checks.json",
+  "resume_maximum_weight_differences": {
+    "G_A2B": 0.0,
+    "G_B2A": 0.0,
+    "D_A": 0.0,
+    "D_B": 0.0
+  },
+  "new_and_original_checkpoint_cold_cpu_demo": "passed",
+  "protected_original_files_verified_unchanged": 43,
+  "quick_baseline_backup": {
+    "path": "task3_gan\\Yuyao_Ding\\baselines\\quick_6block.zip",
+    "sha256": "287438d7acd5b14686fc31dcdc2eabaf79a546a4d6b11d3f3c60022d3f23bc09",
+    "zip_integrity": "passed"
+  },
+  "physical_platforms_tested": [
+    "Windows CUDA",
+    "Windows CPU inference"
+  ],
+  "remaining": [
+    "Train and assess the new formal model",
+    "Verify substantive differences from the teammate model",
+    "Complete the two-rater audit, actual Kaggle submission and course report/demo requirements"
+  ]
+}

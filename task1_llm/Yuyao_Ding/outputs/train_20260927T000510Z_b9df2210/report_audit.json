@@ -1,0 +1,49 @@
+{
+  "run_id": "train_20260927T000510Z_b9df2210",
+  "reported_checkpoint_sha256": "5cde3d36c7cb5b29224e19644e50be952a97c0e440c4cc3199169d6a2c8518ef",
+  "cpu_model_checked_after_run": "Intel Core i9-14900KF",
+  "cpu_model_source": "Windows registry HARDWARE/DESCRIPTION/System/CentralProcessor/0, ProcessorNameString",
+  "inputs": {
+    "task1_llm/Yuyao_Ding/outputs/train_20260927T000510Z_b9df2210/metrics.json": "d7e34e27f39a6f3beb03f5b4732e3b5957262cc5e9e3168d66407ca882dd10d7",
+    "task1_llm/Yuyao_Ding/outputs/train_20260927T000510Z_b9df2210/generations_20260927T002606Z_9466d7d0.json": "0d4025ae4d3540815e49a4c40ad8e19178ef1b7aafebaf95164cbf83110ddad5",
+    "task1_llm/Yuyao_Ding/outputs/train_20260927T000510Z_b9df2210/history.csv": "897bc9e56c218624cc5f54ae9150489d8cbb68f69fdf9ff3b0e1653b7f29505f",
+    "reproducibility/raw_logs/Yuyao_Ding/train_20260927T000510Z_b9df2210.jsonl": "e7cf2f4438b7e515df14e7ee056ae1a77373b80123a66d081884dbda7cc335e3",
+    "reproducibility/manifests/Yuyao_Ding/train_20260927T000510Z_b9df2210/manifest.json": "3e646013c6584072bb4feeb4ccd352bb8c4aa6a298a3116c6dcafff1b2060379",
+    "task1_llm/Yuyao_Ding/checkpoints/train_20260927T000510Z_b9df2210/epoch_010.pt": "5cde3d36c7cb5b29224e19644e50be952a97c0e440c4cc3199169d6a2c8518ef"
+  },
+  "derived_statistics": {
+    "optimizer_steps": 54200,
+    "total_training_target_tokens": 887928320,
+    "gradient_norm_mean_before_clip": 0.7152056757797834,
+    "gradient_norm_median_before_clip": 0.6374788582324982,
+    "gradient_norm_max_before_clip": 4.003296375274658,
+    "gradient_norm_above_clip_count": 3922,
+    "minibatch_loss_max": 4.661563396453857,
+    "max_adjacent_minibatch_loss_increase": 0.11490535736083984,
+    "max_adjacent_step": 49483,
+    "loss_spike_count": 0,
+    "nonfinite_loss_steps": 0,
+    "nonfinite_gradient_steps": 0,
+    "greedy": {
+      "distinct_1": 0.03888888888888889,
+      "distinct_2": 0.189520624303233,
+      "distinct_3": 0.30089485458612975,
+      "repeated_4gram_rate": 0.6307519640852974,
+      "generation_seconds": 3.3088554999558255,
+      "generated_tokens": 900,
+      "generation_tokens_per_second": 271.9973719045801
+    },
+    "temperature_sampling": {
+      "distinct_1": 0.04555555555555556,
+      "distinct_2": 0.2697881828316611,
+      "distinct_3": 0.5648769574944071,
+      "repeated_4gram_rate": 0.2671156004489338,
+      "generation_seconds": 3.638173100189306,
+      "generated_tokens": 900,
+      "generation_tokens_per_second": 247.37690462094014
+    }
+  },
+  "loss_spike_rule": "Within each epoch, loss > 2 * median(previous 100 losses); exclude first 100 steps.",
+  "notebook_code_and_executed_outputs_unchanged": true,
+  "historical_configs_and_data_hashes_match": true
+}

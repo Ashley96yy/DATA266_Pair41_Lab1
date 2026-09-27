@@ -1,0 +1,21 @@
+{
+  "run_id": "task2_formal_20260927T020054Z_ba87cd57_textcnn",
+  "model_name": "textcnn",
+  "mode": "formal",
+  "completed_epochs": 5,
+  "best_epoch": 3,
+  "best_validation_loss": 0.15534032612792584,
+  "parameter_count": 6597377,
+  "training_loop_seconds": 127.76940130000003,
+  "training_examples_per_second": 19720.44929665018,
+  "training_wall_seconds_this_segment": 138.05851229990367,
+  "memory": {
+    "process_lifetime_peak_rss_bytes": 6926053376,
+    "cuda_peak_allocated_bytes": 313302528
+  },
+  "training_wall_seconds_including_resume": 138.05851229990367,
+  "epochs_trained_this_segment": 5,
+  "best_checkpoint": "task2_sentiment/Yuyao_Ding/checkpoints/task2_formal_20260927T020054Z_ba87cd57/textcnn/best.pt",
+  "best_checkpoint_sha256": "70f90b9299dee6d429b32341b09bf877fad946806f3925771ad25ee6b142dec2",
+  "nonfinite_events": 0
+}

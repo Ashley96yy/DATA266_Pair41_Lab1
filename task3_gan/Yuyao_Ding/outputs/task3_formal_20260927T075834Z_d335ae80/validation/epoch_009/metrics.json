@@ -1,0 +1,7 @@
+{
+  "validation_KID_A2B": 0.0627668825377504,
+  "validation_cycle_L1_A2B": 0.09461155732472738,
+  "validation_KID_B2A": 0.05854559351764581,
+  "validation_cycle_L1_B2A": 0.08134472978611787,
+  "validation_KID_mean": 0.0606562380276981
+}

@@ -1,0 +1,82 @@
+{
+  "run_id": "task2_smoke_20260927T031851Z_188e9814_textcnn",
+  "model_name": "textcnn",
+  "mode": "smoke",
+  "status": "complete",
+  "model_config": {
+    "vocab_size": 1767,
+    "embedding_dim": 128,
+    "pad_idx": 0,
+    "num_filters": 128,
+    "kernel_sizes": [
+      3,
+      4,
+      5
+    ],
+    "dropout": 0.5
+  },
+  "training_config": {
+    "seed": 640,
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "epochs": 1,
+    "patience": 2,
+    "max_batches": 3,
+    "gradient_clip": null,
+    "decision_threshold": 0.5
+  },
+  "hardware": {
+    "device": "cuda",
+    "cpu": "Intel(R) Core(TM) i9-14900KF",
+    "cpu_count": 32,
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "torch": "2.8.0+cu128",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1",
+      "pyarrow": "23.0.1",
+      "matplotlib": "3.11.2"
+    },
+    "torch_cuda_build": "12.8",
+    "cudnn_version": 91002,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "float32_matmul_precision": "highest"
+  },
+  "data_fingerprint": "2b4b2024ad61630db256d5ce530de1fc4892f6282ce6b03f9883490ec9df755c",
+  "preprocessing_manifest": "reproducibility/manifests/Yuyao_Ding/task2_smoke_20260927T031851Z_188e9814/preprocessing.json",
+  "source_hashes": {
+    "notebook_code": "d8415c046eaddcfaae04430be6452c62738154831996bebd91043a7ba08ed663"
+  },
+  "raw_log": "reproducibility/raw_logs/Yuyao_Ding/task2_smoke_20260927T031851Z_188e9814_textcnn.jsonl",
+  "output_dir": "task2_sentiment/Yuyao_Ding/outputs/task2_smoke_20260927T031851Z_188e9814/textcnn",
+  "best_checkpoint": "task2_sentiment/Yuyao_Ding/checkpoints/task2_smoke_20260927T031851Z_188e9814/textcnn/best.pt",
+  "last_checkpoint": "task2_sentiment/Yuyao_Ding/checkpoints/task2_smoke_20260927T031851Z_188e9814/textcnn/last.pt",
+  "resume_from": null,
+  "summary": {
+    "run_id": "task2_smoke_20260927T031851Z_188e9814_textcnn",
+    "model_name": "textcnn",
+    "mode": "smoke",
+    "completed_epochs": 1,
+    "best_epoch": 1,
+    "best_validation_loss": 0.6847950036709125,
+    "parameter_count": 423553,
+    "training_loop_seconds": 0.12095040001440793,
+    "training_examples_per_second": 396.8568933569638,
+    "training_wall_seconds_this_segment": 0.14391099999193102,
+    "memory": {
+      "process_lifetime_peak_rss_bytes": 3167948800,
+      "cuda_peak_allocated_bytes": 44711936
+    },
+    "training_wall_seconds_including_resume": 0.14391099999193102,
+    "epochs_trained_this_segment": 1,
+    "best_checkpoint": "task2_sentiment/Yuyao_Ding/checkpoints/task2_smoke_20260927T031851Z_188e9814/textcnn/best.pt",
+    "best_checkpoint_sha256": "d957f1f416455047c6e177b499724ba045472e12127f45192be0dd8622c41ffc",
+    "nonfinite_events": 0
+  },
+  "evaluation": "task2_sentiment/Yuyao_Ding/outputs/task2_smoke_20260927T031851Z_188e9814/textcnn/evaluation.json"
+}

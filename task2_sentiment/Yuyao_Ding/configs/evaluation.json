@@ -1,0 +1,9 @@
+{
+  "threshold": 0.5,
+  "ece_bins": 10,
+  "bootstrap_resamples": 1000,
+  "bootstrap_seed": 640,
+  "smoke_bootstrap_resamples": 50,
+  "errors_per_category": 5,
+  "length_slice_quantiles": [0.25, 0.75]
+}

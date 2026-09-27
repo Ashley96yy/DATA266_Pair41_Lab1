@@ -1,0 +1,76 @@
+{
+  "run_id": "task2_smoke_20260927T031851Z_188e9814_baseline",
+  "model_name": "baseline",
+  "mode": "smoke",
+  "status": "complete",
+  "model_config": {
+    "vocab_size": 1767,
+    "embedding_dim": 128,
+    "pad_idx": 0,
+    "dropout": 0.3
+  },
+  "training_config": {
+    "seed": 640,
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "epochs": 1,
+    "patience": 2,
+    "max_batches": 3,
+    "gradient_clip": null,
+    "decision_threshold": 0.5
+  },
+  "hardware": {
+    "device": "cuda",
+    "cpu": "Intel(R) Core(TM) i9-14900KF",
+    "cpu_count": 32,
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "torch": "2.8.0+cu128",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1",
+      "pyarrow": "23.0.1",
+      "matplotlib": "3.11.2"
+    },
+    "torch_cuda_build": "12.8",
+    "cudnn_version": 91002,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "float32_matmul_precision": "highest"
+  },
+  "data_fingerprint": "2b4b2024ad61630db256d5ce530de1fc4892f6282ce6b03f9883490ec9df755c",
+  "preprocessing_manifest": "reproducibility/manifests/Yuyao_Ding/task2_smoke_20260927T031851Z_188e9814/preprocessing.json",
+  "source_hashes": {
+    "notebook_code": "d8415c046eaddcfaae04430be6452c62738154831996bebd91043a7ba08ed663"
+  },
+  "raw_log": "reproducibility/raw_logs/Yuyao_Ding/task2_smoke_20260927T031851Z_188e9814_baseline.jsonl",
+  "output_dir": "task2_sentiment/Yuyao_Ding/outputs/task2_smoke_20260927T031851Z_188e9814/baseline",
+  "best_checkpoint": "task2_sentiment/Yuyao_Ding/checkpoints/task2_smoke_20260927T031851Z_188e9814/baseline/best.pt",
+  "last_checkpoint": "task2_sentiment/Yuyao_Ding/checkpoints/task2_smoke_20260927T031851Z_188e9814/baseline/last.pt",
+  "resume_from": null,
+  "summary": {
+    "run_id": "task2_smoke_20260927T031851Z_188e9814_baseline",
+    "model_name": "baseline",
+    "mode": "smoke",
+    "completed_epochs": 1,
+    "best_epoch": 1,
+    "best_validation_loss": 0.7047575849753159,
+    "parameter_count": 226305,
+    "training_loop_seconds": 0.17523039993830025,
+    "training_examples_per_second": 273.92507245832405,
+    "training_wall_seconds_this_segment": 0.19454810000024736,
+    "memory": {
+      "process_lifetime_peak_rss_bytes": 3167948800,
+      "cuda_peak_allocated_bytes": 24640000
+    },
+    "training_wall_seconds_including_resume": 0.19454810000024736,
+    "epochs_trained_this_segment": 1,
+    "best_checkpoint": "task2_sentiment/Yuyao_Ding/checkpoints/task2_smoke_20260927T031851Z_188e9814/baseline/best.pt",
+    "best_checkpoint_sha256": "dd9b4bdb366d0caacd15cb1d9481adcc381b3cc5082be4625c4148a17d8b5c00",
+    "nonfinite_events": 0
+  },
+  "evaluation": "task2_sentiment/Yuyao_Ding/outputs/task2_smoke_20260927T031851Z_188e9814/baseline/evaluation.json"
+}

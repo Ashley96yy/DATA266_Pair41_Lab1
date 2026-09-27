@@ -1,0 +1,182 @@
+[
+  {
+    "source": "task3_gan\\data\\photo_jpg\\011f46de73.jpg",
+    "source_sha256": "bd33d265f88de786347e951840e558bfaa0b4d622782f7aa15f8c99515e18bba",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\011f46de73.jpg",
+    "generated_sha256": "28f0e653ee0d82a26723d4cee24a9640dd43e6f4e1d74a6fe761e66011496515"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\018db0f253.jpg",
+    "source_sha256": "18a95ac048dbb56697f3a58b4cabd454363d6f5cda9075e1a6d705d611ae10f2",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\018db0f253.jpg",
+    "generated_sha256": "ead39918e48c225f96715510873f80141b8500c62b02389b2f5366ef6956cc46"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0212257854.jpg",
+    "source_sha256": "3616d4f17c46458f80da2d99ac702c0cc5f64af84a830400c2347457d64f3a11",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\0212257854.jpg",
+    "generated_sha256": "741b3bc2317319a91e839a653b3c86c320451d107ec4c827bc0fd304304f0c75"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\022ca16b0f.jpg",
+    "source_sha256": "52d7eea3a18896e5fa8f962e96fc5b13faffdccd6d4427cc6405a9fb526060a9",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\022ca16b0f.jpg",
+    "generated_sha256": "39b1ef560793dd57fcbbd8b79ec1111154cffa8b0bafcdb830e2e537628d24c1"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\02620a36f7.jpg",
+    "source_sha256": "0364b9e0e69fffc6665b64193aa4749b756f0f3a12163036fa172a6093c2923a",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\02620a36f7.jpg",
+    "generated_sha256": "91347021633fa4aef9005d883bac047eeaeb9a08cbcf12f649b5e08cda43ba14"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\02b232fc78.jpg",
+    "source_sha256": "c272bf752f26d1281e2d1f313fde6c03da611252525af76e7a2a1540dc75e31f",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\02b232fc78.jpg",
+    "generated_sha256": "68f76fb75b6b71b304d4789d3b8122b0e9f446bf815f2f51091e2225b6aa6e08"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\02c6c1f6a9.jpg",
+    "source_sha256": "e8577c3d02df7143f689b0e44993a6bb5b9e8797cb6de9773971cccac3532442",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\02c6c1f6a9.jpg",
+    "generated_sha256": "d74ac6fbce1fd323c9c0146ab1d77bfe4adc53095ea271efd1205f30c9babd3a"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\02ded12bbd.jpg",
+    "source_sha256": "c4682c8696167e1cea00b0c6287b3129d55215740849372813c31dba6725aad7",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\02ded12bbd.jpg",
+    "generated_sha256": "7ef42435f89b5bd21c295ebba0d7b8c660c0227695b2e77a4225f6aa79b01520"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0312af1e14.jpg",
+    "source_sha256": "95d54a300330d60654cc5f46d180b78fb67ff54f0c61c255aea70b58b4b9e238",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\0312af1e14.jpg",
+    "generated_sha256": "2ce7954c957e2157774923b9bb1c6f6b253b5012d7e5397e8d2af56e5a5f3060"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0344a47135.jpg",
+    "source_sha256": "582526ca112d3cdc0deb055b1478c029ebf23735dafe3bd52e82589582741cbf",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\0344a47135.jpg",
+    "generated_sha256": "26bcbb0ffab5c82431015c4d50345098378ddef855568fb888ebbc837d505a40"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\034627340c.jpg",
+    "source_sha256": "53d99376bd983a59f7c09634cb43a662cf0ef00a112e740aca7df38aecbd34ac",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\034627340c.jpg",
+    "generated_sha256": "86b2f163d1e6441d32acbce4f01e1855adf2caf86526805e9098a0975c0e8b60"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\03be88270f.jpg",
+    "source_sha256": "c122f7623320298e891027726bfde6f54cca30c60978757e57aec916155a7498",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\03be88270f.jpg",
+    "generated_sha256": "fbf9aa5c88d7edf00321714c66c71a73bb3edb3d99e1513205aae1bbf54d0b95"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0435dc46a4.jpg",
+    "source_sha256": "6966e53bfe54c0a248da5478e6c9067c2c3a9ec04a379a43d423fc33d21bc1e7",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\0435dc46a4.jpg",
+    "generated_sha256": "8dc9210eeaa8895d3c925bc377a405b5b04136c7e436387473e4208355d82e98"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04838b8b1e.jpg",
+    "source_sha256": "f5958fdbb36a21d7a89230112e2350fb551aa07e858ff40ede6d461cdae87af4",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\04838b8b1e.jpg",
+    "generated_sha256": "a1e8a3084bb082e816a1d7f4f51a4b90599e35060afec57b9afbfb450d188a33"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04cb1f4705.jpg",
+    "source_sha256": "e17e590fcb5e1976c086eb3bc576270f1fa9974e82fec45ac708871ecd96048a",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\04cb1f4705.jpg",
+    "generated_sha256": "960e722764074c7589cad9af0a5947434304c0104831020ff5127dbcb8afaff5"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04f59976b5.jpg",
+    "source_sha256": "ea061a12431834bdbe1c88cf7da651c21bc894cdeaa3a39f487f5fe732595bcb",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\04f59976b5.jpg",
+    "generated_sha256": "2f87d2f34540967cbdc6369cf5152ff9c7160699ff8fc00614c12990cf3e5b1b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\04f72d81b0.jpg",
+    "source_sha256": "f9e59a88d2967c637861711ad36a7eafd44b4396edbd91fd892d16c696fc45a6",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\04f72d81b0.jpg",
+    "generated_sha256": "8c830c8bf3e8b97f1e5302895781549beca2806a5c6ddf8dcfa63fb498cbcdd4"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\05a84fad61.jpg",
+    "source_sha256": "a75e0a303c76a97ca516fadee2ed8d4e43ec71e76af1f8e80aede33670f2f63f",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\05a84fad61.jpg",
+    "generated_sha256": "4d2d4b69cb6aaf60756a64d08cbba5e89a413e217bf2f348052a90ee4cc59359"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\05c885c810.jpg",
+    "source_sha256": "e251a21c1a0b0de7b8abdea8c02d0da71ef48453f9f0b914821345e9bbad1b55",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\05c885c810.jpg",
+    "generated_sha256": "4e006f2dd3161716367a2a6a766a644039eb47632a6e8d808ef7b8544822c7e8"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\05e88ecd0a.jpg",
+    "source_sha256": "7d28473df4e3118fb3ba20196fb311415095036e905e5f9a575e0bfe4c209906",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\05e88ecd0a.jpg",
+    "generated_sha256": "dbeac2fea79ef5c1959b54f54bbb43ab3da8e70d06756a02bafd04975df0cdc2"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0665264678.jpg",
+    "source_sha256": "1c1803f9ee51b61e0998bf7b30f8c9392bddca06afa80347443eb99565b62ee8",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\0665264678.jpg",
+    "generated_sha256": "b93d737d56a9082dc8db315ad59f57317265d29c86c3ffc0fe64b1dd118eba89"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\06c9326c86.jpg",
+    "source_sha256": "e3f6b9e1cf03b91bc92ebd924932d178a8273a2a249ca415644c7efe8376bcb0",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\06c9326c86.jpg",
+    "generated_sha256": "c0b09224ce21e96e8ef660e2d91701f62da23e1d0aa7f7f48235ec1f27eeddd1"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0711866dcd.jpg",
+    "source_sha256": "b9771c814c3b59ff96d68a17121aed017ea69467a159feeb452ad970187e4416",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\0711866dcd.jpg",
+    "generated_sha256": "7841ad32cf12d7e14c56e691e0dee9175141d11db9a4f9f5ef1244b4c9b71fa2"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\088972cf3f.jpg",
+    "source_sha256": "cc17b9742346a68ed3da939fb2e14e5c4c4eddc815b7d79fb236d5f8f96b3acc",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\088972cf3f.jpg",
+    "generated_sha256": "026658c8300824e66d346a4144a5d1c3559d717b0657c89a1a0d03934367b8fb"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\089406822c.jpg",
+    "source_sha256": "81946c20c7b65db09d0bc4c21e5fe1ef38fdf057bbb8ddfe5328b0830c828640",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\089406822c.jpg",
+    "generated_sha256": "95107d85bd311818e4d95a3b3bf8319434287282e955ac2eda236b90ccc5f3c7"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08fa8a6f26.jpg",
+    "source_sha256": "15b3581b87883e299229c9abfb234f902c27579c3247d486955052e0d77f99a6",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\08fa8a6f26.jpg",
+    "generated_sha256": "27b0fa8b392fd592dd054e94496e8a0d814a62c54f6d002a93b282492c13355b"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\08fd7ac09b.jpg",
+    "source_sha256": "c28b8d2791f2095f0fcfe360775dce51b985f673db98db7618103216352c2657",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\08fd7ac09b.jpg",
+    "generated_sha256": "667af656776bd28b685ac288e8f924ee1e7974da6dcead64d5f4a4bc2d480020"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0984136f36.jpg",
+    "source_sha256": "476b3f0160c1bec57b93359dd613acb52919a86a6f2105ae2edf9b764471726c",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\0984136f36.jpg",
+    "generated_sha256": "34a723fbec7eea776401387c162cf921557ccabf6821c54904e00243d8cfffc3"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\098b35d919.jpg",
+    "source_sha256": "daeaad849330dd0099906a4c3adbeff68c989cb7db59550440680794d8790aeb",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\098b35d919.jpg",
+    "generated_sha256": "ecb2368ff05ed2586bc2b7b4352c8cc05c97a57d29d3d6dd8d4c8afe4b9d2f50"
+  },
+  {
+    "source": "task3_gan\\data\\photo_jpg\\0a1d1b9f8e.jpg",
+    "source_sha256": "698d4f7a42db5625382dd4cf041db9c3d84d18135b98ab07ec4fb4eb1e411862",
+    "generated": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\evaluation_20260927T130841Z_a267de\\heldout_test\\pred_B2A\\0a1d1b9f8e.jpg",
+    "generated_sha256": "50b4d34a1b8fb70596465ddabf1f09b2272c2eb2dbd5fdb83308b0bf8573a1c0"
+  }
+]

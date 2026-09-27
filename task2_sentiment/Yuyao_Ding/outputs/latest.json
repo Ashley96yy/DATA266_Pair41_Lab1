@@ -1,0 +1,9 @@
+{
+  "session_id": "task2_formal_20260927T020054Z_ba87cd57",
+  "runs": {
+    "baseline": "task2_formal_20260927T020054Z_ba87cd57_baseline",
+    "textcnn": "task2_formal_20260927T020054Z_ba87cd57_textcnn",
+    "bilstm": "task2_formal_20260927T020054Z_ba87cd57_bilstm"
+  },
+  "metrics": "task2_sentiment/Yuyao_Ding/outputs/task2_formal_20260927T020054Z_ba87cd57/metrics_report.csv"
+}

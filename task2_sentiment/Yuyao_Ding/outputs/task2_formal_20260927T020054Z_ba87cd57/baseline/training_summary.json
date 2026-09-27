@@ -1,0 +1,21 @@
+{
+  "run_id": "task2_formal_20260927T020054Z_ba87cd57_baseline",
+  "model_name": "baseline",
+  "mode": "formal",
+  "completed_epochs": 5,
+  "best_epoch": 5,
+  "best_validation_loss": 0.18242882683162887,
+  "parameter_count": 6400129,
+  "training_loop_seconds": 105.47611530008726,
+  "training_examples_per_second": 23888.536213448464,
+  "training_wall_seconds_this_segment": 114.31624549999833,
+  "memory": {
+    "process_lifetime_peak_rss_bytes": 6926053376,
+    "cuda_peak_allocated_bytes": 175088640
+  },
+  "training_wall_seconds_including_resume": 114.31624549999833,
+  "epochs_trained_this_segment": 5,
+  "best_checkpoint": "task2_sentiment/Yuyao_Ding/checkpoints/task2_formal_20260927T020054Z_ba87cd57/baseline/best.pt",
+  "best_checkpoint_sha256": "751be42e542837cb647464d4ab0e6bff48013578b3b7ff14228d0fc5ddd8c373",
+  "nonfinite_events": 0
+}

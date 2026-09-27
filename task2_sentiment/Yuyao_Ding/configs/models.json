@@ -1,0 +1,6 @@
+{
+  "embedding_dim": 128,
+  "baseline": {"dropout": 0.3},
+  "textcnn": {"num_filters": 128, "kernel_sizes": [3, 4, 5], "dropout": 0.5},
+  "bilstm": {"hidden_dim": 128, "num_layers": 1, "dropout": 0.4}
+}

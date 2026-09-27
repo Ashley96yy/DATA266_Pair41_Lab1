@@ -1,0 +1,14 @@
+{
+  "dataset": "Yelp Polarity",
+  "seed": 640,
+  "train_file": "train-00000-of-00001.parquet",
+  "test_file": "test-00000-of-00001.parquet",
+  "archive": "yelp_polarity.zip",
+  "expected_train_rows": 560000,
+  "expected_test_rows": 38000,
+  "validation_fraction": 0.1,
+  "max_vocab_size": 50000,
+  "min_frequency": 2,
+  "max_length": 192,
+  "preserved_words": ["no", "not", "nor", "never", "but", "against", "very", "too"]
+}

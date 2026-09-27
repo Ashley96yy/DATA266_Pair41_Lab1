@@ -1,0 +1,21 @@
+{
+  "run_id": "task2_formal_20260927T020054Z_ba87cd57_bilstm",
+  "model_name": "bilstm",
+  "mode": "formal",
+  "completed_epochs": 5,
+  "best_epoch": 3,
+  "best_validation_loss": 0.13817768729913807,
+  "parameter_count": 6664449,
+  "training_loop_seconds": 577.6363257999765,
+  "training_examples_per_second": 4362.03522434375,
+  "training_wall_seconds_this_segment": 609.8073963000206,
+  "memory": {
+    "process_lifetime_peak_rss_bytes": 6926053376,
+    "cuda_peak_allocated_bytes": 396669440
+  },
+  "training_wall_seconds_including_resume": 609.8073963000206,
+  "epochs_trained_this_segment": 5,
+  "best_checkpoint": "task2_sentiment/Yuyao_Ding/checkpoints/task2_formal_20260927T020054Z_ba87cd57/bilstm/best.pt",
+  "best_checkpoint_sha256": "566af5cbdacacec8e564f8f1c97e573fa9901f52e54f96e8dde7fb88dc6b0a7b",
+  "nonfinite_events": 0
+}

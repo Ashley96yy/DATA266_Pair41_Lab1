@@ -1,0 +1,10 @@
+{
+  "run_id": "task3_formal_20260927T072822Z_22de690c",
+  "mode": "formal",
+  "status": "failed",
+  "nan_or_inf_events": 0,
+  "parent_checkpoint": null,
+  "parent_checkpoint_sha256": null,
+  "error_type": "KeyboardInterrupt",
+  "error": ""
+}

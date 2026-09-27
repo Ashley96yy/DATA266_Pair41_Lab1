@@ -1,0 +1,38 @@
+{
+  "package": "Yuyao_Ding_Lab1_Resources",
+  "prepared_at_utc": "2026-09-27T19:36:57.039125+00:00",
+  "runs": {
+    "task1": "train_20260927T000510Z_b9df2210",
+    "task2": "task2_formal_20260927T020054Z_ba87cd57",
+    "task3": "task3_formal_20260927T075834Z_d335ae80",
+    "task3_quick_baseline": "task3_formal_20260927T043055Z_42bb4f28"
+  },
+  "preflight": {
+    "preserved_source_files": 10651,
+    "local_document_links_checked": 173,
+    "report_evidence_paths_valid": true,
+    "task3_current_metric_rows": 1371,
+    "cold_cpu_demos_without_full_datasets": {
+      "task1": "passed",
+      "task2": "passed",
+      "task3_B2A": "passed",
+      "task3_A2B": "passed",
+      "task3_baseline": "passed"
+    },
+    "task2_last_references_verified": [
+      "task2_sentiment/Yuyao_Ding/checkpoints/task2_formal_20260927T020054Z_ba87cd57/baseline/best_epoch_005.pt",
+      "task2_sentiment/Yuyao_Ding/checkpoints/task2_formal_20260927T020054Z_ba87cd57/textcnn/best_epoch_003.pt",
+      "task2_sentiment/Yuyao_Ding/checkpoints/task2_formal_20260927T020054Z_ba87cd57/bilstm/best_epoch_003.pt"
+    ],
+    "task3_full_last_state_verified": true,
+    "status": "passed"
+  },
+  "raw_data": "Retrieve from the Drive links in README.md; two Task 3 demo inputs are included.",
+  "original_logs_weights_code_and_outputs": "Unmodified; only package setup documentation is adapted.",
+  "includes": "Formal best/last, three Task 2 last-state best aliases, baseline best, metric cache, exact model dependencies and experiment evidence.",
+  "excludes": "Full datasets, large regenerable preprocessing caches, .venv, intermediate weights and development smoke outputs.",
+  "remote_upload": "not performed",
+  "physical_platforms_verified": [
+    "Windows"
+  ]
+}

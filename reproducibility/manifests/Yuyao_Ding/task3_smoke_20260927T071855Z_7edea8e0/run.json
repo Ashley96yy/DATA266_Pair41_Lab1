@@ -1,0 +1,30 @@
+{
+  "run_id": "task3_smoke_20260927T071855Z_7edea8e0",
+  "mode": "smoke",
+  "status": "complete",
+  "nan_or_inf_events": 0,
+  "parent_checkpoint": "C:\\Users\\endle\\Downloads\\DATA266_Pair41_Lab1\\DATA266_Pair41_Lab1-main\\task3_gan\\Yuyao_Ding\\checkpoints\\task3_smoke_20260927T071849Z_57a86f9d\\last.pt",
+  "parent_checkpoint_sha256": "a398f37f59dae045ccfd89f427672141a450fd3efa8d0caa5baa1d6dac569be8",
+  "completed_epoch": 2,
+  "best_epoch": 1,
+  "best_validation_KID": 0.37562174750136296,
+  "best_checkpoint": "task3_gan\\Yuyao_Ding\\checkpoints\\task3_smoke_20260927T071855Z_7edea8e0\\best.pt",
+  "best_checkpoint_sha256": "c3fce3893a27e303d1dadff4848d76929ae23907e1a9923b0ed0768ab585a719",
+  "last_checkpoint": "task3_gan\\Yuyao_Ding\\checkpoints\\task3_smoke_20260927T071855Z_7edea8e0\\last.pt",
+  "resources": {
+    "training_seconds": 0.5729644999373704,
+    "training_images": 8,
+    "optimizer_steps": 4,
+    "run_wall_seconds": 1.0308455000631511,
+    "peak_cuda_allocated_mb": 114.88427734375,
+    "peak_sampled_process_rss_mb": 1598.91796875,
+    "nan_or_inf_events": 0,
+    "parameters_G_A2B": 32451,
+    "parameters_G_B2A": 32451,
+    "parameters_D_A": 44537,
+    "parameters_D_B": 44537,
+    "parameters_total": 153976,
+    "training_images_per_second": 13.962470625796998
+  },
+  "raw_logs": "reproducibility\\raw_logs\\Yuyao_Ding\\task3_smoke_20260927T071855Z_7edea8e0"
+}

@@ -1,0 +1,109 @@
+{
+  "smoke": false,
+  "checkpoint": "task1_llm/Yuyao_Ding/checkpoints/train_20260927T000510Z_b9df2210/epoch_010.pt",
+  "checkpoint_sha256": "5cde3d36c7cb5b29224e19644e50be952a97c0e440c4cc3199169d6a2c8518ef",
+  "hardware": {
+    "device": "cuda",
+    "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "torch": "2.8.0+cu128"
+  },
+  "ngram_unit": "characters in completions, excluding prompts",
+  "repeated_4gram_definition": "(total 4grams - unique 4grams) / total 4grams",
+  "diversity_by_method": {
+    "greedy": {
+      "distinct_1": 0.03888888888888889,
+      "distinct_2": 0.189520624303233,
+      "distinct_3": 0.30089485458612975,
+      "repeated_4gram_rate": 0.6307519640852974
+    },
+    "temperature_sampling": {
+      "distinct_1": 0.04555555555555556,
+      "distinct_2": 0.2697881828316611,
+      "distinct_3": 0.5648769574944071,
+      "repeated_4gram_rate": 0.2671156004489338
+    }
+  },
+  "samples": [
+    {
+      "prompt": "Once upon a time,",
+      "completion": " there was a little girl named Lily. She loved to play with her toys and her friends. One day, Lily went to the park with her mommy and daddy went to the park. She saw a big box of the box and saw a big box of the box. She was so excited to go on a big box and said, \"What are you doing?\"\nLily asked ",
+      "text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and her friends. One day, Lily went to the park with her mommy and daddy went to the park. She saw a big box of the box and saw a big box of the box. She was so excited to go on a big box and said, \"What are you doing?\"\nLily asked ",
+      "method": "greedy",
+      "temperature": null,
+      "seed": 640,
+      "prompt_unknown_characters": 0,
+      "generated_tokens": 300,
+      "generation_seconds": 1.1115011000074446,
+      "generation_tokens_per_second": 269.9052659488962,
+      "unknown_output_suppressed": true
+    },
+    {
+      "prompt": "Once upon a time,",
+      "completion": " there was a little girl named Lily. The bird loved to take a special music. They were happy and loved to play together. One day, Lily's mom was delicious and called Ben. They were very excited. They decided to learn that it's far everyone to be friends and you can be kind. Ben stopped home and smil",
+      "text": "Once upon a time, there was a little girl named Lily. The bird loved to take a special music. They were happy and loved to play together. One day, Lily's mom was delicious and called Ben. They were very excited. They decided to learn that it's far everyone to be friends and you can be kind. Ben stopped home and smil",
+      "method": "temperature_sampling",
+      "temperature": 0.8,
+      "seed": 640,
+      "prompt_unknown_characters": 0,
+      "generated_tokens": 300,
+      "generation_seconds": 1.173797000083141,
+      "generation_tokens_per_second": 255.58082017482644,
+      "unknown_output_suppressed": true
+    },
+    {
+      "prompt": "A little girl found",
+      "completion": " a big box of the box. She was so excited to go on a big box. She was so excited to go on a big box and said, \"I want to play with you. I will be careful with you.\"\nThe box was so happy to have a big box and said, \"I want to play with you. I will be careful and sorry. I will be careful and sorry. I ",
+      "text": "A little girl found a big box of the box. She was so excited to go on a big box. She was so excited to go on a big box and said, \"I want to play with you. I will be careful with you.\"\nThe box was so happy to have a big box and said, \"I want to play with you. I will be careful and sorry. I will be careful and sorry. I ",
+      "method": "greedy",
+      "temperature": null,
+      "seed": 641,
+      "prompt_unknown_characters": 0,
+      "generated_tokens": 300,
+      "generation_seconds": 1.0578529000049457,
+      "generation_tokens_per_second": 283.59330489011984,
+      "unknown_output_suppressed": true
+    },
+    {
+      "prompt": "A little girl found",
+      "completion": " a big old pretty. She was so curious and strange. She came over and saw a big panda on the truck on the truck.\nMom said, \"You are not about me! I like a new gift. It's okay and you can buy it not mean to buy like to play with my friend.\"\nSo, Ben did not know what to do. He did not want to look at t",
+      "text": "A little girl found a big old pretty. She was so curious and strange. She came over and saw a big panda on the truck on the truck.\nMom said, \"You are not about me! I like a new gift. It's okay and you can buy it not mean to buy like to play with my friend.\"\nSo, Ben did not know what to do. He did not want to look at t",
+      "method": "temperature_sampling",
+      "temperature": 0.8,
+      "seed": 641,
+      "prompt_unknown_characters": 0,
+      "generated_tokens": 300,
+      "generation_seconds": 1.1168680000118911,
+      "generation_tokens_per_second": 268.6082867418584,
+      "unknown_output_suppressed": true
+    },
+    {
+      "prompt": "The dog wanted to",
+      "completion": " play with his toys and the dog. They were happy and sad.\nThey were happy and sad. They had a big box of the box. They were happy and sad. They had a big box of the box. They were happy and sad.\n\nOnce upon a time, there was a little girl named Lily. She loved to play with her toys and her friends. O",
+      "text": "The dog wanted to play with his toys and the dog. They were happy and sad.\nThey were happy and sad. They had a big box of the box. They were happy and sad. They had a big box of the box. They were happy and sad.\n\nOnce upon a time, there was a little girl named Lily. She loved to play with her toys and her friends. O",
+      "method": "greedy",
+      "temperature": null,
+      "seed": 642,
+      "prompt_unknown_characters": 0,
+      "generated_tokens": 300,
+      "generation_seconds": 1.1395014999434352,
+      "generation_tokens_per_second": 263.27301896038927,
+      "unknown_output_suppressed": true
+    },
+    {
+      "prompt": "The dog wanted to",
+      "completion": " see the bathroom appeared.\nThe dog stopped with a rock dog with the dog and it felt proud. It was a little boy didn't understand to leave anymore.\n\"Hello, Lily, little boy did. We can be the park and see for what we do eat the hole.\"\nLily felt bad and sad, \"No, you have a car and happy. You have to",
+      "text": "The dog wanted to see the bathroom appeared.\nThe dog stopped with a rock dog with the dog and it felt proud. It was a little boy didn't understand to leave anymore.\n\"Hello, Lily, little boy did. We can be the park and see for what we do eat the hole.\"\nLily felt bad and sad, \"No, you have a car and happy. You have to",
+      "method": "temperature_sampling",
+      "temperature": 0.8,
+      "seed": 642,
+      "prompt_unknown_characters": 0,
+      "generated_tokens": 300,
+      "generation_seconds": 1.3475081000942737,
+      "generation_tokens_per_second": 222.63317005590656,
+      "unknown_output_suppressed": true
+    }
+  ]
+}

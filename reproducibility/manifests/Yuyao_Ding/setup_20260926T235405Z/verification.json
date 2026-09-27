@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "source": "downloaded TinyStories files from Google Drive",
+  "data_identical_to_original_mac_run": true,
+  "artifact_matches": {
+    "task1_llm/Yuyao_Ding/data_processed/train_ids.npy": true,
+    "task1_llm/Yuyao_Ding/data_processed/valid_ids.npy": true,
+    "task1_llm/Yuyao_Ding/data_processed/vocabulary.json": true,
+    "task1_llm/Yuyao_Ding/data_processed/split_story_hashes.json": true,
+    "task1_llm/Yuyao_Ding/configs/preprocessing.json": true
+  },
+  "statistics": {
+    "vocabulary_size": 104,
+    "train_tokens": 88792995,
+    "validation_tokens": 8693309,
+    "train_sequences": 346847,
+    "validation_sequences": 33958,
+    "validation_unknown_tokens": 2
+  },
+  "elapsed_seconds": 30.65192760003265,
+  "notebook_sha256": "d7fbb43c9d11d017b32c7a54aa36b1bfa52c00a95001e943eccae2abc346e551",
+  "formal_training_started": false,
+  "real_data_smoke_run": "smoke_20260926T235457Z_c135ed0b",
+  "configured_batch_check": {
+    "status": "passed",
+    "batch_size": 64,
+    "context_length": 256,
+    "device": "NVIDIA GeForce RTX 4090",
+    "diagnostic_optimizer_steps": 1,
+    "loss": 4.657817840576172,
+    "gradient_norm_before_clip": 3.966092824935913,
+    "cuda_peak_allocated_bytes": 741718528,
+    "formal_training_started": false
+  }
+}

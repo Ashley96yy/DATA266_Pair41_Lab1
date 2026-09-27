@@ -1,0 +1,96 @@
+{
+  "checks": {
+    "official_metric_formulas": {
+      "passed": true,
+      "FID_differences": [
+        0.0,
+        0.0
+      ]
+    },
+    "formal_architecture_cuda": {
+      "passed": true,
+      "image_size": 256,
+      "batch_size": 2,
+      "warmup_steps": 2,
+      "measured_steps": 6,
+      "median_step_seconds": 0.08709610003279522,
+      "steps_per_second": 11.481570353017636,
+      "rough_40_epoch_training_only_minutes": 58.06406668853015,
+      "peak_cuda_allocated_mb": 2860.69384765625,
+      "parameters": {
+        "G_A2B": 7837699,
+        "G_B2A": 7837699,
+        "D_A": 2764737,
+        "D_B": 2764737
+      },
+      "final_losses": {
+        "G_A2B_adversarial": 0.7023041844367981,
+        "G_B2A_adversarial": 0.5906760096549988,
+        "cycle_A": 0.40967899560928345,
+        "cycle_B": 0.3014587461948395,
+        "identity_A": 0.3978632390499115,
+        "identity_B": 0.24995458126068115,
+        "D_A": 0.582528829574585,
+        "D_B": 0.5930076837539673,
+        "G_total": 11.643446922302246,
+        "gradient_norm_G_A2B": 57.68134689331055,
+        "gradient_norm_G_B2A": 39.44892501831055,
+        "gradient_norm_D_A": 7.452358722686768,
+        "gradient_norm_D_B": 16.87805938720703
+      }
+    },
+    "formal_checkpoint_cpu_cuda": {
+      "passed": true,
+      "maximum_absolute_output_differences": {
+        "G_A2B": 9.5367431640625e-06,
+        "G_B2A": 9.03010368347168e-06
+      }
+    },
+    "cold_cpu_demo": {
+      "passed": true,
+      "output": "C:\\Users\\endle\\Downloads\\DATA266_Pair41_Lab1\\local_handoff\\task3_dev\\demo_cpu.jpg"
+    },
+    "minimal_standalone_demo": {
+      "passed": true,
+      "no_dataset_or_notebook": true,
+      "checksum_mismatch_rejected": true,
+      "fixture": "C:\\Users\\endle\\Downloads\\DATA266_Pair41_Lab1\\local_handoff\\task3_dev\\minimal_demo"
+    },
+    "cuda_notebook_and_exact_resume": {
+      "passed": true,
+      "evidence": "task3_gan\\Yuyao_Ding\\outputs\\smoke_checks\\task3_smoke_20260927T041321Z_f3136047_checks.json",
+      "evidence_sha256": "7858ba5db0952152e96fee286c259cb71ac0a2a9069b6cdc9a1322b95fa479d0"
+    },
+    "cpu_notebook": {
+      "passed": true,
+      "evidence": "task3_gan\\Yuyao_Ding\\outputs\\smoke_checks\\task3_smoke_20260927T041321Z_643b66a4_checks.json",
+      "evidence_sha256": "b5b9840b34aafc407c26ee6afeb9b394f0f3ddfada79dd67abdecaab4174b71f"
+    },
+    "cuda_to_cpu_resume": {
+      "passed": true,
+      "evidence": "task3_gan\\Yuyao_Ding\\outputs\\smoke_checks\\cuda_to_cpu_resume_check.json",
+      "evidence_sha256": "0b346c72e8bbc97931ee83884368bec2457f7ca7fcfe3e6db6f451634a0de9e8"
+    },
+    "synthetic_30_case_audit": {
+      "passed": true,
+      "evidence": "task3_gan\\Yuyao_Ding\\outputs\\smoke_checks\\synthetic_audit_test_only\\test_result.json",
+      "evidence_sha256": "eeb0e5b776c299279fb0dee8919e2c29949c5a738a4afd0b59c35b045252487a"
+    },
+    "cold_cuda_evaluation_matches_notebook": {
+      "passed": true,
+      "identical_exported_jpegs": 32,
+      "maximum_metric_difference": 0.0,
+      "output": "task3_gan\\Yuyao_Ding\\outputs\\task3_smoke_20260927T041321Z_f3136047\\evaluation_20260927T042155Z_469d7d"
+    }
+  },
+  "source_sha256": {
+    "task3_gan\\Yuyao_Ding\\src\\cyclegan.py": "1c3efb9e490cd3c0b83d187eae69b1c2d8166da96ce1fef3fb277ae9ddc424fe",
+    "task3_gan\\Yuyao_Ding\\src\\demo.py": "83fc8f4ffdf04fea4ba9fd98468c0d41c0d9081cd590f6d5d223b0281c701731",
+    "task3_gan\\Yuyao_Ding\\src\\evaluate.py": "a0b44cc49343202eb165d13dbfc0cb973ea535df9324d02d512197e501e9c42d",
+    "task3_gan\\Yuyao_Ding\\src\\smoke_test.py": "4716587b989e03ef1286b7db994af9e6fb2f341f577665a75528e87cb8571dad",
+    "task3_gan\\Yuyao_Ding\\src\\task3_gan.ipynb": "10c8069fa9eb3ed35e6f933c676cdab0aee77c3a77cf6789d1c2a29c3ab7f0c8"
+  },
+  "config_sha256": "b004f974cdd8ce5f5d569542a3cc9e47d3383c14ed173f95c6db084da5bd22fb",
+  "formal_training_run": false,
+  "platform_boundary": "Windows CPU/CUDA tested; physical Mac, Linux and Colab not tested."
+}

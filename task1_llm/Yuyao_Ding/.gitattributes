@@ -1,0 +1,2 @@
+# Keep hashed JSON files unchanged when moving between Windows and macOS.
+*.json text eol=lf
