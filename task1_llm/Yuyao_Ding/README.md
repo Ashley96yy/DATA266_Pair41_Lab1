@@ -8,6 +8,20 @@ The notebook is `src/task1_llm.ipynb`. The reported run is `train_20260927T00051
 and notebook Section 1.4 use this run. `metrics_report.csv` contains its 52 rows
 first, followed by the 52 historical Mac rows, each identified by `model_id`.
 
+## Download processed data and checkpoints
+
+These artifacts are stored in Google Drive and are not included in a Git clone.
+Restore the folder contents to the following paths relative to the repository root:
+
+| Artifact | Google Drive | Restore destination | Details |
+| --- | --- | --- | --- |
+| Processed data | [Download folder](https://drive.google.com/drive/folders/1EfWk8oRTRdwjsv6qLH9zMbljhpX-Dmqz?usp=sharing) | `task1_llm/Yuyao_Ding/data_processed/` | [Layout and required files](data_processed/README.md) |
+| Checkpoints | [Download folder](https://drive.google.com/drive/folders/1Aq5tUVV39Tkx4q85AOq1TgamUxZ0IHev?usp=sharing) | `task1_llm/Yuyao_Ding/checkpoints/` | [Run IDs and model selection](checkpoints/README.md) |
+
+Preserve nested run directories and file bytes; avoid an extra directory level
+when extracting a downloaded folder. Use an account with read access. These links
+are for Yuyao's artifacts; raw datasets are listed separately in the data section.
+
 ## Environment
 
 Install Python 3.12 first. Run these commands from the repository root (the
@@ -61,9 +75,9 @@ for that run; the requirements file allows compatible versions of the support li
 
 ## Data and saved weights
 
-Ordinary Git commits exclude raw data, processed arrays and checkpoints. The
-separate trained-model sharing ZIP described below includes the best checkpoint
-and vocabulary, but excludes raw text and encoded training arrays.
+Ordinary Git commits exclude raw data, processed artifacts and checkpoints.
+Use the processed-data and checkpoint Drive links above to restore the matching
+artifacts; download raw TinyStories text separately when needed.
 
 - Download `TinyStories.zip` from the team's
   [Task 1 data folder on Google Drive](https://drive.google.com/drive/folders/14kpF6QaLSHfF4Ru-T6KEpcctCpRqDX9x).
@@ -149,9 +163,13 @@ All paths below are relative to the repository root:
 The reported Windows run is `train_20260927T000510Z_b9df2210` (September 26 local time,
 September 27 UTC). Its manifest is `complete`; epoch 10 is the best checkpoint.
 The historical Mac run is `train_20260914T211231Z_98b2aa86`. Its logs and results remain
-available, but its checkpoint files are absent from this copy.
+available. Its original checkpoints are preserved in the local working copy;
+restore the historical run separately if you need to reproduce that comparison.
 
-The combined `Yuyao_Ding_Lab1_Resources.zip` includes this run's best/last checkpoint, vocabulary, split hashes, configs, source, results, original logs and manifests. Raw TinyStories text and encoded arrays are restored using the Drive and preprocessing instructions above. `SHA256SUMS.txt` at the project root verifies the package.
+For a GitHub checkout, restore this run's checkpoint, vocabulary and split records
+from the Drive links above. Source, configs, results, original logs and manifests
+are tracked in Git. The optional `SHA256SUMS.txt` belongs only to the separately
+shared original resource archive; it is not included in this repository.
 
 If preprocessing hashes fail after moving files, restore the matching artifacts
 without changing JSON encoding or line endings. If you intentionally change the

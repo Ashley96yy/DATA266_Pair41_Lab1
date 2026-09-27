@@ -13,6 +13,20 @@ Two small optional entry points serve separate purposes:
 Configuration, data, checkpoints and results remain external files. Development
 scripts from the earlier implementation are archived outside the project.
 
+## Download processed data and checkpoints
+
+These artifacts are stored in Google Drive and are not included in a Git clone.
+Restore the folder contents to the following paths relative to the repository root:
+
+| Artifact | Google Drive | Restore destination | Details |
+| --- | --- | --- | --- |
+| Processed data | [Download folder](https://drive.google.com/drive/folders/1jzNHg-lIQ1ok9_8g7d_9rF2HsN9JOaO_?usp=sharing) | `task2_sentiment/Yuyao_Ding/data_processed/` | [Layout and required files](data_processed/README.md) |
+| Checkpoints | [Download folder](https://drive.google.com/drive/folders/18AzMJ8NbMmE7l38yGKZziBppHmq4LlIZ?usp=sharing) | `task2_sentiment/Yuyao_Ding/checkpoints/` | [Run IDs and model selection](checkpoints/README.md) |
+
+Preserve nested run directories and file bytes; avoid an extra directory level
+when extracting a downloaded folder. Use an account with read access. These links
+are for Yuyao's artifacts; raw datasets are listed separately in the data section.
+
 ## Completed experiment
 
 The main session is `task2_formal_20260927T020054Z_ba87cd57`. All three models completed

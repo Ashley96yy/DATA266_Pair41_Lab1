@@ -26,6 +26,26 @@ timestamps, raw logs and manifests document when the experiments were performed.
 | 2: Yelp Polarity | Baseline, TextCNN and BiLSTM; five epochs each | [Setup, demo and results](task2_sentiment/Yuyao_Ding/README.md) |
 | 3: CycleGAN | 100 x 1,000 updates; best epoch 70 | [Setup, demo and results](task3_gan/Yuyao_Ding/README.md) |
 
+## Yuyao's artifact downloads
+
+Model weights and processed data are stored in Google Drive. A Git clone contains
+the code, configs, reports and recorded evidence; download the artifacts below
+before running saved-model demos or reproducing a run.
+
+| Task | Processed data | Checkpoints | Restore under / task guide |
+| --- | --- | --- | --- |
+| Task 1 | [Download](https://drive.google.com/drive/folders/1EfWk8oRTRdwjsv6qLH9zMbljhpX-Dmqz?usp=sharing) | [Download](https://drive.google.com/drive/folders/1Aq5tUVV39Tkx4q85AOq1TgamUxZ0IHev?usp=sharing) | [task1_llm/Yuyao_Ding/](task1_llm/Yuyao_Ding/README.md) |
+| Task 2 | [Download](https://drive.google.com/drive/folders/1jzNHg-lIQ1ok9_8g7d_9rF2HsN9JOaO_?usp=sharing) | [Download](https://drive.google.com/drive/folders/18AzMJ8NbMmE7l38yGKZziBppHmq4LlIZ?usp=sharing) | [task2_sentiment/Yuyao_Ding/](task2_sentiment/Yuyao_Ding/README.md) |
+| Task 3 | [Download](https://drive.google.com/drive/folders/1KWZo-O5WC11xQQ2eOS9T4UH_z6ZB2Upb?usp=sharing) | [Download](https://drive.google.com/drive/folders/1fkqIV4PLRg7x7v6cEMiWDrrx5O2ATTAV?usp=sharing) | [task3_gan/Yuyao_Ding/](task3_gan/Yuyao_Ding/README.md) |
+
+Copy each Drive folder's contents into the corresponding `data_processed/` or
+`checkpoints/` directory under the task's `Yuyao_Ding/` folder. Preserve run IDs,
+filenames and JSON bytes, and avoid nesting the folder twice. Each destination
+contains a tracked README with the expected layout and required files. Use an
+account with read access; ask the folder owner if access is restricted.
+Raw datasets and Task 3 metric-network downloads are described separately below
+and in the task guides.
+
 ## Layout
 
 - `task1_llm/{Pratiksha_Kaushik,Yuyao_Ding}/`: character-level GPT on TinyStories.
@@ -102,8 +122,9 @@ Use an account with read access. The per-task guides and manifests record expect
 files, hashes, preprocessing, splits and seeds. Keep saved vocabulary/split JSON
 files byte-for-byte unchanged. Regenerate omitted arrays using the documented
 preprocessing steps. The optional `real_stats.npz` is not included or used by our
-evaluator; the unchanged course notebook and cached Inception/AlexNet metric weights
-are included. Training the GAN does not use pretrained model weights.
+evaluator. The unchanged course notebook is tracked in Git; cached Inception/AlexNet
+metric weights are excluded and can be downloaded by the evaluator as described in
+the Task 3 guide. Training the GAN does not use pretrained model weights.
 
 After setup and restoring TinyStories, this single command prepares missing
 arrays and runs the Task 1 smoke test without starting ten-epoch training:
@@ -125,10 +146,11 @@ execution remains to be checked. Current pipeline validation was on Windows CPU/
 
 ## Contents and evidence
 
-Included are the source notebooks and helpers, configs, requirements, small
-preprocessing records, five formal best checkpoints, formal last states, Task 3's
-old quick-baseline best/code/results, original logs/manifests, formal predictions,
-curves, audit materials, Kaggle CSV and the three report contributions. Task 1's
+Git tracks the source notebooks and helpers, configs, requirements, original
+logs/manifests, formal predictions, curves, audit materials, Kaggle CSV and the
+three report contributions. Restore preprocessing records, formal best/last
+checkpoints and the old quick-baseline weights through the Drive links above.
+Task 3's archived quick-baseline code and recorded results are tracked in Git. Task 1's
 epoch-10 file is both best and last. The three Task 2 `best_epoch_*` files named
 inside `last.pt` are retained alongside `best.pt` so those references still resolve.
 The completed Task 3 training budget cannot be extended simply by resuming `last.pt`.

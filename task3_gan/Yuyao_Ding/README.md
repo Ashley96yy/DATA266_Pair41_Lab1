@@ -7,6 +7,20 @@ The nine-block FP32 CycleGAN completed 100 epochs and 100,000 updates on RTX 409
 
 The original six-block baseline remains available, with its code/configuration in [quick_6block.zip](baselines/quick_6block.zip). Its saved checkpoints, outputs and raw logs are preserved.
 
+## Download processed data and checkpoints
+
+These artifacts are stored in Google Drive and are not included in a Git clone.
+Restore the folder contents to the following paths relative to the repository root:
+
+| Artifact | Google Drive | Restore destination | Details |
+| --- | --- | --- | --- |
+| Processed data | [Download folder](https://drive.google.com/drive/folders/1KWZo-O5WC11xQQ2eOS9T4UH_z6ZB2Upb?usp=sharing) | `task3_gan/Yuyao_Ding/data_processed/` | [Layout and required files](data_processed/README.md) |
+| Checkpoints | [Download folder](https://drive.google.com/drive/folders/1fkqIV4PLRg7x7v6cEMiWDrrx5O2ATTAV?usp=sharing) | `task3_gan/Yuyao_Ding/checkpoints/` | [Run IDs and model selection](checkpoints/README.md) |
+
+Preserve nested run directories and file bytes; avoid an extra directory level
+when extracting a downloaded folder. Use an account with read access. These links
+are for Yuyao's artifacts; raw datasets are listed separately in the data section.
+
 ## Files
 
 - `src/task3_gan.ipynb`: data splits, losses, training, validation, checkpoints and plots.
@@ -198,7 +212,9 @@ Training writes `checkpoints/<run>/`, `outputs/<run>/`, `reproducibility/raw_log
 
 The combined `Yuyao_Ding_Lab1_Resources.zip` contains all three tasks, including the updated metric tables and helpers, formal best/last states, old baseline best, source/configs, recorded outputs, logs, manifests, official evaluator and metric-network cache. The image folders contain only the two demo inputs; restore the complete dataset from Drive before training, smoke testing or full evaluation. The completed 100-epoch budget remains complete even though `last.pt` is included.
 
-`SHA256SUMS.txt` at the project root supports optional file verification. The combined ZIP can be shared using the team's chosen transfer method.
+For a GitHub checkout, use the Drive links above to restore checkpoints and the
+saved split. Keep checkpoint JSON sidecars for checksum verification. The optional
+`SHA256SUMS.txt` belongs to the original resource archive, not this repository.
 
 The original run snapshots remain unmodified. The current helpers add compatibility for Windows-written path records and their existing checkpoint source hashes, plus complete CSV exports; model definitions and metric formulas are unchanged. The [final validation record](../../reproducibility/manifests/Yuyao_Ding/task3_final_validation.json) records the preceding cold checkpoint demos, path compatibility and evidence checks.
 
