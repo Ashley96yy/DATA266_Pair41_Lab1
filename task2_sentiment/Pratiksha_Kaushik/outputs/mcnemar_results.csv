@@ -1,0 +1,3 @@
+comparison,baseline_correct_exp_wrong,baseline_wrong_exp_correct,exact_p_value
+baseline vs experimental_cnn,168,238,0.0005990785817981266
+baseline vs experimental_bigru,275,258,0.48832189991622804

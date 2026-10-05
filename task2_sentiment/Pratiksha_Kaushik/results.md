@@ -1,23 +1,12 @@
-# Pratiksha Kaushik — task2_sentiment
+# Task 2 Results
 
-Status: not started. Replace prompts with evidence from your own work.
+Three from-scratch Yelp Polarity models were trained: a mean-embedding baseline, a CNN, and a BiGRU.
 
-## Architecture and rationale
+## Model comparison
 
-TODO: Describe your own model and justify its design. For Task 2, document all three models separately.
+                  model  accuracy  f1_macro  roc_auc  pr_auc    mcc  brier_score  ece_10_bins
+baseline_mean_embedding    0.8914    0.8914   0.9574  0.9574 0.7835       0.0825       0.0530
+       experimental_cnn    0.9054    0.9054   0.9660  0.9652 0.8108       0.0717       0.0301
+     experimental_bigru    0.8880    0.8880   0.9601  0.9608 0.7763       0.0904       0.0711
 
-## Data and preprocessing
-
-TODO: Record dataset version, split, seed, preprocessing and sample counts.
-
-## Configuration and training
-
-TODO: Link config, environment manifest, hardware, raw logs and checkpoint identifiers.
-
-## Results
-
-TODO: Report every metric required by the assignment with its evaluation protocol and evidence. Do not report placeholder values as measurements.
-
-## Comparison and limitations
-
-TODO: Explain observed differences, failures and limitations based on actual runs.
+Complete metrics are stored in `metrics_report.csv`. Checkpoints are stored in `checkpoints/`.

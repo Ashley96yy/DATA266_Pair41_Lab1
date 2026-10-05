@@ -1,0 +1,4 @@
+model,parameters,training_seconds,examples_per_second,peak_memory_mb,device,device_name,decision_threshold
+baseline_mean_embedding,3840129,6.346666085999914,14180.673566320222,100.47314453125,cuda,Tesla T4,0.53
+experimental_cnn,5107969,18.980147364999993,4741.796692577999,236.123046875,cuda,Tesla T4,0.56
+experimental_bigru,5022977,16.025881142999992,5615.915854917685,558.24658203125,cuda,Tesla T4,0.27
