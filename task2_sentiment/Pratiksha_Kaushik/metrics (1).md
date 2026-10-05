@@ -27,18 +27,6 @@ Lower Brier score and ECE indicate better probability calibration. Higher values
 - The mean-embedding baseline has the smallest parameter count and the highest recorded throughput, making it the lightest reference model.
 - CNN has the lowest Brier score and ECE in this comparison, indicating the best recorded calibration among the three models.
 
-## Statistical exports
-
-The supplied all-model metrics file does not contain confusion matrices, bootstrap confidence intervals, or paired McNemar p-values. Those fields remain marked as pending in the source report and should be populated only after the corresponding notebook exports are generated.
-
-| Analysis | Status |
-|---|---|
-| Confusion matrix for each model | PENDING |
-| Accuracy 95% confidence interval | PENDING |
-| Macro-F1 95% confidence interval | PENDING |
-| MCC 95% confidence interval | PENDING |
-| Baseline vs CNN McNemar test | PENDING |
-| Baseline vs BiGRU McNemar test | PENDING |
 
 ## Reproducibility note
 
