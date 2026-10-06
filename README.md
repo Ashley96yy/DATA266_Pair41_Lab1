@@ -6,7 +6,7 @@ Yuyao's recorded experiments, saved models and evidence for all three tasks have
 been imported into the shared repository. Pratiksha's completed work for all three
 tasks is in her `Pratiksha_Kaushik/` folders; see
 [Pratiksha's work and artifact downloads](#pratikshas-work-and-artifact-downloads).
-The combined final team report remains pending.
+The [combined team report PDF](report/DATA266_Lab1_Report_Team_41.pdf) is in `report/`, alongside each member's supporting write-ups.
 
 Each member independently completes all three tasks. Task 2 requires one baseline
 and two experimental models per member. Raw datasets may be shared; preprocessing
@@ -88,7 +88,7 @@ Other evidence:
 - Each task has a shared `data/` folder for raw data.
 - `reproducibility/raw_logs/<member>/`: original, unedited training logs.
 - `reproducibility/manifests/<member>/`: environments, hardware and checkpoint-to-result mappings.
-- `report/`: individual contributions and the combined team report checklist.
+- `report/`: the [combined team report PDF](report/DATA266_Lab1_Report_Team_41.pdf) and supporting contributions in `Yuyao_Ding/` and `Pratiksha_Kaushik/`.
 
 ## Start here
 
@@ -207,9 +207,7 @@ also preserves this checkout's original Mac Task 1 checkpoints, smoke outputs,
 raw data and preprocessing arrays. The Mac run remains available for comparison;
 the current Task 1 reports use the RTX 4090 run.
 
-Use the [report checklist](report/README.md) when combining the individual sections.
-Real human ratings, Kaggle scores/rank, teammate comparison and the final PDF
-remain pending. Follow the course instructions for the final submission.
+See the [report directory](report/README.md) for the final PDF and each member's supporting write-ups. Follow the course instructions for the final submission.
 
 Use relative paths and configuration files, and preserve raw training logs unchanged.
 Do not commit credentials or personal absolute paths. Large data, preprocessing

@@ -2,7 +2,7 @@
 
 This is Yuyao's contribution to the combined team report. The formal session is
 `task2_formal_20260927T020054Z_ba87cd57`. The teammate comparison and joint discussion remain to be added from
-the teammate's verified final work. Full details are in [results.md](../task2_sentiment/Yuyao_Ding/results.md).
+the teammate's verified final work. Full details are in [results.md](../../task2_sentiment/Yuyao_Ding/results.md).
 
 ## Experiment
 
@@ -21,7 +21,7 @@ overlapping raw test text. The stratified split contains 503,934 training and 55
 validation rows. All 38,000 official test rows remain. Vocabulary and length bounds
 are fitted on training only. Lowercasing, contraction normalization, punctuation and
 stopword removal precede first-192 truncation and padding. Empty processed inputs
-use UNK. [Data audit](../reproducibility/manifests/Yuyao_Ding/task2_formal_20260927T020054Z_ba87cd57/preprocessing.json).
+use UNK. [Data audit](../../reproducibility/manifests/Yuyao_Ding/task2_formal_20260927T020054Z_ba87cd57/preprocessing.json).
 
 ## Results
 
@@ -61,7 +61,7 @@ averages use support; micro aggregates class counts. PR-AUC is trapezoidal, whil
 is reported separately. Brier is mean squared probability error; ECE uses ten
 equal-width predicted-class confidence bins. Intervals are percentile intervals from
 1,000 paired row bootstrap resamples with seed 640. They do not measure retraining
-variability. [Formulas and confusion matrices](../task2_sentiment/Yuyao_Ding/results.md#metric-definitions).
+variability. [Formulas and confusion matrices](../../task2_sentiment/Yuyao_Ding/results.md#metric-definitions).
 
 | Baseline compared with | Baseline only correct | Other only correct | Exact p | Holm p |
 | --- | --- | --- | --- | --- |
@@ -85,7 +85,7 @@ No inferential comparison between TextCNN and BiLSTM is claimed.
 The run used Windows 11, Intel Core i9-14900KF and RTX 4090, Python 3.12.14 and
 PyTorch 2.8.0+cu128. Wall time includes validation/checkpoint work but not preprocessing
 or final evaluation. CUDA figures measure allocated tensors; RSS is a shared
-process-lifetime peak, not isolated model RAM. [Environment](../reproducibility/manifests/Yuyao_Ding/task2_formal_20260927T020054Z_ba87cd57/environment.json).
+process-lifetime peak, not isolated model RAM. [Environment](../../reproducibility/manifests/Yuyao_Ding/task2_formal_20260927T020054Z_ba87cd57/environment.json).
 
 ## Interpretation
 
@@ -96,9 +96,9 @@ improving accuracy by 1.51 points over the baseline. TextCNN has the
 lowest ECE. Dropout and clipping differ as well as architecture, and only one seed
 was run, so these are configuration comparisons rather than isolated architecture effects.
 
-![Baseline loss](../task2_sentiment/Yuyao_Ding/outputs/task2_formal_20260927T020054Z_ba87cd57/baseline/loss_curve.png)
-![TextCNN loss](../task2_sentiment/Yuyao_Ding/outputs/task2_formal_20260927T020054Z_ba87cd57/textcnn/loss_curve.png)
-![BiLSTM loss](../task2_sentiment/Yuyao_Ding/outputs/task2_formal_20260927T020054Z_ba87cd57/bilstm/loss_curve.png)
+![Baseline loss](../../task2_sentiment/Yuyao_Ding/outputs/task2_formal_20260927T020054Z_ba87cd57/baseline/loss_curve.png)
+![TextCNN loss](../../task2_sentiment/Yuyao_Ding/outputs/task2_formal_20260927T020054Z_ba87cd57/textcnn/loss_curve.png)
+![BiLSTM loss](../../task2_sentiment/Yuyao_Ding/outputs/task2_formal_20260927T020054Z_ba87cd57/bilstm/loss_curve.png)
 
 | Test slice | n (negative / positive) | Baseline F1 | TextCNN F1 | BiLSTM F1 |
 | --- | --- | --- | --- | --- |
@@ -121,7 +121,7 @@ processed test case is missed by all models and cannot support a subgroup conclu
 Twenty distinct errors per model have been analyzed: five confident false positives,
 five confident false negatives, five near the threshold and five from predefined
 long/negation slices. The 60 entries include 53 unique reviews and no shortages.
-The [full analysis](../task2_sentiment/Yuyao_Ding/failure_analysis.md) provides exact
+The [full analysis](../../task2_sentiment/Yuyao_Ding/failure_analysis.md) provides exact
 excerpts, IDs, probabilities, processed lengths, observations and testable proposals.
 
 Representative cases:
@@ -149,13 +149,13 @@ not become a tuning set presented later as untouched evaluation.
 
 ## Reproduction and remaining team work
 
-[Setup, reproduction and demo](../task2_sentiment/Yuyao_Ding/README.md) cover Windows,
+[Setup, reproduction and demo](../../task2_sentiment/Yuyao_Ding/README.md) cover Windows,
 Mac, Linux and optional Colab. Windows CPU/CUDA were tested; physical Mac/Linux/Colab
 checks are still pending. The executed training notebook stays unchanged. The
 independent demo uses the frozen definitions and checkpoint vocabulary without data
-loading or retraining. [Verification](../reproducibility/manifests/Yuyao_Ding/task2_closeout_checks.json).
+loading or retraining. [Verification](../../reproducibility/manifests/Yuyao_Ding/task2_closeout_checks.json).
 
-The [full metrics table](../task2_sentiment/Yuyao_Ding/metrics_report.csv) links every
+The [full metrics table](../../task2_sentiment/Yuyao_Ding/metrics_report.csv) links every
 value to evidence. Run manifests map logs, outputs and checkpoints. The main run IDs
 end in `_baseline`, `_textcnn`, and `_bilstm`; their matching `best.pt` files are kept.
 

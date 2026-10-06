@@ -33,7 +33,7 @@ The main session is `task2_formal_20260927T020054Z_ba87cd57`. All three models c
 five epochs and evaluation on 38,000 test reviews. Baseline / TextCNN / BiLSTM test
 accuracy is 93.24% / 93.88% / 94.75%; the selected epochs are 5 / 3 / 3.
 [Results](results.md), [case analysis](failure_analysis.md), and
-[the report contribution](../../report/Task2_Yuyao_Ding.md) use this run.
+[the report contribution](../../report/Yuyao_Ding/Task2_Yuyao_Ding.md) use this run.
 
 The saved notebook includes the completed formal outputs and currently has
 RUN_FORMAL_TRAINING = True. Opening it only displays those results; Run All starts

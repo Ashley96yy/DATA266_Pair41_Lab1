@@ -3,7 +3,7 @@
 This combined archive uses an environment inside the extracted project. Start with the [project setup](../../README.md). In older Windows examples below, replace `..\.venv\Scripts\python` with `.\.venv\Scripts\python`. The original computer kept its environment one directory above the project.
 
 
-The nine-block FP32 CycleGAN completed 100 epochs and 100,000 updates on RTX 4090. Validation selected epoch 70; formal evaluation and the 30-case two-rater audit are complete. Yuyao's Kaggle Public score is -52.8347. See [results.md](results.md), [the eight-case analysis](failure_analysis.md) and [the report contribution](../../report/Task3_Yuyao_Ding.md). The teammate comparison remains to be written.
+The nine-block FP32 CycleGAN completed 100 epochs and 100,000 updates on RTX 4090. Validation selected epoch 70; formal evaluation and the 30-case two-rater audit are complete. Yuyao's Kaggle Public score is -52.8347. See [results.md](results.md), [the eight-case analysis](failure_analysis.md), [the report contribution](../../report/Yuyao_Ding/Task3_Yuyao_Ding.md) and [the combined team report](../../report/DATA266_Lab1_Report_Team_41.pdf).
 
 The original six-block baseline remains available, with its code/configuration in [quick_6block.zip](baselines/quick_6block.zip). Its saved checkpoints, outputs and raw logs are preserved.
 

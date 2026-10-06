@@ -161,7 +161,7 @@ The final Kaggle score equals the local course-script score (50.2351) exactly, b
 
 ## Comparison with my teammate (Yuyao Ding)
 
-Yuyao's Task 3 results are in their own report ([Task3_Yuyao_Ding.md](../Task3_Yuyao_Ding.md)). We trained independently. A joint comparison table will be added to the combined team report.
+Yuyao's Task 3 results are in their own report ([Task3_Yuyao_Ding.md](../Yuyao_Ding/Task3_Yuyao_Ding.md)). We trained independently. A joint comparison table will be added to the combined team report.
 
 ## Strengths, weaknesses and limitations
 

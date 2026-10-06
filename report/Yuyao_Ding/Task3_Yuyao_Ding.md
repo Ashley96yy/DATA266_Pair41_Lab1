@@ -5,7 +5,7 @@ Epoch 70 was selected by validation KID after 100 epochs / 100,000 updates.
 The 30-case two-rater audit is complete, and Yuyao's Kaggle Public score is -52.8347.
 The teammate comparison remains to be written; Yuyao's private score and personal rank
 are not available.
-The [full results](../task3_gan/Yuyao_Ding/results.md) contain the protocol definitions,
+The [full results](../../task3_gan/Yuyao_Ding/results.md) contain the protocol definitions,
 source links and comparison with the preserved quick baseline.
 
 ## Experiment and data
@@ -93,7 +93,7 @@ The separate course protocol uses 300 images per direction, including training i
 
 The local submission CSV contains mean FID **105.250404** and mean MiFID **0.419085**.
 These are local evaluation values. Yuyao's uploaded `submission.csv` received Kaggle
-**Public score -52.8347**, evidenced by the [submissions screenshot](../task3_gan/Yuyao_Ding/outputs/kaggle_public_submissions.png).
+**Public score -52.8347**, evidenced by the [submissions screenshot](../../task3_gan/Yuyao_Ding/outputs/kaggle_public_submissions.png).
 The private score and Yuyao's individual rank are not shown; the team's rank 32 belongs
 to Pratiksha's selected submission.
 
@@ -108,7 +108,7 @@ combined results are:
 | Freedom from artifacts | 2.48 | 66.7% | 0.537 |
 
 Means pool both raters' scores over 30 cases. Agreement and unweighted Cohen's kappa
-compare their scores case by case. The [audit record](../task3_gan/Yuyao_Ding/outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/audit_results.json)
+compare their scores case by case. The [audit record](../../task3_gan/Yuyao_Ding/outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/audit_results.json)
 contains the per-direction results and hashes of both rating sheets. The instructions
 requested independent scoring; the completed sheets do not establish whether the
 raters discussed scores outside the recorded process.
@@ -164,7 +164,7 @@ The training means below give unweighted cycle/identity components in [-1,1]:
 | Gradient norm D Monet | 6.193459 | 4.861524 |
 | Gradient norm D Photo | 5.558846 | 5.480059 |
 
-![Training curves](../task3_gan/Yuyao_Ding/outputs/task3_formal_20260927T075834Z_d335ae80/training_curves.png)
+![Training curves](../../task3_gan/Yuyao_Ding/outputs/task3_formal_20260927T075834Z_d335ae80/training_curves.png)
 
 | Measure | Recorded value |
 | --- | --- |
@@ -222,19 +222,19 @@ sky and water can acquire repeated fine texture, and thin objects can blur. Some
 village scenes remain close to softly filtered photos rather than convincing paintings.
 The reverse direction often retains painted strokes. Cycle reconstruction improves
 without eliminating these style/realism problems. The
-[eight-case analysis](../task3_gan/Yuyao_Ding/failure_analysis.md) separates observations
+[eight-case analysis](../../task3_gan/Yuyao_Ding/failure_analysis.md) separates observations
 from untested hypotheses and links the original image panels.
 
-![Selected validation examples: input, translation, cycle](../task3_gan/Yuyao_Ding/outputs/task3_formal_20260927T075834Z_d335ae80/validation/epoch_070/input_translation_cycle.png)
+![Selected validation examples: input, translation, cycle](../../task3_gan/Yuyao_Ding/outputs/task3_formal_20260927T075834Z_d335ae80/validation/epoch_070/input_translation_cycle.png)
 
 ## Evidence and remaining team work
 
-- [Evaluation and checkpoint identity](../task3_gan/Yuyao_Ding/outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/evaluation.json).
-- [Full metric CSV](../task3_gan/Yuyao_Ding/outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/full_metrics_report.csv).
-- [Executed notebook](../task3_gan/Yuyao_Ding/outputs/task3_formal_20260927T075834Z_d335ae80/training_notebook.ipynb).
-- [Frozen configuration, environment and source hashes](../reproducibility/manifests/Yuyao_Ding/task3_formal_20260927T075834Z_d335ae80/run.json).
-- [Unedited epoch logs](../reproducibility/raw_logs/Yuyao_Ding/task3_formal_20260927T075834Z_d335ae80/epochs.jsonl).
-- [Setup, demo and audit commands](../task3_gan/Yuyao_Ding/README.md).
+- [Evaluation and checkpoint identity](../../task3_gan/Yuyao_Ding/outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/evaluation.json).
+- [Full metric CSV](../../task3_gan/Yuyao_Ding/outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/full_metrics_report.csv).
+- [Executed notebook](../../task3_gan/Yuyao_Ding/outputs/task3_formal_20260927T075834Z_d335ae80/training_notebook.ipynb).
+- [Frozen configuration, environment and source hashes](../../reproducibility/manifests/Yuyao_Ding/task3_formal_20260927T075834Z_d335ae80/run.json).
+- [Unedited epoch logs](../../reproducibility/raw_logs/Yuyao_Ding/task3_formal_20260927T075834Z_d335ae80/epochs.jsonl).
+- [Setup, demo and audit commands](../../task3_gan/Yuyao_Ding/README.md).
 
 Checkpoint SHA-256: `d22ff9d9de85ed8103f0cc7124a9007cd155ca4eaf21f993704cfcf02d2ddfbf`.
 All local execution checks concern Windows CPU/CUDA; physical Mac/Linux/Colab runs

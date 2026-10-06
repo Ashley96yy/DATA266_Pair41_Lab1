@@ -1,6 +1,6 @@
 # Task 1 - Yuyao Ding
 
-This is Yuyao Ding's contribution for the combined report. The teammate comparison and jointly written analysis still need the teammate's results. The main run is `train_20260927T000510Z_b9df2210`; the full individual report is [results.md](../task1_llm/Yuyao_Ding/results.md).
+This is Yuyao Ding's contribution for the combined report. The teammate comparison and jointly written analysis still need the teammate's results. The main run is `train_20260927T000510Z_b9df2210`; the full individual report is [results.md](../../task1_llm/Yuyao_Ding/results.md).
 
 ## Model, data and training
 
@@ -23,7 +23,7 @@ The model is a character-level decoder with learned token and position embedding
 | Python / NumPy / PyTorch | 3.12.14 / 2.5.3 / 2.8.0+cu128 |
 | Best checkpoint | Epoch 10 |
 
-The 100K/10K dataset sizes are interpreted as stories. Sampling preserves the official split and excludes selected training-story hashes from validation. The vocabulary is built on training text only. The CPU model was checked after the run; the original manifest retains its generic platform identifier. [Preprocessing details and hashes](../reproducibility/manifests/Yuyao_Ding/preprocessing_manifest.json), [run manifest](../reproducibility/manifests/Yuyao_Ding/train_20260927T000510Z_b9df2210/manifest.json) and [saved training source](../reproducibility/manifests/Yuyao_Ding/train_20260927T000510Z_b9df2210/source_snapshot.py) identify the experiment.
+The 100K/10K dataset sizes are interpreted as stories. Sampling preserves the official split and excludes selected training-story hashes from validation. The vocabulary is built on training text only. The CPU model was checked after the run; the original manifest retains its generic platform identifier. [Preprocessing details and hashes](../../reproducibility/manifests/Yuyao_Ding/preprocessing_manifest.json), [run manifest](../../reproducibility/manifests/Yuyao_Ding/train_20260927T000510Z_b9df2210/manifest.json) and [saved training source](../../reproducibility/manifests/Yuyao_Ding/train_20260927T000510Z_b9df2210/source_snapshot.py) identify the experiment.
 
 ## Results
 
@@ -38,7 +38,7 @@ Both splits below use the same best checkpoint with dropout disabled. CE is toke
 
 Validation CE minus training CE is **-0.000482382 nats/character**. Validation loss fell each epoch and improved only slightly over the last three epochs (0.887282, 0.883779, 0.882114). The run approaches a plateau under this schedule, with no visible positive generalization gap. This is not a held-out test result.
 
-![Training and validation loss](../task1_llm/Yuyao_Ding/outputs/train_20260927T000510Z_b9df2210/loss_curves.png)
+![Training and validation loss](../../task1_llm/Yuyao_Ding/outputs/train_20260927T000510Z_b9df2210/loss_curves.png)
 
 The training curve averages changing weights with dropout active. It is not used to compute the matched-checkpoint gap above.
 
@@ -67,11 +67,11 @@ Distinct-n is unique/total character n-grams; repeated-4 is `(total - unique) / 
 
 The post-hoc loss-spike rule is a minibatch CE above twice the median of the previous 100 minibatches within the same epoch; its first 100 steps are excluded. CUDA allocation is not reserved memory or total device memory. RSS covers the process lifetime. Training-loop time excludes evaluation and checkpoint saving; full wall time includes them but excludes preprocessing and later generation.
 
-Full-precision values for all required metrics are in [metrics_report.csv](../task1_llm/Yuyao_Ding/metrics_report.csv), selected by the main `model_id`. Each row links its evidence. The [raw log](../reproducibility/raw_logs/Yuyao_Ding/train_20260927T000510Z_b9df2210.jsonl), [metrics](../task1_llm/Yuyao_Ding/outputs/train_20260927T000510Z_b9df2210/metrics.json), [generation samples](../task1_llm/Yuyao_Ding/outputs/train_20260927T000510Z_b9df2210/generations_20260927T002606Z_9466d7d0.json) and [report calculations](../task1_llm/Yuyao_Ding/outputs/train_20260927T000510Z_b9df2210/report_audit.json) are retained.
+Full-precision values for all required metrics are in [metrics_report.csv](../../task1_llm/Yuyao_Ding/metrics_report.csv), selected by the main `model_id`. Each row links its evidence. The [raw log](../../reproducibility/raw_logs/Yuyao_Ding/train_20260927T000510Z_b9df2210.jsonl), [metrics](../../task1_llm/Yuyao_Ding/outputs/train_20260927T000510Z_b9df2210/metrics.json), [generation samples](../../task1_llm/Yuyao_Ding/outputs/train_20260927T000510Z_b9df2210/generations_20260927T002606Z_9466d7d0.json) and [report calculations](../../task1_llm/Yuyao_Ding/outputs/train_20260927T000510Z_b9df2210/report_audit.json) are retained.
 
 ## Three failure cases
 
-The snippets below are exact excerpts from the six recorded outputs, not newly generated examples. See [failure_analysis.md](../task1_llm/Yuyao_Ding/failure_analysis.md) for their observations and possible explanations.
+The snippets below are exact excerpts from the six recorded outputs, not newly generated examples. See [failure_analysis.md](../../task1_llm/Yuyao_Ding/failure_analysis.md) for their observations and possible explanations.
 
 1. **Repetition** - `The dog wanted to`, greedy, sample 5:
 
@@ -105,7 +105,7 @@ Best checkpoint: `task1_llm/Yuyao_Ding/checkpoints/train_20260927T000510Z_b9df22
 
 SHA-256: `5cde3d36c7cb5b29224e19644e50be952a97c0e440c4cc3199169d6a2c8518ef`.
 
-The [Task 1 guide](../task1_llm/Yuyao_Ding/README.md) explains environment setup, the one-command smoke test, checkpoint restoration and direct text-generation demo. The saved checkpoint and reproduction materials are included in the combined resource ZIP.
+The [Task 1 guide](../../task1_llm/Yuyao_Ding/README.md) explains environment setup, the one-command smoke test, checkpoint restoration and direct text-generation demo. The saved checkpoint and reproduction materials are included in the combined resource ZIP.
 
 ## References
 
