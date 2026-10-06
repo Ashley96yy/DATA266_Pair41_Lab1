@@ -1,0 +1,4 @@
+{
+  "checkpoint": "task1_llm/Yuyao_Ding/checkpoints/smoke_20261006T032413Z_68797f4d/epoch_001.pt",
+  "validation_ce": 4.221222639083862
+}

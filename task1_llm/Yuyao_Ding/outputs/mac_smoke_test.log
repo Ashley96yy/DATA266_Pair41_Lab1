@@ -1,0 +1,60 @@
+Matplotlib is building the font cache; this may take a moment.
+{
+  "seed": 640,
+  "vocab_size": 104,
+  "max_seq_len": 256,
+  "d_model": 128,
+  "n_heads": 4,
+  "n_layers": 2,
+  "d_ff": 512,
+  "dropout": 0.1,
+  "layer_norm_eps": 1e-05
+}
+Test input / target: (2, 256) (2, 256) torch.int64
+Embedding output: (2, 256, 128)
+Learnable token / position tables: True True
+Normalized hidden shape: (2, 256, 128)
+Maximum absolute per-token mean: 4.470348358154297e-08
+Feed-forward output: (2, 256, 128)
+Attention weights [batch, heads, query, key]: (2, 4, 256, 256)
+Largest future-position weight: 0.0
+Attention output: (2, 256, 128)
+Number of blocks: 2
+Output logits [batch, sequence, vocabulary]: (2, 256, 104)
+Trainable parameters: 456,192
+Maximum future attention weight: 0.0
+Maximum prefix change after modifying future tokens: 0.0
+Initial diagnostic cross-entropy (untrained): 4.672317
+Diagnostic gradient norm: 4.347316
+Embedding gradients, context boundaries, and state restoration: passed
+Optimizer steps: 0; model parameters unchanged
+Saved report: reproducibility/manifests/Yuyao_Ding/model_implementation_checks.json
+All model implementation checks passed. Formal training has not started.
+{
+  "seed": 640,
+  "epochs": 10,
+  "batch_size": 64,
+  "eval_batch_size": 64,
+  "learning_rate": 0.0003,
+  "min_learning_rate": 3e-05,
+  "warmup_fraction": 0.05,
+  "weight_decay": 0.01,
+  "gradient_clip": 1.0,
+  "log_every": 100,
+  "device": "auto"
+}
+Formal training is disabled until RUN_FORMAL_TRAINING is set to True.
+Optimizer step 1: learning rate 0.00000011
+Optimizer step 2,710: learning rate 0.00030000
+Optimizer step 54,200: learning rate 0.00003000
+Formal training: 346,847 sequences per epoch; 54,200 optimizer steps total.
+Training device: mps
+smoke_20261006T032413Z_68797f4d | epoch 1/1 | batch 3/3 | loss 4.2889
+Epoch 1: train online CE=4.4607; validation CE=4.2212
+Saved run: task1_llm/Yuyao_Ding/outputs/smoke_20261006T032413Z_68797f4d | smoke_complete
+
+[greedy] Once upon a time,                    
+
+[temperature_sampling] Once upon a time,	!laK FxkEx –ñH´S”tn
+Saved generation evidence: task1_llm/Yuyao_Ding/outputs/smoke_20261006T032413Z_68797f4d/generations_20261006T032415Z_721a3e98.json
+Smoke test passed: task1_llm/Yuyao_Ding/outputs/smoke_20261006T032413Z_68797f4d

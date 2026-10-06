@@ -1,5 +1,5 @@
 {
-  "verified_at_utc": "2026-09-27T00:05:08.161793+00:00",
+  "verified_at_utc": "2026-10-06T03:24:05.120479+00:00",
   "status": "implementation checks passed; model untrained; no optimizer steps",
   "device": "cpu",
   "config": {
@@ -25,7 +25,7 @@
   "maximum_future_attention_weight": 0.0,
   "maximum_prefix_change_after_future_perturbation": 0.0,
   "initialization_diagnostic_cross_entropy": 4.672317028045654,
-  "initialization_diagnostic_gradient_norm": 4.347315766304743,
+  "initialization_diagnostic_gradient_norm": 4.347315821101846,
   "checks": {
     "prefix_consistency": true,
     "context_length_boundaries": true,
@@ -35,8 +35,8 @@
     "state_dict_restoration": true
   },
   "versions": {
-    "python": "3.12.14",
+    "python": "3.12.2",
     "numpy": "2.5.3",
-    "torch": "2.8.0+cu128"
+    "torch": "2.8.0"
   }
 }
