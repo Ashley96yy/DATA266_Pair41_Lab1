@@ -36,6 +36,7 @@ Pratiksha_Kaushik/
 ├── results.md               architecture, hyperparameters, design decisions, all metrics, interpretation
 ├── failure_analysis.md      3 generated-text failure cases (repetition, invented words, loss of coherence)
 ├── metrics_report.csv       every required metric
+├── RUN_LOG.txt              full training log of the final run (648 lines: setup, every step, every epoch, evaluation)
 ├── configs/config.json      exact training config of the final run
 ├── src/
 │   ├── Task1_gpt.ipynb                      final notebook (8L / 512d / context 512)
@@ -70,4 +71,4 @@ Environment: Python 3.13.15, PyTorch 2.11.0+cu130, CUDA 13.0, bf16 autocast with
 
 ## Note on the raw log
 
-The log file saved to Drive during training (`..._runlog.txt`) only contains the first 14 setup lines. The rest was never written to the file, probably because Drive didn't sync it. The complete log was printed in the notebook, so `..._runlog_from_notebook_output.txt` contains those lines exactly as printed, from run start to the manifest write. The per-step numbers are also in `outputs/metrics/step_metrics.csv` (27,360 steps).
+The log file saved to Drive during training (`..._runlog.txt`) only contains the first 14 setup lines. The rest was never written to the file, probably because Drive didn't sync it. The complete log was printed in the notebook, so `..._runlog_from_notebook_output.txt` contains those lines exactly as printed, from run start to the manifest write. `RUN_LOG.txt` in the top folder is a copy of that complete log. The per-step numbers are also in `outputs/metrics/step_metrics.csv` (27,360 steps).
