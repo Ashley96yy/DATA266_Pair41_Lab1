@@ -13,7 +13,7 @@ Scored on the first 300 files by name in each folder, both directions, with torc
 | v1 (baseline) | 101.512 | 102.989 | 0.4127 | 0.4208 | 102.2502 | 0.4168 | 51.3335 |
 | **v3 (final)** | **100.538** | **99.576** | **0.4099** | **0.4170** | **100.0568** | **0.4135** | **50.2351** |
 
-Submitted file: `submission.csv`
+Submitted file: `submission.csv` (copied exactly from the v3 notebook output, section 15)
 
 ```
 ID,FID,MiFID
@@ -118,6 +118,12 @@ v3 makes more convincing Monets (higher precision, density and coverage, lower F
 | Photo-cycle L1 < L1(input, translation) | PASS |
 | Cycle loss decreased during training | PASS (0.280 → 0.122) |
 
+**Translations and cycle reconstructions** (rows: input, translation, reconstruction):
+
+![Photo to Monet](outputs/figures/qual_photo2monet.png)
+
+![Monet to Photo](outputs/figures/qual_monet2photo.png)
+
 ## 7. Training losses and stability
 
 Means over the last 25% of steps.
@@ -137,6 +143,10 @@ Means over the last 25% of steps.
 - **Stable training:** no NaN steps, bounded gradients, and only rare isolated spikes.
 - **Late imbalance:** in the last ~20 epochs the discriminator loss kept falling (≈0.36 at epoch 40 → 0.22 at epoch 80) while the validation score stopped improving. The discriminators began to dominate, so checkpoints from epochs 60–70 were averaged instead of using the last one.
 
+![Loss curves](outputs/figures/loss_curves.png)
+
+![Stability curves](outputs/figures/stability_curves.png)
+
 ## 8. Efficiency
 
 | | v1 | v3 |
@@ -148,15 +158,46 @@ Means over the last 25% of steps.
 | Inference throughput (batch 16, median of 5) | 523.8 ± 4.7 img/s | 505.3 ± 19.3 img/s |
 | Peak GPU memory, train / inference | 18.51 GB / 2.44 GB | 6.33 GB / 2.99 GB |
 
-## 9. Files
+## 9. Human audit (30 fixed samples, 2 raters)
 
-- **Final model:** `data266_cyclegan_v3/runs/final/checkpoints/best_ema.pt` (91 MB), plus `color_cal.pt`.
-- **Full training state (epoch 80):** `runs/final/checkpoints/last.pt` (514 MB).
-- **Predictions:** `data266_cyclegan_v3/pred_A2B/` (300) and `pred_B2A/` (7,038).
-- **Details:**
-  - figures: `figures/`
-  - per-step history: `train_history.csv`
-  - checkpoint scores: `eval_history.csv`
-  - screening results: `screening.csv`
-  - failure cases: `FAILURES.md`
-  - v1 vs v3 numbers: `metric_report.csv`
+The blinded audit packet is in `outputs/human_audit/`: 30 side-by-side images (20 photo→Monet, 10 Monet→photo) in shuffled order, `audit_sheet.html` for viewing, and one sheet per rater. Each rater scores style, content preservation and artifacts from 1 to 5, on their own.
+
+**Status: PENDING.** `rater1.csv` and `rater2.csv` are still blank. Once both are filled in, run `python src/score_human_audit.py`. It writes the per-sample scores, the mean score per rater, exact and within-1 agreement, and Cohen's kappa (unweighted and quadratic) to `outputs/human_audit/audit_summary.csv`.
+
+| Criterion | Rater 1 mean | Rater 2 mean | Exact agreement | Cohen's kappa |
+|---|---|---|---|---|
+| Style | - | - | - | - |
+| Content | - | - | - | - |
+| Artifacts | - | - | - | - |
+
+## 10. Kaggle leaderboard
+
+| | Value |
+|---|---|
+| Public leaderboard score | PENDING |
+| Private leaderboard score | PENDING (if available) |
+| Final rank | PENDING |
+
+The local score from the course script is 50.2351 (`submission.csv`). Add a screenshot of the leaderboard to `outputs/kaggle/` as evidence.
+
+## 11. Files
+
+| What | Where |
+|---|---|
+| Final notebook (v3) | `src/Pratiksha_cyclegan_monet_v3.ipynb` |
+| Baseline notebook (v1) | `src/task3_cyclegan_v1_baseline.ipynb` |
+| Model code / metrics code | `src/cyclegan_models.py`, `src/full_metrics.py` |
+| Course score script | `evaluate_local.py` |
+| Raw training log (v3) | `RUN_LOG.txt` |
+| Per-step losses, gradient norms, D outputs | `data_processed/train_history_v3.csv` (v1: `train_history_v1.csv`) |
+| Validation score per checkpoint | `outputs/eval_history_v3.csv` (v1: `eval_history_v1.csv`) |
+| Loss and stability plots | `outputs/figures/loss_curves.png`, `outputs/figures/stability_curves.png` |
+| Translations + cycle reconstructions | `outputs/figures/qual_photo2monet.png`, `outputs/figures/qual_monet2photo.png` (rows: input, translation, reconstruction) |
+| Worst cases | `outputs/figures/worst_*.png`, see `failure_analysis.md` |
+| All figures (Google Drive) | https://drive.google.com/drive/folders/1EXP4Iq-KOcFrWSmeZKD6gqnB6YQxDPTH |
+| All metrics, v1 vs v3 | `full_metrics_report.csv` |
+| Submission | `submission.csv` (v3) |
+| Checkpoints | `checkpoints/last_v3_epoch80.pt`, `checkpoints/best_ema_v1_epoch45.pt` |
+| Reproducibility | `reproducibility_manifest.json`, `configs/` |
+
+The full prediction folders (`pred_A2B/` with 300 Monet→photo images, `pred_B2A/` with 7,038 photo→Monet images) and the final averaged v3 weights (`best_ema.pt` + `color_cal.pt`) are still on the training machine under `/app/content/data266_cyclegan_v3/`.

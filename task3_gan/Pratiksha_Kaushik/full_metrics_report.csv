@@ -1,0 +1,68 @@
+section,metric,direction,v1,v3_final,notes
+setup,Model selected,both,EMA epoch 45 of 50,EMA avg of epochs 60/65/70 (80 total),
+setup,lambda_cyc / lambda_id,both,10 / 5,10 / 1,
+setup,Discriminator scales,both,1,2,
+setup,Colour calibration,both,none,Monet->photo only,
+official score,FID (course script),photo->Monet,101.512,100.538,"first 300 by name, torchvision Inception"
+official score,FID (course script),Monet->photo,102.989,99.576,
+official score,MiFID (course script),photo->Monet,0.4127,0.4099,paired cosine distance
+official score,MiFID (course script),Monet->photo,0.4208,0.417,
+official score,Submitted FID (avg),both,102.2502,100.0568,
+official score,Submitted MiFID (avg),both,0.4168,0.4135,
+official score,Final score (FID+MiFID)/2,both,51.3335,50.2351,lower is better
+distribution,FID,photo->Monet,94.67,93.22,"TF-FID Inception, 1000 held-out photos vs 300 Monets"
+distribution,FID,Monet->photo,86.15,85.95,
+distribution,KID x1e3 (mean),photo->Monet,19.48,20.63,
+distribution,KID x1e3 (std),photo->Monet,2.06,2.06,
+distribution,KID x1e3 (mean),Monet->photo,18.55,19.51,
+distribution,KID x1e3 (std),Monet->photo,2.08,2.2,
+distribution,Precision,photo->Monet,0.432,0.483,higher is better
+distribution,Precision,Monet->photo,0.6833,0.7133,
+distribution,Recall,photo->Monet,0.6567,0.59,
+distribution,Recall,Monet->photo,0.45,0.436,
+distribution,Density,photo->Monet,0.3158,0.4076,
+distribution,Density,Monet->photo,0.73,0.7187,
+distribution,Coverage,photo->Monet,0.79,0.8367,
+distribution,Coverage,Monet->photo,0.454,0.451,
+content,Content cosine (input vs translation),photo->Monet,0.7655,0.7343,unrelated-pair baseline 0.5689
+content,Content cosine (input vs translation),Monet->photo,0.8164,0.7849,
+content,LPIPS input vs translation,photo->Monet,0.3718,0.3891,unrelated-pair baseline 0.8114
+content,LPIPS input vs translation,Monet->photo,0.3016,0.3476,
+cycle,Cycle reconstruction L1,photo cycle,0.0934,0.1168,unrelated-pair baseline 0.5742
+cycle,Cycle reconstruction L1,Monet cycle,0.0678,0.073,
+cycle,LPIPS input vs reconstruction,photo cycle,0.2077,0.2097,
+cycle,LPIPS input vs reconstruction,Monet cycle,0.2735,0.2871,
+reference,FID floor (photo vs photo split),photo,57.32,57.32,same held-out split
+reference,Memorisation distance (nearest-real cosine),photo->Monet,0.2612,0.2548,> 0.1 = no copying
+losses,Discriminator total (last 25%),both,0.3262,0.245,
+losses,Generator adversarial (last 25%),both,0.9729,1.2139,v3 averages 2 D scales
+losses,Cycle L1 unweighted (first 25%),both,0.299,0.2796,
+losses,Cycle L1 unweighted (last 25%),both,0.1255,0.1218,
+losses,Identity L1 unweighted (last 25%),both,0.1114,0.161,
+losses,Generator / discriminator loss curves,both,training_curves.png (shown in v1 notebook output),outputs/figures/loss_curves.png,per-step values in data_processed/train_history_v3.csv
+stability,Grad-norm median,G,21.725,16.298,
+stability,Grad-norm p99,G,53.156,33.716,
+stability,Grad-norm max,G,198.295,146.818,
+stability,Grad-norm median,D,11.799,7.335,
+stability,Grad-norm p99,D,31.39,18.8,
+stability,Grad-norm max,D,245.876,434.918,
+stability,NaN/Inf steps,both,0 of 40000,0 of 64000,
+stability,Gradient-norm curves,both,,outputs/figures/stability_curves.png,
+human audit,Human-audit score (1-5) style / content / artifacts,both,not done,PENDING,"2 raters x 30 samples, run src/score_human_audit.py after filling rater1/2.csv"
+human audit,Cohen's kappa / % agreement,both,not done,PENDING,outputs/human_audit/audit_summary.csv
+kaggle,Kaggle public leaderboard score,,not submitted,PENDING,add from leaderboard
+kaggle,Kaggle private leaderboard score,,not submitted,PENDING,if available
+kaggle,Final leaderboard rank,,not submitted,PENDING,
+efficiency,Params per generator (M),,11.38,11.38,
+efficiency,Params per discriminator (M),,2.76,5.53,v3: 2-scale PatchGAN
+efficiency,Params total (M),,28.29,33.82,
+efficiency,Training time (h),,1.83,3.2,RTX 4090
+efficiency,Training steps,,40000,64000,batch 4
+efficiency,Training throughput (img/s per domain),,24.2,22.2,
+efficiency,"Inference throughput (img/s, bs 16)",,523.8,505.3,median of 5
+efficiency,Inference throughput std (img/s),,4.7,19.3,
+efficiency,Peak GPU memory train (GB),,18.51,6.33,v1 kept more on GPU
+efficiency,Peak GPU memory inference (GB),,2.44,2.99,
+efficiency,Training time (s),,6604.5,11532.5,from checkpoint STATE / metrics_v1.json
+efficiency,Training images per second (both domains),,48.5,44.4,2 x per-domain throughput
+efficiency,Hardware,,NVIDIA GeForce RTX 4090,NVIDIA GeForce RTX 4090,"python 3.10.13, torch 2.1.2"

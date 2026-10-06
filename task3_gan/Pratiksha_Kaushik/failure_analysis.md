@@ -9,9 +9,19 @@ Model: average of the EMA generators at epochs 60, 65 and 70 (λ_cyc 10, λ_id 1
 
 **Figures:**
 
-- `figures/worst_content_p2m.png`
-- `figures/worst_cycle_p2m.png`
-- `figures/worst_content_m2p.png`
+Lowest content similarity, photo→Monet:
+
+![Worst content photo to Monet](outputs/figures/worst_content_p2m.png)
+
+Worst cycle reconstruction, photo→Monet:
+
+![Worst cycle photo to Monet](outputs/figures/worst_cycle_p2m.png)
+
+Lowest content similarity, Monet→photo:
+
+![Worst content Monet to photo](outputs/figures/worst_content_m2p.png)
+
+All figures are also on [Google Drive](https://drive.google.com/drive/folders/1EXP4Iq-KOcFrWSmeZKD6gqnB6YQxDPTH).
 
 Each column shows the input, the translation, and the reconstruction.
 
@@ -103,7 +113,9 @@ This is the CycleGAN "steganography" effect (Chu et al., 2017): the generators l
 
 ## What works (for contrast)
 
-From `figures/qual_photo2monet.png`, the model does well on:
+![Photo to Monet](outputs/figures/qual_photo2monet.png)
+
+From `outputs/figures/qual_photo2monet.png`, the model does well on:
 
 - **Coastlines, waves, waterfalls and water reflections:** pastel palette, softened edges and brush-like texture, with the scene layout fully preserved.
 - **Mid-tone landscapes with clear structure:** cliffs, shorelines and skylines with good contrast.
