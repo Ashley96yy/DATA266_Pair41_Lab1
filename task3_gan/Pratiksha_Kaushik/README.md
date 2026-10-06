@@ -58,6 +58,9 @@ Pratiksha_Kaushik/
 │   ├── Pratiksha_cyclegan_monet_v3.ipynb   final notebook (sections 0-19)
 │   ├── task3_cyclegan_v1_baseline.ipynb    v1 baseline notebook
 │   ├── cyclegan_models.py        generator / discriminator classes + checkpoint loader
+│   ├── demo.py                   translate one image: input | translation | cycle reconstruction
+│   ├── predict.py                translate whole folders into pred_A2B/ and pred_B2A/
+│   ├── course_protocol_metrics.py  all metrics on the course protocol (300 per direction)
 │   ├── full_metrics.py           FID, KID, P/R, density/coverage, content cosine, LPIPS, cycle L1
 │   └── score_human_audit.py      rater means, agreement, Cohen's kappa
 ├── checkpoints/                  (git-ignored; download from Google Drive, link below)
@@ -112,6 +115,20 @@ The `.pt` files are too large for the repo. Download them from Google Drive and 
 1. Put the Kaggle "I'm Something of a Painter Myself" data (`monet_jpg/`, `photo_jpg/`) under the notebook's data root. It was `/app/content` on the training machine.
 2. Open `src/Pratiksha_cyclegan_monet_v3.ipynb` and run it top to bottom with `QUICK=False`. A full run, including screening, takes about 6 h on an RTX 4090. The final run alone takes about 3.2 h.
 3. With `resume=true`, training resumes from `runs/<name>/checkpoints/last.pt` under the output folder if it exists. To restart from the copy in this repo, put `checkpoints/last_v3_epoch80.pt` there as `last.pt`.
+
+## Demo (translate one image with the final model)
+
+Download `best_ema_v3_final.pt` and `color_cal.pt` into `checkpoints/` (Drive link in the Checkpoints section), then from this folder:
+
+```bash
+# photo -> Monet (any JPG or PNG works; it is resized and centre-cropped to 256x256)
+python src/demo.py --image path/to/photo.jpg --output demo_monet.png
+
+# Monet -> photo (applies the same colour calibration as the submitted model)
+python src/demo.py --image path/to/monet.jpg --direction A2B --output demo_photo.png
+```
+
+Each run saves a side-by-side image (input | translation | cycle reconstruction) and the translation on its own. It needs only `torch`, `numpy` and `pillow`, and runs on CUDA, Apple MPS or CPU.
 
 ## Commands
 
