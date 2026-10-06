@@ -46,7 +46,7 @@ Pratiksha_Kaushik/
 ├── full_metrics_report.csv       every required metric, v1 vs v3 side by side (Kaggle public score −50.2367, human audit 3.49/5; rank still PENDING)
 ├── metrics_v1.md                 metrics written by the v1 notebook (v1 only)
 ├── evaluate_local.py             course evaluation script as a .py (FID + MiFID on pred_A2B / pred_B2A)
-├── submission.csv                v3 submission as written by the v3 notebook (FID 100.0568, MiFID 0.4135, score 50.2351)
+├── final_submission.csv          final v3 submission (FID 100.0568, MiFID 0.4135, score 50.2351); uploaded to Kaggle as submission.csv -> −50.2351
 ├── submission_official_v3.csv    the file uploaded to Kaggle: second scoring of the same v3 predictions (FID 100.0599, MiFID 0.4135) -> Kaggle score −50.2367
 ├── RUN_LOG.txt                   raw v3 log: screening, final run, evaluation, export
 ├── reproducibility_manifest.json hardware, versions, data split, run info, sha256 of every file

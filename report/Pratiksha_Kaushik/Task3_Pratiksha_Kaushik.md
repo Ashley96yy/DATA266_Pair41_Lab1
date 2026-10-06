@@ -37,7 +37,7 @@ The second discriminator scale was the change that helped. Lowering λ_id on its
 | v1 baseline | 101.51 | 102.99 | 102.25 | 0.4168 | 51.33 |
 | **v3 final** | **100.54** | **99.58** | **100.06** | **0.4135** | **50.24** |
 
-[submission.csv](../../task3_gan/Pratiksha_Kaushik/submission.csv) contains `1,100.05676111548,0.41345334997946315`, exactly as written by the v3 notebook.
+[final_submission.csv](../../task3_gan/Pratiksha_Kaushik/final_submission.csv) (uploaded to Kaggle as `submission.csv`) contains `1,100.05676111548,0.41345334997946315`, exactly as written by the v3 notebook.
 
 ## Full metrics (v3, 1,000 held-out photos vs 300 Monets)
 

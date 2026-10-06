@@ -51,12 +51,13 @@
         "FID": 100.05676111548,
         "MiFID": 0.41345334997946315,
         "score": 50.2351,
-        "file": "submission.csv"
+        "file": "final_submission.csv"
       },
       "kaggle": {
         "uploaded_file": "submission_official_v3.csv",
         "public_score_shown": -50.2367,
-        "evidence": "outputs/kaggle/kaggle_submission.png"
+        "evidence": "outputs/kaggle/kaggle_submission.png",
+        "final_submission": "final_submission.csv (uploaded to Kaggle as submission.csv)"
       },
       "final_model_sha256": {
         "best_ema_v3_final.pt": "cfbfa0d62956132a79c6302e81f86c4517c3b0130c00142cca0b86208f2b4248",
@@ -65,8 +66,9 @@
     }
   },
   "file_sha256": {
-    "README.md": "cf66d09227815e75a2a5065bb0ab6be8d3818dc00fbfd1f5dcc67cef8d95a879",
+    "README.md": "2abdafb720d0663531675c5c6f6a1914d661c6cad53253314b5a0583053d7954",
     "RUN_LOG.txt": "600fa91482ad89b81183ce489fd5c16c2065fe4d71565c557d0ce0d8df69d9ad",
+    "checkpoints/README.md": "28429d06321d0879c3f91ed65f7f93d72c34e1e6e80034a7b836d1979476ff15",
     "checkpoints/best_ema_v1_epoch45.pt": "10195a96e5d78b0f5f52c341cc682e375cc8e643f3ec3425a4cc8bc22f103283",
     "checkpoints/last_v3_epoch80.pt": "c56ae1a6eb9dd1468ee57316190931713f0b41395404db56be8ef97bf7f9afd9",
     "configs/config_base.json": "69479c102fc1136937abf341e9650dfb073102359593748a675ac9e2add9a497",
@@ -76,6 +78,7 @@
     "data_processed/train_history_v3.csv": "f0bb05fd101cd3815ce224d800e699bd7724e4787e5c6e2ff1c311681a590438",
     "evaluate_local.py": "276b3e0468ace0488b2226de4d9b7b7b4d03bb26f08ece97c13876f10513318a",
     "failure_analysis.md": "df1014380611721e7aa85e7c291b6fb081f36132dfe6d8d6f29e4aeaf5759497",
+    "final_submission.csv": "672f523633d11ba19e551a43494811ddcf5f50a09797910aeedaadf60ca4c218",
     "full_metrics_report.csv": "de36d389f01a9f2c2321c1337e11dea694350491bec063388c6dcec289dabbe4",
     "metrics_v1.md": "e666e409687b6d0745170bc497ec2e4bf57ad40cfdd98301c0d3d35aa45eef8c",
     "outputs/eval_history_v1.csv": "1dfe4fcf0cfd113135f8b37ea7522c73dfb28e565af3cfcc76c32a4e4b273b04",
@@ -91,7 +94,9 @@
     "outputs/figures/worst_content_p2m.png": "6b48b852b0b1c08c336d2b8fb9379310f4714c21f1d2d9882086a7ceb37d1b68",
     "outputs/figures/worst_cycle_p2m.png": "94589b221e56d5a3950a50c520a44a7b68ffd4222f30e1dab081f1de95bfb44b",
     "outputs/human_audit/_key.csv": "96efb9a3e2f5343f08412b3fec6481227b6fdfb4a804ea5c587b3611373d32bf",
+    "outputs/human_audit/audit_scores_per_sample.csv": "7ede8fa571464770a120c2c0975d2c700b5281ee4140efd0cde6fdd10689c416",
     "outputs/human_audit/audit_sheet.html": "6f22ecd29ff61cfc1e2648a10897ecf0647f38a542bd89a1a8c19d38b4409c30",
+    "outputs/human_audit/audit_summary.csv": "19c24a0b857c9032a4fc0cbf26aa3374753497cc464675f785c14bc9b79ed40d",
     "outputs/human_audit/images/S01.png": "93ef37ed032726164e0a6bac5c43da6fd53a38b074b46476807c15673adff618",
     "outputs/human_audit/images/S02.png": "a8291e0cb46ff10c7f06af082547013ab88594fab91b836759a8e11b9091b15f",
     "outputs/human_audit/images/S03.png": "3d682699823efa398a3b15e9127aed01216f4933b56334f5ba2433214326dc09",
@@ -124,21 +129,17 @@
     "outputs/human_audit/images/S30.png": "9de388c8103db68aea2c8432580762217ebd799663522ac419ec19c6395bb155",
     "outputs/human_audit/rater1.csv": "1d9a2c018d0b80db29ba451c70822aabf9036741df155093ffe77bbb074953fa",
     "outputs/human_audit/rater2.csv": "6fecf04fa094730a1d147167ff0cb869a35d3a86276e9f7ba2b2c8dd0789bb3a",
+    "outputs/kaggle/kaggle_submission.png": "fc8467335464ce03ddd230cfc9b9b54715c7ded05c740ecb6f3d47eb4a7f1ec3",
     "outputs/pred_A2B/README.md": "a75fe656909014c4b7d21917ceee9c0dd188743ead69c055d28bd77ed16db962",
     "outputs/pred_B2A/README.md": "5d3c4879a46eba66c0d87ace653063e372efd0b347f9ba95d889b72561d4562a",
-    "results.md": "aec5db8ff470c59ed734f86385a4e3b0f22c2870243120a24582469a55d64201",
+    "results.md": "1471c5dcd3e4ada123455246a6f64b22f3a94f42ce221111c10288faa5c0f9eb",
     "src/Pratiksha_cyclegan_monet_v3.ipynb": "f8f5cba3670190925f5077b6b64db52cf0befaa7c4fa39dd4a3ceb90178dd39d",
+    "src/course_protocol_metrics.py": "895562231e50ca44c4c30665f503d9712c298b5077cea20dddda1306325191f4",
     "src/cyclegan_models.py": "01a9b10b28741dd5c53c181a90f68e9c187f2e9060056046937de1208a6b2bbc",
     "src/full_metrics.py": "4536b961162966588a788cc398d1212265bd36e97126a123654a868143469a17",
+    "src/predict.py": "78ac5937ec3c5d9b0fc56cccfdddca38dd37cb4ef090a470931dd70093010cb6",
     "src/score_human_audit.py": "ea750907b569fdb2cc4dfecfa1a365fc7450917997e26d825f7a46f0ceaaa951",
     "src/task3_cyclegan_v1_baseline.ipynb": "e72af84be89ae1c7b63b3e0520263500e5afba0befe3113616cbad78f58ffe72",
-    "submission.csv": "672f523633d11ba19e551a43494811ddcf5f50a09797910aeedaadf60ca4c218",
-    "checkpoints/README.md": "55456e07984439d06deddf479caaa99ebd3b31885848c9d0fc81943dcb058a54",
-    "outputs/human_audit/audit_scores_per_sample.csv": "7ede8fa571464770a120c2c0975d2c700b5281ee4140efd0cde6fdd10689c416",
-    "outputs/human_audit/audit_summary.csv": "19c24a0b857c9032a4fc0cbf26aa3374753497cc464675f785c14bc9b79ed40d",
-    "submission_official_v3.csv": "4c90409219c0445046e20bc8c5d188405d0476b09e68a151e398d894311af1e7",
-    "outputs/kaggle/kaggle_submission.png": "fc8467335464ce03ddd230cfc9b9b54715c7ded05c740ecb6f3d47eb4a7f1ec3",
-    "src/predict.py": "78ac5937ec3c5d9b0fc56cccfdddca38dd37cb4ef090a470931dd70093010cb6",
-    "src/course_protocol_metrics.py": "895562231e50ca44c4c30665f503d9712c298b5077cea20dddda1306325191f4"
+    "submission_official_v3.csv": "4c90409219c0445046e20bc8c5d188405d0476b09e68a151e398d894311af1e7"
   }
 }

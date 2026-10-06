@@ -13,7 +13,7 @@ Scored on the first 300 files by name in each folder, both directions, with torc
 | v1 (baseline) | 101.512 | 102.989 | 0.4127 | 0.4208 | 102.2502 | 0.4168 | 51.3335 |
 | **v3 (final)** | **100.538** | **99.576** | **0.4099** | **0.4170** | **100.0568** | **0.4135** | **50.2351** |
 
-Course-format file from the v3 notebook (section 15): `submission.csv`. This is the file submitted to Kaggle (score −50.2351, see section 10).
+Course-format file from the v3 notebook (section 15): `final_submission.csv` (uploaded to Kaggle as `submission.csv`). This is the file submitted to Kaggle (score −50.2351, see section 10).
 
 ```
 ID,FID,MiFID
@@ -187,7 +187,7 @@ Files: `outputs/human_audit/rater1.csv`, `rater2.csv` (scores and notes), `audit
 
 | | Value |
 |---|---|
-| Public leaderboard score | **−50.2351** (final, selected submission `submission.csv`) |
+| Public leaderboard score | **−50.2351** (final, selected submission `final_submission.csv`) |
 | Private leaderboard score | not shown on the Submissions page |
 | Final rank | PENDING |
 
@@ -195,10 +195,10 @@ Kaggle shows scores negated (−(FID + MiFID) / 2), so a higher (less negative) 
 
 | File uploaded | FID | MiFID | Kaggle score | Status |
 |---|---|---|---|---|
-| `submission.csv` (v3 notebook output) | 100.0568 | 0.4135 | **−50.2351** | selected, final |
+| `final_submission.csv` (v3 notebook output; uploaded as `submission.csv`) | 100.0568 | 0.4135 | **−50.2351** | selected, final |
 | `submission_official_v3.csv` (a second scoring run) | 100.0599 | 0.4135 | −50.2367 | earlier |
 
-The final Kaggle score equals the local course-script score (50.2351) exactly, because the uploaded file is the notebook's own `submission.csv`. The 0.0016 gap between the two files comes from re-running the Inception feature extraction. Evidence: `outputs/kaggle/kaggle_submission_final.png` (final) and `kaggle_submission_earlier.png`.
+The final Kaggle score equals the local course-script score (50.2351) exactly, because the uploaded file is the notebook's own output (`final_submission.csv`). The 0.0016 gap between the two files comes from re-running the Inception feature extraction. Evidence: `outputs/kaggle/kaggle_submission_final.png` (final) and `kaggle_submission_earlier.png`.
 
 ## 11. Files
 
@@ -216,7 +216,7 @@ The final Kaggle score equals the local course-script score (50.2351) exactly, b
 | Worst cases | `outputs/figures/worst_*.png`, see `failure_analysis.md` |
 | All figures (Google Drive) | https://drive.google.com/drive/folders/1EXP4Iq-KOcFrWSmeZKD6gqnB6YQxDPTH |
 | All metrics, v1 vs v3 | `full_metrics_report.csv` |
-| Submission | `submission.csv` (final Kaggle submission, −50.2351), `submission_official_v3.csv` (earlier Kaggle submission, −50.2367) |
+| Submission | `final_submission.csv` (final Kaggle submission, −50.2351), `submission_official_v3.csv` (earlier Kaggle submission, −50.2367) |
 | Kaggle evidence | `outputs/kaggle/kaggle_submission_final.png`, `outputs/kaggle/kaggle_submission_earlier.png` |
 | Checkpoints | `checkpoints/best_ema_v3_final.pt` + `color_cal.pt` (final submitted model), `checkpoints/last_v3_epoch80.pt`, `checkpoints/best_ema_v1_epoch45.pt` |
 | Reproducibility | `reproducibility_manifest.json`, `configs/` |

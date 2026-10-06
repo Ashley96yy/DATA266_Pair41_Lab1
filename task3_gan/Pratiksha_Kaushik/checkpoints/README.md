@@ -15,7 +15,7 @@ Put the downloaded files in this folder.
 
 ## Final v3 model
 
-The model actually used for `submission.csv`, the Kaggle submission and every v3 metric is in a separate Drive folder:
+The model actually used for `final_submission.csv`, the Kaggle submission and every v3 metric is in a separate Drive folder:
 
 **Download:** https://drive.google.com/drive/folders/1mOjhaPIFw9ML5e-Ts3aGs_CDKdgv31an?usp=drive_link
 
