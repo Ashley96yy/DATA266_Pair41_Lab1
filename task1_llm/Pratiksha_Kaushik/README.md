@@ -44,7 +44,8 @@ Pratiksha_Kaushik/
 ├── checkpoints/             (git-ignored; download: https://drive.google.com/drive/folders/18IwhldDiOowviFXWqD22ZC2dRBwvGPEF?usp=drive_link)
 │   ├── ckpt_best.pt         model weights, epoch 10 (val CE 0.4742), 102 MB
 │   └── ckpt_last.pt         full training state for resuming, 307 MB
-├── data_processed/          (git-ignored, on Google Drive)
+├── data_processed/          (README + small JSON files in git; .npy files on Google Drive)
+│   ├── README.md            what each file is, how the split and encoding were made
 │   ├── vocab.json           char_to_idx / idx_to_char (80 symbols)
 │   ├── split_indices.json   which TinyStories rows went to train (100,000) and val (10,000)
 │   ├── train_ids.npy, val_ids.npy   encoded character ids

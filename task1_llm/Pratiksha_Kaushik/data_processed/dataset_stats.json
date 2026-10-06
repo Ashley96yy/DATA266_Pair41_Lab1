@@ -1,0 +1,10 @@
+{
+  "train_chars": 89656644,
+  "val_chars": 8991471,
+  "train_unk_rate": 1.2715175910443403e-06,
+  "val_unk_rate": 2.113113638469167e-06,
+  "vocab_size": 80,
+  "eos_id": 0,
+  "unk_id": 1,
+  "dtype": "uint8"
+}
