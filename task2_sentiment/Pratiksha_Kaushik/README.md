@@ -24,7 +24,8 @@ RUN_LOG.txt         raw log written by the notebook (the second block is the fin
 reproducibility_manifest.json  hardware, versions, seed, checkpoint list, sha256 of every output
 results.md          short summary table
 metrics.md          full metrics write-up
-failure_analysis.md manual review of 20 errors
+failure_analysis.md summary of the 20-error review, with all 20 rows in a table
+manual_error_review.md detailed review of each of the 20 errors (excerpt, labels, probability, error type, explanation, testable fix)
 checkpoints/        model .pt files (gitignored, download link below)
 data_processed/     not used, data is loaded directly from Hugging Face
 ```

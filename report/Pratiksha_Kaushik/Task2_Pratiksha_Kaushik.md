@@ -94,12 +94,19 @@ I reviewed 20 errors from the best model (the CNN): 5 confident false positives,
 
 | Error type | Count |
 |---|---|
-| Mixed reviews (praise and complaint in the same review) | 9 |
-| Negation / contrast | 3 |
-| Ending decides the label (one case cut off by the 180-token limit) | 2 |
-| Sarcasm / indirect wording | 2 |
-| Label noise or non-English text | 2 |
-| Short positive reviews predicted negative | 2 |
+| Mixed sentiment (one strong phrase outweighs the rest) | 5 |
+| Hedged / mild sentiment near the threshold | 3 |
+| Verdict comes at the end of the review (one case cut off at 180 tokens) | 2 |
+| Negation cue misread | 2 |
+| Sarcasm / indirect tone | 2 |
+| Superlative negative ("least favorite") | 1 |
+| Contrast lost because "but" is a stopword | 1 |
+| Sentiment about a different business | 1 |
+| Non-English review | 1 |
+| Topic-word bias ("customer service") | 1 |
+| Possible label noise | 1 |
+
+The per-error write-up (excerpt, labels, probability, explanation and how to test each fix) is in [manual_error_review.md](../../task2_sentiment/Pratiksha_Kaushik/manual_error_review.md).
 
 ## Comparison of my three models
 
