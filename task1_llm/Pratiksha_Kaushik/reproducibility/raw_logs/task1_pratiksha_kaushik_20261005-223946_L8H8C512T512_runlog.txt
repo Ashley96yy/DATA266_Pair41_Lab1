@@ -1,0 +1,14 @@
+2026-10-05 22:39:46 | INFO    | run_id=20261005-223946_L8H8C512T512
+2026-10-05 22:39:46 | INFO    | member_dir=/content/drive/MyDrive/team-repo/task1_llm/pratiksha_kaushik
+2026-10-05 22:39:46 | INFO    | raw_log=/content/drive/MyDrive/team-repo/reproducibility/raw_logs/task1_pratiksha_kaushik_20261005-223946_L8H8C512T512_runlog.txt
+2026-10-05 22:39:46 | INFO    | device=cuda amp_dtype=torch.bfloat16
+2026-10-05 22:39:46 | INFO    | config={"dataset_name": "roneneldan/TinyStories", "seed": 1337, "n_train_stories": 100000, "n_val_stories": 10000, "min_story_chars": 50, "min_char_freq": 20, "block_size": 512, "n_layer": 8, "n_head": 8, "n_embd": 512, "dropout": 0.1, "epochs": 10, "batch_size": 64, "peak_lr": 0.0008, "min_lr": 8e-05, "warmup_frac": 0.03, "weight_decay": 0.1, "beta1": 0.9, "beta2": 0.95, "grad_clip": 1.0, "spike_factor": 1.3, "log_every": 50, "eval_interval": 500, "eval_batches": 40, "final_train_eval_batches": null, "keep_epoch_weights": false, "compile": true, "repo_root": "/content/drive/MyDrive/team-repo", "member_name": "pratiksha_kaushik"}
+2026-10-05 22:39:48 | INFO    | env={"python": "3.13.15", "platform": "Linux-6.6.122+-x86_64-with-glibc2.39", "torch": "2.11.0+cu130", "cuda": "13.0", "cudnn": 92700, "gpu": "NVIDIA A100-SXM4-40GB", "numpy": "2.1.3", "pandas": "2.2.3", "matplotlib": "3.10.0", "datasets": "4.8.5", "ftfy": "6.3.1", "amp_dtype": "torch.bfloat16"}
+2026-10-05 22:40:05 | INFO    | loaded roneneldan/TinyStories: 2,119,719 stories, columns=['text']
+2026-10-05 22:40:30 | INFO    | split: train=100,000 val=10,000 (scanned 121,000 shuffled stories, seed=1337)
+2026-10-05 22:40:31 | INFO    | vocab_size=80 kept_chars=78 dropped_chars=21 coverage=99.999873%
+2026-10-05 22:40:33 | INFO    | data {"train_chars": 89656644, "val_chars": 8991471, "train_unk_rate": 1.2715175910443403e-06, "val_unk_rate": 2.113113638469167e-06}
+2026-10-05 22:40:33 | INFO    | windows/epoch=175,109 steps/epoch=2,736 tokens/step=32,768
+2026-10-05 22:40:34 | INFO    | parameters total=25,564,160 non_embedding=25,261,056
+2026-10-05 22:40:34 | INFO    | causal mask checks passed; initial loss=4.5314 (ln V=4.3820)
+2026-10-05 22:40:39 | INFO    | total_steps=27360 warmup_steps=820
