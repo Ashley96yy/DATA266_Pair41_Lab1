@@ -1,4 +1,0 @@
-model,accuracy,precision_macro,recall_macro,f1_macro,f1_micro,f1_weighted,roc_auc,pr_auc,mcc,brier_score,ece_10_bins,parameters,training_seconds,examples_per_second,peak_memory_mb,decision_threshold
-Mean-Embedding Baseline,0.8946,0.8946,0.8946,0.8946,0.8946,0.8946,0.9574,0.9574,0.7893,0.0825,0.0530,3840129,2.2569,39877.3758,PENDING,0.53
-CNN,0.9062,0.9062,0.9062,0.9062,0.9062,0.9062,0.9660,0.9654,0.8131,0.0723,0.0342,5107969,3.6177,24877.8701,245.0947,0.56
-BiGRU,0.9000,0.9000,0.9000,0.9000,0.9000,0.9000,0.9651,0.9651,0.8001,0.0796,0.0562,5022977,3.1367,28692.8116,652.9653,0.64
