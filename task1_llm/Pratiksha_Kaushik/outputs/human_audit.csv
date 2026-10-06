@@ -1,0 +1,143 @@
+sample_id,setting,prompt,text,fluency_1to5,coherence_1to5,grammar_1to5,failure_type,notes
+S01,t=0.8,,"Once upon a time, there was a little girl named Lily. She lived in a big house with her mommy and daddy. One day, Lily went for a walk in the park and saw a little boy crying. She asked him what was wrong and he told her about his toy.
+
+Lily asked the little boy what was wrong and he told her about his toy. Lily told him about her toy and they said they needed to repair it. They got some snacks and a bandage and gave them to Lily's daddy.
+
+After they fixed the toy, Lily was very happy. She told her daddy about how she found him and when he got home, he gave her the toy and hugged her. Lily nodded and promised to keep his toy and repaired it. From that day on, Lily played with her toys and her daddy watched her from the street.",,,,,
+S02,t=0.8,,"Once upon a time, there was a little girl called Emma. Emma loved to go for walks on the beach.
+
+One day, when she was walking, Emma saw a big boat. She was wearing a special mask and she wanted it to stay strong. She ran towards it and began to search for the boat.
+
+Then, Emma spotted a magical shark in the boat. She scared it a lot and was very scared. But then she asked the shark to please stop.
+
+The shark nodded his head and said, ""Yes, I will make you a peaceful sail to the boat."" Emma stopped and looked around. She saw the shark and felt as graceful as its search for the boat.
+
+She tried to be patient. But it was too late. The shark shook its head and it covered her with a spear. Emma felt sad that she didn't get to search the boat.
+
+The moral of the story is that sometimes it's impo",,,,,
+S03,t=0.8,,"Molly was walking in the park one day. She saw a big cake on the ground. It was so tasty! She wanted to eat it. She tried to take it out, but it was too heavy. She tried to tie the cake but it was too heavy. She got frustrated and started to cry.
+
+Just then, a voice came from the cake. It was a little boy, saying ""Molly, can you help me?""
+
+Molly looked up and saw an old man. He smiled at her and said, ""I can help you tie this cake off the ground. I'll help you.""
+
+Molly was so excited that she ran to the cake. She grabbed the bake and tied it around the man's neck. The man smiled and said, ""Thank you so much!""
+
+Molly ran back outside and helped the man tie the cake off the ground with lots of leaves. She was so happy that she had figured out how to tie something to the man's back. And the m",,,,,
+S04,t=0.8,,"Once upon a time, there was a dolphin who loved to swim in the ocean. One day, while swimming, she saw a big shark! The dolphin was very scary and couldn't dive anymore.
+
+The dolphin swam closer to the shark and said, ""Help me! I am scared of the dark and all the sharks.""
+
+The shark swam closer and looked at the dolphin. The dolphin said, ""Don't worry, we can help you.""
+
+The dolphin and the shark became friends. They would dive and swim together in the ocean. The dolphin was so happy to have a new friend.
+
+In the end, the dolphin and the shark were happy and they would play together again. They were the best of friends, and they would always help each other whenever they needed it.",,,,,
+S05,t=0.8,,"Once there was a little girl named Lucy. Lucy loved to dress up in shiny clothes. She would close her eyes and dress up.
+
+One day, Lucy wanted to dress up in the sun before everyone had to wear her weird clothes. She put on her weird dress, her sparkly sweater and her gloves and went outside. As the sun started to set, Lucy found a special place to sleep.
+
+Lucy went to bed and whispered a little thanks to her friends. Her friends thought it was amazing that Lucy had dressed up in weird clothes! They thought it was the most amazing dress ever and Lucy went back inside with a smile on her face.",,,,,
+S06,t=0.8,,"Once upon a time, there was a little girl named Lily. She loved to dance and twirl around in her tub. One day, Lily went to the park with her mom. They played on the swings and the slide. Then, Lily saw a big flower and wanted to bloom in it.
+
+Lily's mom said, ""Let's make a yummy flower for your dance!"" Lily was excited and ran to get her mom. They made a yummy flower and danced in it. Lily's mom said, ""Wow, Lily, your flower is great!""
+
+After they finished making the flower, Lily's mom gave her a big surprise. It was a big, red cake with candles! Lily was so happy and said, ""Thank you, mom!"" Her mom said, ""I love this cake too, Lily."" And they all lived happily ever after.",,,,,
+S07,t=0.8,,"One day, a little girl named Lily went to the park with her mom. She saw a butterfly and wanted to catch it. Her mom said, ""Lily, you need to settle down on the grass so you can get a net."" Lily listened carefully and stopped chasing the butterfly. She carefully crawled up to the net and threw it at the butterfly. The butterfly flew away, leaving Lily feeling happy and proud.
+
+When she got home, she tucked the net in and said, ""Thank you for your help. I hope you enjoyed my breakfast so much."" Her mom smiled and said, ""You're welcome, Lily. Let's come back soon."" And they did.",,,,,
+S08,t=0.8,,"One day, there was a little girl who loved to play outside. One day, while she was walking, she heard a loud noise. She looked down and saw a scary coat on the ground. She was so scared that she backed away. She quickly ran away and hid behind a tree.
+
+The coat hit her and she felt very afraid. She didn't know what to do. She went to her mom and told her what happened. Her mom told her that she had to wear an amazing scarf and had to go to the hospital.
+
+The little girl was sad and started to cry. She realized that the scarf and her mom were still in the dangerous coat. They never went back to their house again.",,,,,
+S09,t=0.8,,"Once upon a time, there was a kind girl named Lily. She had a pet cat named Fluffy. Fluffy liked to play with Lily and Fluffy. One day, Lily's mom said, ""Lily, we need to go to the market and see a big space."" Lily was nervous because she had never been to the market before.
+
+They went to get some fruits from the market. There were many fruits in a big package. Lily didn't know what ""big Space"" meant. Suddenly, she heard a loud noise. She looked up and saw a big dog. The dog was barking and growling. Lily was scared and didn't know what to do.
+
+Her mom quickly ran to her and picked her up. She said, ""I'm sorry, Lily. Accidents happen. Everything is okay."" Lily felt better and they continued to play. From that day on, Lily knew that sometimes things can be ruined and make things better.",,,,,
+S10,t=0.8,,"Once upon a time, there was a boy named Timmy. Timmy had a toy car that he loved to play with. He would play with it every day, making it go fast and make loud noises.
+
+One day, Timmy's friend Billy came over to play. Billy saw Timmy's toy car and said, ""Wow, Timmy! Your car is so cool!"" Timmy smiled and said, ""Thanks, Billy. I love to play with it!""
+
+But then, Timmy's dad came into the room and said, ""I don't want your car to go away. It's too big for me."" Timmy didn't want to lose his car, he wanted to play with it too.
+
+Timmy told Billy to stop playing with the car, so he stopped playing. But Billy still didn't listen. He kept playing with the car and having fun. Timmy was very sad and didn't understand why he had his car to play with.",,,,,
+S11,t=0.8,,"Once upon a time, there was a little boy. His name was John and he was three years old. John loved to play and he enjoyed dreaming of the days with his dad.
+
+One day, John's dad asked him if he wanted to go for a drive. John said yes and asked if he could go.
+
+His dad said yes and they got into his backpack. John was so excited as he hopped into the car and drove for a long time. He saw lots of energy and expected to go there.
+
+At the end of the day, John and his dad went to the park. John chose some more energy and he put on his coat and hat. He drove back home with his big smile on his face.
+
+John was so happy that he wanted to know what else he would discover. He drove around the park and enjoyed the sunshine. He loved it so much that he drove around the park and looked at all the birds",,,,,
+S12,t=0.8,,"Kimmy was a very curious 3 year old. Every day she liked to explore around her house. One day, while she was exploring the kitchen to find something fun to do, she noticed a makeup of red mud pots. She knew it was fake, so she decided to make it shine. Kimmy mentioned it to her mum that she knew if she could play it. Her mum said yes and they started to play the mud pots for the red mud. Then they started to shine like dirt and rocks. Kimmy loved mud! She loved using sticks to get the mud and she felt very happy. The next day, Kimmy went to the park to play with her friends again. But when she got there, she saw that the mud pot was shaking like a wheel. Kimmy was very scared. She quickly picked up the mud and ran back home. She never forgot the simple things she had on her bed again.",,,,,
+S13,greedy,"Once upon a time, there","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she went to the park with her mommy and daddy. They were having so much fun that they didn't notice the sun was shining brightly.
+
+Suddenly, Lily saw a big dog running towards her. She got scared and ran away. Her mommy and daddy came outside and saw her scared. They told her that the dog was just playing and that she should never play with the dog again.
+
+Lily felt bad and wanted to make her mommy and daddy happy. She decided to take the dog home and play with him instead. She promised to be more careful and not play with the dog again. From that day on, Lily always made sure to play with her dog and never played with the dog again.",,,,,
+S14,greedy,"Once upon a time, there","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she went to the park with her mommy and daddy. They were having so much fun that they didn't notice the sun was shining brightly.
+
+Suddenly, Lily saw a big dog running towards her. She got scared and ran away. Her mommy and daddy came outside and saw her scared. They told her that the dog was just playing and that she should never play with the dog again.
+
+Lily felt bad and wanted to make her mommy and daddy happy. She decided to take the dog home and play with him instead. She promised to be more careful and not play with the dog again. From that day on, Lily always made sure to play with her dog and never played with the dog again.",,,,,
+S15,greedy,The bird was grateful. It,"The bird was grateful. It had a big beak and it was so beautiful. The bird wanted to show it to its friends. So it flew up to the sky and said, ""Hi, I'm Bob. What's your name?""
+
+The sky replied, ""My name is Sam. I like to show you something new.""
+
+Bob smiled and said, ""That's a nice name. Can I play with you?""
+
+Sam nodded and said, ""Yes, you can play with me. We can have fun together.""
+
+Bob and Sam played with the new bird for a while. They had so much fun together. They laughed and had lots of fun.
+
+At the end of the day, the bird said, ""Thank you for playing with me. I had so much fun.""
+
+Bob said, ""You're welcome. I had fun too.""
+
+Sam and Bob smiled and said, ""We had a great time together. We learned that it's important to be kind and help others.""",,,,,
+S16,greedy,"Once upon a time, there","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she went to the park with her mommy and daddy. They were having so much fun that they didn't notice the sun was shining brightly.
+
+Suddenly, Lily saw a big dog running towards her. She got scared and ran away. Her mommy and daddy came outside and saw her scared. They told her that the dog was just playing and that she should never play with the dog again.
+
+Lily felt bad and wanted to make her mommy and daddy happy. She decided to take the dog home and play with him instead. She promised to be more careful and not play with the dog again. From that day on, Lily always made sure to play with her dog and never played with the dog again.",,,,,
+S17,greedy,Once upon a time a,"Once upon a time a little girl named Lily was playing in her garden. She saw a big butterfly and tried to catch it, but it flew away. She felt sad and wanted to go home.
+
+Suddenly, her mom came outside and saw her sad face. She asked Lily what was wrong and Lily told her about the butterfly. Her mom said, ""Don't worry, we can catch it and play with it.""
+
+So, they caught the butterfly and played with it all day. They had so much fun together and Lily felt happy that she could help her mom. The end.",,,,,
+S18,greedy,"Once upon a time, there","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she went to the park with her mommy and daddy. They were having so much fun that they didn't notice the sun was shining brightly.
+
+Suddenly, Lily saw a big dog running towards her. She got scared and ran away. Her mommy and daddy came outside and saw her scared. They told her that the dog was just playing and that she should never play with the dog again.
+
+Lily felt bad and wanted to make her mommy and daddy happy. She decided to take the dog home and play with him instead. She promised to be more careful and not play with the dog again. From that day on, Lily always made sure to play with her dog and never played with the dog again.",,,,,
+S19,t=1.3,Once upon a time,"Once upon a time, there was a little pony named Pip. Pip was very lonely without anyone to play with. He had no friends to play with.
+
+One sunny day, Pip met a new friend- a little mouse. The little mouse said, ""Hello, Pip!"" Pip was very happy to hear about the little mouse's love. They all played together and had so much fun.
+
+Then, Pip met a frog named Fred. Fred said, ""Hello Pip!"" Pip replied, ""Do you want to play with me?"" But To Pip, the frog hopped and bit Pip. Pip did not like it. It bit his hand and bit",,,,,
+S20,t=1.3,"One day, a little girl named Lily","One day, a little girl named Lily went to the park. She saw a small dog named Whiskers. Whiskers wants to pet the dog. Lily wondered if she could be friends.
+
+Lily and Whiskers walked to the day and discovered some other kids in pets. Whiskers hop were graceful and had to be reunited with Lily for valunging him. Whiskers felt very upset when he saw them pet soft things.
+
+Lily realized that she should have valued Whiskers' power and showed them how important she was. He went back to her own house and felcomed a meal that was oth",,,,,
+S21,t=1.3,Tom and his dog went to the park.,"Tom and his dog went to the park. They saw a wide building with many holes. They wanted to see. They ran to the kitchen and hid behind the cushions.
+
+""Tom, no!"" Mia shouted. ""That was our cereal!""
+
+""But Mom, we did it!"" Tom shouted. ""It climbed the bowl and brushed our eyes!""
+
+His dog was paSs. But Tom did not care. He made a big fuss. He ro the bowl and lifted his eyes. He put Spreakes inside, closed his eyes, and slipped instead. He reached for Spreakes, but Spreakes on them, watching TV.
+
+""Spreak!"" Tom sripped and the cereal",,,,,
+S22,t=1.3,The sun was hot and the bird,"The sun was hot and the birds were singing, and it had no water air. Sunny thought it was true.
+
+One day Whiskers was curious. He'wtered the ground. He wanted to see if a car could scare the birds away.
+
+So Whiskers got to a park that could help. He grabbed all these grumpy birds and asked them what they were doing.
+
+The skull explained that it helps to solve the problem, so he can count on to care for water. Carefully, he was able to lift a lot of leaves out for the car.
+
+Whiskers was gone forever and finally solved the p",,,,,

@@ -1,0 +1,125 @@
+prompt,setting,temperature,top_k,text
+Once upon a time,greedy,0.0,,"Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she went to the park with her mommy and daddy. They were having so much fun that they didn't notice the sun was shining brightly.
+
+Suddenly, Lily saw a big dog running towards her. She got scared and ran away. Her mommy and daddy came outside and saw her scared. They told her that the dog was just playing and that she should never play with the dog again.
+
+Lily felt bad and wanted to make her mommy and dadd"
+Once upon a time,t=0.5,0.5,,"Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she went to the park with her mom and saw a beautiful flower. It was so pretty and shiny. She asked her mom if she could pick it and her mom said yes.
+
+Lily was so happy to have a new flower to pick. She took a big bite and it was so yummy! She ate it all up, feeling happy and full. From that day on, Lily always remembered to be careful with her special flower. She knew that she would always remember the fu"
+Once upon a time,t=0.8,0.8,,"Once upon a time, there was a soft dog named Spot. Spot loved to run and play with his friends. One day, they were playing outside when they saw a big, mean truck driving by. The truck was loading water on the dog's fence. Spot was very scared and also wanted to run away.
+
+Spot ran inside the truck and started to chase his friends. They ran and ran, but the truck was too fast. Spot was getting tired and did not want to stop. So, he sat on the fence and closed his eyes.
+
+A kind man saw Spot and came outside. ""I "
+Once upon a time,"t=1.0, top-k 20",1.0,20.0,"Once upon a time, there was a little girl named Lily. She loved to play outside in the mud. One day, she went to the park with her mom. She saw a big slide and wanted to try it. She ran to the slide and climbed up the ladder. Then she sat down on the top and her mom got help. She reached the bottom but Lily couldn't do it.
+
+Suddenly, she heard a voice calling her. ""Lily, it's our daddy to climb up it!"" her mom yelled. ""He's trying to get more closer!""
+
+Lily turned around and saw a little boy playing with a butt"
+Once upon a time,t=1.3,1.3,,"Once upon a time, there was a little pony named Pip. Pip was very lonely without anyone to play with. He had no friends to play with.
+
+One sunny day, Pip met a new friend- a little mouse. The little mouse said, ""Hello, Pip!"" Pip was very happy to hear about the little mouse's love. They all played together and had so much fun.
+
+Then, Pip met a frog named Fred. Fred said, ""Hello Pip!"" Pip replied, ""Do you want to play with me?"" But To Pip, the frog hopped and bit Pip. Pip did not like it. It bit his hand and bit"
+"One day, a little girl named Lily",greedy,0.0,,"One day, a little girl named Lily went to the park with her mom. They saw a big tree with a hole in it. Lily wanted to climb the hole to get the hole. Her mom said, ""Lily, it's too high. You can sit on the tree and watch the birds.""
+
+Lily did not like the hole. She wanted to see the birds and the flowers. She said, ""No, mom, I want to climb the hole. It's too high.""
+
+Her mom said, ""Lily, you can do it. You just need to be careful and stay close to the tree. It's very high.""
+
+Lily did not listen to her mom. She said, ""I don't wa"
+"One day, a little girl named Lily",t=0.5,0.5,,"One day, a little girl named Lily went to the park with her mom. They saw a big tree with a hole in it. Lily wanted to climb the hole to get the hole back, but her mom said they would have to be careful.
+
+Lily put on her shoes and went outside. She saw a big, shiny flower. She wanted to know what it was. Her mom said, ""Lily, don't go near the flower. It will be very hard."" But Lily didn't listen. She was careless and stayed in the hole until the hole was big.
+
+As they were climbing the hole, Lily saw a big, scary dog. The dog w"
+"One day, a little girl named Lily",t=0.8,0.8,,"One day, a little girl named Lily went to the park with her mom. They saw a big slide and Lily wanted to try it. She climbed up the ladder and slid down very fast. But then, she slipped and fell down. She hurt her knee and started crying.
+
+Her mom tried to help her, but she also knew it was important to her and not be afraid of slippery things. She took Lily to the hospital to get a bandage on her knee. Lily was too shocked to see her knee was broken. She was so sad that she couldn't play on the slide anymore.
+
+The moral of the"
+"One day, a little girl named Lily","t=1.0, top-k 20",1.0,20.0,"One day, a little girl named Lily had an impressive bike. She wore it every day and practiced her best. One day, she was riding her bike around her garden. Suddenly, she heard a loud noise outside. She ran to her mom and hugged her. Her mom saw her and told her that it was too late. Lily was sad and scared.
+
+Her dad heard her cries for help. He said, ""Don't worry, Lily. I will fix your head next time."" But when he reached her destination, Lily saw a small, sad skull in her room. She ran to her mom and asked, ""Mommy, what happen"
+"One day, a little girl named Lily",t=1.3,1.3,,"One day, a little girl named Lily went to the park. She saw a small dog named Whiskers. Whiskers wants to pet the dog. Lily wondered if she could be friends.
+
+Lily and Whiskers walked to the day and discovered some other kids in pets. Whiskers hop were graceful and had to be reunited with Lily for valunging him. Whiskers felt very upset when he saw them pet soft things.
+
+Lily realized that she should have valued Whiskers' power and showed them how important she was. He went back to her own house and felcomed a meal that was oth"
+Tom and his dog went to the park.,greedy,0.0,,"Tom and his dog went to the park. They saw a big slide. Tom wanted to go on the slide. He ran to the slide and climbed up. He sat on the slide and slid down. He laughed and said, ""That was fun!""
+
+But then, a big dog came. The dog was black and hairy. It barked and ran towards Tom. Tom was scared. He dropped his ball and ran away. He did not want to play with his ball.
+
+Tom saw the dog and said, ""Hey, dog, give me back my ball!"" The dog did not listen. It ran after Tom and bit his ball. Tom fell down and cried. He dropped his ba"
+Tom and his dog went to the park.,t=0.5,0.5,,"Tom and his dog went to the park. They saw a big tree with many leaves. Tom wanted to climb the tree and see the birds. He saw a bird on a branch. The bird was singing a happy song.
+
+""Look, dog!"" Tom said. He saw a bird on a branch. The bird was singing a happy song. ""Can you teach me how to climb the tree?""
+
+Tom nodded. He liked birds. He wanted to climb the tree. He was not scared. He wanted to climb the tree.
+
+""OK, dog!"" Tom said. He ran to the tree and lifted the leaves. He started to climb the tree. He climbed higher and h"
+Tom and his dog went to the park.,t=0.8,0.8,,"Tom and his dog went to the park. They saw a big shell. It had holes and no windows. They wanted to see what was inside.
+
+""Let's open it!"" Tom said.
+
+""Yes, let's open it!"" Mia said.
+
+They opened the shell and looked inside. It was dark and cold. They saw some shadows and a boat. They were covered with dirt and bumps. Tom was afraid.
+
+""No, don't do that!"" he said. ""The shadows are not for us. They are for having the shadows. They can hurt us.""
+
+But the dog did not listen. It jumped on the shell and bit it. The shadows broke in h"
+Tom and his dog went to the park.,"t=1.0, top-k 20",1.0,20.0,"Tom and his dog went to the park. They saw a big man with a tool he was using. Tom looked tired and sad. He had a gun that could roar very loud.
+
+""Mom, look!"" Tom shouted. ""Where are you at?""
+
+""I am a smart man,"" his dad said. ""I can win something that can grab you!""
+
+Tom felt his hands get wider and wider. He knew that he could win something he liked. So, he and his dog put their tools into the tank cane and made sure it was roaring when they touched it.
+
+The moral of the story is: it's important to stand up when you are scare"
+Tom and his dog went to the park.,t=1.3,1.3,,"Tom and his dog went to the park. They saw a wide building with many holes. They wanted to see. They ran to the kitchen and hid behind the cushions.
+
+""Tom, no!"" Mia shouted. ""That was our cereal!""
+
+""But Mom, we did it!"" Tom shouted. ""It climbed the bowl and brushed our eyes!""
+
+His dog was paSs. But Tom did not care. He made a big fuss. He ro the bowl and lifted his eyes. He put Spreakes inside, closed his eyes, and slipped instead. He reached for Spreakes, but Spreakes on them, watching TV.
+
+""Spreak!"" Tom sripped and the cereal"
+The sun was hot and the bird,greedy,0.0,,"The sun was hot and the birds were singing. The birds were singing and the sun was shining. The birds were singing and the sun was shining.
+
+The birds were singing and the sun was shining. The birds were singing and the sun was shining. The birds were singing and the sun was shining.
+
+The birds were singing and the sun was shining. The birds were singing and the sun was shining. The birds were singing and the sun was shining.
+
+The birds were singing and the sun was shining. The birds were singing and the sun was shining. T"
+The sun was hot and the bird,t=0.5,0.5,,"The sun was hot and the birds were singing. The birds were singing and the flowers were so pretty.
+
+The birds were singing and the flowers were so pretty. They chirped and sang together. They felt so happy.
+
+The birds soon found a shiny rock and it was so pretty. They stayed there for a while and then the birds came back. They felt so happy to have a new friend.
+
+The birds sang and sang until the sun went down. They sang and danced until the sun went down. Then they said goodbye and flew back to their homes. The birds had "
+The sun was hot and the bird,t=0.8,0.8,,"The sun was hot and the birds were singing. The blue birds were happy and free.
+
+They walked and walked, until they came to a cave. The sun shone brightly in the sky and the birds flew inside. As they sat down, they looked up and waved goodbye to the birds. Then the sun started to set, and the birds flew away.
+
+The sun came out and it was time to go home. The sun was shining and the sky was blue. The blue birds were singing and the blue birds were happy. They knew they would come back down to the ground again soon."
+The sun was hot and the bird,"t=1.0, top-k 20",1.0,20.0,"The sun was hot and the birds were singing. Little Sally was so happy. She could see everything the field changed.
+
+She looked out the window and saw the fluffy white ball. She knew that she was having a picnic so that she ran around the field with the rest of the person. Finally, after a long journey, she reached a corner.
+
+Little Sally had a great time, and the other people felt so happy to see her. They had a great time. They spent the whole day playing with the little salad and looking out for each other.
+
+At the end o"
+The sun was hot and the bird,t=1.3,1.3,,"The sun was hot and the birds were singing, and it had no water air. Sunny thought it was true.
+
+One day Whiskers was curious. He'wtered the ground. He wanted to see if a car could scare the birds away.
+
+So Whiskers got to a park that could help. He grabbed all these grumpy birds and asked them what they were doing.
+
+The skull explained that it helps to solve the problem, so he can count on to care for water. Carefully, he was able to lift a lot of leaves out for the car.
+
+Whiskers was gone forever and finally solved the p"
