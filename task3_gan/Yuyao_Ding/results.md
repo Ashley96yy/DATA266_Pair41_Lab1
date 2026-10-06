@@ -1,7 +1,9 @@
 # Task 3 - Yuyao Ding
 
-The nine-block CycleGAN completed training and formal evaluation. Human ratings,
-actual Kaggle scores/rank and the teammate comparison remain pending.
+The nine-block CycleGAN completed training and formal evaluation. The 30-case
+two-rater audit is complete. Yuyao's Kaggle submission received a public score of
+-52.8347; a personal rank and private score are not available. The teammate
+comparison remains to be written.
 
 - Run: `task3_formal_20260927T075834Z_d335ae80`; 100 epochs and 100,000 updates.
 - Selected checkpoint: [best.pt](checkpoints/task3_formal_20260927T075834Z_d335ae80/best.pt), epoch 70.
@@ -100,8 +102,12 @@ The [split](data_processed/split_seed41.json) and
 
 The generated [submission.csv](outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/submission.csv) contains `ID=1`,
 `FID=105.25040408693064` and `MiFID=0.4190854877233505`, averaging the two directions.
-These are local CSV values, not a Kaggle leaderboard score. Public score, private
-score and rank are pending actual submission/scoring; they are not inferred here.
+These are local CSV values, not a Kaggle leaderboard score. Yuyao's uploaded
+`submission.csv` received a Kaggle **Public score of -52.8347**, as shown in the
+[user-provided submissions screenshot](outputs/kaggle_public_submissions.png). The
+private score and Yuyao's individual rank are not shown. The team rank of 32 belongs
+to the selected team submission from Pratiksha, not to this submission. The CSV
+`ID=1` is a row identifier, not a Kaggle submission ID.
 
 FID and KID use the supplied course notebook's Inception-v3 preprocessing.
 FID's 2,048-dimensional covariance estimate is rank deficient with these sample counts;
@@ -230,12 +236,25 @@ Monet -> Photo often retains painted strokes and diffuse boundaries. See
 ![Selected validation examples: input, translation, cycle](outputs/task3_formal_20260927T075834Z_d335ae80/validation/epoch_070/input_translation_cycle.png)
 
 The [audit folder](outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/audit/instructions.md) contains 30 fixed anonymous cases
-(15 per direction) and two blank rater CSVs. Two different people must score them
-independently for style, content and freedom from artifacts. Human means and agreement
-are pending; the visual observations above do not replace that audit.
+(15 per direction). Liming Jiang and Sherry Tang completed separate 1-5 rating sheets
+for style, content and freedom from artifacts. The audit protocol requested independent
+ratings; the saved sheets document their scores, not whether the raters discussed them.
+The [aggregated audit](outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/audit_results.json) and
+[metric table](outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/full_metrics_report.csv) record the results:
 
-Remaining external results are the two-rater audit, actual Kaggle scores/rank, teammate
-architecture/hyperparameter/metric comparison, final shared report and remote backup link.
+| Criterion | Mean / 5 | Exact agreement | Cohen's kappa |
+| --- | ---: | ---: | ---: |
+| Target style | 2.67 | 66.7% | 0.509 |
+| Content preservation | 2.90 | 83.3% | 0.765 |
+| Freedom from artifacts | 2.48 | 66.7% | 0.537 |
+
+Each mean pools both raters' scores across all 30 cases. Exact agreement and unweighted
+Cohen's kappa compare their ratings for the same cases. The A2B/B2A mean style scores
+are 2.57/2.77, content 2.77/3.03, and artifact-free 2.37/2.60.
+These are subjective judgments on this fixed sample, not a leaderboard metric.
+
+Remaining work includes the teammate architecture/hyperparameter/metric comparison,
+final shared report and remote backup link. The private Kaggle score is not yet available.
 The [README](README.md) gives setup, checkpoint demo, evaluation and audit commands.
 Windows CPU/CUDA checks are recorded in the
 [final validation record](../../reproducibility/manifests/Yuyao_Ding/task3_final_validation.json).

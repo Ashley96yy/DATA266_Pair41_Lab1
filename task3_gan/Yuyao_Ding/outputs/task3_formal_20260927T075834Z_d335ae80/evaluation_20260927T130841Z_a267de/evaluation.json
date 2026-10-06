@@ -144,7 +144,11 @@
     "parameters_total": 28285832,
     "training_images_per_second": 10.916265432340817
   },
-  "human_audit": "pending",
+  "human_audit": {
+    "status": "complete",
+    "file": "audit_results.json",
+    "sha256": "1abfc235a48fd68181f6deba39e231ec23c30a8d41ccf0bb488c0554f6618666"
+  },
   "training_history": [
     {
       "G_A2B_adversarial": 0.4213711274117231,
@@ -2348,7 +2352,7 @@
     }
   ],
   "training_curves": "task3_gan\\Yuyao_Ding\\outputs\\task3_formal_20260927T075834Z_d335ae80\\training_curves.png",
-  "kaggle_public_score": null,
+  "kaggle_public_score": -52.8347,
   "kaggle_private_score": null,
   "metric_notes": {
     "features": "torchvision Inception-v3 IMAGENET1K_V1; fc replaced by identity; course preprocessing",
@@ -2359,7 +2363,9 @@
     "LPIPS": "AlexNet v0.1, source vs translation and source vs cycle; no paired target exists",
     "content_cosine": "Inception cosine between each source and its exported JPEG translation",
     "heldout_test": "Balanced fixed test subset; no training or checkpoint selection; small Monet test set makes distribution metrics noisy",
-    "course_kaggle": "First 300 sorted real and source filenames per domain, including training images as required by the supplied reference; not a held-out generalization estimate"
+    "course_kaggle": "First 300 sorted real and source filenames per domain, including training images as required by the supplied reference; not a held-out generalization estimate",
+    "kaggle_public_score": "Yuyao Ding submission.csv scored -52.8347 in the user-provided Kaggle submissions screenshot. The private score and individual Kaggle rank are not shown; the visible team rank belongs to a different selected submission."
   },
-  "evaluation_seconds": 41.5354692999972
+  "evaluation_seconds": 41.5354692999972,
+  "kaggle_score_evidence": "task3_gan/Yuyao_Ding/outputs/kaggle_public_submissions.png"
 }

@@ -232,6 +232,14 @@ def export_metrics(evaluation_dir, root=None, update_summary=False):
                                                   "score_1_to_5" if metric == "mean" else "ratio",
                                                   "fixed_blind_audit", result["checkpoint_sha256"],
                                                   str(audit_path.relative_to(root))])))
+    for name, split in (("kaggle_public_score", "kaggle_public"),
+                        ("kaggle_private_score", "kaggle_private")):
+        value = result.get(name)
+        if value is not None:
+            rows.append(dict(zip(fields, [result["run_id"], "both", name, value,
+                                          "leaderboard_score", split,
+                                          result["checkpoint_sha256"],
+                                          result.get("kaggle_score_evidence", evidence)])))
     member = root / "task3_gan/Yuyao_Ding"
     latest = member / "outputs/latest_evaluation.json"
     if latest.exists():
@@ -270,9 +278,16 @@ def aggregate_audit(evaluation_dir, rater1, rater2):
         scores.append(values)
     if names[0].casefold() == names[1].casefold():
         raise ValueError("The audit requires two different human raters.")
+    rating_files = []
+    for path in (rater1, rater2):
+        resolved = Path(path).resolve()
+        try:
+            recorded_path = str(resolved.relative_to(project_root()))
+        except ValueError:
+            recorded_path = resolved.name
+        rating_files.append({"file": recorded_path, "sha256": sha256(path)})
     result = {"raters": names, "n_cases": len(expected), "metrics": {}, "by_direction": {},
-              "rating_files": [{"file": str(Path(p).resolve()), "sha256": sha256(p)}
-                               for p in (rater1, rater2)]}
+              "rating_files": rating_files}
     groups = {"overall": list(range(len(key))),
               **{direction: [i for i, row in enumerate(key) if row["direction"] == direction]
                  for direction in ("A2B", "B2A")}}

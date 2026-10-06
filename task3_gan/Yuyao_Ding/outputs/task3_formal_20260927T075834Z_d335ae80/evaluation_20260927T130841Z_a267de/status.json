@@ -1,6 +1,6 @@
 {
   "status": "complete",
   "mode": "formal",
-  "human_audit": "pending",
-  "kaggle_submission": "not submitted"
+  "human_audit": "complete",
+  "kaggle_submission": "public_score_observed"
 }

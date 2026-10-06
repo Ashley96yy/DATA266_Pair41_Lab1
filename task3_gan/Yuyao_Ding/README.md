@@ -3,7 +3,7 @@
 This combined archive uses an environment inside the extracted project. Start with the [project setup](../../README.md). In older Windows examples below, replace `..\.venv\Scripts\python` with `.\.venv\Scripts\python`. The original computer kept its environment one directory above the project.
 
 
-The nine-block FP32 CycleGAN completed 100 epochs and 100,000 updates on RTX 4090. Validation selected epoch 70; formal evaluation is complete. See [results.md](results.md), [the eight-case analysis](failure_analysis.md) and [the report contribution](../../report/Task3_Yuyao_Ding.md). Human ratings, actual Kaggle submission and teammate comparison remain pending.
+The nine-block FP32 CycleGAN completed 100 epochs and 100,000 updates on RTX 4090. Validation selected epoch 70; formal evaluation and the 30-case two-rater audit are complete. Yuyao's Kaggle Public score is -52.8347. See [results.md](results.md), [the eight-case analysis](failure_analysis.md) and [the report contribution](../../report/Task3_Yuyao_Ding.md). The teammate comparison remains to be written.
 
 The original six-block baseline remains available, with its code/configuration in [quick_6block.zip](baselines/quick_6block.zip). Its saved checkpoints, outputs and raw logs are preserved.
 
@@ -39,7 +39,8 @@ Current run: `task3_formal_20260927T075834Z_d335ae80`, selected epoch 70.
 - [Executed notebook](outputs/task3_formal_20260927T075834Z_d335ae80/training_notebook.ipynb) and [training curves](outputs/task3_formal_20260927T075834Z_d335ae80/training_curves.png).
 - [Selected validation examples](outputs/task3_formal_20260927T075834Z_d335ae80/validation/epoch_070/input_translation_cycle.png): input, translation, cycle from left to right.
 - [Full metric table](outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/full_metrics_report.csv) and [evaluation record](outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/evaluation.json).
-- [Kaggle CSV](outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/submission.csv): FID 105.250404 and MiFID 0.419085, averaged across directions. These are local CSV values; no leaderboard score is recorded yet.
+- [Kaggle CSV](outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/submission.csv): local FID 105.250404 and MiFID 0.419085, averaged across directions. Yuyao's uploaded `submission.csv` received Public score **-52.8347** ([Kaggle screenshot](outputs/kaggle_public_submissions.png)); private score and personal rank are not shown.
+- [Completed 30-case audit](outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/audit_results.json): mean style 2.67/5, content 2.90/5, artifact-free 2.48/5; exact agreement and Cohen's kappa are in [results.md](results.md).
 - [Best weights](checkpoints/task3_formal_20260927T075834Z_d335ae80/best.pt) and [checksum sidecar](checkpoints/task3_formal_20260927T075834Z_d335ae80/best.json).
 
 Open the executed notebook to inspect the saved run. Use the demo below for inference; rerunning all training cells starts another experiment.
@@ -172,7 +173,7 @@ The evaluator writes a new evaluation directory each time:
 - `course_kaggle/`: the first 300 sorted source and real-target filenames per domain, matching the provided notebook. These images include training data, so this is reported separately from held-out generalization.
 - `submission.csv`: one row with `ID=1`, `FID`, `MiFID`; each score averages both directions. Only this CSV is the Kaggle submission. No automated upload occurs.
 - `evaluation.json`, `full_metrics_report.csv`: metrics, configurations, hashes, metric-network versions, resource costs and evidence paths.
-- `audit/`: fixed anonymous samples, instructions, and two blank rater CSVs. `audit_key.json` is outside this folder and should not be shown to raters.
+- `audit/`: fixed anonymous samples, instructions, and two completed rater CSVs for this run. `audit_key.json` is outside this folder and should not be shown to raters. `audit_results.json` records the aggregate scores and agreement.
 
 To rebuild the metric CSVs from an existing `evaluation.json`, without loading a model or rerunning inference:
 
@@ -192,7 +193,7 @@ KID is unbiased polynomial MMD on its raw scale and can be negative. Its subset 
 
 FID uses 2,048-dimensional features with fewer images than dimensions, so its covariance matrices are rank deficient. SciPy may print a singular-matrix warning even when the result is finite. The evaluator retains the course calculation and checks finiteness; this warning alone is not a failed training run.
 
-For the required audit, two different people independently fill the [current rater forms](outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/audit/instructions.md): `rater_1.csv` and `rater_2.csv` (scores 1-5, higher is better). Give raters only that `audit/` folder, without `audit_key.json`, the checkpoint identity or these result reports. All 30 rows need a consistent rater name and all three scores. After both forms are complete, run:
+The required audit is complete for this formal evaluation: Liming Jiang and Sherry Tang each rated the same 30 fixed anonymous cases (15 per direction) on 1-5 scales for style, content and artifact-free quality. The [instructions](outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/audit/instructions.md) required independent ratings. The two completed CSVs and [aggregate results](outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/audit_results.json) are saved with the evaluation. To recompute the aggregate from these forms in an environment with the project dependencies, run:
 
 ```powershell
 $task3Evaluation = "task3_gan/Yuyao_Ding/outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de"
@@ -204,7 +205,7 @@ task3_evaluation="task3_gan/Yuyao_Ding/outputs/task3_formal_20260927T075834Z_d33
 .venv/bin/python task3_gan/Yuyao_Ding/src/evaluate.py --evaluation-dir "$task3_evaluation" --rater1 "$task3_evaluation/audit/rater_1.csv" --rater2 "$task3_evaluation/audit/rater_2.csv"
 ```
 
-This writes mean scores, exact agreement and Cohen's kappa overall and by direction, and adds them to that evaluation's metric table. If both raters give one identical constant score, kappa is undefined; agreement is still reported. Blank forms are not completed human evaluation.
+This writes mean scores, exact agreement and Cohen's kappa overall and by direction, and adds them to that evaluation's metric table. If both raters give one identical constant score, kappa is undefined; agreement is still reported. The saved audit has complete scores for both raters.
 
 ## Saved evidence and reproduction
 
@@ -218,6 +219,6 @@ saved split. Keep checkpoint JSON sidecars for checksum verification. The option
 
 The original run snapshots remain unmodified. The current helpers add compatibility for Windows-written path records and their existing checkpoint source hashes, plus complete CSV exports; model definitions and metric formulas are unchanged. The [final validation record](../../reproducibility/manifests/Yuyao_Ding/task3_final_validation.json) records the preceding cold checkpoint demos, path compatibility and evidence checks.
 
-Remaining work is the two-rater audit, actual Kaggle submission and scores/rank, teammate comparison, final team PDF. The teammate's Task 3 source is currently absent; architectural and hyperparameter differences have not yet been confirmed. Both members must train and submit their own models under the course team.
+Remaining work includes the comparison with Pratiksha's Task 3 implementation and results, and the final team PDF. Her Task 3 files are now in the repository; architectural and hyperparameter differences still need to be documented. Yuyao's private Kaggle score and individual rank are not available. The team rank of 32 reflects Pratiksha's selected submission, not Yuyao's personal result.
 
 References: [CycleGAN paper/project](https://junyanz.github.io/CycleGAN/), [LPIPS authors' implementation](https://github.com/richzhang/PerceptualSimilarity), [precision/recall/density/coverage authors' implementation](https://github.com/clovaai/generative-evaluation-prdc), [PyTorch wheel compatibility](https://pytorch.org/get-started/previous-versions/).

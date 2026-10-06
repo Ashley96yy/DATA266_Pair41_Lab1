@@ -2,7 +2,9 @@
 
 This contribution records the completed nine-block CycleGAN run `task3_formal_20260927T075834Z_d335ae80`.
 Epoch 70 was selected by validation KID after 100 epochs / 100,000 updates.
-Human ratings, actual Kaggle score/rank and the teammate comparison remain pending.
+The 30-case two-rater audit is complete, and Yuyao's Kaggle Public score is -52.8347.
+The teammate comparison remains to be written; Yuyao's private score and personal rank
+are not available.
 The [full results](../task3_gan/Yuyao_Ding/results.md) contain the protocol definitions,
 source links and comparison with the preserved quick baseline.
 
@@ -90,9 +92,26 @@ The separate course protocol uses 300 images per direction, including training i
 | Translation images/s, including I/O | 88.83 | 84.35 |
 
 The local submission CSV contains mean FID **105.250404** and mean MiFID **0.419085**.
-Actual Kaggle public/private scores and rank are pending. These CSV values are not
-leaderboard results. Human mean style/content/artifact-free scores and inter-rater
-agreement are also pending the two independent 30-case rating forms.
+These are local evaluation values. Yuyao's uploaded `submission.csv` received Kaggle
+**Public score -52.8347**, evidenced by the [submissions screenshot](../task3_gan/Yuyao_Ding/outputs/kaggle_public_submissions.png).
+The private score and Yuyao's individual rank are not shown; the team's rank 32 belongs
+to Pratiksha's selected submission.
+
+For the fixed blinded audit, Liming Jiang and Sherry Tang each scored the same 30 cases
+(15 Monet -> Photo and 15 Photo -> Monet), using separate 1-5 rating sheets. Their
+combined results are:
+
+| Criterion | Mean / 5 | Exact agreement | Cohen's kappa |
+| --- | ---: | ---: | ---: |
+| Target style | 2.67 | 66.7% | 0.509 |
+| Content preservation | 2.90 | 83.3% | 0.765 |
+| Freedom from artifacts | 2.48 | 66.7% | 0.537 |
+
+Means pool both raters' scores over 30 cases. Agreement and unweighted Cohen's kappa
+compare their scores case by case. The [audit record](../task3_gan/Yuyao_Ding/outputs/task3_formal_20260927T075834Z_d335ae80/evaluation_20260927T130841Z_a267de/audit_results.json)
+contains the per-direction results and hashes of both rating sheets. The instructions
+requested independent scoring; the completed sheets do not establish whether the
+raters discussed scores outside the recorded process.
 
 FID and KID use the supplied course notebook's Inception-v3 preprocessing.
 FID's 2,048-dimensional covariance estimate is rank deficient with these sample counts;
@@ -219,10 +238,10 @@ from untested hypotheses and links the original image panels.
 
 Checkpoint SHA-256: `d22ff9d9de85ed8103f0cc7124a9007cd155ca4eaf21f993704cfcf02d2ddfbf`.
 All local execution checks concern Windows CPU/CUDA; physical Mac/Linux/Colab runs
-remain unverified. Add the real human audit, actual Kaggle scores/rank, teammate
-architecture/hyperparameters/metrics and joint discussion before producing the final
-combined team report. The teammate's final Task 3 implementation was not available
-for comparison, so a substantive model difference has not yet been confirmed.
+remain unverified. Compare Pratiksha's now-available Task 3 implementation,
+hyperparameters, metrics and visual results with Yuyao's, then write the joint
+discussion for the final combined team report. A substantive model difference still
+needs to be documented from those saved files.
 
 Reference: Jun-Yan Zhu, Taesung Park, Phillip Isola and Alexei A. Efros.
 [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1703.10593), ICCV 2017.
