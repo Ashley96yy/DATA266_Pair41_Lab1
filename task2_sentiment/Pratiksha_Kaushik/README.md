@@ -26,7 +26,7 @@ results.md          short summary table
 metrics.md          full metrics write-up
 failure_analysis.md summary of the 20-error review, with all 20 rows in a table
 manual_error_review.md detailed review of each of the 20 errors (excerpt, labels, probability, error type, explanation, testable fix)
-checkpoints/        model .pt files (gitignored, download link below)
+checkpoints/        model .pt files (gitignored; README.md inside has the Google Drive link)
 data_processed/     not used, data is loaded directly from Hugging Face
 ```
 
