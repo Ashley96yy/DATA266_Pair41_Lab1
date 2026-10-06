@@ -1,0 +1,33 @@
+{
+  "data_root": "/app/content",
+  "img_size": 256,
+  "load_size": 286,
+  "n_eval_photos": 1000,
+  "ngf": 64,
+  "ndf": 64,
+  "n_res_blocks": 9,
+  "batch_size": 4,
+  "lr": 0.0002,
+  "betas": [
+    0.5,
+    0.999
+  ],
+  "lambda_cyc": 10.0,
+  "lambda_id": 1.0,
+  "pool_size": 50,
+  "diffaug": "color,translation",
+  "ema_decay": 0.999,
+  "ema_start": 1000,
+  "epochs": 80,
+  "epochs_decay": 40,
+  "n_scales": 2,
+  "steps_per_epoch": 800,
+  "grad_clip": null,
+  "log_every": 100,
+  "sample_every": 5,
+  "eval_every": 5,
+  "ckpt_every": 5,
+  "resume": true,
+  "use_bf16": true,
+  "channels_last": true
+}
