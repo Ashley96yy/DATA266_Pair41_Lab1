@@ -3,9 +3,10 @@
 Team members: Yuyao Ding (folder: `Yuyao_Ding`) and Pratiksha Kaushik (folder: `Pratiksha_Kaushik`).
 
 Yuyao's recorded experiments, saved models and evidence for all three tasks have
-been imported into the shared repository. Pratiksha's existing folders are preserved;
-her completion status has not been verified in this update. The combined final
-team report remains pending.
+been imported into the shared repository. Pratiksha's completed work for all three
+tasks is in her `Pratiksha_Kaushik/` folders; see
+[Pratiksha's work and artifact downloads](#pratikshas-work-and-artifact-downloads).
+The combined final team report remains pending.
 
 Each member independently completes all three tasks. Task 2 requires one baseline
 and two experimental models per member. Raw datasets may be shared; preprocessing
@@ -45,6 +46,39 @@ contains a tracked README with the expected layout and required files. Use an
 account with read access; ask the folder owner if access is restricted.
 Raw datasets and Task 3 metric-network downloads are described separately below
 and in the task guides.
+
+## Pratiksha's work and artifact downloads
+
+Pratiksha Kaushik trained all three tasks independently in her own notebooks, with
+her own data splits and seeds. Each task folder has a README with the folder layout,
+how to reproduce the run, and every required metric.
+
+| Task | Models and result | Hardware | Guide |
+| --- | --- | --- | --- |
+| 1: character GPT | 8 layers, 8 heads, 512-d, context 512 (25.56M params), 10 epochs; val CE 0.4742, perplexity 1.607, 0.684 bits/char, top-1 accuracy 84.7% | NVIDIA A100 40GB (Colab) | [task1_llm/Pratiksha_Kaushik/](task1_llm/Pratiksha_Kaushik/README.md) |
+| 2: Yelp Polarity | Mean-embedding baseline, CNN (kernels 3/5/7) and BiGRU; 5 epochs each. Best: CNN, accuracy 0.9054, MCC 0.8108, significantly better than the baseline (McNemar p = 0.0006) | NVIDIA Tesla T4 (Colab) | [task2_sentiment/Pratiksha_Kaushik/](task2_sentiment/Pratiksha_Kaushik/README.md) |
+| 3: CycleGAN | ResNet generators + 2-scale PatchGAN discriminators, 80 epochs; course score 50.2351 (FID 100.06, MiFID 0.4135), Kaggle public score −50.2351, human audit 3.49 / 5 (2 raters, 30 samples) | NVIDIA RTX 4090 | [task3_gan/Pratiksha_Kaushik/](task3_gan/Pratiksha_Kaushik/README.md) |
+
+Model weights and large files are stored in Google Drive. Put checkpoint files into
+the task's `checkpoints/` folder under `Pratiksha_Kaushik/`.
+
+| Task | All files | Checkpoints |
+| --- | --- | --- |
+| Task 1 | [Download](https://drive.google.com/drive/folders/18IwhldDiOowviFXWqD22ZC2dRBwvGPEF?usp=drive_link) | [Download](https://drive.google.com/drive/folders/1XkTzqopbapev8RqSWLXST-E_gip88QYR?usp=drive_link) |
+| Task 2 | [Download](https://drive.google.com/drive/folders/1l_VToNCca70yGB9zTINZdaeYycaoTFMZ?usp=drive_link) | [Download](https://drive.google.com/drive/folders/1sBI2vdiaSnv6S1KcWrIeYHQg5oVAT_k4?usp=drive_link) |
+| Task 3 | [Download](https://drive.google.com/drive/folders/1xVVO0-Xpt1kmzFla6CumSy5gx788-WTC?usp=drive_link) | [Download](https://drive.google.com/drive/folders/1CGzq0IoI6pX0s4msiYyyfpYXTPhZJhHp?usp=drive_link) |
+
+The Task 3 prediction folders (`pred_A2B/`, `pred_B2A/`) and figures have their own
+Drive links in the READMEs inside those folders.
+
+Other evidence:
+
+- Reports: [Task 1](report/Pratiksha_Kaushik/Task1_Pratiksha_Kaushik.md), [Task 2](report/Pratiksha_Kaushik/Task2_Pratiksha_Kaushik.md), [Task 3](report/Pratiksha_Kaushik/Task3_Pratiksha_Kaushik.md).
+- Raw logs and run manifests for all three tasks:
+  [reproducibility/manifests/Pratiksha_Kaushik/](reproducibility/manifests/Pratiksha_Kaushik/README.md).
+- To reproduce a run, open the task's final notebook in Colab on a GPU and run all cells.
+  The notebooks download TinyStories and Yelp Polarity from Hugging Face. Task 3 uses
+  the Kaggle Monet/photo data listed under "Data and full reproduction" below.
 
 ## Layout
 
