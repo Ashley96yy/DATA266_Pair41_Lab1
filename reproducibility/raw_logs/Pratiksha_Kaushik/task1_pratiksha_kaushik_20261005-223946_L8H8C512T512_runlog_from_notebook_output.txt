@@ -1,0 +1,648 @@
+2026-10-05 22:39:46 | INFO    | run_id=20261005-223946_L8H8C512T512
+2026-10-05 22:39:46 | INFO    | member_dir=/content/drive/MyDrive/team-repo/task1_llm/pratiksha_kaushik
+2026-10-05 22:39:46 | INFO    | raw_log=/content/drive/MyDrive/team-repo/reproducibility/raw_logs/task1_pratiksha_kaushik_20261005-223946_L8H8C512T512_runlog.txt
+2026-10-05 22:39:46 | INFO    | device=cuda amp_dtype=torch.bfloat16
+2026-10-05 22:39:46 | INFO    | config={"dataset_name": "roneneldan/TinyStories", "seed": 1337, "n_train_stories": 100000, "n_val_stories": 10000, "min_story_chars": 50, "min_char_freq": 20, "block_size": 512, "n_layer": 8, "n_head": 8, "n_embd": 512, "dropout": 0.1, "epochs": 10, "batch_size": 64, "peak_lr": 0.0008, "min_lr": 8e-05, "warmup_frac": 0.03, "weight_decay": 0.1, "beta1": 0.9, "beta2": 0.95, "grad_clip": 1.0, "spike_factor": 1.3, "log_every": 50, "eval_interval": 500, "eval_batches": 40, "final_train_eval_batches": null, "keep_epoch_weights": false, "compile": true, "repo_root": "/content/drive/MyDrive/team-repo", "member_name": "pratiksha_kaushik"}
+2026-10-05 22:39:48 | INFO    | env={"python": "3.13.15", "platform": "Linux-6.6.122+-x86_64-with-glibc2.39", "torch": "2.11.0+cu130", "cuda": "13.0", "cudnn": 92700, "gpu": "NVIDIA A100-SXM4-40GB", "numpy": "2.1.3", "pandas": "2.2.3", "matplotlib": "3.10.0", "datasets": "4.8.5", "ftfy": "6.3.1", "amp_dtype": "torch.bfloat16"}
+2026-10-05 22:40:05 | INFO    | loaded roneneldan/TinyStories: 2,119,719 stories, columns=['text']
+2026-10-05 22:40:30 | INFO    | split: train=100,000 val=10,000 (scanned 121,000 shuffled stories, seed=1337)
+2026-10-05 22:40:31 | INFO    | vocab_size=80 kept_chars=78 dropped_chars=21 coverage=99.999873%
+2026-10-05 22:40:33 | INFO    | data {"train_chars": 89656644, "val_chars": 8991471, "train_unk_rate": 1.2715175910443403e-06, "val_unk_rate": 2.113113638469167e-06}
+2026-10-05 22:40:33 | INFO    | windows/epoch=175,109 steps/epoch=2,736 tokens/step=32,768
+2026-10-05 22:40:34 | INFO    | parameters total=25,564,160 non_embedding=25,261,056
+2026-10-05 22:40:34 | INFO    | causal mask checks passed; initial loss=4.5314 (ln V=4.3820)
+2026-10-05 22:40:39 | INFO    | total_steps=27360 warmup_steps=820
+2026-10-05 22:41:11 | INFO    | torch.compile enabled
+2026-10-05 22:41:11 | INFO    | training start: epochs=10 steps=27,360 tokens/step=32,768
+2026-10-05 22:41:15 | INFO    | ep 01 step     50/27360 loss 2.4382 gnorm 1.131 lr 4.88e-05 tok/s 434,639
+2026-10-05 22:41:18 | INFO    | ep 01 step    100/27360 loss 2.3502 gnorm 0.935 lr 9.76e-05 tok/s 450,905
+2026-10-05 22:41:22 | INFO    | ep 01 step    150/27360 loss 2.2933 gnorm 0.788 lr 1.46e-04 tok/s 451,068
+2026-10-05 22:41:26 | INFO    | ep 01 step    200/27360 loss 2.2609 gnorm 0.818 lr 1.95e-04 tok/s 451,047
+2026-10-05 22:41:29 | INFO    | ep 01 step    250/27360 loss 2.1763 gnorm 1.108 lr 2.44e-04 tok/s 451,114
+2026-10-05 22:41:33 | INFO    | ep 01 step    300/27360 loss 2.0106 gnorm 1.607 lr 2.93e-04 tok/s 451,048
+2026-10-05 22:41:36 | INFO    | ep 01 step    350/27360 loss 1.8371 gnorm 1.073 lr 3.41e-04 tok/s 450,829
+2026-10-05 22:41:40 | INFO    | ep 01 step    400/27360 loss 1.6346 gnorm 1.266 lr 3.90e-04 tok/s 451,006
+2026-10-05 22:41:44 | INFO    | ep 01 step    450/27360 loss 1.4681 gnorm 0.930 lr 4.39e-04 tok/s 451,272
+2026-10-05 22:41:47 | INFO    | ep 01 step    500/27360 loss 1.3625 gnorm 1.112 lr 4.88e-04 tok/s 451,244
+2026-10-05 22:41:58 | INFO    | eval step 500 train_loss 1.2915 val_loss 1.2916 val_acc 0.6019
+2026-10-05 22:42:02 | INFO    | ep 01 step    550/27360 loss 1.2775 gnorm 0.782 lr 5.37e-04 tok/s 449,769
+2026-10-05 22:42:05 | INFO    | ep 01 step    600/27360 loss 1.2289 gnorm 1.047 lr 5.85e-04 tok/s 449,984
+2026-10-05 22:42:09 | INFO    | ep 01 step    650/27360 loss 1.1221 gnorm 0.886 lr 6.34e-04 tok/s 450,039
+2026-10-05 22:42:13 | INFO    | ep 01 step    700/27360 loss 1.0974 gnorm 0.840 lr 6.83e-04 tok/s 450,152
+2026-10-05 22:42:16 | INFO    | ep 01 step    750/27360 loss 0.9863 gnorm 0.531 lr 7.32e-04 tok/s 449,207
+2026-10-05 22:42:20 | INFO    | ep 01 step    800/27360 loss 0.9627 gnorm 0.561 lr 7.80e-04 tok/s 450,057
+2026-10-05 22:42:24 | INFO    | ep 01 step    850/27360 loss 0.9496 gnorm 0.491 lr 8.00e-04 tok/s 450,088
+2026-10-05 22:42:27 | INFO    | ep 01 step    900/27360 loss 0.9126 gnorm 0.391 lr 8.00e-04 tok/s 449,870
+2026-10-05 22:42:31 | INFO    | ep 01 step    950/27360 loss 0.9044 gnorm 0.418 lr 8.00e-04 tok/s 449,786
+2026-10-05 22:42:35 | INFO    | ep 01 step   1000/27360 loss 0.8413 gnorm 0.358 lr 8.00e-04 tok/s 449,976
+2026-10-05 22:42:36 | INFO    | eval step 1000 train_loss 0.8243 val_loss 0.8245 val_acc 0.7413
+2026-10-05 22:42:40 | INFO    | ep 01 step   1050/27360 loss 0.8555 gnorm 0.341 lr 8.00e-04 tok/s 450,156
+2026-10-05 22:42:44 | INFO    | ep 01 step   1100/27360 loss 0.8594 gnorm 0.331 lr 8.00e-04 tok/s 450,010
+2026-10-05 22:42:47 | INFO    | ep 01 step   1150/27360 loss 0.8279 gnorm 0.321 lr 8.00e-04 tok/s 450,552
+2026-10-05 22:42:51 | INFO    | ep 01 step   1200/27360 loss 0.8165 gnorm 0.297 lr 8.00e-04 tok/s 450,457
+2026-10-05 22:42:55 | INFO    | ep 01 step   1250/27360 loss 0.8254 gnorm 0.285 lr 8.00e-04 tok/s 449,899
+2026-10-05 22:42:58 | INFO    | ep 01 step   1300/27360 loss 0.7921 gnorm 0.300 lr 7.99e-04 tok/s 450,490
+2026-10-05 22:43:02 | INFO    | ep 01 step   1350/27360 loss 0.7971 gnorm 0.253 lr 7.99e-04 tok/s 450,410
+2026-10-05 22:43:06 | INFO    | ep 01 step   1400/27360 loss 0.7783 gnorm 0.290 lr 7.99e-04 tok/s 450,701
+2026-10-05 22:43:09 | INFO    | ep 01 step   1450/27360 loss 0.7684 gnorm 0.260 lr 7.99e-04 tok/s 450,471
+2026-10-05 22:43:13 | INFO    | ep 01 step   1500/27360 loss 0.7474 gnorm 0.251 lr 7.99e-04 tok/s 450,946
+2026-10-05 22:43:15 | INFO    | eval step 1500 train_loss 0.7214 val_loss 0.7236 val_acc 0.7713
+2026-10-05 22:43:18 | INFO    | ep 01 step   1550/27360 loss 0.7566 gnorm 0.248 lr 7.99e-04 tok/s 450,740
+2026-10-05 22:43:22 | INFO    | ep 01 step   1600/27360 loss 0.7359 gnorm 0.227 lr 7.98e-04 tok/s 450,362
+2026-10-05 22:43:26 | INFO    | ep 01 step   1650/27360 loss 0.7473 gnorm 0.236 lr 7.98e-04 tok/s 450,684
+2026-10-05 22:43:29 | INFO    | ep 01 step   1700/27360 loss 0.7404 gnorm 0.251 lr 7.98e-04 tok/s 450,264
+2026-10-05 22:43:33 | INFO    | ep 01 step   1750/27360 loss 0.7573 gnorm 0.266 lr 7.98e-04 tok/s 450,150
+2026-10-05 22:43:37 | INFO    | ep 01 step   1800/27360 loss 0.7254 gnorm 0.220 lr 7.98e-04 tok/s 450,961
+2026-10-05 22:43:40 | INFO    | ep 01 step   1850/27360 loss 0.7301 gnorm 0.223 lr 7.97e-04 tok/s 450,848
+2026-10-05 22:43:44 | INFO    | ep 01 step   1900/27360 loss 0.7052 gnorm 0.215 lr 7.97e-04 tok/s 450,734
+2026-10-05 22:43:47 | INFO    | ep 01 step   1950/27360 loss 0.7149 gnorm 0.232 lr 7.97e-04 tok/s 450,652
+2026-10-05 22:43:51 | INFO    | ep 01 step   2000/27360 loss 0.7044 gnorm 0.221 lr 7.96e-04 tok/s 450,849
+2026-10-05 22:43:53 | INFO    | eval step 2000 train_loss 0.6732 val_loss 0.6758 val_acc 0.7857
+2026-10-05 22:43:56 | INFO    | ep 01 step   2050/27360 loss 0.7000 gnorm 0.217 lr 7.96e-04 tok/s 450,592
+2026-10-05 22:44:00 | INFO    | ep 01 step   2100/27360 loss 0.6987 gnorm 0.214 lr 7.96e-04 tok/s 450,794
+2026-10-05 22:44:04 | INFO    | ep 01 step   2150/27360 loss 0.6838 gnorm 0.203 lr 7.96e-04 tok/s 450,678
+2026-10-05 22:44:07 | INFO    | ep 01 step   2200/27360 loss 0.7017 gnorm 0.205 lr 7.95e-04 tok/s 451,013
+2026-10-05 22:44:11 | INFO    | ep 01 step   2250/27360 loss 0.7069 gnorm 0.209 lr 7.95e-04 tok/s 450,405
+2026-10-05 22:44:15 | INFO    | ep 01 step   2300/27360 loss 0.6863 gnorm 0.197 lr 7.94e-04 tok/s 451,017
+2026-10-05 22:44:18 | INFO    | ep 01 step   2350/27360 loss 0.6731 gnorm 0.197 lr 7.94e-04 tok/s 450,857
+2026-10-05 22:44:22 | INFO    | ep 01 step   2400/27360 loss 0.6637 gnorm 0.191 lr 7.94e-04 tok/s 450,686
+2026-10-05 22:44:26 | INFO    | ep 01 step   2450/27360 loss 0.6864 gnorm 0.196 lr 7.93e-04 tok/s 450,888
+2026-10-05 22:44:29 | INFO    | ep 01 step   2500/27360 loss 0.6934 gnorm 0.200 lr 7.93e-04 tok/s 451,030
+2026-10-05 22:44:31 | INFO    | eval step 2500 train_loss 0.6453 val_loss 0.6484 val_acc 0.7938
+2026-10-05 22:44:35 | INFO    | ep 01 step   2550/27360 loss 0.6553 gnorm 0.194 lr 7.92e-04 tok/s 450,220
+2026-10-05 22:44:38 | INFO    | ep 01 step   2600/27360 loss 0.6675 gnorm 0.186 lr 7.92e-04 tok/s 450,692
+2026-10-05 22:44:42 | INFO    | ep 01 step   2650/27360 loss 0.6527 gnorm 0.190 lr 7.92e-04 tok/s 450,747
+2026-10-05 22:44:46 | INFO    | ep 01 step   2700/27360 loss 0.6519 gnorm 0.197 lr 7.91e-04 tok/s 450,851
+2026-10-05 22:45:00 | INFO    | epoch_end {"epoch": 1, "step": 2736, "train_loss_running": 1.03681, "train_loss": 0.63371, "val_loss": 0.63693, "gap": 0.00322, "val_ppl": 1.89066, "val_bpc": 0.91889, "val_acc": 0.79722, "lr": 0.00079, "epoch_time_s": 228.83545}
+2026-10-05 22:45:00 | INFO    | new best val_loss=0.6369 at epoch 1 -> ckpt_best.pt
+2026-10-05 22:45:01 | INFO    | ep 02 step   2750/27360 loss 0.6457 gnorm 0.177 lr 7.91e-04 tok/s 450,180
+2026-10-05 22:45:05 | INFO    | ep 02 step   2800/27360 loss 0.6763 gnorm 0.205 lr 7.90e-04 tok/s 450,987
+2026-10-05 22:45:09 | INFO    | ep 02 step   2850/27360 loss 0.6333 gnorm 0.183 lr 7.90e-04 tok/s 449,271
+2026-10-05 22:45:12 | INFO    | ep 02 step   2900/27360 loss 0.6740 gnorm 0.186 lr 7.89e-04 tok/s 449,928
+2026-10-05 22:45:16 | INFO    | ep 02 step   2950/27360 loss 0.6669 gnorm 0.204 lr 7.89e-04 tok/s 451,130
+2026-10-05 22:45:20 | INFO    | ep 02 step   3000/27360 loss 0.6483 gnorm 0.198 lr 7.88e-04 tok/s 450,938
+2026-10-05 22:45:21 | INFO    | eval step 3000 train_loss 0.6238 val_loss 0.6287 val_acc 0.8002
+2026-10-05 22:45:25 | INFO    | ep 02 step   3050/27360 loss 0.6409 gnorm 0.178 lr 7.88e-04 tok/s 450,469
+2026-10-05 22:45:29 | INFO    | ep 02 step   3100/27360 loss 0.6402 gnorm 0.185 lr 7.87e-04 tok/s 451,027
+2026-10-05 22:45:32 | INFO    | ep 02 step   3150/27360 loss 0.6646 gnorm 0.180 lr 7.86e-04 tok/s 450,885
+2026-10-05 22:45:36 | INFO    | ep 02 step   3200/27360 loss 0.6338 gnorm 0.182 lr 7.86e-04 tok/s 450,748
+2026-10-05 22:45:40 | INFO    | ep 02 step   3250/27360 loss 0.6295 gnorm 0.169 lr 7.85e-04 tok/s 450,846
+2026-10-05 22:45:43 | INFO    | ep 02 step   3300/27360 loss 0.6387 gnorm 0.172 lr 7.85e-04 tok/s 451,178
+2026-10-05 22:45:47 | INFO    | ep 02 step   3350/27360 loss 0.6300 gnorm 0.176 lr 7.84e-04 tok/s 451,225
+2026-10-05 22:45:51 | INFO    | ep 02 step   3400/27360 loss 0.6387 gnorm 0.166 lr 7.83e-04 tok/s 450,867
+2026-10-05 22:45:54 | INFO    | ep 02 step   3450/27360 loss 0.6412 gnorm 0.167 lr 7.83e-04 tok/s 451,239
+2026-10-05 22:45:58 | INFO    | ep 02 step   3500/27360 loss 0.6296 gnorm 0.179 lr 7.82e-04 tok/s 451,435
+2026-10-05 22:46:00 | INFO    | eval step 3500 train_loss 0.6079 val_loss 0.6136 val_acc 0.8047
+2026-10-05 22:46:03 | INFO    | ep 02 step   3550/27360 loss 0.6309 gnorm 0.176 lr 7.81e-04 tok/s 451,137
+2026-10-05 22:46:07 | INFO    | ep 02 step   3600/27360 loss 0.6199 gnorm 0.176 lr 7.81e-04 tok/s 451,532
+2026-10-05 22:46:10 | INFO    | ep 02 step   3650/27360 loss 0.6348 gnorm 0.163 lr 7.80e-04 tok/s 451,177
+2026-10-05 22:46:14 | INFO    | ep 02 step   3700/27360 loss 0.6491 gnorm 0.185 lr 7.79e-04 tok/s 451,293
+2026-10-05 22:46:18 | INFO    | ep 02 step   3750/27360 loss 0.6279 gnorm 0.170 lr 7.79e-04 tok/s 451,149
+2026-10-05 22:46:21 | INFO    | ep 02 step   3800/27360 loss 0.6217 gnorm 0.169 lr 7.78e-04 tok/s 451,571
+2026-10-05 22:46:25 | INFO    | ep 02 step   3850/27360 loss 0.6105 gnorm 0.174 lr 7.77e-04 tok/s 451,471
+2026-10-05 22:46:29 | INFO    | ep 02 step   3900/27360 loss 0.6355 gnorm 0.169 lr 7.76e-04 tok/s 451,192
+2026-10-05 22:46:32 | INFO    | ep 02 step   3950/27360 loss 0.6294 gnorm 0.162 lr 7.76e-04 tok/s 451,583
+2026-10-05 22:46:36 | INFO    | ep 02 step   4000/27360 loss 0.6494 gnorm 0.159 lr 7.75e-04 tok/s 451,871
+2026-10-05 22:46:38 | INFO    | eval step 4000 train_loss 0.5952 val_loss 0.6021 val_acc 0.8077
+2026-10-05 22:46:41 | INFO    | ep 02 step   4050/27360 loss 0.6201 gnorm 0.161 lr 7.74e-04 tok/s 451,046
+2026-10-05 22:46:45 | INFO    | ep 02 step   4100/27360 loss 0.6025 gnorm 0.169 lr 7.73e-04 tok/s 451,337
+2026-10-05 22:46:49 | INFO    | ep 02 step   4150/27360 loss 0.6048 gnorm 0.159 lr 7.72e-04 tok/s 451,384
+2026-10-05 22:46:52 | INFO    | ep 02 step   4200/27360 loss 0.6245 gnorm 0.164 lr 7.72e-04 tok/s 451,365
+2026-10-05 22:46:56 | INFO    | ep 02 step   4250/27360 loss 0.6256 gnorm 0.160 lr 7.71e-04 tok/s 452,099
+2026-10-05 22:46:59 | INFO    | ep 02 step   4300/27360 loss 0.6217 gnorm 0.167 lr 7.70e-04 tok/s 452,143
+2026-10-05 22:47:03 | INFO    | ep 02 step   4350/27360 loss 0.6261 gnorm 0.166 lr 7.69e-04 tok/s 451,928
+2026-10-05 22:47:07 | INFO    | ep 02 step   4400/27360 loss 0.6057 gnorm 0.160 lr 7.68e-04 tok/s 451,656
+2026-10-05 22:47:10 | INFO    | ep 02 step   4450/27360 loss 0.6244 gnorm 0.160 lr 7.67e-04 tok/s 452,282
+2026-10-05 22:47:14 | INFO    | ep 02 step   4500/27360 loss 0.5999 gnorm 0.155 lr 7.66e-04 tok/s 452,192
+2026-10-05 22:47:16 | INFO    | eval step 4500 train_loss 0.5847 val_loss 0.5923 val_acc 0.8115
+2026-10-05 22:47:19 | INFO    | ep 02 step   4550/27360 loss 0.6150 gnorm 0.153 lr 7.65e-04 tok/s 451,147
+2026-10-05 22:47:23 | INFO    | ep 02 step   4600/27360 loss 0.6101 gnorm 0.157 lr 7.65e-04 tok/s 452,178
+2026-10-05 22:47:27 | INFO    | ep 02 step   4650/27360 loss 0.6107 gnorm 0.164 lr 7.64e-04 tok/s 452,008
+2026-10-05 22:47:30 | INFO    | ep 02 step   4700/27360 loss 0.6130 gnorm 0.157 lr 7.63e-04 tok/s 451,480
+2026-10-05 22:47:34 | INFO    | ep 02 step   4750/27360 loss 0.6120 gnorm 0.154 lr 7.62e-04 tok/s 452,080
+2026-10-05 22:47:38 | INFO    | ep 02 step   4800/27360 loss 0.6095 gnorm 0.149 lr 7.61e-04 tok/s 451,792
+2026-10-05 22:47:41 | INFO    | ep 02 step   4850/27360 loss 0.6088 gnorm 0.154 lr 7.60e-04 tok/s 451,417
+2026-10-05 22:47:45 | INFO    | ep 02 step   4900/27360 loss 0.6293 gnorm 0.164 lr 7.59e-04 tok/s 451,853
+2026-10-05 22:47:48 | INFO    | ep 02 step   4950/27360 loss 0.6129 gnorm 0.160 lr 7.58e-04 tok/s 452,269
+2026-10-05 22:47:52 | INFO    | ep 02 step   5000/27360 loss 0.5828 gnorm 0.150 lr 7.57e-04 tok/s 452,017
+2026-10-05 22:47:54 | INFO    | eval step 5000 train_loss 0.5757 val_loss 0.5841 val_acc 0.8135
+2026-10-05 22:47:57 | INFO    | ep 02 step   5050/27360 loss 0.6007 gnorm 0.160 lr 7.56e-04 tok/s 452,342
+2026-10-05 22:48:01 | INFO    | ep 02 step   5100/27360 loss 0.6029 gnorm 0.153 lr 7.55e-04 tok/s 452,498
+2026-10-05 22:48:05 | INFO    | ep 02 step   5150/27360 loss 0.5990 gnorm 0.165 lr 7.54e-04 tok/s 452,515
+2026-10-05 22:48:08 | INFO    | ep 02 step   5200/27360 loss 0.5936 gnorm 0.149 lr 7.53e-04 tok/s 451,993
+2026-10-05 22:48:12 | INFO    | ep 02 step   5250/27360 loss 0.5991 gnorm 0.152 lr 7.52e-04 tok/s 452,756
+2026-10-05 22:48:16 | INFO    | ep 02 step   5300/27360 loss 0.5934 gnorm 0.160 lr 7.51e-04 tok/s 452,754
+2026-10-05 22:48:19 | INFO    | ep 02 step   5350/27360 loss 0.5940 gnorm 0.168 lr 7.49e-04 tok/s 451,605
+2026-10-05 22:48:23 | INFO    | ep 02 step   5400/27360 loss 0.5954 gnorm 0.146 lr 7.48e-04 tok/s 452,297
+2026-10-05 22:48:26 | INFO    | ep 02 step   5450/27360 loss 0.5824 gnorm 0.148 lr 7.47e-04 tok/s 452,601
+2026-10-05 22:48:40 | INFO    | epoch_end {"epoch": 2, "step": 5472, "train_loss_running": 0.62485, "train_loss": 0.56898, "val_loss": 0.5766, "gap": 0.00762, "val_ppl": 1.77997, "val_bpc": 0.83185, "val_acc": 0.8155, "lr": 0.00075, "epoch_time_s": 219.11568}
+2026-10-05 22:48:41 | INFO    | new best val_loss=0.5766 at epoch 2 -> ckpt_best.pt
+2026-10-05 22:48:43 | INFO    | ep 03 step   5500/27360 loss 0.5963 gnorm 0.161 lr 7.46e-04 tok/s 451,654
+2026-10-05 22:48:44 | INFO    | eval step 5500 train_loss 0.5676 val_loss 0.5761 val_acc 0.8160
+2026-10-05 22:48:48 | INFO    | ep 03 step   5550/27360 loss 0.5757 gnorm 0.147 lr 7.45e-04 tok/s 451,758
+2026-10-05 22:48:52 | INFO    | ep 03 step   5600/27360 loss 0.6118 gnorm 0.159 lr 7.44e-04 tok/s 452,743
+2026-10-05 22:48:55 | INFO    | ep 03 step   5650/27360 loss 0.6203 gnorm 0.170 lr 7.43e-04 tok/s 451,914
+2026-10-05 22:48:59 | INFO    | ep 03 step   5700/27360 loss 0.5821 gnorm 0.157 lr 7.42e-04 tok/s 451,932
+2026-10-05 22:49:02 | INFO    | ep 03 step   5750/27360 loss 0.5845 gnorm 0.143 lr 7.40e-04 tok/s 452,103
+2026-10-05 22:49:06 | INFO    | ep 03 step   5800/27360 loss 0.5959 gnorm 0.162 lr 7.39e-04 tok/s 452,343
+2026-10-05 22:49:10 | INFO    | ep 03 step   5850/27360 loss 0.6013 gnorm 0.146 lr 7.38e-04 tok/s 451,909
+2026-10-05 22:49:13 | INFO    | ep 03 step   5900/27360 loss 0.5938 gnorm 0.153 lr 7.37e-04 tok/s 452,268
+2026-10-05 22:49:17 | INFO    | ep 03 step   5950/27360 loss 0.5844 gnorm 0.155 lr 7.36e-04 tok/s 452,303
+2026-10-05 22:49:21 | INFO    | ep 03 step   6000/27360 loss 0.6048 gnorm 0.153 lr 7.34e-04 tok/s 452,053
+2026-10-05 22:49:22 | INFO    | eval step 6000 train_loss 0.5603 val_loss 0.5697 val_acc 0.8180
+2026-10-05 22:49:26 | INFO    | ep 03 step   6050/27360 loss 0.5828 gnorm 0.153 lr 7.33e-04 tok/s 452,455
+2026-10-05 22:49:30 | INFO    | ep 03 step   6100/27360 loss 0.5964 gnorm 0.147 lr 7.32e-04 tok/s 452,494
+2026-10-05 22:49:33 | INFO    | ep 03 step   6150/27360 loss 0.5628 gnorm 0.154 lr 7.31e-04 tok/s 452,278
+2026-10-05 22:49:37 | INFO    | ep 03 step   6200/27360 loss 0.6063 gnorm 0.152 lr 7.29e-04 tok/s 452,240
+2026-10-05 22:49:40 | INFO    | ep 03 step   6250/27360 loss 0.5539 gnorm 0.140 lr 7.28e-04 tok/s 452,663
+2026-10-05 22:49:44 | INFO    | ep 03 step   6300/27360 loss 0.5764 gnorm 0.147 lr 7.27e-04 tok/s 452,653
+2026-10-05 22:49:48 | INFO    | ep 03 step   6350/27360 loss 0.5787 gnorm 0.140 lr 7.26e-04 tok/s 451,959
+2026-10-05 22:49:51 | INFO    | ep 03 step   6400/27360 loss 0.5655 gnorm 0.143 lr 7.24e-04 tok/s 452,815
+2026-10-05 22:49:55 | INFO    | ep 03 step   6450/27360 loss 0.6068 gnorm 0.154 lr 7.23e-04 tok/s 452,987
+2026-10-05 22:49:59 | INFO    | ep 03 step   6500/27360 loss 0.5761 gnorm 0.146 lr 7.22e-04 tok/s 451,528
+2026-10-05 22:50:00 | INFO    | eval step 6500 train_loss 0.5547 val_loss 0.5647 val_acc 0.8194
+2026-10-05 22:50:04 | INFO    | ep 03 step   6550/27360 loss 0.5818 gnorm 0.142 lr 7.20e-04 tok/s 452,295
+2026-10-05 22:50:08 | INFO    | ep 03 step   6600/27360 loss 0.5814 gnorm 0.142 lr 7.19e-04 tok/s 452,763
+2026-10-05 22:50:11 | INFO    | ep 03 step   6650/27360 loss 0.5591 gnorm 0.138 lr 7.18e-04 tok/s 452,110
+2026-10-05 22:50:15 | INFO    | ep 03 step   6700/27360 loss 0.5628 gnorm 0.154 lr 7.16e-04 tok/s 452,943
+2026-10-05 22:50:18 | INFO    | ep 03 step   6750/27360 loss 0.5826 gnorm 0.136 lr 7.15e-04 tok/s 452,668
+2026-10-05 22:50:22 | INFO    | ep 03 step   6800/27360 loss 0.5681 gnorm 0.136 lr 7.14e-04 tok/s 452,521
+2026-10-05 22:50:26 | INFO    | ep 03 step   6850/27360 loss 0.5649 gnorm 0.140 lr 7.12e-04 tok/s 452,160
+2026-10-05 22:50:29 | INFO    | ep 03 step   6900/27360 loss 0.5660 gnorm 0.142 lr 7.11e-04 tok/s 452,836
+2026-10-05 22:50:33 | INFO    | ep 03 step   6950/27360 loss 0.5771 gnorm 0.141 lr 7.09e-04 tok/s 452,754
+2026-10-05 22:50:37 | INFO    | ep 03 step   7000/27360 loss 0.5709 gnorm 0.152 lr 7.08e-04 tok/s 451,991
+2026-10-05 22:50:38 | INFO    | eval step 7000 train_loss 0.5489 val_loss 0.5591 val_acc 0.8210
+2026-10-05 22:50:42 | INFO    | ep 03 step   7050/27360 loss 0.5575 gnorm 0.136 lr 7.06e-04 tok/s 452,614
+2026-10-05 22:50:46 | INFO    | ep 03 step   7100/27360 loss 0.5863 gnorm 0.144 lr 7.05e-04 tok/s 452,906
+2026-10-05 22:50:49 | INFO    | ep 03 step   7150/27360 loss 0.5762 gnorm 0.155 lr 7.04e-04 tok/s 451,840
+2026-10-05 22:50:53 | INFO    | ep 03 step   7200/27360 loss 0.5946 gnorm 0.145 lr 7.02e-04 tok/s 452,552
+2026-10-05 22:50:56 | INFO    | ep 03 step   7250/27360 loss 0.5686 gnorm 0.142 lr 7.01e-04 tok/s 452,655
+2026-10-05 22:51:00 | INFO    | ep 03 step   7300/27360 loss 0.5930 gnorm 0.136 lr 6.99e-04 tok/s 452,284
+2026-10-05 22:51:04 | INFO    | ep 03 step   7350/27360 loss 0.5765 gnorm 0.149 lr 6.98e-04 tok/s 452,117
+2026-10-05 22:51:07 | INFO    | ep 03 step   7400/27360 loss 0.5806 gnorm 0.143 lr 6.96e-04 tok/s 452,289
+2026-10-05 22:51:11 | INFO    | ep 03 step   7450/27360 loss 0.5644 gnorm 0.144 lr 6.95e-04 tok/s 452,149
+2026-10-05 22:51:15 | INFO    | ep 03 step   7500/27360 loss 0.5682 gnorm 0.138 lr 6.93e-04 tok/s 452,234
+2026-10-05 22:51:16 | INFO    | eval step 7500 train_loss 0.5434 val_loss 0.5540 val_acc 0.8226
+2026-10-05 22:51:20 | INFO    | ep 03 step   7550/27360 loss 0.5402 gnorm 0.142 lr 6.92e-04 tok/s 452,052
+2026-10-05 22:51:24 | INFO    | ep 03 step   7600/27360 loss 0.5712 gnorm 0.141 lr 6.90e-04 tok/s 452,522
+2026-10-05 22:51:27 | INFO    | ep 03 step   7650/27360 loss 0.5575 gnorm 0.136 lr 6.89e-04 tok/s 451,972
+2026-10-05 22:51:31 | INFO    | ep 03 step   7700/27360 loss 0.5615 gnorm 0.155 lr 6.87e-04 tok/s 452,563
+2026-10-05 22:51:35 | INFO    | ep 03 step   7750/27360 loss 0.5795 gnorm 0.152 lr 6.86e-04 tok/s 452,423
+2026-10-05 22:51:38 | INFO    | ep 03 step   7800/27360 loss 0.5438 gnorm 0.139 lr 6.84e-04 tok/s 451,582
+2026-10-05 22:51:42 | INFO    | ep 03 step   7850/27360 loss 0.5702 gnorm 0.141 lr 6.82e-04 tok/s 452,364
+2026-10-05 22:51:45 | INFO    | ep 03 step   7900/27360 loss 0.5806 gnorm 0.144 lr 6.81e-04 tok/s 452,488
+2026-10-05 22:51:49 | INFO    | ep 03 step   7950/27360 loss 0.5716 gnorm 0.141 lr 6.79e-04 tok/s 451,588
+2026-10-05 22:51:53 | INFO    | ep 03 step   8000/27360 loss 0.5969 gnorm 0.150 lr 6.78e-04 tok/s 451,752
+2026-10-05 22:51:54 | INFO    | eval step 8000 train_loss 0.5382 val_loss 0.5503 val_acc 0.8238
+2026-10-05 22:51:58 | INFO    | ep 03 step   8050/27360 loss 0.5679 gnorm 0.150 lr 6.76e-04 tok/s 452,117
+2026-10-05 22:52:02 | INFO    | ep 03 step   8100/27360 loss 0.5695 gnorm 0.135 lr 6.74e-04 tok/s 452,358
+2026-10-05 22:52:05 | INFO    | ep 03 step   8150/27360 loss 0.5644 gnorm 0.149 lr 6.73e-04 tok/s 452,183
+2026-10-05 22:52:09 | INFO    | ep 03 step   8200/27360 loss 0.5577 gnorm 0.140 lr 6.71e-04 tok/s 452,350
+2026-10-05 22:52:21 | INFO    | epoch_end {"epoch": 3, "step": 8208, "train_loss_running": 0.57959, "train_loss": 0.53633, "val_loss": 0.54797, "gap": 0.01164, "val_ppl": 1.72974, "val_bpc": 0.79055, "val_acc": 0.82461, "lr": 0.00067, "epoch_time_s": 220.41732}
+2026-10-05 22:52:22 | INFO    | new best val_loss=0.5480 at epoch 3 -> ckpt_best.pt
+2026-10-05 22:52:25 | INFO    | ep 04 step   8250/27360 loss 0.5605 gnorm 0.140 lr 6.70e-04 tok/s 451,688
+2026-10-05 22:52:29 | INFO    | ep 04 step   8300/27360 loss 0.5384 gnorm 0.133 lr 6.68e-04 tok/s 451,860
+2026-10-05 22:52:32 | INFO    | ep 04 step   8350/27360 loss 0.5492 gnorm 0.137 lr 6.66e-04 tok/s 452,127
+2026-10-05 22:52:36 | INFO    | ep 04 step   8400/27360 loss 0.5604 gnorm 0.145 lr 6.65e-04 tok/s 451,998
+2026-10-05 22:52:40 | INFO    | ep 04 step   8450/27360 loss 0.5282 gnorm 0.137 lr 6.63e-04 tok/s 451,176
+2026-10-05 22:52:43 | INFO    | ep 04 step   8500/27360 loss 0.5638 gnorm 0.140 lr 6.61e-04 tok/s 451,624
+2026-10-05 22:52:45 | INFO    | eval step 8500 train_loss 0.5337 val_loss 0.5463 val_acc 0.8253
+2026-10-05 22:52:49 | INFO    | ep 04 step   8550/27360 loss 0.5638 gnorm 0.149 lr 6.60e-04 tok/s 451,833
+2026-10-05 22:52:52 | INFO    | ep 04 step   8600/27360 loss 0.5669 gnorm 0.146 lr 6.58e-04 tok/s 452,290
+2026-10-05 22:52:56 | INFO    | ep 04 step   8650/27360 loss 0.5599 gnorm 0.142 lr 6.56e-04 tok/s 451,171
+2026-10-05 22:52:59 | INFO    | ep 04 step   8700/27360 loss 0.5483 gnorm 0.141 lr 6.54e-04 tok/s 452,769
+2026-10-05 22:53:03 | INFO    | ep 04 step   8750/27360 loss 0.5702 gnorm 0.141 lr 6.53e-04 tok/s 452,675
+2026-10-05 22:53:07 | INFO    | ep 04 step   8800/27360 loss 0.5815 gnorm 0.148 lr 6.51e-04 tok/s 451,919
+2026-10-05 22:53:10 | INFO    | ep 04 step   8850/27360 loss 0.5532 gnorm 0.143 lr 6.49e-04 tok/s 452,701
+2026-10-05 22:53:14 | INFO    | ep 04 step   8900/27360 loss 0.5693 gnorm 0.144 lr 6.48e-04 tok/s 452,887
+2026-10-05 22:53:18 | INFO    | ep 04 step   8950/27360 loss 0.5499 gnorm 0.141 lr 6.46e-04 tok/s 451,967
+2026-10-05 22:53:21 | INFO    | ep 04 step   9000/27360 loss 0.5810 gnorm 0.140 lr 6.44e-04 tok/s 451,706
+2026-10-05 22:53:23 | INFO    | eval step 9000 train_loss 0.5282 val_loss 0.5417 val_acc 0.8262
+2026-10-05 22:53:27 | INFO    | ep 04 step   9050/27360 loss 0.5509 gnorm 0.134 lr 6.42e-04 tok/s 452,500
+2026-10-05 22:53:30 | INFO    | ep 04 step   9100/27360 loss 0.5663 gnorm 0.137 lr 6.41e-04 tok/s 451,961
+2026-10-05 22:53:34 | INFO    | ep 04 step   9150/27360 loss 0.5639 gnorm 0.135 lr 6.39e-04 tok/s 451,987
+2026-10-05 22:53:37 | INFO    | ep 04 step   9200/27360 loss 0.5477 gnorm 0.137 lr 6.37e-04 tok/s 452,628
+2026-10-05 22:53:41 | INFO    | ep 04 step   9250/27360 loss 0.5642 gnorm 0.145 lr 6.35e-04 tok/s 452,468
+2026-10-05 22:53:45 | INFO    | ep 04 step   9300/27360 loss 0.5571 gnorm 0.143 lr 6.33e-04 tok/s 452,178
+2026-10-05 22:53:48 | INFO    | ep 04 step   9350/27360 loss 0.5690 gnorm 0.146 lr 6.32e-04 tok/s 452,385
+2026-10-05 22:53:52 | INFO    | ep 04 step   9400/27360 loss 0.5530 gnorm 0.139 lr 6.30e-04 tok/s 452,855
+2026-10-05 22:53:56 | INFO    | ep 04 step   9450/27360 loss 0.5463 gnorm 0.138 lr 6.28e-04 tok/s 452,288
+2026-10-05 22:53:59 | INFO    | ep 04 step   9500/27360 loss 0.5719 gnorm 0.135 lr 6.26e-04 tok/s 452,757
+2026-10-05 22:54:01 | INFO    | eval step 9500 train_loss 0.5249 val_loss 0.5388 val_acc 0.8272
+2026-10-05 22:54:05 | INFO    | ep 04 step   9550/27360 loss 0.5459 gnorm 0.142 lr 6.24e-04 tok/s 452,942
+2026-10-05 22:54:08 | INFO    | ep 04 step   9600/27360 loss 0.5583 gnorm 0.138 lr 6.22e-04 tok/s 451,786
+2026-10-05 22:54:12 | INFO    | ep 04 step   9650/27360 loss 0.5472 gnorm 0.138 lr 6.21e-04 tok/s 452,726
+2026-10-05 22:54:16 | INFO    | ep 04 step   9700/27360 loss 0.5573 gnorm 0.139 lr 6.19e-04 tok/s 452,772
+2026-10-05 22:54:19 | INFO    | ep 04 step   9750/27360 loss 0.5582 gnorm 0.131 lr 6.17e-04 tok/s 452,259
+2026-10-05 22:54:23 | INFO    | ep 04 step   9800/27360 loss 0.5355 gnorm 0.125 lr 6.15e-04 tok/s 452,024
+2026-10-05 22:54:26 | INFO    | ep 04 step   9850/27360 loss 0.5532 gnorm 0.135 lr 6.13e-04 tok/s 452,416
+2026-10-05 22:54:30 | INFO    | ep 04 step   9900/27360 loss 0.5683 gnorm 0.136 lr 6.11e-04 tok/s 452,606
+2026-10-05 22:54:34 | INFO    | ep 04 step   9950/27360 loss 0.5509 gnorm 0.140 lr 6.09e-04 tok/s 451,777
+2026-10-05 22:54:37 | INFO    | ep 04 step  10000/27360 loss 0.5688 gnorm 0.144 lr 6.08e-04 tok/s 452,613
+2026-10-05 22:54:39 | INFO    | eval step 10000 train_loss 0.5215 val_loss 0.5356 val_acc 0.8281
+2026-10-05 22:54:43 | INFO    | ep 04 step  10050/27360 loss 0.5587 gnorm 0.134 lr 6.06e-04 tok/s 452,787
+2026-10-05 22:54:46 | INFO    | ep 04 step  10100/27360 loss 0.5429 gnorm 0.139 lr 6.04e-04 tok/s 452,057
+2026-10-05 22:54:50 | INFO    | ep 04 step  10150/27360 loss 0.5387 gnorm 0.139 lr 6.02e-04 tok/s 452,837
+2026-10-05 22:54:54 | INFO    | ep 04 step  10200/27360 loss 0.5591 gnorm 0.140 lr 6.00e-04 tok/s 453,216
+2026-10-05 22:54:57 | INFO    | ep 04 step  10250/27360 loss 0.5524 gnorm 0.135 lr 5.98e-04 tok/s 452,205
+2026-10-05 22:55:01 | INFO    | ep 04 step  10300/27360 loss 0.5321 gnorm 0.131 lr 5.96e-04 tok/s 452,706
+2026-10-05 22:55:04 | INFO    | ep 04 step  10350/27360 loss 0.5644 gnorm 0.137 lr 5.94e-04 tok/s 452,846
+2026-10-05 22:55:08 | INFO    | ep 04 step  10400/27360 loss 0.5434 gnorm 0.132 lr 5.92e-04 tok/s 452,466
+2026-10-05 22:55:12 | INFO    | ep 04 step  10450/27360 loss 0.5454 gnorm 0.136 lr 5.90e-04 tok/s 452,244
+2026-10-05 22:55:15 | INFO    | ep 04 step  10500/27360 loss 0.5496 gnorm 0.141 lr 5.88e-04 tok/s 452,820
+2026-10-05 22:55:17 | INFO    | eval step 10500 train_loss 0.5167 val_loss 0.5314 val_acc 0.8294
+2026-10-05 22:55:21 | INFO    | ep 04 step  10550/27360 loss 0.5419 gnorm 0.137 lr 5.87e-04 tok/s 452,523
+2026-10-05 22:55:24 | INFO    | ep 04 step  10600/27360 loss 0.5503 gnorm 0.136 lr 5.85e-04 tok/s 451,889
+2026-10-05 22:55:28 | INFO    | ep 04 step  10650/27360 loss 0.5380 gnorm 0.131 lr 5.83e-04 tok/s 452,553
+2026-10-05 22:55:32 | INFO    | ep 04 step  10700/27360 loss 0.5738 gnorm 0.147 lr 5.81e-04 tok/s 452,669
+2026-10-05 22:55:35 | INFO    | ep 04 step  10750/27360 loss 0.5415 gnorm 0.131 lr 5.79e-04 tok/s 452,010
+2026-10-05 22:55:39 | INFO    | ep 04 step  10800/27360 loss 0.5296 gnorm 0.133 lr 5.77e-04 tok/s 452,245
+2026-10-05 22:55:42 | INFO    | ep 04 step  10850/27360 loss 0.5411 gnorm 0.130 lr 5.75e-04 tok/s 452,590
+2026-10-05 22:55:46 | INFO    | ep 04 step  10900/27360 loss 0.5467 gnorm 0.136 lr 5.73e-04 tok/s 452,415
+2026-10-05 22:56:01 | INFO    | epoch_end {"epoch": 4, "step": 10944, "train_loss_running": 0.55368, "train_loss": 0.51416, "val_loss": 0.52925, "gap": 0.01509, "val_ppl": 1.69766, "val_bpc": 0.76354, "val_acc": 0.83037, "lr": 0.00057, "epoch_time_s": 218.73822}
+2026-10-05 22:56:02 | INFO    | new best val_loss=0.5292 at epoch 4 -> ckpt_best.pt
+2026-10-05 22:56:02 | INFO    | ep 05 step  10950/27360 loss 0.5101 gnorm 0.133 lr 5.71e-04 tok/s 452,132
+2026-10-05 22:56:06 | INFO    | ep 05 step  11000/27360 loss 0.5413 gnorm 0.134 lr 5.69e-04 tok/s 452,717
+2026-10-05 22:56:07 | INFO    | eval step 11000 train_loss 0.5140 val_loss 0.5297 val_acc 0.8300
+2026-10-05 22:56:11 | INFO    | ep 05 step  11050/27360 loss 0.5425 gnorm 0.139 lr 5.67e-04 tok/s 452,345
+2026-10-05 22:56:15 | INFO    | ep 05 step  11100/27360 loss 0.5369 gnorm 0.133 lr 5.65e-04 tok/s 452,290
+2026-10-05 22:56:18 | INFO    | ep 05 step  11150/27360 loss 0.5427 gnorm 0.142 lr 5.63e-04 tok/s 452,049
+2026-10-05 22:56:22 | INFO    | ep 05 step  11200/27360 loss 0.5490 gnorm 0.132 lr 5.61e-04 tok/s 451,843
+2026-10-05 22:56:26 | INFO    | ep 05 step  11250/27360 loss 0.5425 gnorm 0.134 lr 5.59e-04 tok/s 451,355
+2026-10-05 22:56:29 | INFO    | ep 05 step  11300/27360 loss 0.5469 gnorm 0.143 lr 5.57e-04 tok/s 452,197
+2026-10-05 22:56:33 | INFO    | ep 05 step  11350/27360 loss 0.5388 gnorm 0.139 lr 5.55e-04 tok/s 452,361
+2026-10-05 22:56:37 | INFO    | ep 05 step  11400/27360 loss 0.5468 gnorm 0.137 lr 5.53e-04 tok/s 452,006
+2026-10-05 22:56:40 | INFO    | ep 05 step  11450/27360 loss 0.5470 gnorm 0.141 lr 5.51e-04 tok/s 451,404
+2026-10-05 22:56:44 | INFO    | ep 05 step  11500/27360 loss 0.5222 gnorm 0.139 lr 5.49e-04 tok/s 452,771
+2026-10-05 22:56:45 | INFO    | eval step 11500 train_loss 0.5102 val_loss 0.5265 val_acc 0.8313
+2026-10-05 22:56:49 | INFO    | ep 05 step  11550/27360 loss 0.5302 gnorm 0.132 lr 5.47e-04 tok/s 452,097
+2026-10-05 22:56:53 | INFO    | ep 05 step  11600/27360 loss 0.5378 gnorm 0.144 lr 5.45e-04 tok/s 452,155
+2026-10-05 22:56:56 | INFO    | ep 05 step  11650/27360 loss 0.5415 gnorm 0.128 lr 5.43e-04 tok/s 452,747
+2026-10-05 22:57:00 | INFO    | ep 05 step  11700/27360 loss 0.5373 gnorm 0.134 lr 5.41e-04 tok/s 452,527
+2026-10-05 22:57:04 | INFO    | ep 05 step  11750/27360 loss 0.5399 gnorm 0.134 lr 5.38e-04 tok/s 452,118
+2026-10-05 22:57:07 | INFO    | ep 05 step  11800/27360 loss 0.5401 gnorm 0.137 lr 5.36e-04 tok/s 452,401
+2026-10-05 22:57:11 | INFO    | ep 05 step  11850/27360 loss 0.5281 gnorm 0.138 lr 5.34e-04 tok/s 452,270
+2026-10-05 22:57:15 | INFO    | ep 05 step  11900/27360 loss 0.5401 gnorm 0.130 lr 5.32e-04 tok/s 452,626
+2026-10-05 22:57:18 | INFO    | ep 05 step  11950/27360 loss 0.5339 gnorm 0.139 lr 5.30e-04 tok/s 451,795
+2026-10-05 22:57:22 | INFO    | ep 05 step  12000/27360 loss 0.5320 gnorm 0.137 lr 5.28e-04 tok/s 452,702
+2026-10-05 22:57:24 | INFO    | eval step 12000 train_loss 0.5072 val_loss 0.5239 val_acc 0.8317
+2026-10-05 22:57:27 | INFO    | ep 05 step  12050/27360 loss 0.5156 gnorm 0.138 lr 5.26e-04 tok/s 451,993
+2026-10-05 22:57:31 | INFO    | ep 05 step  12100/27360 loss 0.5259 gnorm 0.134 lr 5.24e-04 tok/s 452,417
+2026-10-05 22:57:34 | INFO    | ep 05 step  12150/27360 loss 0.5565 gnorm 0.138 lr 5.22e-04 tok/s 452,497
+2026-10-05 22:57:38 | INFO    | ep 05 step  12200/27360 loss 0.5506 gnorm 0.136 lr 5.20e-04 tok/s 451,540
+2026-10-05 22:57:42 | INFO    | ep 05 step  12250/27360 loss 0.5223 gnorm 0.139 lr 5.18e-04 tok/s 451,546
+2026-10-05 22:57:45 | INFO    | ep 05 step  12300/27360 loss 0.5473 gnorm 0.134 lr 5.16e-04 tok/s 452,599
+2026-10-05 22:57:49 | INFO    | ep 05 step  12350/27360 loss 0.5487 gnorm 0.135 lr 5.14e-04 tok/s 452,186
+2026-10-05 22:57:53 | INFO    | ep 05 step  12400/27360 loss 0.5251 gnorm 0.133 lr 5.12e-04 tok/s 452,168
+2026-10-05 22:57:56 | INFO    | ep 05 step  12450/27360 loss 0.5388 gnorm 0.135 lr 5.09e-04 tok/s 452,526
+2026-10-05 22:58:00 | INFO    | ep 05 step  12500/27360 loss 0.5026 gnorm 0.128 lr 5.07e-04 tok/s 452,470
+2026-10-05 22:58:02 | INFO    | eval step 12500 train_loss 0.5044 val_loss 0.5218 val_acc 0.8328
+2026-10-05 22:58:05 | INFO    | ep 05 step  12550/27360 loss 0.5347 gnorm 0.129 lr 5.05e-04 tok/s 452,301
+2026-10-05 22:58:09 | INFO    | ep 05 step  12600/27360 loss 0.5378 gnorm 0.142 lr 5.03e-04 tok/s 452,538
+2026-10-05 22:58:12 | INFO    | ep 05 step  12650/27360 loss 0.5325 gnorm 0.137 lr 5.01e-04 tok/s 453,043
+2026-10-05 22:58:16 | INFO    | ep 05 step  12700/27360 loss 0.5423 gnorm 0.134 lr 4.99e-04 tok/s 452,521
+2026-10-05 22:58:20 | INFO    | ep 05 step  12750/27360 loss 0.5414 gnorm 0.142 lr 4.97e-04 tok/s 452,338
+2026-10-05 22:58:23 | INFO    | ep 05 step  12800/27360 loss 0.5467 gnorm 0.135 lr 4.95e-04 tok/s 452,860
+2026-10-05 22:58:27 | INFO    | ep 05 step  12850/27360 loss 0.5429 gnorm 0.135 lr 4.93e-04 tok/s 452,630
+2026-10-05 22:58:31 | INFO    | ep 05 step  12900/27360 loss 0.5327 gnorm 0.132 lr 4.91e-04 tok/s 452,056
+2026-10-05 22:58:34 | INFO    | ep 05 step  12950/27360 loss 0.5502 gnorm 0.134 lr 4.88e-04 tok/s 452,744
+2026-10-05 22:58:38 | INFO    | ep 05 step  13000/27360 loss 0.5350 gnorm 0.129 lr 4.86e-04 tok/s 452,300
+2026-10-05 22:58:40 | INFO    | eval step 13000 train_loss 0.4998 val_loss 0.5176 val_acc 0.8337
+2026-10-05 22:58:43 | INFO    | ep 05 step  13050/27360 loss 0.5274 gnorm 0.137 lr 4.84e-04 tok/s 452,142
+2026-10-05 22:58:47 | INFO    | ep 05 step  13100/27360 loss 0.5091 gnorm 0.132 lr 4.82e-04 tok/s 452,323
+2026-10-05 22:58:50 | INFO    | ep 05 step  13150/27360 loss 0.5355 gnorm 0.134 lr 4.80e-04 tok/s 452,871
+2026-10-05 22:58:54 | INFO    | ep 05 step  13200/27360 loss 0.5495 gnorm 0.139 lr 4.78e-04 tok/s 452,477
+2026-10-05 22:58:58 | INFO    | ep 05 step  13250/27360 loss 0.5349 gnorm 0.135 lr 4.76e-04 tok/s 451,980
+2026-10-05 22:59:01 | INFO    | ep 05 step  13300/27360 loss 0.5472 gnorm 0.131 lr 4.74e-04 tok/s 452,534
+2026-10-05 22:59:05 | INFO    | ep 05 step  13350/27360 loss 0.5393 gnorm 0.135 lr 4.72e-04 tok/s 452,772
+2026-10-05 22:59:09 | INFO    | ep 05 step  13400/27360 loss 0.5177 gnorm 0.130 lr 4.69e-04 tok/s 451,860
+2026-10-05 22:59:12 | INFO    | ep 05 step  13450/27360 loss 0.5218 gnorm 0.129 lr 4.67e-04 tok/s 452,783
+2026-10-05 22:59:16 | INFO    | ep 05 step  13500/27360 loss 0.5354 gnorm 0.132 lr 4.65e-04 tok/s 452,958
+2026-10-05 22:59:18 | INFO    | eval step 13500 train_loss 0.4974 val_loss 0.5152 val_acc 0.8342
+2026-10-05 22:59:21 | INFO    | ep 05 step  13550/27360 loss 0.5326 gnorm 0.132 lr 4.63e-04 tok/s 451,960
+2026-10-05 22:59:25 | INFO    | ep 05 step  13600/27360 loss 0.5259 gnorm 0.133 lr 4.61e-04 tok/s 452,710
+2026-10-05 22:59:28 | INFO    | ep 05 step  13650/27360 loss 0.5284 gnorm 0.131 lr 4.59e-04 tok/s 452,419
+2026-10-05 22:59:42 | INFO    | epoch_end {"epoch": 5, "step": 13680, "train_loss_running": 0.53411, "train_loss": 0.49685, "val_loss": 0.51471, "gap": 0.01786, "val_ppl": 1.67315, "val_bpc": 0.74256, "val_acc": 0.83486, "lr": 0.00046, "epoch_time_s": 220.40067}
+2026-10-05 22:59:43 | INFO    | new best val_loss=0.5147 at epoch 5 -> ckpt_best.pt
+2026-10-05 22:59:45 | INFO    | ep 06 step  13700/27360 loss 0.5323 gnorm 0.141 lr 4.57e-04 tok/s 452,121
+2026-10-05 22:59:48 | INFO    | ep 06 step  13750/27360 loss 0.5284 gnorm 0.134 lr 4.55e-04 tok/s 451,793
+2026-10-05 22:59:52 | INFO    | ep 06 step  13800/27360 loss 0.5390 gnorm 0.131 lr 4.52e-04 tok/s 452,906
+2026-10-05 22:59:56 | INFO    | ep 06 step  13850/27360 loss 0.5044 gnorm 0.138 lr 4.50e-04 tok/s 452,133
+2026-10-05 22:59:59 | INFO    | ep 06 step  13900/27360 loss 0.5159 gnorm 0.136 lr 4.48e-04 tok/s 450,848
+2026-10-05 23:00:03 | INFO    | ep 06 step  13950/27360 loss 0.5012 gnorm 0.136 lr 4.46e-04 tok/s 452,106
+2026-10-05 23:00:06 | INFO    | ep 06 step  14000/27360 loss 0.5223 gnorm 0.137 lr 4.44e-04 tok/s 452,459
+2026-10-05 23:00:08 | INFO    | eval step 14000 train_loss 0.4956 val_loss 0.5142 val_acc 0.8350
+2026-10-05 23:00:12 | INFO    | ep 06 step  14050/27360 loss 0.5360 gnorm 0.139 lr 4.42e-04 tok/s 451,607
+2026-10-05 23:00:15 | INFO    | ep 06 step  14100/27360 loss 0.5387 gnorm 0.136 lr 4.40e-04 tok/s 452,660
+2026-10-05 23:00:19 | INFO    | ep 06 step  14150/27360 loss 0.5263 gnorm 0.132 lr 4.37e-04 tok/s 452,504
+2026-10-05 23:00:23 | INFO    | ep 06 step  14200/27360 loss 0.5249 gnorm 0.135 lr 4.35e-04 tok/s 452,062
+2026-10-05 23:00:26 | INFO    | ep 06 step  14250/27360 loss 0.5093 gnorm 0.127 lr 4.33e-04 tok/s 452,680
+2026-10-05 23:00:30 | INFO    | ep 06 step  14300/27360 loss 0.5058 gnorm 0.131 lr 4.31e-04 tok/s 452,770
+2026-10-05 23:00:34 | INFO    | ep 06 step  14350/27360 loss 0.5169 gnorm 0.135 lr 4.29e-04 tok/s 452,495
+2026-10-05 23:00:37 | INFO    | ep 06 step  14400/27360 loss 0.5061 gnorm 0.128 lr 4.27e-04 tok/s 451,998
+2026-10-05 23:00:41 | INFO    | ep 06 step  14450/27360 loss 0.5205 gnorm 0.137 lr 4.25e-04 tok/s 452,389
+2026-10-05 23:00:44 | INFO    | ep 06 step  14500/27360 loss 0.5115 gnorm 0.129 lr 4.23e-04 tok/s 452,569
+2026-10-05 23:00:46 | INFO    | eval step 14500 train_loss 0.4929 val_loss 0.5108 val_acc 0.8359
+2026-10-05 23:00:50 | INFO    | ep 06 step  14550/27360 loss 0.5133 gnorm 0.134 lr 4.20e-04 tok/s 452,000
+2026-10-05 23:00:53 | INFO    | ep 06 step  14600/27360 loss 0.5166 gnorm 0.137 lr 4.18e-04 tok/s 452,884
+2026-10-05 23:00:57 | INFO    | ep 06 step  14650/27360 loss 0.5295 gnorm 0.141 lr 4.16e-04 tok/s 452,237
+2026-10-05 23:01:01 | INFO    | ep 06 step  14700/27360 loss 0.5452 gnorm 0.135 lr 4.14e-04 tok/s 451,755
+2026-10-05 23:01:04 | INFO    | ep 06 step  14750/27360 loss 0.5293 gnorm 0.144 lr 4.12e-04 tok/s 452,529
+2026-10-05 23:01:08 | INFO    | ep 06 step  14800/27360 loss 0.5269 gnorm 0.135 lr 4.10e-04 tok/s 452,158
+2026-10-05 23:01:12 | INFO    | ep 06 step  14850/27360 loss 0.5185 gnorm 0.130 lr 4.08e-04 tok/s 452,580
+2026-10-05 23:01:15 | INFO    | ep 06 step  14900/27360 loss 0.5172 gnorm 0.133 lr 4.06e-04 tok/s 452,335
+2026-10-05 23:01:19 | INFO    | ep 06 step  14950/27360 loss 0.5168 gnorm 0.134 lr 4.03e-04 tok/s 452,338
+2026-10-05 23:01:22 | INFO    | ep 06 step  15000/27360 loss 0.4986 gnorm 0.132 lr 4.01e-04 tok/s 452,697
+2026-10-05 23:01:24 | INFO    | eval step 15000 train_loss 0.4907 val_loss 0.5087 val_acc 0.8364
+2026-10-05 23:01:28 | INFO    | ep 06 step  15050/27360 loss 0.5219 gnorm 0.134 lr 3.99e-04 tok/s 452,678
+2026-10-05 23:01:31 | INFO    | ep 06 step  15100/27360 loss 0.5183 gnorm 0.135 lr 3.97e-04 tok/s 452,893
+2026-10-05 23:01:35 | INFO    | ep 06 step  15150/27360 loss 0.5187 gnorm 0.128 lr 3.95e-04 tok/s 452,896
+2026-10-05 23:01:39 | INFO    | ep 06 step  15200/27360 loss 0.5432 gnorm 0.140 lr 3.93e-04 tok/s 451,737
+2026-10-05 23:01:42 | INFO    | ep 06 step  15250/27360 loss 0.5261 gnorm 0.139 lr 3.91e-04 tok/s 452,701
+2026-10-05 23:01:46 | INFO    | ep 06 step  15300/27360 loss 0.5238 gnorm 0.133 lr 3.89e-04 tok/s 452,865
+2026-10-05 23:01:50 | INFO    | ep 06 step  15350/27360 loss 0.5146 gnorm 0.137 lr 3.87e-04 tok/s 451,887
+2026-10-05 23:01:53 | INFO    | ep 06 step  15400/27360 loss 0.5138 gnorm 0.133 lr 3.84e-04 tok/s 452,514
+2026-10-05 23:01:57 | INFO    | ep 06 step  15450/27360 loss 0.5370 gnorm 0.137 lr 3.82e-04 tok/s 452,668
+2026-10-05 23:02:00 | INFO    | ep 06 step  15500/27360 loss 0.5328 gnorm 0.142 lr 3.80e-04 tok/s 452,317
+2026-10-05 23:02:02 | INFO    | eval step 15500 train_loss 0.4887 val_loss 0.5069 val_acc 0.8370
+2026-10-05 23:02:06 | INFO    | ep 06 step  15550/27360 loss 0.5190 gnorm 0.136 lr 3.78e-04 tok/s 452,364
+2026-10-05 23:02:09 | INFO    | ep 06 step  15600/27360 loss 0.5227 gnorm 0.132 lr 3.76e-04 tok/s 452,492
+2026-10-05 23:02:13 | INFO    | ep 06 step  15650/27360 loss 0.5157 gnorm 0.133 lr 3.74e-04 tok/s 452,300
+2026-10-05 23:02:17 | INFO    | ep 06 step  15700/27360 loss 0.5203 gnorm 0.136 lr 3.72e-04 tok/s 451,732
+2026-10-05 23:02:20 | INFO    | ep 06 step  15750/27360 loss 0.5213 gnorm 0.135 lr 3.70e-04 tok/s 451,992
+2026-10-05 23:02:24 | INFO    | ep 06 step  15800/27360 loss 0.5224 gnorm 0.139 lr 3.68e-04 tok/s 452,329
+2026-10-05 23:02:28 | INFO    | ep 06 step  15850/27360 loss 0.4960 gnorm 0.128 lr 3.66e-04 tok/s 451,493
+2026-10-05 23:02:31 | INFO    | ep 06 step  15900/27360 loss 0.5201 gnorm 0.135 lr 3.63e-04 tok/s 452,286
+2026-10-05 23:02:35 | INFO    | ep 06 step  15950/27360 loss 0.5401 gnorm 0.134 lr 3.61e-04 tok/s 452,988
+2026-10-05 23:02:39 | INFO    | ep 06 step  16000/27360 loss 0.5146 gnorm 0.143 lr 3.59e-04 tok/s 451,817
+2026-10-05 23:02:40 | INFO    | eval step 16000 train_loss 0.4854 val_loss 0.5037 val_acc 0.8381
+2026-10-05 23:02:44 | INFO    | ep 06 step  16050/27360 loss 0.5192 gnorm 0.134 lr 3.57e-04 tok/s 452,602
+2026-10-05 23:02:47 | INFO    | ep 06 step  16100/27360 loss 0.5138 gnorm 0.135 lr 3.55e-04 tok/s 452,470
+2026-10-05 23:02:51 | INFO    | ep 06 step  16150/27360 loss 0.5035 gnorm 0.136 lr 3.53e-04 tok/s 451,841
+2026-10-05 23:02:55 | INFO    | ep 06 step  16200/27360 loss 0.5052 gnorm 0.144 lr 3.51e-04 tok/s 452,145
+2026-10-05 23:02:58 | INFO    | ep 06 step  16250/27360 loss 0.5246 gnorm 0.134 lr 3.49e-04 tok/s 452,026
+2026-10-05 23:03:02 | INFO    | ep 06 step  16300/27360 loss 0.5144 gnorm 0.139 lr 3.47e-04 tok/s 452,397
+2026-10-05 23:03:06 | INFO    | ep 06 step  16350/27360 loss 0.5085 gnorm 0.132 lr 3.45e-04 tok/s 451,698
+2026-10-05 23:03:09 | INFO    | ep 06 step  16400/27360 loss 0.5028 gnorm 0.135 lr 3.43e-04 tok/s 452,076
+2026-10-05 23:03:22 | INFO    | epoch_end {"epoch": 6, "step": 16416, "train_loss_running": 0.51946, "train_loss": 0.48323, "val_loss": 0.50159, "gap": 0.01835, "val_ppl": 1.65134, "val_bpc": 0.72364, "val_acc": 0.83887, "lr": 0.00034, "epoch_time_s": 218.7464}
+2026-10-05 23:03:23 | INFO    | new best val_loss=0.5016 at epoch 6 -> ckpt_best.pt
+2026-10-05 23:03:25 | INFO    | ep 07 step  16450/27360 loss 0.5078 gnorm 0.138 lr 3.41e-04 tok/s 452,866
+2026-10-05 23:03:29 | INFO    | ep 07 step  16500/27360 loss 0.5115 gnorm 0.141 lr 3.39e-04 tok/s 451,513
+2026-10-05 23:03:31 | INFO    | eval step 16500 train_loss 0.4832 val_loss 0.5029 val_acc 0.8383
+2026-10-05 23:03:34 | INFO    | ep 07 step  16550/27360 loss 0.5171 gnorm 0.137 lr 3.37e-04 tok/s 452,353
+2026-10-05 23:03:38 | INFO    | ep 07 step  16600/27360 loss 0.4993 gnorm 0.138 lr 3.35e-04 tok/s 452,100
+2026-10-05 23:03:42 | INFO    | ep 07 step  16650/27360 loss 0.5047 gnorm 0.138 lr 3.33e-04 tok/s 451,197
+2026-10-05 23:03:45 | INFO    | ep 07 step  16700/27360 loss 0.5084 gnorm 0.141 lr 3.31e-04 tok/s 450,256
+2026-10-05 23:03:49 | INFO    | ep 07 step  16750/27360 loss 0.5098 gnorm 0.141 lr 3.29e-04 tok/s 451,214
+2026-10-05 23:03:53 | INFO    | ep 07 step  16800/27360 loss 0.5139 gnorm 0.143 lr 3.27e-04 tok/s 452,037
+2026-10-05 23:03:56 | INFO    | ep 07 step  16850/27360 loss 0.5086 gnorm 0.135 lr 3.25e-04 tok/s 451,245
+2026-10-05 23:04:00 | INFO    | ep 07 step  16900/27360 loss 0.5011 gnorm 0.138 lr 3.22e-04 tok/s 451,306
+2026-10-05 23:04:03 | INFO    | ep 07 step  16950/27360 loss 0.5125 gnorm 0.141 lr 3.20e-04 tok/s 452,533
+2026-10-05 23:04:07 | INFO    | ep 07 step  17000/27360 loss 0.5153 gnorm 0.137 lr 3.18e-04 tok/s 451,576
+2026-10-05 23:04:09 | INFO    | eval step 17000 train_loss 0.4799 val_loss 0.4998 val_acc 0.8390
+2026-10-05 23:04:12 | INFO    | ep 07 step  17050/27360 loss 0.5064 gnorm 0.136 lr 3.16e-04 tok/s 452,326
+2026-10-05 23:04:16 | INFO    | ep 07 step  17100/27360 loss 0.5051 gnorm 0.140 lr 3.14e-04 tok/s 452,536
+2026-10-05 23:04:20 | INFO    | ep 07 step  17150/27360 loss 0.5043 gnorm 0.138 lr 3.12e-04 tok/s 451,532
+2026-10-05 23:04:23 | INFO    | ep 07 step  17200/27360 loss 0.5122 gnorm 0.134 lr 3.10e-04 tok/s 452,812
+2026-10-05 23:04:27 | INFO    | ep 07 step  17250/27360 loss 0.4993 gnorm 0.136 lr 3.08e-04 tok/s 452,557
+2026-10-05 23:04:31 | INFO    | ep 07 step  17300/27360 loss 0.5105 gnorm 0.135 lr 3.07e-04 tok/s 452,484
+2026-10-05 23:04:34 | INFO    | ep 07 step  17350/27360 loss 0.4997 gnorm 0.140 lr 3.05e-04 tok/s 452,216
+2026-10-05 23:04:38 | INFO    | ep 07 step  17400/27360 loss 0.4944 gnorm 0.135 lr 3.03e-04 tok/s 452,171
+2026-10-05 23:04:41 | INFO    | ep 07 step  17450/27360 loss 0.5221 gnorm 0.141 lr 3.01e-04 tok/s 452,714
+2026-10-05 23:04:45 | INFO    | ep 07 step  17500/27360 loss 0.5248 gnorm 0.146 lr 2.99e-04 tok/s 452,007
+2026-10-05 23:04:47 | INFO    | eval step 17500 train_loss 0.4781 val_loss 0.4979 val_acc 0.8398
+2026-10-05 23:04:50 | INFO    | ep 07 step  17550/27360 loss 0.4959 gnorm 0.138 lr 2.97e-04 tok/s 452,417
+2026-10-05 23:04:54 | INFO    | ep 07 step  17600/27360 loss 0.5138 gnorm 0.139 lr 2.95e-04 tok/s 452,107
+2026-10-05 23:04:58 | INFO    | ep 07 step  17650/27360 loss 0.5194 gnorm 0.146 lr 2.93e-04 tok/s 451,645
+2026-10-05 23:05:01 | INFO    | ep 07 step  17700/27360 loss 0.5053 gnorm 0.139 lr 2.91e-04 tok/s 452,409
+2026-10-05 23:05:05 | INFO    | ep 07 step  17750/27360 loss 0.5176 gnorm 0.137 lr 2.89e-04 tok/s 452,825
+2026-10-05 23:05:09 | INFO    | ep 07 step  17800/27360 loss 0.4946 gnorm 0.135 lr 2.87e-04 tok/s 452,215
+2026-10-05 23:05:12 | INFO    | ep 07 step  17850/27360 loss 0.4980 gnorm 0.138 lr 2.85e-04 tok/s 452,216
+2026-10-05 23:05:16 | INFO    | ep 07 step  17900/27360 loss 0.5054 gnorm 0.143 lr 2.83e-04 tok/s 452,925
+2026-10-05 23:05:20 | INFO    | ep 07 step  17950/27360 loss 0.5170 gnorm 0.144 lr 2.81e-04 tok/s 452,763
+2026-10-05 23:05:23 | INFO    | ep 07 step  18000/27360 loss 0.5154 gnorm 0.145 lr 2.79e-04 tok/s 451,676
+2026-10-05 23:05:25 | INFO    | eval step 18000 train_loss 0.4758 val_loss 0.4957 val_acc 0.8401
+2026-10-05 23:05:28 | INFO    | ep 07 step  18050/27360 loss 0.5108 gnorm 0.139 lr 2.77e-04 tok/s 452,336
+2026-10-05 23:05:32 | INFO    | ep 07 step  18100/27360 loss 0.5162 gnorm 0.149 lr 2.76e-04 tok/s 452,708
+2026-10-05 23:05:36 | INFO    | ep 07 step  18150/27360 loss 0.4935 gnorm 0.136 lr 2.74e-04 tok/s 452,105
+2026-10-05 23:05:39 | INFO    | ep 07 step  18200/27360 loss 0.4992 gnorm 0.140 lr 2.72e-04 tok/s 452,194
+2026-10-05 23:05:43 | INFO    | ep 07 step  18250/27360 loss 0.4774 gnorm 0.143 lr 2.70e-04 tok/s 452,739
+2026-10-05 23:05:47 | INFO    | ep 07 step  18300/27360 loss 0.5222 gnorm 0.139 lr 2.68e-04 tok/s 451,990
+2026-10-05 23:05:50 | INFO    | ep 07 step  18350/27360 loss 0.4998 gnorm 0.135 lr 2.66e-04 tok/s 452,310
+2026-10-05 23:05:54 | INFO    | ep 07 step  18400/27360 loss 0.4878 gnorm 0.139 lr 2.64e-04 tok/s 452,545
+2026-10-05 23:05:58 | INFO    | ep 07 step  18450/27360 loss 0.5156 gnorm 0.138 lr 2.62e-04 tok/s 452,638
+2026-10-05 23:06:01 | INFO    | ep 07 step  18500/27360 loss 0.5060 gnorm 0.138 lr 2.61e-04 tok/s 451,886
+2026-10-05 23:06:03 | INFO    | eval step 18500 train_loss 0.4734 val_loss 0.4940 val_acc 0.8409
+2026-10-05 23:06:06 | INFO    | ep 07 step  18550/27360 loss 0.4918 gnorm 0.137 lr 2.59e-04 tok/s 452,666
+2026-10-05 23:06:10 | INFO    | ep 07 step  18600/27360 loss 0.5070 gnorm 0.144 lr 2.57e-04 tok/s 451,787
+2026-10-05 23:06:14 | INFO    | ep 07 step  18650/27360 loss 0.4994 gnorm 0.148 lr 2.55e-04 tok/s 452,471
+2026-10-05 23:06:17 | INFO    | ep 07 step  18700/27360 loss 0.5072 gnorm 0.138 lr 2.53e-04 tok/s 452,661
+2026-10-05 23:06:21 | INFO    | ep 07 step  18750/27360 loss 0.5149 gnorm 0.148 lr 2.51e-04 tok/s 452,807
+2026-10-05 23:06:25 | INFO    | ep 07 step  18800/27360 loss 0.5030 gnorm 0.145 lr 2.50e-04 tok/s 452,003
+2026-10-05 23:06:28 | INFO    | ep 07 step  18850/27360 loss 0.5040 gnorm 0.141 lr 2.48e-04 tok/s 452,429
+2026-10-05 23:06:32 | INFO    | ep 07 step  18900/27360 loss 0.4802 gnorm 0.135 lr 2.46e-04 tok/s 452,839
+2026-10-05 23:06:36 | INFO    | ep 07 step  18950/27360 loss 0.5078 gnorm 0.135 lr 2.44e-04 tok/s 452,439
+2026-10-05 23:06:39 | INFO    | ep 07 step  19000/27360 loss 0.5082 gnorm 0.141 lr 2.42e-04 tok/s 451,771
+2026-10-05 23:06:41 | INFO    | eval step 19000 train_loss 0.4710 val_loss 0.4918 val_acc 0.8415
+2026-10-05 23:06:45 | INFO    | ep 07 step  19050/27360 loss 0.4668 gnorm 0.134 lr 2.41e-04 tok/s 452,633
+2026-10-05 23:06:48 | INFO    | ep 07 step  19100/27360 loss 0.4843 gnorm 0.134 lr 2.39e-04 tok/s 452,134
+2026-10-05 23:06:52 | INFO    | ep 07 step  19150/27360 loss 0.5020 gnorm 0.146 lr 2.37e-04 tok/s 452,046
+2026-10-05 23:07:03 | INFO    | epoch_end {"epoch": 7, "step": 19152, "train_loss_running": 0.50471, "train_loss": 0.47061, "val_loss": 0.49125, "gap": 0.02064, "val_ppl": 1.63436, "val_bpc": 0.70873, "val_acc": 0.84204, "lr": 0.00024, "epoch_time_s": 220.46738}
+2026-10-05 23:07:04 | INFO    | new best val_loss=0.4913 at epoch 7 -> ckpt_best.pt
+2026-10-05 23:07:08 | INFO    | ep 08 step  19200/27360 loss 0.4893 gnorm 0.138 lr 2.35e-04 tok/s 451,868
+2026-10-05 23:07:12 | INFO    | ep 08 step  19250/27360 loss 0.4888 gnorm 0.139 lr 2.34e-04 tok/s 452,865
+2026-10-05 23:07:15 | INFO    | ep 08 step  19300/27360 loss 0.5040 gnorm 0.140 lr 2.32e-04 tok/s 451,977
+2026-10-05 23:07:19 | INFO    | ep 08 step  19350/27360 loss 0.4914 gnorm 0.143 lr 2.30e-04 tok/s 452,662
+2026-10-05 23:07:22 | INFO    | ep 08 step  19400/27360 loss 0.5107 gnorm 0.148 lr 2.28e-04 tok/s 450,718
+2026-10-05 23:07:26 | INFO    | ep 08 step  19450/27360 loss 0.4869 gnorm 0.145 lr 2.27e-04 tok/s 449,555
+2026-10-05 23:07:30 | INFO    | ep 08 step  19500/27360 loss 0.4951 gnorm 0.145 lr 2.25e-04 tok/s 451,590
+2026-10-05 23:07:31 | INFO    | eval step 19500 train_loss 0.4692 val_loss 0.4911 val_acc 0.8419
+2026-10-05 23:07:35 | INFO    | ep 08 step  19550/27360 loss 0.4997 gnorm 0.143 lr 2.23e-04 tok/s 452,165
+2026-10-05 23:07:39 | INFO    | ep 08 step  19600/27360 loss 0.4907 gnorm 0.148 lr 2.22e-04 tok/s 451,177
+2026-10-05 23:07:42 | INFO    | ep 08 step  19650/27360 loss 0.4947 gnorm 0.144 lr 2.20e-04 tok/s 451,987
+2026-10-05 23:07:46 | INFO    | ep 08 step  19700/27360 loss 0.4956 gnorm 0.145 lr 2.18e-04 tok/s 452,443
+2026-10-05 23:07:50 | INFO    | ep 08 step  19750/27360 loss 0.4973 gnorm 0.141 lr 2.16e-04 tok/s 452,024
+2026-10-05 23:07:53 | INFO    | ep 08 step  19800/27360 loss 0.4812 gnorm 0.139 lr 2.15e-04 tok/s 451,854
+2026-10-05 23:07:57 | INFO    | ep 08 step  19850/27360 loss 0.4986 gnorm 0.141 lr 2.13e-04 tok/s 452,278
+2026-10-05 23:08:00 | INFO    | ep 08 step  19900/27360 loss 0.5006 gnorm 0.141 lr 2.12e-04 tok/s 452,618
+2026-10-05 23:08:04 | INFO    | ep 08 step  19950/27360 loss 0.4871 gnorm 0.142 lr 2.10e-04 tok/s 451,683
+2026-10-05 23:08:08 | INFO    | ep 08 step  20000/27360 loss 0.5198 gnorm 0.144 lr 2.08e-04 tok/s 452,378
+2026-10-05 23:08:09 | INFO    | eval step 20000 train_loss 0.4673 val_loss 0.4895 val_acc 0.8425
+2026-10-05 23:08:13 | INFO    | ep 08 step  20050/27360 loss 0.4855 gnorm 0.142 lr 2.07e-04 tok/s 452,222
+2026-10-05 23:08:17 | INFO    | ep 08 step  20100/27360 loss 0.5014 gnorm 0.152 lr 2.05e-04 tok/s 451,751
+2026-10-05 23:08:20 | INFO    | ep 08 step  20150/27360 loss 0.5052 gnorm 0.146 lr 2.03e-04 tok/s 452,335
+2026-10-05 23:08:24 | INFO    | ep 08 step  20200/27360 loss 0.5040 gnorm 0.145 lr 2.02e-04 tok/s 452,583
+2026-10-05 23:08:28 | INFO    | ep 08 step  20250/27360 loss 0.5126 gnorm 0.145 lr 2.00e-04 tok/s 452,402
+2026-10-05 23:08:31 | INFO    | ep 08 step  20300/27360 loss 0.5064 gnorm 0.143 lr 1.99e-04 tok/s 451,936
+2026-10-05 23:08:35 | INFO    | ep 08 step  20350/27360 loss 0.5031 gnorm 0.145 lr 1.97e-04 tok/s 452,662
+2026-10-05 23:08:39 | INFO    | ep 08 step  20400/27360 loss 0.4820 gnorm 0.143 lr 1.95e-04 tok/s 452,170
+2026-10-05 23:08:42 | INFO    | ep 08 step  20450/27360 loss 0.5021 gnorm 0.144 lr 1.94e-04 tok/s 451,891
+2026-10-05 23:08:46 | INFO    | ep 08 step  20500/27360 loss 0.4996 gnorm 0.147 lr 1.92e-04 tok/s 452,395
+2026-10-05 23:08:47 | INFO    | eval step 20500 train_loss 0.4656 val_loss 0.4878 val_acc 0.8430
+2026-10-05 23:08:51 | INFO    | ep 08 step  20550/27360 loss 0.4974 gnorm 0.147 lr 1.91e-04 tok/s 452,570
+2026-10-05 23:08:55 | INFO    | ep 08 step  20600/27360 loss 0.4913 gnorm 0.142 lr 1.89e-04 tok/s 451,463
+2026-10-05 23:08:58 | INFO    | ep 08 step  20650/27360 loss 0.5027 gnorm 0.149 lr 1.88e-04 tok/s 452,159
+2026-10-05 23:09:02 | INFO    | ep 08 step  20700/27360 loss 0.4673 gnorm 0.142 lr 1.86e-04 tok/s 452,602
+2026-10-05 23:09:06 | INFO    | ep 08 step  20750/27360 loss 0.4930 gnorm 0.148 lr 1.85e-04 tok/s 452,075
+2026-10-05 23:09:09 | INFO    | ep 08 step  20800/27360 loss 0.5037 gnorm 0.144 lr 1.83e-04 tok/s 452,228
+2026-10-05 23:09:13 | INFO    | ep 08 step  20850/27360 loss 0.4865 gnorm 0.143 lr 1.82e-04 tok/s 452,440
+2026-10-05 23:09:17 | INFO    | ep 08 step  20900/27360 loss 0.4767 gnorm 0.142 lr 1.80e-04 tok/s 452,413
+2026-10-05 23:09:20 | INFO    | ep 08 step  20950/27360 loss 0.5233 gnorm 0.152 lr 1.79e-04 tok/s 451,780
+2026-10-05 23:09:24 | INFO    | ep 08 step  21000/27360 loss 0.5041 gnorm 0.144 lr 1.77e-04 tok/s 452,284
+2026-10-05 23:09:26 | INFO    | eval step 21000 train_loss 0.4623 val_loss 0.4850 val_acc 0.8437
+2026-10-05 23:09:29 | INFO    | ep 08 step  21050/27360 loss 0.4991 gnorm 0.150 lr 1.76e-04 tok/s 452,125
+2026-10-05 23:09:33 | INFO    | ep 08 step  21100/27360 loss 0.4998 gnorm 0.147 lr 1.74e-04 tok/s 451,980
+2026-10-05 23:09:36 | INFO    | ep 08 step  21150/27360 loss 0.4912 gnorm 0.147 lr 1.73e-04 tok/s 452,647
+2026-10-05 23:09:40 | INFO    | ep 08 step  21200/27360 loss 0.4975 gnorm 0.148 lr 1.72e-04 tok/s 452,456
+2026-10-05 23:09:44 | INFO    | ep 08 step  21250/27360 loss 0.4922 gnorm 0.142 lr 1.70e-04 tok/s 452,036
+2026-10-05 23:09:47 | INFO    | ep 08 step  21300/27360 loss 0.4914 gnorm 0.149 lr 1.69e-04 tok/s 452,355
+2026-10-05 23:09:51 | INFO    | ep 08 step  21350/27360 loss 0.4845 gnorm 0.142 lr 1.67e-04 tok/s 452,464
+2026-10-05 23:09:55 | INFO    | ep 08 step  21400/27360 loss 0.5001 gnorm 0.144 lr 1.66e-04 tok/s 452,628
+2026-10-05 23:09:58 | INFO    | ep 08 step  21450/27360 loss 0.4707 gnorm 0.144 lr 1.65e-04 tok/s 451,978
+2026-10-05 23:10:02 | INFO    | ep 08 step  21500/27360 loss 0.5055 gnorm 0.156 lr 1.63e-04 tok/s 452,731
+2026-10-05 23:10:04 | INFO    | eval step 21500 train_loss 0.4608 val_loss 0.4846 val_acc 0.8438
+2026-10-05 23:10:07 | INFO    | ep 08 step  21550/27360 loss 0.4858 gnorm 0.148 lr 1.62e-04 tok/s 452,663
+2026-10-05 23:10:11 | INFO    | ep 08 step  21600/27360 loss 0.4931 gnorm 0.140 lr 1.61e-04 tok/s 451,566
+2026-10-05 23:10:14 | INFO    | ep 08 step  21650/27360 loss 0.4917 gnorm 0.145 lr 1.59e-04 tok/s 453,111
+2026-10-05 23:10:18 | INFO    | ep 08 step  21700/27360 loss 0.4940 gnorm 0.145 lr 1.58e-04 tok/s 451,981
+2026-10-05 23:10:22 | INFO    | ep 08 step  21750/27360 loss 0.4961 gnorm 0.146 lr 1.57e-04 tok/s 452,579
+2026-10-05 23:10:25 | INFO    | ep 08 step  21800/27360 loss 0.4882 gnorm 0.144 lr 1.55e-04 tok/s 452,971
+2026-10-05 23:10:29 | INFO    | ep 08 step  21850/27360 loss 0.4926 gnorm 0.142 lr 1.54e-04 tok/s 453,043
+2026-10-05 23:10:43 | INFO    | epoch_end {"epoch": 8, "step": 21888, "train_loss_running": 0.49105, "train_loss": 0.45956, "val_loss": 0.48249, "gap": 0.02294, "val_ppl": 1.62011, "val_bpc": 0.69609, "val_acc": 0.84461, "lr": 0.00015, "epoch_time_s": 218.79119}
+2026-10-05 23:10:44 | INFO    | new best val_loss=0.4825 at epoch 8 -> ckpt_best.pt
+2026-10-05 23:10:45 | INFO    | ep 09 step  21900/27360 loss 0.4876 gnorm 0.148 lr 1.53e-04 tok/s 452,661
+2026-10-05 23:10:49 | INFO    | ep 09 step  21950/27360 loss 0.4686 gnorm 0.145 lr 1.51e-04 tok/s 451,396
+2026-10-05 23:10:52 | INFO    | ep 09 step  22000/27360 loss 0.4765 gnorm 0.145 lr 1.50e-04 tok/s 452,255
+2026-10-05 23:10:54 | INFO    | eval step 22000 train_loss 0.4591 val_loss 0.4836 val_acc 0.8444
+2026-10-05 23:10:58 | INFO    | ep 09 step  22050/27360 loss 0.4817 gnorm 0.151 lr 1.49e-04 tok/s 451,136
+2026-10-05 23:11:01 | INFO    | ep 09 step  22100/27360 loss 0.4870 gnorm 0.151 lr 1.48e-04 tok/s 451,331
+2026-10-05 23:11:05 | INFO    | ep 09 step  22150/27360 loss 0.4928 gnorm 0.145 lr 1.46e-04 tok/s 451,873
+2026-10-05 23:11:09 | INFO    | ep 09 step  22200/27360 loss 0.5021 gnorm 0.155 lr 1.45e-04 tok/s 451,709
+2026-10-05 23:11:12 | INFO    | ep 09 step  22250/27360 loss 0.4629 gnorm 0.148 lr 1.44e-04 tok/s 451,873
+2026-10-05 23:11:16 | INFO    | ep 09 step  22300/27360 loss 0.4871 gnorm 0.149 lr 1.43e-04 tok/s 452,212
+2026-10-05 23:11:19 | INFO    | ep 09 step  22350/27360 loss 0.4878 gnorm 0.149 lr 1.41e-04 tok/s 452,518
+2026-10-05 23:11:23 | INFO    | ep 09 step  22400/27360 loss 0.4682 gnorm 0.144 lr 1.40e-04 tok/s 451,976
+2026-10-05 23:11:27 | INFO    | ep 09 step  22450/27360 loss 0.4725 gnorm 0.150 lr 1.39e-04 tok/s 452,766
+2026-10-05 23:11:30 | INFO    | ep 09 step  22500/27360 loss 0.4860 gnorm 0.151 lr 1.38e-04 tok/s 452,413
+2026-10-05 23:11:32 | INFO    | eval step 22500 train_loss 0.4573 val_loss 0.4821 val_acc 0.8446
+2026-10-05 23:11:36 | INFO    | ep 09 step  22550/27360 loss 0.4684 gnorm 0.146 lr 1.37e-04 tok/s 452,373
+2026-10-05 23:11:39 | INFO    | ep 09 step  22600/27360 loss 0.4690 gnorm 0.151 lr 1.36e-04 tok/s 452,008
+2026-10-05 23:11:43 | INFO    | ep 09 step  22650/27360 loss 0.4844 gnorm 0.148 lr 1.35e-04 tok/s 452,492
+2026-10-05 23:11:47 | INFO    | ep 09 step  22700/27360 loss 0.4831 gnorm 0.152 lr 1.33e-04 tok/s 452,074
+2026-10-05 23:11:50 | INFO    | ep 09 step  22750/27360 loss 0.4778 gnorm 0.148 lr 1.32e-04 tok/s 451,301
+2026-10-05 23:11:54 | INFO    | ep 09 step  22800/27360 loss 0.4869 gnorm 0.150 lr 1.31e-04 tok/s 452,525
+2026-10-05 23:11:58 | INFO    | ep 09 step  22850/27360 loss 0.4803 gnorm 0.154 lr 1.30e-04 tok/s 452,354
+2026-10-05 23:12:01 | INFO    | ep 09 step  22900/27360 loss 0.4541 gnorm 0.146 lr 1.29e-04 tok/s 451,449
+2026-10-05 23:12:05 | INFO    | ep 09 step  22950/27360 loss 0.4822 gnorm 0.152 lr 1.28e-04 tok/s 452,605
+2026-10-05 23:12:08 | INFO    | ep 09 step  23000/27360 loss 0.4893 gnorm 0.155 lr 1.27e-04 tok/s 452,442
+2026-10-05 23:12:10 | INFO    | eval step 23000 train_loss 0.4558 val_loss 0.4810 val_acc 0.8451
+2026-10-05 23:12:14 | INFO    | ep 09 step  23050/27360 loss 0.4869 gnorm 0.152 lr 1.26e-04 tok/s 451,800
+2026-10-05 23:12:17 | INFO    | ep 09 step  23100/27360 loss 0.4973 gnorm 0.150 lr 1.25e-04 tok/s 452,452
+2026-10-05 23:12:21 | INFO    | ep 09 step  23150/27360 loss 0.4789 gnorm 0.149 lr 1.24e-04 tok/s 452,047
+2026-10-05 23:12:25 | INFO    | ep 09 step  23200/27360 loss 0.4820 gnorm 0.152 lr 1.23e-04 tok/s 452,031
+2026-10-05 23:12:28 | INFO    | ep 09 step  23250/27360 loss 0.4882 gnorm 0.149 lr 1.22e-04 tok/s 452,073
+2026-10-05 23:12:32 | INFO    | ep 09 step  23300/27360 loss 0.4733 gnorm 0.143 lr 1.21e-04 tok/s 452,679
+2026-10-05 23:12:36 | INFO    | ep 09 step  23350/27360 loss 0.4812 gnorm 0.147 lr 1.20e-04 tok/s 452,674
+2026-10-05 23:12:39 | INFO    | ep 09 step  23400/27360 loss 0.4920 gnorm 0.149 lr 1.19e-04 tok/s 451,533
+2026-10-05 23:12:43 | INFO    | ep 09 step  23450/27360 loss 0.4510 gnorm 0.141 lr 1.18e-04 tok/s 452,659
+2026-10-05 23:12:46 | INFO    | ep 09 step  23500/27360 loss 0.4909 gnorm 0.151 lr 1.17e-04 tok/s 452,459
+2026-10-05 23:12:48 | INFO    | eval step 23500 train_loss 0.4543 val_loss 0.4796 val_acc 0.8455
+2026-10-05 23:12:52 | INFO    | ep 09 step  23550/27360 loss 0.4916 gnorm 0.159 lr 1.16e-04 tok/s 451,858
+2026-10-05 23:12:55 | INFO    | ep 09 step  23600/27360 loss 0.4794 gnorm 0.150 lr 1.15e-04 tok/s 452,861
+2026-10-05 23:12:59 | INFO    | ep 09 step  23650/27360 loss 0.4841 gnorm 0.149 lr 1.14e-04 tok/s 452,500
+2026-10-05 23:13:03 | INFO    | ep 09 step  23700/27360 loss 0.4860 gnorm 0.152 lr 1.13e-04 tok/s 452,309
+2026-10-05 23:13:06 | INFO    | ep 09 step  23750/27360 loss 0.4820 gnorm 0.151 lr 1.12e-04 tok/s 452,238
+2026-10-05 23:13:10 | INFO    | ep 09 step  23800/27360 loss 0.4989 gnorm 0.151 lr 1.12e-04 tok/s 452,692
+2026-10-05 23:13:14 | INFO    | ep 09 step  23850/27360 loss 0.4735 gnorm 0.149 lr 1.11e-04 tok/s 452,699
+2026-10-05 23:13:17 | INFO    | ep 09 step  23900/27360 loss 0.4925 gnorm 0.146 lr 1.10e-04 tok/s 452,096
+2026-10-05 23:13:21 | INFO    | ep 09 step  23950/27360 loss 0.4789 gnorm 0.153 lr 1.09e-04 tok/s 452,234
+2026-10-05 23:13:24 | INFO    | ep 09 step  24000/27360 loss 0.4783 gnorm 0.149 lr 1.08e-04 tok/s 452,483
+2026-10-05 23:13:26 | INFO    | eval step 24000 train_loss 0.4530 val_loss 0.4782 val_acc 0.8456
+2026-10-05 23:13:30 | INFO    | ep 09 step  24050/27360 loss 0.4664 gnorm 0.149 lr 1.07e-04 tok/s 449,685
+2026-10-05 23:13:33 | INFO    | ep 09 step  24100/27360 loss 0.4759 gnorm 0.147 lr 1.06e-04 tok/s 452,705
+2026-10-05 23:13:37 | INFO    | ep 09 step  24150/27360 loss 0.4688 gnorm 0.147 lr 1.06e-04 tok/s 452,642
+2026-10-05 23:13:41 | INFO    | ep 09 step  24200/27360 loss 0.4903 gnorm 0.151 lr 1.05e-04 tok/s 451,713
+2026-10-05 23:13:44 | INFO    | ep 09 step  24250/27360 loss 0.4747 gnorm 0.152 lr 1.04e-04 tok/s 452,470
+2026-10-05 23:13:48 | INFO    | ep 09 step  24300/27360 loss 0.4701 gnorm 0.150 lr 1.03e-04 tok/s 452,457
+2026-10-05 23:13:52 | INFO    | ep 09 step  24350/27360 loss 0.4796 gnorm 0.146 lr 1.03e-04 tok/s 452,354
+2026-10-05 23:13:55 | INFO    | ep 09 step  24400/27360 loss 0.4800 gnorm 0.152 lr 1.02e-04 tok/s 451,255
+2026-10-05 23:13:59 | INFO    | ep 09 step  24450/27360 loss 0.4631 gnorm 0.148 lr 1.01e-04 tok/s 452,280
+2026-10-05 23:14:03 | INFO    | ep 09 step  24500/27360 loss 0.4878 gnorm 0.150 lr 1.00e-04 tok/s 452,915
+2026-10-05 23:14:04 | INFO    | eval step 24500 train_loss 0.4517 val_loss 0.4770 val_acc 0.8459
+2026-10-05 23:14:08 | INFO    | ep 09 step  24550/27360 loss 0.4806 gnorm 0.152 lr 9.97e-05 tok/s 452,322
+2026-10-05 23:14:11 | INFO    | ep 09 step  24600/27360 loss 0.4753 gnorm 0.156 lr 9.91e-05 tok/s 452,314
+2026-10-05 23:14:25 | INFO    | epoch_end {"epoch": 9, "step": 24624, "train_loss_running": 0.48058, "train_loss": 0.4514, "val_loss": 0.47657, "gap": 0.02517, "val_ppl": 1.61055, "val_bpc": 0.68755, "val_acc": 0.84647, "lr": 0.0001, "epoch_time_s": 220.47949}
+2026-10-05 23:14:26 | INFO    | new best val_loss=0.4766 at epoch 9 -> ckpt_best.pt
+2026-10-05 23:14:28 | INFO    | ep 10 step  24650/27360 loss 0.4781 gnorm 0.154 lr 9.84e-05 tok/s 452,345
+2026-10-05 23:14:31 | INFO    | ep 10 step  24700/27360 loss 0.4763 gnorm 0.151 lr 9.77e-05 tok/s 451,151
+2026-10-05 23:14:35 | INFO    | ep 10 step  24750/27360 loss 0.4732 gnorm 0.155 lr 9.71e-05 tok/s 451,871
+2026-10-05 23:14:38 | INFO    | ep 10 step  24800/27360 loss 0.4834 gnorm 0.155 lr 9.64e-05 tok/s 451,706
+2026-10-05 23:14:42 | INFO    | ep 10 step  24850/27360 loss 0.4767 gnorm 0.156 lr 9.58e-05 tok/s 450,416
+2026-10-05 23:14:46 | INFO    | ep 10 step  24900/27360 loss 0.4596 gnorm 0.150 lr 9.52e-05 tok/s 450,477
+2026-10-05 23:14:49 | INFO    | ep 10 step  24950/27360 loss 0.4730 gnorm 0.157 lr 9.46e-05 tok/s 451,886
+2026-10-05 23:14:53 | INFO    | ep 10 step  25000/27360 loss 0.4768 gnorm 0.156 lr 9.40e-05 tok/s 451,934
+2026-10-05 23:14:55 | INFO    | eval step 25000 train_loss 0.4509 val_loss 0.4775 val_acc 0.8462
+2026-10-05 23:14:58 | INFO    | ep 10 step  25050/27360 loss 0.4639 gnorm 0.151 lr 9.34e-05 tok/s 451,827
+2026-10-05 23:15:02 | INFO    | ep 10 step  25100/27360 loss 0.4771 gnorm 0.157 lr 9.28e-05 tok/s 452,390
+2026-10-05 23:15:06 | INFO    | ep 10 step  25150/27360 loss 0.4786 gnorm 0.158 lr 9.23e-05 tok/s 453,056
+2026-10-05 23:15:09 | INFO    | ep 10 step  25200/27360 loss 0.4787 gnorm 0.157 lr 9.17e-05 tok/s 451,356
+2026-10-05 23:15:13 | INFO    | ep 10 step  25250/27360 loss 0.4699 gnorm 0.151 lr 9.12e-05 tok/s 452,614
+2026-10-05 23:15:17 | INFO    | ep 10 step  25300/27360 loss 0.4847 gnorm 0.152 lr 9.07e-05 tok/s 452,871
+2026-10-05 23:15:20 | INFO    | ep 10 step  25350/27360 loss 0.4829 gnorm 0.154 lr 9.02e-05 tok/s 451,840
+2026-10-05 23:15:24 | INFO    | ep 10 step  25400/27360 loss 0.4787 gnorm 0.159 lr 8.97e-05 tok/s 451,655
+2026-10-05 23:15:27 | INFO    | ep 10 step  25450/27360 loss 0.4689 gnorm 0.156 lr 8.92e-05 tok/s 452,564
+2026-10-05 23:15:31 | INFO    | ep 10 step  25500/27360 loss 0.4564 gnorm 0.151 lr 8.87e-05 tok/s 452,623
+2026-10-05 23:15:33 | INFO    | eval step 25500 train_loss 0.4500 val_loss 0.4773 val_acc 0.8463
+2026-10-05 23:15:36 | INFO    | ep 10 step  25550/27360 loss 0.4666 gnorm 0.150 lr 8.82e-05 tok/s 452,091
+2026-10-05 23:15:40 | INFO    | ep 10 step  25600/27360 loss 0.4673 gnorm 0.157 lr 8.78e-05 tok/s 452,278
+2026-10-05 23:15:44 | INFO    | ep 10 step  25650/27360 loss 0.4727 gnorm 0.160 lr 8.74e-05 tok/s 452,380
+2026-10-05 23:15:47 | INFO    | ep 10 step  25700/27360 loss 0.4688 gnorm 0.158 lr 8.69e-05 tok/s 451,899
+2026-10-05 23:15:51 | INFO    | ep 10 step  25750/27360 loss 0.4615 gnorm 0.154 lr 8.65e-05 tok/s 452,320
+2026-10-05 23:15:55 | INFO    | ep 10 step  25800/27360 loss 0.4640 gnorm 0.152 lr 8.61e-05 tok/s 452,612
+2026-10-05 23:15:58 | INFO    | ep 10 step  25850/27360 loss 0.4587 gnorm 0.150 lr 8.57e-05 tok/s 451,960
+2026-10-05 23:16:02 | INFO    | ep 10 step  25900/27360 loss 0.4894 gnorm 0.157 lr 8.54e-05 tok/s 452,781
+2026-10-05 23:16:05 | INFO    | ep 10 step  25950/27360 loss 0.4671 gnorm 0.159 lr 8.50e-05 tok/s 453,297
+2026-10-05 23:16:09 | INFO    | ep 10 step  26000/27360 loss 0.4841 gnorm 0.159 lr 8.47e-05 tok/s 452,497
+2026-10-05 23:16:11 | INFO    | eval step 26000 train_loss 0.4492 val_loss 0.4766 val_acc 0.8464
+2026-10-05 23:16:14 | INFO    | ep 10 step  26050/27360 loss 0.4755 gnorm 0.163 lr 8.43e-05 tok/s 453,027
+2026-10-05 23:16:18 | INFO    | ep 10 step  26100/27360 loss 0.4821 gnorm 0.154 lr 8.40e-05 tok/s 452,774
+2026-10-05 23:16:22 | INFO    | ep 10 step  26150/27360 loss 0.4531 gnorm 0.153 lr 8.37e-05 tok/s 452,427
+2026-10-05 23:16:25 | INFO    | ep 10 step  26200/27360 loss 0.4615 gnorm 0.154 lr 8.34e-05 tok/s 451,919
+2026-10-05 23:16:29 | INFO    | ep 10 step  26250/27360 loss 0.4731 gnorm 0.155 lr 8.31e-05 tok/s 452,566
+2026-10-05 23:16:33 | INFO    | ep 10 step  26300/27360 loss 0.4756 gnorm 0.158 lr 8.28e-05 tok/s 452,757
+2026-10-05 23:16:36 | INFO    | ep 10 step  26350/27360 loss 0.4690 gnorm 0.158 lr 8.26e-05 tok/s 452,038
+2026-10-05 23:16:40 | INFO    | ep 10 step  26400/27360 loss 0.4797 gnorm 0.154 lr 8.23e-05 tok/s 452,519
+2026-10-05 23:16:43 | INFO    | ep 10 step  26450/27360 loss 0.4690 gnorm 0.154 lr 8.21e-05 tok/s 452,607
+2026-10-05 23:16:47 | INFO    | ep 10 step  26500/27360 loss 0.4884 gnorm 0.155 lr 8.19e-05 tok/s 452,259
+2026-10-05 23:16:49 | INFO    | eval step 26500 train_loss 0.4481 val_loss 0.4753 val_acc 0.8468
+2026-10-05 23:16:52 | INFO    | ep 10 step  26550/27360 loss 0.4756 gnorm 0.160 lr 8.17e-05 tok/s 452,512
+2026-10-05 23:16:56 | INFO    | ep 10 step  26600/27360 loss 0.4844 gnorm 0.156 lr 8.15e-05 tok/s 452,575
+2026-10-05 23:17:00 | INFO    | ep 10 step  26650/27360 loss 0.4830 gnorm 0.156 lr 8.13e-05 tok/s 452,400
+2026-10-05 23:17:03 | INFO    | ep 10 step  26700/27360 loss 0.4825 gnorm 0.160 lr 8.11e-05 tok/s 452,599
+2026-10-05 23:17:07 | INFO    | ep 10 step  26750/27360 loss 0.4688 gnorm 0.154 lr 8.09e-05 tok/s 452,634
+2026-10-05 23:17:11 | INFO    | ep 10 step  26800/27360 loss 0.4598 gnorm 0.154 lr 8.08e-05 tok/s 452,475
+2026-10-05 23:17:14 | INFO    | ep 10 step  26850/27360 loss 0.4775 gnorm 0.161 lr 8.07e-05 tok/s 452,230
+2026-10-05 23:17:18 | INFO    | ep 10 step  26900/27360 loss 0.4925 gnorm 0.164 lr 8.05e-05 tok/s 452,756
+2026-10-05 23:17:21 | INFO    | ep 10 step  26950/27360 loss 0.4734 gnorm 0.156 lr 8.04e-05 tok/s 452,634
+2026-10-05 23:17:25 | INFO    | ep 10 step  27000/27360 loss 0.4635 gnorm 0.157 lr 8.03e-05 tok/s 451,929
+2026-10-05 23:17:27 | INFO    | eval step 27000 train_loss 0.4474 val_loss 0.4747 val_acc 0.8469
+2026-10-05 23:17:30 | INFO    | ep 10 step  27050/27360 loss 0.4754 gnorm 0.156 lr 8.02e-05 tok/s 452,538
+2026-10-05 23:17:34 | INFO    | ep 10 step  27100/27360 loss 0.4765 gnorm 0.153 lr 8.02e-05 tok/s 452,812
+2026-10-05 23:17:38 | INFO    | ep 10 step  27150/27360 loss 0.4710 gnorm 0.159 lr 8.01e-05 tok/s 452,022
+2026-10-05 23:17:41 | INFO    | ep 10 step  27200/27360 loss 0.4732 gnorm 0.157 lr 8.01e-05 tok/s 452,336
+2026-10-05 23:17:45 | INFO    | ep 10 step  27250/27360 loss 0.4633 gnorm 0.155 lr 8.00e-05 tok/s 452,768
+2026-10-05 23:17:49 | INFO    | ep 10 step  27300/27360 loss 0.4725 gnorm 0.156 lr 8.00e-05 tok/s 452,139
+2026-10-05 23:17:52 | INFO    | ep 10 step  27350/27360 loss 0.4784 gnorm 0.160 lr 8.00e-05 tok/s 452,035
+2026-10-05 23:18:04 | INFO    | epoch_end {"epoch": 10, "step": 27360, "train_loss_running": 0.47321, "train_loss": 0.447, "val_loss": 0.4742, "gap": 0.0272, "val_ppl": 1.60673, "val_bpc": 0.68413, "val_acc": 0.84735, "lr": 8e-05, "epoch_time_s": 218.77304}
+2026-10-05 23:18:05 | INFO    | new best val_loss=0.4742 at epoch 10 -> ckpt_best.pt
+2026-10-05 23:18:07 | INFO    | training done: time=36.9 min tok/s=452,013 peak_alloc=10.59 GiB peak_reserved=10.79 GiB best_epoch=10 best_val=0.4742
+2026-10-05 23:18:09 | INFO    | stability {"grad_norm_mean": 0.1541293633648369, "grad_norm_median": 0.14485493302345276, "grad_norm_p99": 0.34087206125259445, "grad_norm_max": 25.5321044921875, "clipped_step_frac": 0.010562865497076024, "loss_spikes": 0, "nonfinite_steps": 0}
+2026-10-05 23:18:09 | INFO    | loaded ckpt_best.pt (epoch 10, step 27360, val_loss 0.4742)
+2026-10-05 23:20:06 | INFO    | generation tok/s single=96 batched32=2,182
+2026-10-05 23:21:09 | INFO    | final_metrics {"train_ce": 0.44756866803076883, "val_ce": 0.4742034477909116, "train_ppl": 1.564503729622205, "val_ppl": 1.6067338402279294, "train_bpc": 0.645705097825269, "val_bpc": 0.6841309625003967, "gen_gap": 0.02663477976014278, "gen_gap_ratio": 1.0595099292301482, "train_top1": 0.8543668825026841, "val_top1": 0.8473530790231524}
+2026-10-05 23:21:10 | INFO    | position_accuracy {"word start": {"top1": 0.5632501912060811, "share_of_targets": 0.1955169677734375}, "inside word": {"top1": 0.9203412286394116, "share_of_targets": 0.5643310546875}, "space / punctuation": {"top1": 0.9052425247480717, "share_of_targets": 0.2401519775390625}}
+2026-10-05 23:23:56 | INFO    | diversity {"model (t=0.8)": {"distinct_1": 0.21178555604785113, "distinct_2": 0.6546184738955824, "distinct_3": 0.8687640449438202, "rep_4gram": 0.013521506902059766, "invented_word_rate": 0.00032772558444395895, "mean_chars": 715.40625, "word_budget": 2257}, "model (greedy)": {"distinct_1": 0.12538768276473194, "distinct_2": 0.3788487282463186, "distinct_3": 0.5042696629213483, "rep_4gram": 0.05920441773392385, "invented_word_rate": 0.0, "mean_chars": 696.875, "word_budget": 2257}, "real val stories": {"distinct_1": 0.24280017722640673, "distinct_2": 0.7230151650312221, "distinct_3": 0.9182757072294566, "rep_4gram": 0.010912034363928172, "invented_word_rate": 0.0008294166436273154, "mean_chars": 863.625, "word_budget": 2257}}
+2026-10-05 23:23:56 | INFO    | wrote /content/drive/MyDrive/team-repo/task1_llm/pratiksha_kaushik/metrics_report.csv (45 rows)
+2026-10-05 23:23:56 | INFO    | human audit sheet -> /content/drive/MyDrive/team-repo/task1_llm/pratiksha_kaushik/outputs/human_audit.csv (22 samples)
+2026-10-05 23:25:42 | INFO    | wrote /content/drive/MyDrive/team-repo/task1_llm/pratiksha_kaushik/results.md
+2026-10-05 23:25:44 | INFO    | manifest -> /content/drive/MyDrive/team-repo/reproducibility/manifests/task1_pratiksha_kaushik_20261005-223946_L8H8C512T512_manifest.json
