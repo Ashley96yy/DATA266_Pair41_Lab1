@@ -146,9 +146,18 @@ Files: `task3_gan/Pratiksha_Kaushik/outputs/human_audit/rater1.csv`, `rater2.csv
 
 | Public score | Private score | Final rank |
 |---|---|---|
-| **50.2367** | PENDING (if shown) | PENDING |
+| **−50.2351** | not shown | PENDING |
 
-The public score matches the local course-script score (50.2351) to within 0.002, so the local evaluation is a reliable estimate of the leaderboard result.
+Kaggle shows scores negated (−(FID + MiFID) / 2), so a higher (less negative) number is better. Two submissions were made from the same v3 predictions:
+
+| File uploaded | FID | MiFID | Kaggle score | Status |
+|---|---|---|---|---|
+| `final_submission.csv` (v3 notebook output; uploaded as `submission.csv`) | 100.0568 | 0.4135 | **−50.2351** | selected, final |
+| `submission_official_v3.csv` (a second scoring run) | 100.0599 | 0.4135 | −50.2367 | earlier |
+
+The final Kaggle score equals the local course-script score (50.2351) exactly, because the uploaded file is the notebook's own output. The 0.0016 gap between the two files comes from re-running the Inception feature extraction.
+
+![Kaggle submission](../../task3_gan/Pratiksha_Kaushik/outputs/kaggle/kaggle_submission_final.png)
 
 ## Comparison with my teammate (Yuyao Ding)
 

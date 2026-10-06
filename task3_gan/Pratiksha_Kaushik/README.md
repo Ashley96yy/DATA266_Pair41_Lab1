@@ -11,7 +11,7 @@ Personal parameters: `SID4=9002 | SEED=9002 | SLICE=2 | HP_ID=2 | CLS_A=2 | CLS_
 | v1 (baseline) | 101.51 | 102.99 | 102.25 | 0.4168 | 51.33 |
 | **v3 (final)** | **100.54** | **99.58** | **100.06** | **0.4135** | **50.24** |
 
-**Kaggle public leaderboard score: −50.2367** (Kaggle negates (FID + MiFID) / 2; screenshot in `outputs/kaggle/`). Human audit (2 raters × 30 samples): **3.49 / 5**, quadratic-weighted kappa 0.49-0.60.
+**Kaggle public leaderboard score: −50.2351** (final submission `final_submission.csv`, uploaded as `submission.csv`; Kaggle shows −(FID + MiFID) / 2; screenshot in `outputs/kaggle/`). Human audit (2 raters × 30 samples): **3.49 / 5**, quadratic-weighted kappa 0.49-0.60.
 
 These scores come from the course evaluation script, using the first 300 files in each direction. See [results.md](results.md) for the full write-up.
 
@@ -43,7 +43,7 @@ Pratiksha_Kaushik/
 ├── README.md                     this file
 ├── results.md                    main write-up: v1 vs v3, screening, per-epoch scores, metrics, stability, efficiency
 ├── failure_analysis.md           7 failure categories for v3 (night scenes, skies, fine texture, steganography...)
-├── full_metrics_report.csv       every required metric, v1 vs v3 side by side (Kaggle public score −50.2367, human audit 3.49/5; rank still PENDING)
+├── full_metrics_report.csv       every required metric, v1 vs v3 side by side (Kaggle public score −50.2351, human audit 3.49/5; rank still PENDING)
 ├── metrics_v1.md                 metrics written by the v1 notebook (v1 only)
 ├── demo/
 │   ├── demo.py                   translate one image: input | translation | cycle reconstruction
@@ -51,7 +51,7 @@ Pratiksha_Kaushik/
 │   └── evaluate_local.py         copy of the top-level evaluate_local.py, kept with the demo tools
 ├── evaluate_local.py             course evaluation script as a .py (FID + MiFID on pred_A2B / pred_B2A)
 ├── final_submission.csv          final v3 submission (FID 100.0568, MiFID 0.4135, score 50.2351); uploaded to Kaggle as submission.csv -> −50.2351
-├── submission_official_v3.csv    the file uploaded to Kaggle: second scoring of the same v3 predictions (FID 100.0599, MiFID 0.4135) -> Kaggle score −50.2367
+├── submission_official_v3.csv    earlier Kaggle submission: second scoring of the same v3 predictions (FID 100.0599) -> Kaggle −50.2367
 ├── RUN_LOG.txt                   raw v3 log: screening, final run, evaluation, export
 ├── reproducibility_manifest.json hardware, versions, data split, run info, sha256 of every file
 ├── configs/
@@ -77,7 +77,7 @@ Pratiksha_Kaushik/
     ├── eval_history_v3.csv       validation FID / MiFID / score every 5 epochs
     ├── eval_history_v1.csv       v1 FID every 5 epochs
     ├── figures/                  data samples, loss + stability curves, translations with cycle reconstructions, worst cases (also on Google Drive, link in figures/README.md)
-    ├── kaggle/                   kaggle_submission.png (Submissions page, score −50.2367)
+    ├── kaggle/                   kaggle_submission_final.png (−50.2351), kaggle_submission_earlier.png (−50.2367)
     ├── human_audit/              30-sample blinded audit: images/, audit_sheet.html, rater1/2.csv, _key.csv
     ├── pred_A2B/                 Monet -> photo predictions (300), Google Drive link in README.md
     └── pred_B2A/                 photo -> Monet predictions (7,038), Google Drive link in README.md
