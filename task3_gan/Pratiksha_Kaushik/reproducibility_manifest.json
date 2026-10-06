@@ -66,7 +66,7 @@
     }
   },
   "file_sha256": {
-    "README.md": "c2daf157229e628089ec40f34bd055d917ea81f85455de7930dd2277d68af926",
+    "README.md": "59f0dc323e2cf02f6b754e37c82762aeb7e3e250bcee5c3204f6595dce776364",
     "RUN_LOG.txt": "600fa91482ad89b81183ce489fd5c16c2065fe4d71565c557d0ce0d8df69d9ad",
     "checkpoints/README.md": "28429d06321d0879c3f91ed65f7f93d72c34e1e6e80034a7b836d1979476ff15",
     "checkpoints/best_ema_v1_epoch45.pt": "10195a96e5d78b0f5f52c341cc682e375cc8e643f3ec3425a4cc8bc22f103283",
@@ -74,6 +74,7 @@
     "configs/config_base.json": "69479c102fc1136937abf341e9650dfb073102359593748a675ac9e2add9a497",
     "configs/config_v3_final.json": "c4cf0efac963a12d849512338c6ac64c31c2d3ad8da5219c0f4ff8170e3f7df7",
     "configs/metrics_v1.json": "03f8e44954ffcfa97d2445534d3f71ebe5bc20268860e128ce92e431513f0fb1",
+    "data_processed/README.md": "27f6ba79305fe7ddfe1fc71b38674d193678d53d836f513ac25fdfad899058c8",
     "data_processed/train_history_v1.csv": "9edca879815e7c17eb9d3d751ce7688d358b73ed8a9a6f11f6e906b801f6c69e",
     "data_processed/train_history_v3.csv": "f0bb05fd101cd3815ce224d800e699bd7724e4787e5c6e2ff1c311681a590438",
     "demo/demo.py": "f8cf969b1ce8e8a2f6dedd7d3354c36231ead370604c46dbe42ea6246201b3d1",
@@ -83,6 +84,7 @@
     "failure_analysis.md": "df1014380611721e7aa85e7c291b6fb081f36132dfe6d8d6f29e4aeaf5759497",
     "final_submission.csv": "672f523633d11ba19e551a43494811ddcf5f50a09797910aeedaadf60ca4c218",
     "full_metrics_report.csv": "bfffe8f879530dd6ece702e97106f73728f8c27c9ad473312a82613daca607d8",
+    "metrics_report.csv": "db78acf5c9dc2d459f51fb3e54d55ebc438cf70e7c51501808c0f0fe11862b5e",
     "metrics_v1.md": "e666e409687b6d0745170bc497ec2e4bf57ad40cfdd98301c0d3d35aa45eef8c",
     "outputs/eval_history_v1.csv": "1dfe4fcf0cfd113135f8b37ea7522c73dfb28e565af3cfcc76c32a4e4b273b04",
     "outputs/eval_history_v3.csv": "d98c1744febd154bfe94c10bc9a24252b7ad72b1e63293a4c98203fadafe37ee",

@@ -43,6 +43,7 @@ Pratiksha_Kaushik/
 ├── README.md                     this file
 ├── results.md                    main write-up: v1 vs v3, screening, per-epoch scores, metrics, stability, efficiency
 ├── failure_analysis.md           7 failure categories for v3 (night scenes, skies, fine texture, steganography...)
+├── metrics_report.csv            all v3 final metrics in one table (v3 column of full_metrics_report.csv)
 ├── full_metrics_report.csv       every required metric, v1 vs v3 side by side (Kaggle public score −50.2351, human audit 3.49/5; rank still PENDING)
 ├── metrics_v1.md                 metrics written by the v1 notebook (v1 only)
 ├── demo/
@@ -70,7 +71,7 @@ Pratiksha_Kaushik/
 │   ├── color_cal.pt              Monet→photo colour calibration for the final model
 │   ├── last_v3_epoch80.pt        full v3 training state at epoch 80 (514 MB)
 │   └── best_ema_v1_epoch45.pt    v1 EMA generators, epoch 45 (91 MB)
-├── data_processed/               (git-ignored)
+├── data_processed/               README + per-step training histories
 │   ├── train_history_v3.csv      per-step losses, gradient norms, D outputs (64,000 steps)
 │   └── train_history_v1.csv      same for v1 (40,000 steps)
 └── outputs/

@@ -1,0 +1,53 @@
+{
+  "seed": 9002,
+  "source": "fancyzhx/yelp_polarity (Hugging Face parquet, revision bbf1c97a)",
+  "source_rows": {
+    "train": 560000,
+    "test": 38000
+  },
+  "dropped_empty_after_preprocessing": {
+    "train": 26,
+    "test": 0
+  },
+  "rows": {
+    "train": 18000,
+    "validation": 2000,
+    "test": 5000
+  },
+  "class_balance": {
+    "train": {
+      "0": 9000,
+      "1": 9000
+    },
+    "validation": {
+      "0": 1000,
+      "1": 1000
+    },
+    "test": {
+      "0": 2500,
+      "1": 2500
+    }
+  },
+  "tokens_per_review": {
+    "train": {
+      "mean": 83.88,
+      "median": 61.0,
+      "max": 623
+    },
+    "validation": {
+      "mean": 85.94,
+      "median": 62.0,
+      "max": 649
+    },
+    "test": {
+      "mean": 83.1,
+      "median": 61.0,
+      "max": 587
+    }
+  },
+  "vocab_size": 30000,
+  "max_len": 180,
+  "stopwords_removed": 47,
+  "stemming": false,
+  "test_labels_match_saved_predictions": true
+}

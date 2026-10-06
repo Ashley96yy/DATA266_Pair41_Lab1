@@ -1,0 +1,62 @@
+model,section,metric,direction,value,notes
+CycleGAN v3 final (EMA avg of epochs 60/65/70),official score,FID (course script),photo->Monet,100.538,"first 300 by name, torchvision Inception"
+CycleGAN v3 final (EMA avg of epochs 60/65/70),official score,FID (course script),Monet->photo,99.576,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),official score,MiFID (course script),photo->Monet,0.4099,paired cosine distance
+CycleGAN v3 final (EMA avg of epochs 60/65/70),official score,MiFID (course script),Monet->photo,0.417,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),official score,Submitted FID (avg),both,100.0568,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),official score,Submitted MiFID (avg),both,0.4135,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),official score,Final score (FID+MiFID)/2,both,50.2351,lower is better
+CycleGAN v3 final (EMA avg of epochs 60/65/70),distribution,FID,photo->Monet,93.22,"TF-FID Inception, 1000 held-out photos vs 300 Monets"
+CycleGAN v3 final (EMA avg of epochs 60/65/70),distribution,FID,Monet->photo,85.95,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),distribution,KID x1e3 (mean),photo->Monet,20.63,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),distribution,KID x1e3 (std),photo->Monet,2.06,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),distribution,KID x1e3 (mean),Monet->photo,19.51,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),distribution,KID x1e3 (std),Monet->photo,2.2,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),distribution,Precision,photo->Monet,0.483,higher is better
+CycleGAN v3 final (EMA avg of epochs 60/65/70),distribution,Precision,Monet->photo,0.7133,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),distribution,Recall,photo->Monet,0.59,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),distribution,Recall,Monet->photo,0.436,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),distribution,Density,photo->Monet,0.4076,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),distribution,Density,Monet->photo,0.7187,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),distribution,Coverage,photo->Monet,0.8367,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),distribution,Coverage,Monet->photo,0.451,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),content,Content cosine (input vs translation),photo->Monet,0.7343,unrelated-pair baseline 0.5689
+CycleGAN v3 final (EMA avg of epochs 60/65/70),content,Content cosine (input vs translation),Monet->photo,0.7849,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),content,LPIPS input vs translation,photo->Monet,0.3891,unrelated-pair baseline 0.8114
+CycleGAN v3 final (EMA avg of epochs 60/65/70),content,LPIPS input vs translation,Monet->photo,0.3476,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),cycle,Cycle reconstruction L1,photo cycle,0.1168,unrelated-pair baseline 0.5742
+CycleGAN v3 final (EMA avg of epochs 60/65/70),cycle,Cycle reconstruction L1,Monet cycle,0.073,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),cycle,LPIPS input vs reconstruction,photo cycle,0.2097,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),cycle,LPIPS input vs reconstruction,Monet cycle,0.2871,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),losses,Discriminator total (last 25%),both,0.245,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),losses,Generator adversarial (last 25%),both,1.2139,v3 averages 2 D scales
+CycleGAN v3 final (EMA avg of epochs 60/65/70),losses,Cycle L1 unweighted (first 25%),both,0.2796,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),losses,Cycle L1 unweighted (last 25%),both,0.1218,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),losses,Identity L1 unweighted (last 25%),both,0.161,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),losses,Generator / discriminator loss curves,both,outputs/figures/loss_curves.png,per-step values in data_processed/train_history_v3.csv
+CycleGAN v3 final (EMA avg of epochs 60/65/70),stability,Grad-norm median,G,16.298,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),stability,Grad-norm p99,G,33.716,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),stability,Grad-norm max,G,146.818,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),stability,Grad-norm median,D,7.335,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),stability,Grad-norm p99,D,18.8,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),stability,Grad-norm max,D,434.918,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),stability,NaN/Inf steps,both,0 of 64000,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),stability,Gradient-norm curves,both,outputs/figures/stability_curves.png,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),human audit,Human-audit score (1-5) style / content / artifacts,both,3.52 / 3.93 / 3.02 (overall 3.49),"2 raters x 30 samples; P2M 3.40/3.78/2.80, M2P 3.75/4.25/3.45"
+CycleGAN v3 final (EMA avg of epochs 60/65/70),human audit,Cohen's kappa / % agreement,both,kappa 0.23 / 0.29 / 0.22 (quadratic 0.60 / 0.49 / 0.52); exact agreement 50% / 60% / 50%; within 1: 100%,outputs/human_audit/audit_summary.csv
+CycleGAN v3 final (EMA avg of epochs 60/65/70),kaggle,Kaggle public leaderboard score,,-50.2351,"final selected submission final_submission.csv (uploaded as submission.csv; FID 100.0568, MiFID 0.4135); earlier submission_official_v3.csv scored -50.2367; screenshots in outputs/kaggle/"
+CycleGAN v3 final (EMA avg of epochs 60/65/70),kaggle,Kaggle private leaderboard score,,not shown,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),kaggle,Final leaderboard rank,,PENDING,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),efficiency,Params per generator (M),,11.38,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),efficiency,Params per discriminator (M),,5.53,v3: 2-scale PatchGAN
+CycleGAN v3 final (EMA avg of epochs 60/65/70),efficiency,Params total (M),,33.82,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),efficiency,Training time (h),,3.2,RTX 4090
+CycleGAN v3 final (EMA avg of epochs 60/65/70),efficiency,Training steps,,64000,batch 4
+CycleGAN v3 final (EMA avg of epochs 60/65/70),efficiency,Training throughput (img/s per domain),,22.2,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),efficiency,"Inference throughput (img/s, bs 16)",,505.3,median of 5
+CycleGAN v3 final (EMA avg of epochs 60/65/70),efficiency,Inference throughput std (img/s),,19.3,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),efficiency,Peak GPU memory train (GB),,6.33,v1 kept more on GPU
+CycleGAN v3 final (EMA avg of epochs 60/65/70),efficiency,Peak GPU memory inference (GB),,2.99,
+CycleGAN v3 final (EMA avg of epochs 60/65/70),efficiency,Training time (s),,11532.5,from checkpoint STATE / metrics_v1.json
+CycleGAN v3 final (EMA avg of epochs 60/65/70),efficiency,Training images per second (both domains),,44.4,2 x per-domain throughput
+CycleGAN v3 final (EMA avg of epochs 60/65/70),efficiency,Hardware,,NVIDIA GeForce RTX 4090,"python 3.10.13, torch 2.1.2"

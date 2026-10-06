@@ -58,9 +58,14 @@
     "note": "each .pt holds model_name, state_dict, threshold and seed; weights are last epoch (5)"
   },
   "file_sha256": {
+    "README.md": "5d0ff66f6b21d5ea063d69b37658c631f8a101bfcdaff6999fbf3bd20c9a7775",
     "RUN_LOG.txt": "2b9b3a021ab4c9fd2b19d57fc9fbb1baffea93102a02ce71906cfde80a1e6c5e",
     "configs/models.json": "69bcdc91c3f25f2a1325a089a6336eb098bdf100021b8d86c59728897c22c92b",
     "configs/training.json": "3b2bcafb3fb572bed7ec5e0ca06e7ebd858f6e988247606c4b4aeb510d0596e9",
+    "data_processed/README.md": "97fbd33e488e984a918cd424121d9e8f25823c595e7c97f2e141bc99b0dc5b30",
+    "data_processed/dataset_stats.json": "752e4e27e39d3564aa993cda4bafa70aa7d0289d5f46a2c484b73b2b4a970ee8",
+    "data_processed/split_indices.json": "942f4a8b33582090fb5504d2fa212141a1c688828ea020973440c8007a16820d",
+    "data_processed/vocab.json": "e39f91c64dfa7870b8ef9f22e1fb17cdaa5f205243528652ad96d41956f87913",
     "metrics_report.csv": "30bea921356c6fd718a914871051b8ccd1afa52348f03a79b55bbc2dd24ec6dc",
     "outputs/confusion_matrix_baseline_mean_embedding.csv": "db05440cd4cc62fee79d98efe469511f03b207fb88dd3551b96e75652bc3555e",
     "outputs/confusion_matrix_baseline_mean_embedding.png": "6e3bb4013c6327b5cc8e477347953606936c0027091aac704c56bc23068e2c8a",
@@ -74,11 +79,12 @@
     "outputs/predictions_baseline_mean_embedding.csv": "4af27e7d502bd42a5e2e1cf4e529884ab5133cad36c1e34755081911203ab952",
     "outputs/predictions_experimental_bigru.csv": "0ea80897ea88601f3b83670b09987dffa6f63acbfdcb87ac72b0071e292ea32f",
     "outputs/predictions_experimental_cnn.csv": "9df92752d533c590bf4d330ef6a10b67925da21ecc3d823ab2d18267e98e44f4",
-    "outputs/preprocessing_summary.md": "6dfe8284bfd9d6b5313f166b01c61eb41a4aa14330b396f8c9d69a725677be0b",
+    "outputs/preprocessing_summary.md": "caa0628bc28e0c3335e75c214259cf1be5fa1e29b8ece21b0e34d23b1632546e",
     "outputs/robustness_slices_all_models.csv": "fc417f5b939d1c181fac800212c8c47f1dcf68e5f323dc3c31f67b635b7546d1",
     "outputs/training_history_all_models.csv": "80eda2bb6f0b14b4bc5261fe1c3e0581baad36fd810b868c09e30d75ab23f697",
     "outputs/training_loss_and_val_f1.png": "acf1554c29740e41fb8b6a44de8b69e736052beffec58953a7f478579d6e5fb6",
     "resources_report.csv": "67bfd21d01057f2fc9faa0c7df8de7bba062a5905f52eaf78144bbcacc49828e",
+    "src/rebuild_data_processed.py": "8b2b38ed4bd5b82f900c95c3f46967cf6315fe28ef9a3e67b357326f069ad789",
     "src/task2_yelp_sentiment_all_models.ipynb": "2f83483c01e50d316f81fc27b617acd2c21561192aea39589fdb2b9cb648b4b6",
     "src/yelp_polarity_cnn.ipynb": "86ba4e1da650a438eb016831beb7cf548f2b2f0f18bcee57cbe37250093bd4bf",
     "src/yelp_polarity_mean_embedding.ipynb": "63be4f1b2856e32fc0de202f59030f3568807f841c09f8952cb9b746e5232028"

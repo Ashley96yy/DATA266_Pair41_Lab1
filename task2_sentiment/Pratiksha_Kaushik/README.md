@@ -15,6 +15,7 @@ src/
   task2_yelp_sentiment_all_models.ipynb  final notebook, trains and evaluates all 3 models (use this one)
   yelp_polarity_mean_embedding.ipynb     earlier single-model run of the baseline (CPU)
   yelp_polarity_cnn.ipynb                earlier single-model run of the CNN (CPU)
+  rebuild_data_processed.py              recreates data_processed/ with the notebook's preprocessing code
 configs/            hyperparameters used in the final notebook
 outputs/            predictions, confusion matrices (csv + png), training plot, McNemar,
                     slices, training history, error review, preprocessing_summary.md
@@ -27,7 +28,7 @@ metrics.md          full metrics write-up
 failure_analysis.md summary of the 20-error review, with all 20 rows in a table
 manual_error_review.md detailed review of each of the 20 errors (excerpt, labels, probability, error type, explanation, testable fix)
 checkpoints/        model .pt files (gitignored; README.md inside has the Google Drive link)
-data_processed/     not used, data is loaded directly from Hugging Face
+data_processed/     split_indices.json, vocab.json, dataset_stats.json + README (rebuilt and checked against the final run)
 ```
 
 ## How to run

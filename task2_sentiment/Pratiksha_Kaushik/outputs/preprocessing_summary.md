@@ -17,7 +17,7 @@ Review length in words (train): mean 133, median 97, 90th percentile 282, 95th 3
 2. Lowercase, then replace every character that is not a-z, 0-9, a space or an apostrophe with a space.
 3. Split into word tokens (contractions like "wouldn't" stay as one token).
 4. Remove a 47-word stopword list. "not", "never" and "no" are kept.
-5. Drop rows that end up with 0 tokens. (The notebook does not print how many rows were dropped from the full 560k set, but all sampled splits came out full size.)
+5. Drop rows that end up with 0 tokens: 26 of the 560,000 training reviews and none of the test reviews.
 6. Stemming is off (`USE_STEMMING = False`).
 
 ## Sampling and split (seed 9002)
@@ -38,4 +38,4 @@ The train and validation rows are a stratified 20,000-row sample of the 560k tra
 
 **Issue found:** the most common token is `n`. Yelp Polarity stores newlines as the literal text `\n`. My regex removes the backslash, which leaves a stray `n` token for every line break. It is harmless noise, but it wastes sequence length on long reviews. Next time, replace `\\n` with a space before tokenizing.
 
-The processed splits were not saved to disk. They are rebuilt in memory every time the notebook runs, and the seed makes them the same each time.
+The notebook rebuilds the splits in memory each run (the seed makes them identical). The exact split row numbers, vocabulary and stats are saved in `data_processed/`.
