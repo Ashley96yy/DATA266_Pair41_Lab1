@@ -11,7 +11,7 @@ Personal parameters: `SID4=9002 | SEED=9002 | SLICE=2 | HP_ID=2 | CLS_A=2 | CLS_
 | v1 (baseline) | 101.51 | 102.99 | 102.25 | 0.4168 | 51.33 |
 | **v3 (final)** | **100.54** | **99.58** | **100.06** | **0.4135** | **50.24** |
 
-**Kaggle public leaderboard score: 50.2367.** Human audit (2 raters × 30 samples): **3.49 / 5**, quadratic-weighted kappa 0.49-0.60.
+**Kaggle public leaderboard score: −50.2367** (Kaggle negates (FID + MiFID) / 2; screenshot in `outputs/kaggle/`). Human audit (2 raters × 30 samples): **3.49 / 5**, quadratic-weighted kappa 0.49-0.60.
 
 These scores come from the course evaluation script, using the first 300 files in each direction. See [results.md](results.md) for the full write-up.
 
@@ -43,10 +43,11 @@ Pratiksha_Kaushik/
 ├── README.md                     this file
 ├── results.md                    main write-up: v1 vs v3, screening, per-epoch scores, metrics, stability, efficiency
 ├── failure_analysis.md           7 failure categories for v3 (night scenes, skies, fine texture, steganography...)
-├── full_metrics_report.csv       every required metric, v1 vs v3 side by side (Kaggle public score 50.2367, human audit 3.49/5; rank and private score still PENDING)
+├── full_metrics_report.csv       every required metric, v1 vs v3 side by side (Kaggle public score −50.2367, human audit 3.49/5; rank still PENDING)
 ├── metrics_v1.md                 metrics written by the v1 notebook (v1 only)
 ├── evaluate_local.py             course evaluation script as a .py (FID + MiFID on pred_A2B / pred_B2A)
-├── submission.csv                final v3 submission, exactly as written by the v3 notebook (FID 100.0568, MiFID 0.4135, score 50.2351)
+├── submission.csv                v3 submission as written by the v3 notebook (FID 100.0568, MiFID 0.4135, score 50.2351)
+├── submission_official_v3.csv    the file uploaded to Kaggle: second scoring of the same v3 predictions (FID 100.0599, MiFID 0.4135) -> Kaggle score −50.2367
 ├── RUN_LOG.txt                   raw v3 log: screening, final run, evaluation, export
 ├── reproducibility_manifest.json hardware, versions, data split, run info, sha256 of every file
 ├── configs/
@@ -69,6 +70,7 @@ Pratiksha_Kaushik/
     ├── eval_history_v3.csv       validation FID / MiFID / score every 5 epochs
     ├── eval_history_v1.csv       v1 FID every 5 epochs
     ├── figures/                  data samples, loss + stability curves, translations with cycle reconstructions, worst cases (also on Google Drive, link in figures/README.md)
+    ├── kaggle/                   kaggle_submission.png (Submissions page, score −50.2367)
     ├── human_audit/              30-sample blinded audit: images/, audit_sheet.html, rater1/2.csv, _key.csv
     ├── pred_A2B/                 Monet -> photo predictions (300), Google Drive link in README.md
     └── pred_B2A/                 photo -> Monet predictions (7,038), Google Drive link in README.md
@@ -84,6 +86,9 @@ The `.pt` files are too large for the repo. Download them from Google Drive and 
 |---|---|
 | `last_v3_epoch80.pt` | full v3 training state at epoch 80 (generators, discriminators, EMA, optimizers, history, config), 514 MB |
 | `best_ema_v1_epoch45.pt` | v1 baseline EMA generators at epoch 45, 91 MB |
+
+**Final v3 model** (used for the submission, Kaggle and all v3 metrics): `best_ema.pt` (EMA generators averaged over epochs 60/65/70) and `color_cal.pt` (Monet→photo colour calibration), in a separate folder:
+**https://drive.google.com/drive/folders/1mOjhaPIFw9ML5e-Ts3aGs_CDKdgv31an?usp=drive_link**
 
 ## Notebook walkthrough (v3)
 
@@ -121,5 +126,4 @@ Extra packages for the metrics: `torch-fidelity`, `lpips`, `scipy`, `pandas`, `p
 
 ## Still to do before submission
 
-- **Kaggle:** public score 50.2367 is recorded. Still add the rank (and private score, if shown) to `results.md` section 10 and `full_metrics_report.csv`, and put a screenshot of the Submissions page in `outputs/kaggle/`.
-- **Final v3 weights:** `best_ema.pt` (the 60/65/70 average) and `color_cal.pt` from `/app/content/data266_cyclegan_v3/runs/final/checkpoints/` are not in this folder yet. `last_v3_epoch80.pt` is the epoch-80 state, not the averaged model.
+- **Kaggle:** public score and screenshot are recorded. Still add the final leaderboard rank (Leaderboard tab) to `results.md` section 10 and `full_metrics_report.csv`.

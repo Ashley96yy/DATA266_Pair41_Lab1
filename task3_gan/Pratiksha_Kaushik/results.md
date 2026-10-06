@@ -13,7 +13,7 @@ Scored on the first 300 files by name in each folder, both directions, with torc
 | v1 (baseline) | 101.512 | 102.989 | 0.4127 | 0.4208 | 102.2502 | 0.4168 | 51.3335 |
 | **v3 (final)** | **100.538** | **99.576** | **0.4099** | **0.4170** | **100.0568** | **0.4135** | **50.2351** |
 
-Submitted file: `submission.csv` (copied exactly from the v3 notebook output, section 15)
+Course-format file from the v3 notebook (section 15): `submission.csv`. The file uploaded to Kaggle was `submission_official_v3.csv`, a second scoring of the same v3 predictions (FID 100.0599, MiFID 0.4135); see section 10.
 
 ```
 ID,FID,MiFID
@@ -187,11 +187,11 @@ Files: `outputs/human_audit/rater1.csv`, `rater2.csv` (scores and notes), `audit
 
 | | Value |
 |---|---|
-| Public leaderboard score | **50.2367** |
-| Private leaderboard score | PENDING (if shown) |
+| Public leaderboard score | **−50.2367** (shown negated by Kaggle; = (FID + MiFID) / 2 of the uploaded file) |
+| Private leaderboard score | not shown on the Submissions page |
 | Final rank | PENDING |
 
-The Kaggle public score (50.2367) is almost the same as the local score from the course script (50.2351, `submission.csv`). The difference is 0.0016, so the local evaluation is a good predictor of the leaderboard. Screenshot evidence: `outputs/kaggle/` (to be added).
+Kaggle shows the score as **−50.2367** (the competition negates (FID + MiFID) / 2 so that higher ranks better). The uploaded file was `submission_official_v3.csv` (FID 100.0599, MiFID 0.4135), and (100.0599 + 0.4135) / 2 = 50.2367 exactly. That file is a second scoring of the same v3 predictions; the notebook's own run gave FID 100.0568 (`submission.csv`, score 50.2351). The 0.0016 difference comes from re-running the Inception feature extraction. Evidence: `outputs/kaggle/kaggle_submission.png`.
 
 ## 11. Files
 
@@ -209,8 +209,9 @@ The Kaggle public score (50.2367) is almost the same as the local score from the
 | Worst cases | `outputs/figures/worst_*.png`, see `failure_analysis.md` |
 | All figures (Google Drive) | https://drive.google.com/drive/folders/1EXP4Iq-KOcFrWSmeZKD6gqnB6YQxDPTH |
 | All metrics, v1 vs v3 | `full_metrics_report.csv` |
-| Submission | `submission.csv` (v3) |
+| Submission | `submission.csv` (v3 notebook output), `submission_official_v3.csv` (uploaded to Kaggle) |
+| Kaggle evidence | `outputs/kaggle/kaggle_submission.png` |
 | Checkpoints | `checkpoints/last_v3_epoch80.pt`, `checkpoints/best_ema_v1_epoch45.pt` |
 | Reproducibility | `reproducibility_manifest.json`, `configs/` |
 
-The full prediction folders (`pred_A2B/` with 300 Monet→photo images, `pred_B2A/` with 7,038 photo→Monet images) and the final averaged v3 weights (`best_ema.pt` + `color_cal.pt`) are still on the training machine under `/app/content/data266_cyclegan_v3/`.
+The prediction folders (`pred_A2B/` 300 images, `pred_B2A/` 7,038 images) are on Google Drive; links are in each folder's README. The final averaged v3 weights (`best_ema.pt` + `color_cal.pt`) are at https://drive.google.com/drive/folders/1mOjhaPIFw9ML5e-Ts3aGs_CDKdgv31an?usp=drive_link.

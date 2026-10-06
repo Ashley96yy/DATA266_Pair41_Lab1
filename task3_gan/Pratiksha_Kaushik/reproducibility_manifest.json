@@ -41,7 +41,7 @@
       "history": "data_processed/train_history_v3.csv (64,000 steps), outputs/eval_history_v3.csv",
       "screening": "4 configs x 15 epochs, results in results.md section 3",
       "final_model": "EMA weights averaged over epochs 60/65/70 + colour calibration (Monet->photo)",
-      "final_model_file": "NOT IN REPO - runs/final/checkpoints/best_ema.pt and color_cal.pt on the training machine",
+      "final_model_file": "best_ema.pt + color_cal.pt on Google Drive: https://drive.google.com/drive/folders/1mOjhaPIFw9ML5e-Ts3aGs_CDKdgv31an?usp=drive_link",
       "checkpoint_in_repo": "checkpoints/last_v3_epoch80.pt (full state at epoch 80, not the averaged model)",
       "train_time_s": 11532.46,
       "steps": 64000,
@@ -52,11 +52,16 @@
         "MiFID": 0.41345334997946315,
         "score": 50.2351,
         "file": "submission.csv"
+      },
+      "kaggle": {
+        "uploaded_file": "submission_official_v3.csv",
+        "public_score_shown": -50.2367,
+        "evidence": "outputs/kaggle/kaggle_submission.png"
       }
     }
   },
   "file_sha256": {
-    "README.md": "d0c09fa448d8b42308a614d1c8dd9ea37660a26647389d4cb7400fba284acbb6",
+    "README.md": "02337cca1384b08ec5e072c9a94c73b067ce2a4351261932a175e04344518177",
     "RUN_LOG.txt": "600fa91482ad89b81183ce489fd5c16c2065fe4d71565c557d0ce0d8df69d9ad",
     "checkpoints/best_ema_v1_epoch45.pt": "10195a96e5d78b0f5f52c341cc682e375cc8e643f3ec3425a4cc8bc22f103283",
     "checkpoints/last_v3_epoch80.pt": "c56ae1a6eb9dd1468ee57316190931713f0b41395404db56be8ef97bf7f9afd9",
@@ -67,7 +72,7 @@
     "data_processed/train_history_v3.csv": "f0bb05fd101cd3815ce224d800e699bd7724e4787e5c6e2ff1c311681a590438",
     "evaluate_local.py": "276b3e0468ace0488b2226de4d9b7b7b4d03bb26f08ece97c13876f10513318a",
     "failure_analysis.md": "df1014380611721e7aa85e7c291b6fb081f36132dfe6d8d6f29e4aeaf5759497",
-    "full_metrics_report.csv": "ff36a0a43dd51e0157831165d95b4ba3f09861c23f1ed662f64d75038c0f7b87",
+    "full_metrics_report.csv": "de36d389f01a9f2c2321c1337e11dea694350491bec063388c6dcec289dabbe4",
     "metrics_v1.md": "e666e409687b6d0745170bc497ec2e4bf57ad40cfdd98301c0d3d35aa45eef8c",
     "outputs/eval_history_v1.csv": "1dfe4fcf0cfd113135f8b37ea7522c73dfb28e565af3cfcc76c32a4e4b273b04",
     "outputs/eval_history_v3.csv": "d98c1744febd154bfe94c10bc9a24252b7ad72b1e63293a4c98203fadafe37ee",
@@ -117,15 +122,17 @@
     "outputs/human_audit/rater2.csv": "6fecf04fa094730a1d147167ff0cb869a35d3a86276e9f7ba2b2c8dd0789bb3a",
     "outputs/pred_A2B/README.md": "a75fe656909014c4b7d21917ceee9c0dd188743ead69c055d28bd77ed16db962",
     "outputs/pred_B2A/README.md": "5d3c4879a46eba66c0d87ace653063e372efd0b347f9ba95d889b72561d4562a",
-    "results.md": "232581a35ce428ee69c54fa8fe7b3766ba7947ee3798c4c47625d7cf74c1d426",
+    "results.md": "2b8dfd6e9ca31fab4c59c5ef74f9a747dac108aeb831a494985b0ac54d17a8ee",
     "src/Pratiksha_cyclegan_monet_v3.ipynb": "f8f5cba3670190925f5077b6b64db52cf0befaa7c4fa39dd4a3ceb90178dd39d",
     "src/cyclegan_models.py": "01a9b10b28741dd5c53c181a90f68e9c187f2e9060056046937de1208a6b2bbc",
     "src/full_metrics.py": "4536b961162966588a788cc398d1212265bd36e97126a123654a868143469a17",
     "src/score_human_audit.py": "ea750907b569fdb2cc4dfecfa1a365fc7450917997e26d825f7a46f0ceaaa951",
     "src/task3_cyclegan_v1_baseline.ipynb": "e72af84be89ae1c7b63b3e0520263500e5afba0befe3113616cbad78f58ffe72",
     "submission.csv": "672f523633d11ba19e551a43494811ddcf5f50a09797910aeedaadf60ca4c218",
-    "checkpoints/README.md": "a4811351a01b43721d703923afa4bbdabf791f45d64eda8b8f574846a71560dc",
+    "checkpoints/README.md": "03671e425fdecffa87c2bad3ca9f8288459ca395ac8277d8e5e2c16f333bda7b",
     "outputs/human_audit/audit_scores_per_sample.csv": "7ede8fa571464770a120c2c0975d2c700b5281ee4140efd0cde6fdd10689c416",
-    "outputs/human_audit/audit_summary.csv": "19c24a0b857c9032a4fc0cbf26aa3374753497cc464675f785c14bc9b79ed40d"
+    "outputs/human_audit/audit_summary.csv": "19c24a0b857c9032a4fc0cbf26aa3374753497cc464675f785c14bc9b79ed40d",
+    "submission_official_v3.csv": "4c90409219c0445046e20bc8c5d188405d0476b09e68a151e398d894311af1e7",
+    "outputs/kaggle/kaggle_submission.png": "fc8467335464ce03ddd230cfc9b9b54715c7ded05c740ecb6f3d47eb4a7f1ec3"
   }
 }
