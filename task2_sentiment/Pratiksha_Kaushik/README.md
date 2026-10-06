@@ -59,4 +59,4 @@ Preprocessing: lowercase, remove punctuation, remove a small stopword list, no s
 
 ## Checkpoints
 
-The notebook saves `baseline_mean_embedding.pt`, `experimental_cnn.pt` and `experimental_bigru.pt` to `checkpoints/`. These are gitignored. Download link: _add Google Drive link here_
+The notebook saves `baseline_mean_embedding.pt`, `experimental_cnn.pt` and `experimental_bigru.pt` to `checkpoints/`. These are gitignored. Download link: https://drive.google.com/drive/folders/1sBI2vdiaSnv6S1KcWrIeYHQg5oVAT_k4?usp=drive_link
