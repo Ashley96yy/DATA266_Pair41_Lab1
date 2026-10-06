@@ -162,13 +162,26 @@ Means over the last 25% of steps.
 
 The blinded audit packet is in `outputs/human_audit/`: 30 side-by-side images (20 photo→Monet, 10 Monet→photo) in shuffled order, `audit_sheet.html` for viewing, and one sheet per rater. Each rater scores style, content preservation and artifacts from 1 to 5, on their own.
 
-**Status: PENDING.** `rater1.csv` and `rater2.csv` are still blank. Once both are filled in, run `python src/score_human_audit.py`. It writes the per-sample scores, the mean score per rater, exact and within-1 agreement, and Cohen's kappa (unweighted and quadratic) to `outputs/human_audit/audit_summary.csv`.
+| Criterion | Rater 1 mean | Rater 2 mean | Both | Exact agreement | Within ±1 | Cohen's kappa | Quadratic-weighted kappa |
+|---|---|---|---|---|---|---|---|
+| Style | 3.50 | 3.53 | 3.52 | 50% | 100% | 0.23 | 0.60 |
+| Content | 3.93 | 3.93 | 3.93 | 60% | 100% | 0.29 | 0.49 |
+| Artifacts | 3.10 | 2.93 | 3.02 | 50% | 100% | 0.22 | 0.52 |
 
-| Criterion | Rater 1 mean | Rater 2 mean | Exact agreement | Cohen's kappa |
-|---|---|---|---|---|
-| Style | - | - | - | - |
-| Content | - | - | - | - |
-| Artifacts | - | - | - | - |
+**Overall human-audit score: 3.49 / 5** (mean of all three criteria, both raters).
+
+| Direction | Style | Content | Artifacts |
+|---|---|---|---|
+| Photo → Monet (20 samples) | 3.40 | 3.78 | 2.80 |
+| Monet → Photo (10 samples) | 3.75 | 4.25 | 3.45 |
+
+**Reading the numbers:**
+- **Content preservation is the strongest criterion (3.93).** Both raters agreed the scene layout is usually kept. This matches the content cosine of 0.73-0.79.
+- **Artifacts are the weakest (3.02).** Both raters' notes mention colour blotches, smears and halos. These are the same failure types listed in `failure_analysis.md`.
+- **Agreement:** the raters never differed by more than 1 point (100% within ±1) and gave the same score 50-60% of the time. Unweighted kappa is 0.22-0.29 ("fair" on the Landis & Koch scale). Quadratic-weighted kappa, which gives credit for near-misses on a 1-5 scale, is 0.49-0.60 ("moderate"). The low unweighted kappa comes from many 3-vs-4 splits, not from real disagreement.
+- **Monet → Photo was rated higher than Photo → Monet** on all three criteria, even though Photo → Monet has the better FID. There are only 10 Monet → Photo samples, so this difference is uncertain.
+
+Files: `outputs/human_audit/rater1.csv`, `rater2.csv` (scores and notes), `audit_summary.csv`, `audit_scores_per_sample.csv`.
 
 ## 10. Kaggle leaderboard
 

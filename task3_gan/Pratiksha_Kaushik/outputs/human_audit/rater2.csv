@@ -1,31 +1,31 @@
 sample_id,style,content,artifacts,notes
-S01,,,,
-S02,,,,
-S03,,,,
-S04,,,,
-S05,,,,
-S06,,,,
-S07,,,,
-S08,,,,
-S09,,,,
-S10,,,,
-S11,,,,
-S12,,,,
-S13,,,,
-S14,,,,
-S15,,,,
-S16,,,,
-S17,,,,
-S18,,,,
-S19,,,,
-S20,,,,
-S21,,,,
-S22,,,,
-S23,,,,
-S24,,,,
-S25,,,,
-S26,,,,
-S27,,,,
-S28,,,,
-S29,,,,
-S30,,,,
+S01,4,5,4,"same scene, slightly soft"
+S02,5,3,3,"looks like a photo; poppies are gone"
+S03,3,4,3,"layout kept; noisy colour"
+S04,4,4,3,"wires and road kept; faces lost"
+S05,4,3,3,"forest kept; watermark and blotches"
+S06,4,4,3,"good Monet clouds; texture a bit mushy"
+S07,2,3,2,"severe smear on the ice"
+S08,3,4,3,"dunes and figure kept; colour bleed"
+S09,4,5,3,"stacks and sunset kept"
+S10,4,3,2,"waterfall readable; heavy noise"
+S11,2,4,3,"content kept but not photographic"
+S12,3,3,2,"castle shape kept; messy colour"
+S13,3,4,2,"foreground log kept; faded sky"
+S14,4,5,4,"convincing photo of the same lake"
+S15,3,4,2,"foliage kept; vertical smear"
+S16,4,4,2,"palms kept; artifact in the sky"
+S17,4,4,4,"harbour layout clear"
+S18,5,4,4,"reads as a photo of the pond"
+S19,3,4,3,"coast kept; grainy"
+S20,3,3,2,"rocks barely held; very washed"
+S21,2,4,2,"ground kept; sky is broken"
+S22,4,5,3,"pier geometry fully kept"
+S23,4,4,3,"trees kept; small colour patch"
+S24,3,3,3,"path kept but washed out"
+S25,3,3,3,"figure kept; blotchy water"
+S26,3,4,2,"buildings recognizable; halo around the sun"
+S27,3,4,4,"scene kept; brushstrokes remain"
+S28,5,5,4,"strong photo; trees fully kept"
+S29,4,4,4,"pole kept; light fringing"
+S30,4,5,3,"houses kept; snow is soft"

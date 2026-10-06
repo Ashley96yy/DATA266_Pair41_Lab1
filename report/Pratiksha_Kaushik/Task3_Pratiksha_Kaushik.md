@@ -121,13 +121,26 @@ The full write-up of 7 failure categories is in [failure_analysis.md](../../task
 
 The blinded packet is in `outputs/human_audit/`: 20 photo→Monet and 10 Monet→photo samples, shuffled. Each sample is rated 1-5 on style, content preservation and artifacts.
 
-| Criterion | Rater 1 | Rater 2 | Agreement | Cohen's kappa |
-|---|---|---|---|---|
-| Style | PENDING | PENDING | PENDING | PENDING |
-| Content | PENDING | PENDING | PENDING | PENDING |
-| Artifacts | PENDING | PENDING | PENDING | PENDING |
+| Criterion | Rater 1 mean | Rater 2 mean | Both | Exact agreement | Within ±1 | Cohen's kappa | Quadratic-weighted kappa |
+|---|---|---|---|---|---|---|---|
+| Style | 3.50 | 3.53 | 3.52 | 50% | 100% | 0.23 | 0.60 |
+| Content | 3.93 | 3.93 | 3.93 | 60% | 100% | 0.29 | 0.49 |
+| Artifacts | 3.10 | 2.93 | 3.02 | 50% | 100% | 0.22 | 0.52 |
 
-These scores will come from `src/score_human_audit.py` once both rater sheets are filled in.
+**Overall human-audit score: 3.49 / 5** (mean of all three criteria, both raters).
+
+| Direction | Style | Content | Artifacts |
+|---|---|---|---|
+| Photo → Monet (20 samples) | 3.40 | 3.78 | 2.80 |
+| Monet → Photo (10 samples) | 3.75 | 4.25 | 3.45 |
+
+**Reading the numbers:**
+- **Content preservation is the strongest criterion (3.93).** Both raters agreed the scene layout is usually kept. This matches the content cosine of 0.73-0.79.
+- **Artifacts are the weakest (3.02).** Both raters' notes mention colour blotches, smears and halos. These are the same failure types listed in `failure_analysis.md`.
+- **Agreement:** the raters never differed by more than 1 point (100% within ±1) and gave the same score 50-60% of the time. Unweighted kappa is 0.22-0.29 ("fair" on the Landis & Koch scale). Quadratic-weighted kappa, which gives credit for near-misses on a 1-5 scale, is 0.49-0.60 ("moderate"). The low unweighted kappa comes from many 3-vs-4 splits, not from real disagreement.
+- **Monet → Photo was rated higher than Photo → Monet** on all three criteria, even though Photo → Monet has the better FID. There are only 10 Monet → Photo samples, so this difference is uncertain.
+
+Files: `task3_gan/Pratiksha_Kaushik/outputs/human_audit/rater1.csv`, `rater2.csv` (scores and notes), `audit_summary.csv`, `audit_scores_per_sample.csv`.
 
 ## Kaggle leaderboard
 
