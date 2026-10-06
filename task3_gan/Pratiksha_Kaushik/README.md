@@ -45,6 +45,10 @@ Pratiksha_Kaushik/
 ├── failure_analysis.md           7 failure categories for v3 (night scenes, skies, fine texture, steganography...)
 ├── full_metrics_report.csv       every required metric, v1 vs v3 side by side (Kaggle public score −50.2367, human audit 3.49/5; rank still PENDING)
 ├── metrics_v1.md                 metrics written by the v1 notebook (v1 only)
+├── demo/
+│   ├── demo.py                   translate one image: input | translation | cycle reconstruction
+│   ├── predict.py                translate whole folders into pred_A2B/ and pred_B2A/
+│   └── evaluate_local.py         copy of the top-level evaluate_local.py, kept with the demo tools
 ├── evaluate_local.py             course evaluation script as a .py (FID + MiFID on pred_A2B / pred_B2A)
 ├── final_submission.csv          final v3 submission (FID 100.0568, MiFID 0.4135, score 50.2351); uploaded to Kaggle as submission.csv -> −50.2351
 ├── submission_official_v3.csv    the file uploaded to Kaggle: second scoring of the same v3 predictions (FID 100.0599, MiFID 0.4135) -> Kaggle score −50.2367
@@ -58,8 +62,6 @@ Pratiksha_Kaushik/
 │   ├── Pratiksha_cyclegan_monet_v3.ipynb   final notebook (sections 0-19)
 │   ├── task3_cyclegan_v1_baseline.ipynb    v1 baseline notebook
 │   ├── cyclegan_models.py        generator / discriminator classes + checkpoint loader
-│   ├── demo.py                   translate one image: input | translation | cycle reconstruction
-│   ├── predict.py                translate whole folders into pred_A2B/ and pred_B2A/
 │   ├── course_protocol_metrics.py  all metrics on the course protocol (300 per direction)
 │   ├── full_metrics.py           FID, KID, P/R, density/coverage, content cosine, LPIPS, cycle L1
 │   └── score_human_audit.py      rater means, agreement, Cohen's kappa
@@ -122,10 +124,10 @@ Download `best_ema_v3_final.pt` and `color_cal.pt` into `checkpoints/` (Drive li
 
 ```bash
 # photo -> Monet (any JPG or PNG works; it is resized and centre-cropped to 256x256)
-python src/demo.py --image path/to/photo.jpg --output demo_monet.png
+python demo/demo.py --image path/to/photo.jpg --output demo_monet.png
 
 # Monet -> photo (applies the same colour calibration as the submitted model)
-python src/demo.py --image path/to/monet.jpg --direction A2B --output demo_photo.png
+python demo/demo.py --image path/to/monet.jpg --direction A2B --output demo_photo.png
 ```
 
 Each run saves a side-by-side image (input | translation | cycle reconstruction) and the translation on its own. It needs only `torch`, `numpy` and `pillow`, and runs on CUDA, Apple MPS or CPU.

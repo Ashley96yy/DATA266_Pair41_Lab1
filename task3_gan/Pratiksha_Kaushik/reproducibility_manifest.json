@@ -66,7 +66,7 @@
     }
   },
   "file_sha256": {
-    "README.md": "2abdafb720d0663531675c5c6f6a1914d661c6cad53253314b5a0583053d7954",
+    "README.md": "7985240dcb695280fcfc82ce7d24449e6ffa9b90a2897b763a3eda3d557b21a4",
     "RUN_LOG.txt": "600fa91482ad89b81183ce489fd5c16c2065fe4d71565c557d0ce0d8df69d9ad",
     "checkpoints/README.md": "28429d06321d0879c3f91ed65f7f93d72c34e1e6e80034a7b836d1979476ff15",
     "checkpoints/best_ema_v1_epoch45.pt": "10195a96e5d78b0f5f52c341cc682e375cc8e643f3ec3425a4cc8bc22f103283",
@@ -76,6 +76,9 @@
     "configs/metrics_v1.json": "03f8e44954ffcfa97d2445534d3f71ebe5bc20268860e128ce92e431513f0fb1",
     "data_processed/train_history_v1.csv": "9edca879815e7c17eb9d3d751ce7688d358b73ed8a9a6f11f6e906b801f6c69e",
     "data_processed/train_history_v3.csv": "f0bb05fd101cd3815ce224d800e699bd7724e4787e5c6e2ff1c311681a590438",
+    "demo/demo.py": "f8cf969b1ce8e8a2f6dedd7d3354c36231ead370604c46dbe42ea6246201b3d1",
+    "demo/evaluate_local.py": "276b3e0468ace0488b2226de4d9b7b7b4d03bb26f08ece97c13876f10513318a",
+    "demo/predict.py": "e9e6ad427c8cb1fb9bbaa673fec9e1c8c400f1d631c4a710603d988290a14c67",
     "evaluate_local.py": "276b3e0468ace0488b2226de4d9b7b7b4d03bb26f08ece97c13876f10513318a",
     "failure_analysis.md": "df1014380611721e7aa85e7c291b6fb081f36132dfe6d8d6f29e4aeaf5759497",
     "final_submission.csv": "672f523633d11ba19e551a43494811ddcf5f50a09797910aeedaadf60ca4c218",
@@ -137,7 +140,6 @@
     "src/course_protocol_metrics.py": "895562231e50ca44c4c30665f503d9712c298b5077cea20dddda1306325191f4",
     "src/cyclegan_models.py": "01a9b10b28741dd5c53c181a90f68e9c187f2e9060056046937de1208a6b2bbc",
     "src/full_metrics.py": "4536b961162966588a788cc398d1212265bd36e97126a123654a868143469a17",
-    "src/predict.py": "78ac5937ec3c5d9b0fc56cccfdddca38dd37cb4ef090a470931dd70093010cb6",
     "src/score_human_audit.py": "ea750907b569fdb2cc4dfecfa1a365fc7450917997e26d825f7a46f0ceaaa951",
     "src/task3_cyclegan_v1_baseline.ipynb": "e72af84be89ae1c7b63b3e0520263500e5afba0befe3113616cbad78f58ffe72",
     "submission_official_v3.csv": "4c90409219c0445046e20bc8c5d188405d0476b09e68a151e398d894311af1e7"

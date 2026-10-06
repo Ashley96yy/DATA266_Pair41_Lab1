@@ -8,7 +8,7 @@ Outputs are 256x256 JPEGs (quality 95) saved under the input's file name, like n
 so evaluate_local.py can score them directly.
 
 Usage:
-    python src/predict.py --ckpt checkpoints/best_ema_v3_final.pt --color-cal checkpoints/color_cal.pt \
+    python demo/predict.py --ckpt checkpoints/best_ema_v3_final.pt --color-cal checkpoints/color_cal.pt \
         --monet /path/monet_jpg --photo /path/photo_jpg --out eval_final --n 300
 """
 import argparse
@@ -19,7 +19,7 @@ import numpy as np
 import torch
 from PIL import Image
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))   # model code lives in src/
 from cyclegan_models import load_generators  # noqa: E402
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else

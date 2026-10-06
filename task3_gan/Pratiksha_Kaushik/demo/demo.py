@@ -5,8 +5,8 @@ Directions (same as the course script, A = Monet, B = photo):
     A2B: Monet -> photo   (uses the colour calibration, like the submitted model)
 
 Usage (from task3_gan/Pratiksha_Kaushik/):
-    python src/demo.py --image my_photo.jpg
-    python src/demo.py --image some_monet.jpg --direction A2B --output demo_photo.png
+    python demo/demo.py --image my_photo.jpg
+    python demo/demo.py --image some_monet.jpg --direction A2B --output demo_photo.png
 """
 import argparse
 import sys
@@ -17,7 +17,7 @@ import torch
 from PIL import Image, ImageDraw
 
 HERE = Path(__file__).resolve().parent
-sys.path.insert(0, str(HERE))
+sys.path.insert(0, str(HERE.parent / "src"))   # model code lives in src/
 from cyclegan_models import load_generators  # noqa: E402
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else
