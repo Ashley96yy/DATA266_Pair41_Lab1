@@ -13,7 +13,7 @@ Scored on the first 300 files by name in each folder, both directions, with torc
 | v1 (baseline) | 101.512 | 102.989 | 0.4127 | 0.4208 | 102.2502 | 0.4168 | 51.3335 |
 | **v3 (final)** | **100.538** | **99.576** | **0.4099** | **0.4170** | **100.0568** | **0.4135** | **50.2351** |
 
-Course-format file from the v3 notebook (section 15): `submission.csv`. The file uploaded to Kaggle was `submission_official_v3.csv`, a second scoring of the same v3 predictions (FID 100.0599, MiFID 0.4135); see section 10.
+Course-format file from the v3 notebook (section 15): `submission.csv`. This is the file submitted to Kaggle (score −50.2351, see section 10).
 
 ```
 ID,FID,MiFID
@@ -187,11 +187,18 @@ Files: `outputs/human_audit/rater1.csv`, `rater2.csv` (scores and notes), `audit
 
 | | Value |
 |---|---|
-| Public leaderboard score | **−50.2367** (shown negated by Kaggle; = (FID + MiFID) / 2 of the uploaded file) |
+| Public leaderboard score | **−50.2351** (final, selected submission `submission.csv`) |
 | Private leaderboard score | not shown on the Submissions page |
 | Final rank | PENDING |
 
-Kaggle shows the score as **−50.2367** (the competition negates (FID + MiFID) / 2 so that higher ranks better). The uploaded file was `submission_official_v3.csv` (FID 100.0599, MiFID 0.4135), and (100.0599 + 0.4135) / 2 = 50.2367 exactly. That file is a second scoring of the same v3 predictions; the notebook's own run gave FID 100.0568 (`submission.csv`, score 50.2351). The 0.0016 difference comes from re-running the Inception feature extraction. Evidence: `outputs/kaggle/kaggle_submission.png`.
+Kaggle shows scores negated (−(FID + MiFID) / 2), so a higher (less negative) number is better. Two submissions were made from the same v3 predictions:
+
+| File uploaded | FID | MiFID | Kaggle score | Status |
+|---|---|---|---|---|
+| `submission.csv` (v3 notebook output) | 100.0568 | 0.4135 | **−50.2351** | selected, final |
+| `submission_official_v3.csv` (a second scoring run) | 100.0599 | 0.4135 | −50.2367 | earlier |
+
+The final Kaggle score equals the local course-script score (50.2351) exactly, because the uploaded file is the notebook's own `submission.csv`. The 0.0016 gap between the two files comes from re-running the Inception feature extraction. Evidence: `outputs/kaggle/kaggle_submission_final.png` (final) and `kaggle_submission_earlier.png`.
 
 ## 11. Files
 
@@ -209,9 +216,9 @@ Kaggle shows the score as **−50.2367** (the competition negates (FID + MiFID) 
 | Worst cases | `outputs/figures/worst_*.png`, see `failure_analysis.md` |
 | All figures (Google Drive) | https://drive.google.com/drive/folders/1EXP4Iq-KOcFrWSmeZKD6gqnB6YQxDPTH |
 | All metrics, v1 vs v3 | `full_metrics_report.csv` |
-| Submission | `submission.csv` (v3 notebook output), `submission_official_v3.csv` (uploaded to Kaggle) |
-| Kaggle evidence | `outputs/kaggle/kaggle_submission.png` |
-| Checkpoints | `checkpoints/last_v3_epoch80.pt`, `checkpoints/best_ema_v1_epoch45.pt` |
+| Submission | `submission.csv` (final Kaggle submission, −50.2351), `submission_official_v3.csv` (earlier Kaggle submission, −50.2367) |
+| Kaggle evidence | `outputs/kaggle/kaggle_submission_final.png`, `outputs/kaggle/kaggle_submission_earlier.png` |
+| Checkpoints | `checkpoints/best_ema_v3_final.pt` + `color_cal.pt` (final submitted model), `checkpoints/last_v3_epoch80.pt`, `checkpoints/best_ema_v1_epoch45.pt` |
 | Reproducibility | `reproducibility_manifest.json`, `configs/` |
 
 The prediction folders (`pred_A2B/` 300 images, `pred_B2A/` 7,038 images) are on Google Drive; links are in each folder's README. The final averaged v3 weights (`best_ema.pt` + `color_cal.pt`) are at https://drive.google.com/drive/folders/1mOjhaPIFw9ML5e-Ts3aGs_CDKdgv31an?usp=drive_link.

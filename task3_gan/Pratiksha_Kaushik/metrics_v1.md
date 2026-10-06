@@ -43,7 +43,7 @@ Curves: `figures/training_curves.png`
 
 ## Human audit (30 samples, 2 raters, 1–5)
 
-_Pending — run the audit scoring cell after both raters finish._
+Not run for v1. The blinded human audit was done on the final v3 model; see `results.md` section 9 (overall 3.49 / 5).
 
 ## Efficiency
 

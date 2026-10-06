@@ -61,6 +61,8 @@ Pratiksha_Kaushik/
 │   ├── full_metrics.py           FID, KID, P/R, density/coverage, content cosine, LPIPS, cycle L1
 │   └── score_human_audit.py      rater means, agreement, Cohen's kappa
 ├── checkpoints/                  (git-ignored; download from Google Drive, link below)
+│   ├── best_ema_v3_final.pt      final submitted v3 model (EMA average of epochs 60/65/70, 91 MB)
+│   ├── color_cal.pt              Monet→photo colour calibration for the final model
 │   ├── last_v3_epoch80.pt        full v3 training state at epoch 80 (514 MB)
 │   └── best_ema_v1_epoch45.pt    v1 EMA generators, epoch 45 (91 MB)
 ├── data_processed/               (git-ignored)
@@ -80,12 +82,14 @@ Pratiksha_Kaushik/
 
 The `.pt` files are too large for the repo. Download them from Google Drive and put them in `checkpoints/`:
 
-**https://drive.google.com/drive/folders/1CGzq0IoI6pX0s4msiYyyfpYXTPhZJhHp**
+**https://drive.google.com/drive/folders/1Ce8xc2Tt_9E9ZXQC9ou5aPAu1iLHpdq2?usp=drive_link**
 
 | File | What it is |
 |---|---|
 | `last_v3_epoch80.pt` | full v3 training state at epoch 80 (generators, discriminators, EMA, optimizers, history, config), 514 MB |
 | `best_ema_v1_epoch45.pt` | v1 baseline EMA generators at epoch 45, 91 MB |
+| `best_ema_v3_final.pt` | final submitted v3 model: EMA generators averaged over epochs 60/65/70 (validation score 48.285), 91 MB |
+| `color_cal.pt` | Monet→photo colour calibration for the final model, 2 KB |
 
 **Final v3 model** (used for the submission, Kaggle and all v3 metrics): `best_ema.pt` (EMA generators averaged over epochs 60/65/70) and `color_cal.pt` (Monet→photo colour calibration), in a separate folder:
 **https://drive.google.com/drive/folders/1mOjhaPIFw9ML5e-Ts3aGs_CDKdgv31an?usp=drive_link**
@@ -116,7 +120,7 @@ The `.pt` files are too large for the repo. Download them from Google Drive and 
 python evaluate_local.py --root /app/content/data266_cyclegan_v3 --monet /app/content/monet_jpg --photo /app/content/photo_jpg
 
 # full metric set for a checkpoint
-python src/full_metrics.py --ckpt checkpoints/last_v3_epoch80.pt --monet /app/content/monet_jpg --photo /app/content/photo_jpg
+python src/full_metrics.py --ckpt checkpoints/best_ema_v3_final.pt --monet /app/content/monet_jpg --photo /app/content/photo_jpg
 
 # human audit, after both raters fill their sheets
 python src/score_human_audit.py

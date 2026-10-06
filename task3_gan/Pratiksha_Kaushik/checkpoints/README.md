@@ -2,7 +2,7 @@
 
 The model files are too large for the repo, so they are stored on Google Drive:
 
-**Download:** https://drive.google.com/drive/folders/1CGzq0IoI6pX0s4msiYyyfpYXTPhZJhHp
+**Download:** https://drive.google.com/drive/folders/1Ce8xc2Tt_9E9ZXQC9ou5aPAu1iLHpdq2?usp=drive_link
 
 Put the downloaded files in this folder.
 
@@ -10,6 +10,8 @@ Put the downloaded files in this folder.
 |---|---|---|
 | `last_v3_epoch80.pt` | Full v3 training state at epoch 80: both generators, both 2-scale discriminators, EMA generators, optimizers, schedulers, per-step history, eval history and config | 514 MB |
 | `best_ema_v1_epoch45.pt` | v1 baseline EMA generators at epoch 45 | 91 MB |
+| `best_ema_v3_final.pt` | **final submitted v3 model**: EMA generators averaged over epochs 60, 65 and 70 (validation score 48.285) | 91 MB |
+| `color_cal.pt` | Monet→photo colour calibration applied to the final model's outputs | 2 KB |
 
 ## Final v3 model
 
@@ -28,7 +30,7 @@ Load the generators with:
 
 ```python
 from src.cyclegan_models import load_generators
-G_P2M, G_M2P = load_generators("checkpoints/last_v3_epoch80.pt")
+G_P2M, G_M2P = load_generators("checkpoints/best_ema_v3_final.pt")
 ```
 
 

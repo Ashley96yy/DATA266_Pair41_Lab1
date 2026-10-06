@@ -42,7 +42,7 @@
       "screening": "4 configs x 15 epochs, results in results.md section 3",
       "final_model": "EMA weights averaged over epochs 60/65/70 + colour calibration (Monet->photo)",
       "final_model_file": "best_ema.pt + color_cal.pt on Google Drive: https://drive.google.com/drive/folders/1mOjhaPIFw9ML5e-Ts3aGs_CDKdgv31an?usp=drive_link",
-      "checkpoint_in_repo": "checkpoints/last_v3_epoch80.pt (full state at epoch 80, not the averaged model)",
+      "checkpoint_in_repo": "checkpoints/best_ema_v3_final.pt (EMA average of epochs 60/65/70, validation score 48.285) + checkpoints/color_cal.pt; full epoch-80 state in checkpoints/last_v3_epoch80.pt",
       "train_time_s": 11532.46,
       "steps": 64000,
       "nan_steps": 0,
@@ -57,11 +57,15 @@
         "uploaded_file": "submission_official_v3.csv",
         "public_score_shown": -50.2367,
         "evidence": "outputs/kaggle/kaggle_submission.png"
+      },
+      "final_model_sha256": {
+        "best_ema_v3_final.pt": "cfbfa0d62956132a79c6302e81f86c4517c3b0130c00142cca0b86208f2b4248",
+        "color_cal.pt": "2f9962f602335e17d5342ccb862d9f00fa1470dab3f9b5c627828d0313611872"
       }
     }
   },
   "file_sha256": {
-    "README.md": "02337cca1384b08ec5e072c9a94c73b067ce2a4351261932a175e04344518177",
+    "README.md": "cf66d09227815e75a2a5065bb0ab6be8d3818dc00fbfd1f5dcc67cef8d95a879",
     "RUN_LOG.txt": "600fa91482ad89b81183ce489fd5c16c2065fe4d71565c557d0ce0d8df69d9ad",
     "checkpoints/best_ema_v1_epoch45.pt": "10195a96e5d78b0f5f52c341cc682e375cc8e643f3ec3425a4cc8bc22f103283",
     "checkpoints/last_v3_epoch80.pt": "c56ae1a6eb9dd1468ee57316190931713f0b41395404db56be8ef97bf7f9afd9",
@@ -122,17 +126,19 @@
     "outputs/human_audit/rater2.csv": "6fecf04fa094730a1d147167ff0cb869a35d3a86276e9f7ba2b2c8dd0789bb3a",
     "outputs/pred_A2B/README.md": "a75fe656909014c4b7d21917ceee9c0dd188743ead69c055d28bd77ed16db962",
     "outputs/pred_B2A/README.md": "5d3c4879a46eba66c0d87ace653063e372efd0b347f9ba95d889b72561d4562a",
-    "results.md": "2b8dfd6e9ca31fab4c59c5ef74f9a747dac108aeb831a494985b0ac54d17a8ee",
+    "results.md": "aec5db8ff470c59ed734f86385a4e3b0f22c2870243120a24582469a55d64201",
     "src/Pratiksha_cyclegan_monet_v3.ipynb": "f8f5cba3670190925f5077b6b64db52cf0befaa7c4fa39dd4a3ceb90178dd39d",
     "src/cyclegan_models.py": "01a9b10b28741dd5c53c181a90f68e9c187f2e9060056046937de1208a6b2bbc",
     "src/full_metrics.py": "4536b961162966588a788cc398d1212265bd36e97126a123654a868143469a17",
     "src/score_human_audit.py": "ea750907b569fdb2cc4dfecfa1a365fc7450917997e26d825f7a46f0ceaaa951",
     "src/task3_cyclegan_v1_baseline.ipynb": "e72af84be89ae1c7b63b3e0520263500e5afba0befe3113616cbad78f58ffe72",
     "submission.csv": "672f523633d11ba19e551a43494811ddcf5f50a09797910aeedaadf60ca4c218",
-    "checkpoints/README.md": "03671e425fdecffa87c2bad3ca9f8288459ca395ac8277d8e5e2c16f333bda7b",
+    "checkpoints/README.md": "55456e07984439d06deddf479caaa99ebd3b31885848c9d0fc81943dcb058a54",
     "outputs/human_audit/audit_scores_per_sample.csv": "7ede8fa571464770a120c2c0975d2c700b5281ee4140efd0cde6fdd10689c416",
     "outputs/human_audit/audit_summary.csv": "19c24a0b857c9032a4fc0cbf26aa3374753497cc464675f785c14bc9b79ed40d",
     "submission_official_v3.csv": "4c90409219c0445046e20bc8c5d188405d0476b09e68a151e398d894311af1e7",
-    "outputs/kaggle/kaggle_submission.png": "fc8467335464ce03ddd230cfc9b9b54715c7ded05c740ecb6f3d47eb4a7f1ec3"
+    "outputs/kaggle/kaggle_submission.png": "fc8467335464ce03ddd230cfc9b9b54715c7ded05c740ecb6f3d47eb4a7f1ec3",
+    "src/predict.py": "78ac5937ec3c5d9b0fc56cccfdddca38dd37cb4ef090a470931dd70093010cb6",
+    "src/course_protocol_metrics.py": "895562231e50ca44c4c30665f503d9712c298b5077cea20dddda1306325191f4"
   }
 }

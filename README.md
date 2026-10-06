@@ -66,7 +66,7 @@ the task's `checkpoints/` folder under `Pratiksha_Kaushik/`.
 | --- | --- | --- |
 | Task 1 | [Download](https://drive.google.com/drive/folders/18IwhldDiOowviFXWqD22ZC2dRBwvGPEF?usp=drive_link) | [Download](https://drive.google.com/drive/folders/1XkTzqopbapev8RqSWLXST-E_gip88QYR?usp=drive_link) |
 | Task 2 | [Download](https://drive.google.com/drive/folders/1l_VToNCca70yGB9zTINZdaeYycaoTFMZ?usp=drive_link) | [Download](https://drive.google.com/drive/folders/1sBI2vdiaSnv6S1KcWrIeYHQg5oVAT_k4?usp=drive_link) |
-| Task 3 | [Download](https://drive.google.com/drive/folders/1xVVO0-Xpt1kmzFla6CumSy5gx788-WTC?usp=drive_link) | [Download](https://drive.google.com/drive/folders/1CGzq0IoI6pX0s4msiYyyfpYXTPhZJhHp?usp=drive_link) |
+| Task 3 | [Download](https://drive.google.com/drive/folders/1xVVO0-Xpt1kmzFla6CumSy5gx788-WTC?usp=drive_link) | [Download](https://drive.google.com/drive/folders/1Ce8xc2Tt_9E9ZXQC9ou5aPAu1iLHpdq2?usp=drive_link) |
 
 The Task 3 prediction folders (`pred_A2B/`, `pred_B2A/`) and figures have their own
 Drive links in the READMEs inside those folders.

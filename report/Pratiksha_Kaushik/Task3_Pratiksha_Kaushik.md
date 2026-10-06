@@ -17,7 +17,7 @@ Personal parameters: SID4 9002, seed 9002, SLICE 2, HP_ID 2. Hardware: NVIDIA Ge
 | Loss | LSGAN + 10·cycle L1 + 1·identity L1 |
 | Training | 80 epochs (64,000 steps), batch 4, Adam 2e-4; constant for 40 epochs, then linear decay |
 | Extras | DiffAugment (colour + translation), image pool of 50, EMA generators (0.999) |
-| Final weights | EMA weights averaged over epochs 60, 65 and 70, plus global colour calibration on Monet→photo |
+| Final weights | EMA weights averaged over epochs 60, 65 and 70, plus global colour calibration on Monet→photo (`checkpoints/best_ema_v3_final.pt` + `color_cal.pt`, [Google Drive](https://drive.google.com/drive/folders/1Ce8xc2Tt_9E9ZXQC9ou5aPAu1iLHpdq2?usp=drive_link)) |
 
 **How I got to v3.** v1 was a standard baseline (λ_id 5, one discriminator scale, 50 epochs). For v3, I screened 4 configurations for 15 epochs each, scoring them with the course metric on a separate validation set:
 
