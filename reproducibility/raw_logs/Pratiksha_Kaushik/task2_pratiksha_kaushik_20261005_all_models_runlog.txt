@@ -1,0 +1,120 @@
+
+===== Task 2 all-model run started: 2026-10-05 01:14:03 =====
+baseline_mean_embedding | epoch 1/5 | loss 0.6555 | val macro-F1 0.7851
+baseline_mean_embedding | epoch 2/5 | loss 0.5211 | val macro-F1 0.8465
+baseline_mean_embedding | epoch 3/5 | loss 0.3884 | val macro-F1 0.8755
+baseline_mean_embedding | epoch 4/5 | loss 0.3097 | val macro-F1 0.8915
+baseline_mean_embedding | epoch 5/5 | loss 0.2609 | val macro-F1 0.9010
+Saved checkpoint and predictions for baseline_mean_embedding; threshold=0.53
+experimental_cnn | epoch 1/5 | loss 0.5075 | val macro-F1 0.8520
+experimental_cnn | epoch 2/5 | loss 0.3010 | val macro-F1 0.8865
+experimental_cnn | epoch 3/5 | loss 0.1986 | val macro-F1 0.8859
+experimental_cnn | epoch 4/5 | loss 0.1365 | val macro-F1 0.9015
+experimental_cnn | epoch 5/5 | loss 0.1080 | val macro-F1 0.9055
+Saved checkpoint and predictions for experimental_cnn; threshold=0.50
+experimental_bigru | epoch 1/5 | loss 0.4313 | val macro-F1 0.8695
+experimental_bigru | epoch 2/5 | loss 0.2512 | val macro-F1 0.8935
+experimental_bigru | epoch 3/5 | loss 0.1728 | val macro-F1 0.9010
+experimental_bigru | epoch 4/5 | loss 0.1346 | val macro-F1 0.9000
+experimental_bigru | epoch 5/5 | loss 0.0745 | val macro-F1 0.8900
+Saved checkpoint and predictions for experimental_bigru; threshold=0.27
+Metrics summary:
+                  model  decision_threshold  accuracy  precision_macro  recall_macro  f1_macro  precision_micro  recall_micro  f1_micro  precision_weighted  recall_weighted  f1_weighted  roc_auc   pr_auc      mcc  brier_score  ece_10_bins      accuracy_ci95                            macro_f1_ci95                                 mcc_ci95
+baseline_mean_embedding                0.53    0.8914         0.892092        0.8914  0.891352           0.8914        0.8914    0.8914            0.892092           0.8914     0.891352 0.957359 0.957428 0.783491     0.082544     0.052954   [0.8826, 0.8996] [0.8825955848666895, 0.8995631919002871] [0.7662326001709936, 0.7996787878955269]
+       experimental_cnn                0.50    0.9096         0.909903        0.9096  0.909583           0.9096        0.9096    0.9096            0.909903           0.9096     0.909583 0.965899 0.965106 0.819503     0.071589     0.029373     [0.902, 0.917]   [0.9019997412792924, 0.91697621067584]  [0.8043520455162366, 0.834292708652268]
+     experimental_bigru                0.27    0.8880         0.888340        0.8880  0.887975           0.8880        0.8880    0.8880            0.888340           0.8880     0.887975 0.960139 0.960752 0.776340     0.090401     0.071114 [0.878995, 0.8966] [0.8787996897272057, 0.8964601262471876] [0.7583571875496498, 0.7934886316314119]
+McNemar results:
+                    comparison  baseline_correct_exp_wrong  baseline_wrong_exp_correct  exact_p_value
+  baseline vs experimental_cnn                         158                         249       0.000008
+baseline vs experimental_bigru                         275                         258       0.488322
+Robustness slices:
+                  model        slice_type            slice    n  macro_f1  error_rate
+baseline_mean_embedding      length_slice             long 1457  0.896761    0.098833
+baseline_mean_embedding      length_slice            short 1622  0.884447    0.112207
+baseline_mean_embedding      length_slice           medium 1921  0.886842    0.112962
+baseline_mean_embedding    negation_slice             True 2956  0.876490    0.112314
+baseline_mean_embedding    negation_slice            False 2044  0.878911    0.103229
+baseline_mean_embedding punctuation_slice  low_punctuation 3896  0.882587    0.117300
+baseline_mean_embedding punctuation_slice high_punctuation 1104  0.922085    0.077899
+       experimental_cnn      length_slice             long 1457  0.910962    0.086479
+       experimental_cnn      length_slice            short 1622  0.901456    0.094945
+       experimental_cnn      length_slice           medium 1921  0.910463    0.089537
+       experimental_cnn    negation_slice             True 2956  0.899984    0.093369
+       experimental_cnn    negation_slice            False 2044  0.896893    0.086106
+       experimental_cnn punctuation_slice  low_punctuation 3896  0.901180    0.098819
+       experimental_cnn punctuation_slice high_punctuation 1104  0.939138    0.060688
+     experimental_bigru      length_slice             long 1457  0.883772    0.111874
+     experimental_bigru      length_slice            short 1622  0.871987    0.120838
+     experimental_bigru      length_slice           medium 1921  0.895345    0.104633
+     experimental_bigru    negation_slice             True 2956  0.873414    0.117727
+     experimental_bigru    negation_slice            False 2044  0.874223    0.103718
+     experimental_bigru punctuation_slice  low_punctuation 3896  0.879102    0.120893
+     experimental_bigru punctuation_slice high_punctuation 1104  0.919225    0.080616
+Rows selected: 20 | unique source rows: 20 | model reviewed: experimental_cnn
+Saved manual_error_review_all_models.csv. Complete the two manual columns.
+Results report: /content/sample_data/TASK2_RUN_DIR/all_models/results.md
+Failure analysis: /content/sample_data/TASK2_RUN_DIR/all_models/failure_analysis.md
+Final log path: /content/sample_data/TASK2_RUN_DIR/all_models/RUN_LOG.txt
+Final log size: 5297 bytes
+Final log path: /content/sample_data/TASK2_RUN_DIR/all_models/RUN_LOG.txt
+Final log size: 5398 bytes
+
+===== Task 2 all-model run started: 2026-10-05 01:19:44 =====
+baseline_mean_embedding | epoch 1/5 | loss 0.6555 | val macro-F1 0.7851
+baseline_mean_embedding | epoch 2/5 | loss 0.5211 | val macro-F1 0.8465
+baseline_mean_embedding | epoch 3/5 | loss 0.3884 | val macro-F1 0.8755
+baseline_mean_embedding | epoch 4/5 | loss 0.3097 | val macro-F1 0.8915
+baseline_mean_embedding | epoch 5/5 | loss 0.2609 | val macro-F1 0.9010
+Saved checkpoint and predictions for baseline_mean_embedding; threshold=0.53
+experimental_cnn | epoch 1/5 | loss 0.5075 | val macro-F1 0.8520
+experimental_cnn | epoch 2/5 | loss 0.3011 | val macro-F1 0.8850
+experimental_cnn | epoch 3/5 | loss 0.1977 | val macro-F1 0.8844
+experimental_cnn | epoch 4/5 | loss 0.1372 | val macro-F1 0.8990
+experimental_cnn | epoch 5/5 | loss 0.1075 | val macro-F1 0.9010
+Saved checkpoint and predictions for experimental_cnn; threshold=0.56
+experimental_bigru | epoch 1/5 | loss 0.4313 | val macro-F1 0.8695
+experimental_bigru | epoch 2/5 | loss 0.2512 | val macro-F1 0.8935
+experimental_bigru | epoch 3/5 | loss 0.1728 | val macro-F1 0.9010
+experimental_bigru | epoch 4/5 | loss 0.1346 | val macro-F1 0.9000
+experimental_bigru | epoch 5/5 | loss 0.0745 | val macro-F1 0.8900
+Saved checkpoint and predictions for experimental_bigru; threshold=0.27
+Metrics summary:
+                  model  decision_threshold  accuracy  precision_macro  recall_macro  f1_macro  precision_micro  recall_micro  f1_micro  precision_weighted  recall_weighted  f1_weighted  roc_auc   pr_auc      mcc  brier_score  ece_10_bins      accuracy_ci95                            macro_f1_ci95                                 mcc_ci95
+baseline_mean_embedding                0.53    0.8914         0.892092        0.8914  0.891352           0.8914        0.8914    0.8914            0.892092           0.8914     0.891352 0.957359 0.957428 0.783491     0.082544     0.052954   [0.8826, 0.8996] [0.8825955848666895, 0.8995631919002871] [0.7662326001709936, 0.7996787878955269]
+       experimental_cnn                0.56    0.9054         0.905405        0.9054  0.905400           0.9054        0.9054    0.9054            0.905405           0.9054     0.905400 0.965983 0.965196 0.810805     0.071710     0.030130 [0.8974, 0.913605]  [0.8973959467249489, 0.913604914024959] [0.7949517155097238, 0.8273029092921104]
+     experimental_bigru                0.27    0.8880         0.888340        0.8880  0.887975           0.8880        0.8880    0.8880            0.888340           0.8880     0.887975 0.960139 0.960752 0.776340     0.090401     0.071114 [0.878995, 0.8966] [0.8787996897272057, 0.8964601262471876] [0.7583571875496498, 0.7934886316314119]
+McNemar results:
+                    comparison  baseline_correct_exp_wrong  baseline_wrong_exp_correct  exact_p_value
+  baseline vs experimental_cnn                         168                         238       0.000599
+baseline vs experimental_bigru                         275                         258       0.488322
+Robustness slices:
+                  model        slice_type            slice    n  macro_f1  error_rate
+baseline_mean_embedding      length_slice             long 1457  0.896761    0.098833
+baseline_mean_embedding      length_slice            short 1622  0.884447    0.112207
+baseline_mean_embedding      length_slice           medium 1921  0.886842    0.112962
+baseline_mean_embedding    negation_slice             True 2956  0.876490    0.112314
+baseline_mean_embedding    negation_slice            False 2044  0.878911    0.103229
+baseline_mean_embedding punctuation_slice  low_punctuation 3896  0.882587    0.117300
+baseline_mean_embedding punctuation_slice high_punctuation 1104  0.922085    0.077899
+       experimental_cnn      length_slice             long 1457  0.904834    0.091970
+       experimental_cnn      length_slice            short 1622  0.899987    0.096794
+       experimental_cnn      length_slice           medium 1921  0.905252    0.094742
+       experimental_cnn    negation_slice             True 2956  0.896494    0.096076
+       experimental_cnn    negation_slice            False 2044  0.890758    0.092466
+       experimental_cnn punctuation_slice  low_punctuation 3896  0.895523    0.104466
+       experimental_cnn punctuation_slice high_punctuation 1104  0.940104    0.059783
+     experimental_bigru      length_slice             long 1457  0.883772    0.111874
+     experimental_bigru      length_slice            short 1622  0.871987    0.120838
+     experimental_bigru      length_slice           medium 1921  0.895345    0.104633
+     experimental_bigru    negation_slice             True 2956  0.873414    0.117727
+     experimental_bigru    negation_slice            False 2044  0.874223    0.103718
+     experimental_bigru punctuation_slice  low_punctuation 3896  0.879102    0.120893
+     experimental_bigru punctuation_slice high_punctuation 1104  0.919225    0.080616
+Rows selected: 20 | unique source rows: 20 | model reviewed: experimental_cnn
+Saved manual_error_review_all_models.csv. Complete the two manual columns.
+Results report: /content/sample_data/TASK2_RUN_DIR/all_models/results.md
+Failure analysis: /content/sample_data/TASK2_RUN_DIR/all_models/failure_analysis.md
+Final log path: /content/sample_data/TASK2_RUN_DIR/all_models/RUN_LOG.txt
+Final log size: 10722 bytes
+Final log path: /content/sample_data/TASK2_RUN_DIR/all_models/RUN_LOG.txt
+Final log size: 10824 bytes

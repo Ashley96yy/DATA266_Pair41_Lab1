@@ -1,0 +1,86 @@
+{
+  "member": "Pratiksha Kaushik",
+  "task": "Task 2 - Yelp Polarity sentiment",
+  "final_run": {
+    "notebook": "src/task2_yelp_sentiment_all_models.ipynb",
+    "started": "2026-10-05 01:19:44",
+    "log": "RUN_LOG.txt (second block)",
+    "colab_output_dir": "/content/sample_data/TASK2_RUN_DIR/all_models"
+  },
+  "hardware": {
+    "final_run": {
+      "platform": "Google Colab",
+      "device": "cuda",
+      "gpu": "NVIDIA Tesla T4",
+      "pytorch": "2.11.0+cu130",
+      "used_for": [
+        "baseline_mean_embedding",
+        "experimental_cnn",
+        "experimental_bigru"
+      ]
+    },
+    "earlier_single_model_runs": {
+      "platform": "Google Colab CPU runtime",
+      "device": "cpu",
+      "cpu": "x86_64 (exact model name was not printed)",
+      "pytorch": "2.11.0+cpu",
+      "notebooks": [
+        "src/yelp_polarity_mean_embedding.ipynb",
+        "src/yelp_polarity_cnn.ipynb"
+      ]
+    }
+  },
+  "data": {
+    "source": "fancyzhx/yelp_polarity (Hugging Face)",
+    "train_rows": 18000,
+    "val_rows": 2000,
+    "test_rows": 5000,
+    "seed": 9002
+  },
+  "pretrained_weights_used": false,
+  "settings": "configs/training.json, configs/models.json",
+  "checkpoints": {
+    "baseline_mean_embedding": {
+      "file": "checkpoints/baseline_mean_embedding.pt",
+      "threshold": 0.53,
+      "test_accuracy": 0.8914
+    },
+    "experimental_cnn": {
+      "file": "checkpoints/experimental_cnn.pt",
+      "threshold": 0.56,
+      "test_accuracy": 0.9054
+    },
+    "experimental_bigru": {
+      "file": "checkpoints/experimental_bigru.pt",
+      "threshold": 0.27,
+      "test_accuracy": 0.888
+    },
+    "note": "each .pt holds model_name, state_dict, threshold and seed; weights are last epoch (5)"
+  },
+  "file_sha256": {
+    "RUN_LOG.txt": "2b9b3a021ab4c9fd2b19d57fc9fbb1baffea93102a02ce71906cfde80a1e6c5e",
+    "configs/models.json": "69bcdc91c3f25f2a1325a089a6336eb098bdf100021b8d86c59728897c22c92b",
+    "configs/training.json": "3b2bcafb3fb572bed7ec5e0ca06e7ebd858f6e988247606c4b4aeb510d0596e9",
+    "metrics_report.csv": "30bea921356c6fd718a914871051b8ccd1afa52348f03a79b55bbc2dd24ec6dc",
+    "outputs/confusion_matrix_baseline_mean_embedding.csv": "db05440cd4cc62fee79d98efe469511f03b207fb88dd3551b96e75652bc3555e",
+    "outputs/confusion_matrix_baseline_mean_embedding.png": "6e3bb4013c6327b5cc8e477347953606936c0027091aac704c56bc23068e2c8a",
+    "outputs/confusion_matrix_experimental_bigru.csv": "94180e7319109d8213990330966a0459fb9cbc4ae488a5c0547693a1d5cb2912",
+    "outputs/confusion_matrix_experimental_bigru.png": "57c00ee2f105eb0d3cce321e34acf5814e5abab97b0245d563063f77e6f8ff22",
+    "outputs/confusion_matrix_experimental_cnn.csv": "3d48d9a90a58ded20483792ba9c1756248bad116cc440b6e878d231990ec0327",
+    "outputs/confusion_matrix_experimental_cnn.png": "887adc325428e71243a6562f0a668a1ab2e6bd7a7300a131fe096a31a7947212",
+    "outputs/data_review_length_and_class_balance.png": "d7b7e4461833bc48e3a7e5fd91c2979cf266ae74f0825a6d9c02691a5da1dd6f",
+    "outputs/manual_error_review_all_models.csv": "973209a4d7cf759f63f6e574495f825c20760b05b98b10dbfdbc0708a7e0affd",
+    "outputs/mcnemar_results.csv": "eee955ae7e03386cc799d69342dbbe65bf036210b03333d007d142148d075e63",
+    "outputs/predictions_baseline_mean_embedding.csv": "4af27e7d502bd42a5e2e1cf4e529884ab5133cad36c1e34755081911203ab952",
+    "outputs/predictions_experimental_bigru.csv": "0ea80897ea88601f3b83670b09987dffa6f63acbfdcb87ac72b0071e292ea32f",
+    "outputs/predictions_experimental_cnn.csv": "9df92752d533c590bf4d330ef6a10b67925da21ecc3d823ab2d18267e98e44f4",
+    "outputs/preprocessing_summary.md": "6dfe8284bfd9d6b5313f166b01c61eb41a4aa14330b396f8c9d69a725677be0b",
+    "outputs/robustness_slices_all_models.csv": "fc417f5b939d1c181fac800212c8c47f1dcf68e5f323dc3c31f67b635b7546d1",
+    "outputs/training_history_all_models.csv": "80eda2bb6f0b14b4bc5261fe1c3e0581baad36fd810b868c09e30d75ab23f697",
+    "outputs/training_loss_and_val_f1.png": "acf1554c29740e41fb8b6a44de8b69e736052beffec58953a7f478579d6e5fb6",
+    "resources_report.csv": "67bfd21d01057f2fc9faa0c7df8de7bba062a5905f52eaf78144bbcacc49828e",
+    "src/task2_yelp_sentiment_all_models.ipynb": "2f83483c01e50d316f81fc27b617acd2c21561192aea39589fdb2b9cb648b4b6",
+    "src/yelp_polarity_cnn.ipynb": "86ba4e1da650a438eb016831beb7cf548f2b2f0f18bcee57cbe37250093bd4bf",
+    "src/yelp_polarity_mean_embedding.ipynb": "63be4f1b2856e32fc0de202f59030f3568807f841c09f8952cb9b746e5232028"
+  }
+}
