@@ -41,7 +41,7 @@ Pratiksha_Kaushik/
 ├── src/
 │   ├── Task1_gpt.ipynb                      final notebook (8L / 512d / context 512)
 │   └── Task1_gpt_pilot_L6H6C384T256.ipynb   earlier pilot run (6L / 384d / context 256)
-├── checkpoints/             (git-ignored, on Google Drive)
+├── checkpoints/             (git-ignored; download: https://drive.google.com/drive/folders/18IwhldDiOowviFXWqD22ZC2dRBwvGPEF?usp=drive_link)
 │   ├── ckpt_best.pt         model weights, epoch 10 (val CE 0.4742), 102 MB
 │   └── ckpt_last.pt         full training state for resuming, 307 MB
 ├── data_processed/          (git-ignored, on Google Drive)
