@@ -1,0 +1,19 @@
+{
+  "seed": 9002,
+  "dataset": "fancyzhx/yelp_polarity",
+  "max_train": 20000,
+  "max_test": 5000,
+  "val_size": 0.10,
+  "max_vocab": 30000,
+  "max_len": 180,
+  "batch_size": 128,
+  "epochs": 5,
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "grad_clip_norm": 1.0,
+  "loss": "BCEWithLogitsLoss",
+  "threshold_search": {"low": 0.20, "high": 0.80, "steps": 61, "selected_on": "validation macro-F1"},
+  "use_stemming": false,
+  "keep_negation_words": ["not", "never", "no"]
+}

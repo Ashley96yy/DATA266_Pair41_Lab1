@@ -1,0 +1,5 @@
+{
+  "baseline_mean_embedding": {"embedding_dim": 128, "pooling": "masked mean", "dropout": 0.20},
+  "experimental_cnn": {"embedding_dim": 160, "channels": 128, "kernel_sizes": [3, 5, 7], "pooling": "global max", "dropout": 0.35},
+  "experimental_bigru": {"embedding_dim": 160, "hidden_size": 128, "bidirectional": true, "pooling": "masked mean", "dropout": 0.35}
+}
