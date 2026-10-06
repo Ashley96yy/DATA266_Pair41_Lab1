@@ -50,8 +50,8 @@ stability,NaN/Inf steps,both,0 of 40000,0 of 64000,
 stability,Gradient-norm curves,both,,outputs/figures/stability_curves.png,
 human audit,Human-audit score (1-5) style / content / artifacts,both,not done,PENDING,"2 raters x 30 samples, run src/score_human_audit.py after filling rater1/2.csv"
 human audit,Cohen's kappa / % agreement,both,not done,PENDING,outputs/human_audit/audit_summary.csv
-kaggle,Kaggle public leaderboard score,,not submitted,PENDING,add from leaderboard
-kaggle,Kaggle private leaderboard score,,not submitted,PENDING,if available
+kaggle,Kaggle public leaderboard score,,not submitted,50.2367,local course-script score 50.2351
+kaggle,Kaggle private leaderboard score,,not submitted,PENDING,if shown
 kaggle,Final leaderboard rank,,not submitted,PENDING,
 efficiency,Params per generator (M),,11.38,11.38,
 efficiency,Params per discriminator (M),,2.76,5.53,v3: 2-scale PatchGAN

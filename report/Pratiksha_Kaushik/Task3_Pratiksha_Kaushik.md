@@ -129,6 +129,14 @@ The blinded packet is in `outputs/human_audit/`: 20 photoâ†’Monet and 10 Monetâ†
 
 These scores will come from `src/score_human_audit.py` once both rater sheets are filled in.
 
+## Kaggle leaderboard
+
+| Public score | Private score | Final rank |
+|---|---|---|
+| **50.2367** | PENDING (if shown) | PENDING |
+
+The public score matches the local course-script score (50.2351) to within 0.002, so the local evaluation is a reliable estimate of the leaderboard result.
+
 ## Comparison with my teammate (Yuyao Ding)
 
 Yuyao's Task 3 results are in their own report ([Task3_Yuyao_Ding.md](../Task3_Yuyao_Ding.md)). We trained independently. A joint comparison table will be added to the combined team report.

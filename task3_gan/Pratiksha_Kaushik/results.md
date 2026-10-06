@@ -174,11 +174,11 @@ The blinded audit packet is in `outputs/human_audit/`: 30 side-by-side images (2
 
 | | Value |
 |---|---|
-| Public leaderboard score | PENDING |
-| Private leaderboard score | PENDING (if available) |
+| Public leaderboard score | **50.2367** |
+| Private leaderboard score | PENDING (if shown) |
 | Final rank | PENDING |
 
-The local score from the course script is 50.2351 (`submission.csv`). Add a screenshot of the leaderboard to `outputs/kaggle/` as evidence.
+The Kaggle public score (50.2367) is almost the same as the local score from the course script (50.2351, `submission.csv`). The difference is 0.0016, so the local evaluation is a good predictor of the leaderboard. Screenshot evidence: `outputs/kaggle/` (to be added).
 
 ## 11. Files
 
