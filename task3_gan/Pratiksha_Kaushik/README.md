@@ -11,13 +11,17 @@ Personal parameters: `SID4=9002 | SEED=9002 | SLICE=2 | HP_ID=2 | CLS_A=2 | CLS_
 | v1 (baseline) | 101.51 | 102.99 | 102.25 | 0.4168 | 51.33 |
 | **v3 (final)** | **100.54** | **99.58** | **100.06** | **0.4135** | **50.24** |
 
-These scores come from the course evaluation script, using the first 300 files in each direction. See [RESULTS.md](RESULTS.md) for the full write-up.
+These scores come from the course evaluation script, using the first 300 files in each direction. See [results.md](results.md) for the full write-up.
+
+![Photo to Monet: input, translation, reconstruction](outputs/figures/qual_photo2monet.png)
+
+All figures: [outputs/figures/](outputs/figures/README.md), also on [Google Drive](https://drive.google.com/drive/folders/1EXP4Iq-KOcFrWSmeZKD6gqnB6YQxDPTH).
 
 ## Two model versions
 
 | | v1 (baseline) | v3 (final) |
 |---|---|---|
-| Notebook | [src/Improvements/task3-GAN.ipynb](src/Improvements/task3-GAN.ipynb) | [src/Pratiksha_cyclegan_monet_v3.ipynb](src/Pratiksha_cyclegan_monet_v3.ipynb) |
+| Notebook | [src/task3_cyclegan_v1_baseline.ipynb](src/task3_cyclegan_v1_baseline.ipynb) | [src/Pratiksha_cyclegan_monet_v3.ipynb](src/Pratiksha_cyclegan_monet_v3.ipynb) |
 | Generator | ResNet, 9 blocks (11.38M) | same |
 | Discriminator | 70×70 PatchGAN, 1 scale | PatchGAN at **2 scales** |
 | Loss | LSGAN + 10·cycle + 5·identity | LSGAN + 10·cycle + **1**·identity |
@@ -34,32 +38,50 @@ v3 settings came from a 15-epoch screening of 4 configurations. The 2-scale disc
 
 ```
 Pratiksha_Kaushik/
-├── README.md                  this file
-├── RESULTS.md                 main write-up: v1 vs v3, screening, per-epoch scores, metrics, stability, efficiency
-├── METRICS .md                auto-generated metrics for v1 (note the space in the file name)
-├── failure_analysis.md        7 failure categories for v3 (night scenes, skies, fine texture, steganography…)
-├── metric_report.csv          v1 vs v3 metrics side by side
-├── submission.csv             course-format CSV (ID,FID,MiFID); see the note below
-├── submission_official_v3.csv v3 official submission (FID 100.06, MiFID 0.4135)
-├── RUN_LOG (1).txt            full v3 log: screening, final run, evaluation, export
+├── README.md                     this file
+├── results.md                    main write-up: v1 vs v3, screening, per-epoch scores, metrics, stability, efficiency
+├── failure_analysis.md           7 failure categories for v3 (night scenes, skies, fine texture, steganography...)
+├── full_metrics_report.csv       every required metric, v1 vs v3 side by side (audit + Kaggle rows still PENDING)
+├── metrics_v1.md                 metrics written by the v1 notebook (v1 only)
+├── evaluate_local.py             course evaluation script as a .py (FID + MiFID on pred_A2B / pred_B2A)
+├── submission.csv                final v3 submission, exactly as written by the v3 notebook (FID 100.0568, MiFID 0.4135, score 50.2351)
+├── RUN_LOG.txt                   raw v3 log: screening, final run, evaluation, export
+├── reproducibility_manifest.json hardware, versions, data split, run info, sha256 of every file
 ├── configs/
-│   ├── config.json            base training config (notebook overrides λ_id / n_scales per run)
-│   └── metrics.json           v1 metrics + stability stats (source of METRICS .md)
+│   ├── config_base.json          base config (v1 settings; the notebook overrides lambda_id / n_scales per run)
+│   ├── config_v3_final.json      exact config of the final v3 run (taken from the checkpoint)
+│   └── metrics_v1.json           v1 metrics + stability stats
 ├── src/
-│   ├── Pratiksha_cyclegan_monet_v3.ipynb   final notebook (sections 0–19)
-│   └── Improvements/task3-GAN.ipynb        v1 baseline notebook ("task3-GAN 2.ipynb" is an identical copy)
-├── checkpoints/               (git-ignored)
-│   ├── best_ema.pt            v3 final generator weights (91 MB)
-│   └── last.pt                full training state (514 MB)
-├── data_processed/            (git-ignored)
-│   └── train_history.csv      per-step losses and gradient norms
+│   ├── Pratiksha_cyclegan_monet_v3.ipynb   final notebook (sections 0-19)
+│   ├── task3_cyclegan_v1_baseline.ipynb    v1 baseline notebook
+│   ├── cyclegan_models.py        generator / discriminator classes + checkpoint loader
+│   ├── full_metrics.py           FID, KID, P/R, density/coverage, content cosine, LPIPS, cycle L1
+│   └── score_human_audit.py      rater means, agreement, Cohen's kappa
+├── checkpoints/                  (git-ignored; download from Google Drive, link below)
+│   ├── last_v3_epoch80.pt        full v3 training state at epoch 80 (514 MB)
+│   └── best_ema_v1_epoch45.pt    v1 EMA generators, epoch 45 (91 MB)
+├── data_processed/               (git-ignored)
+│   ├── train_history_v3.csv      per-step losses, gradient norms, D outputs (64,000 steps)
+│   └── train_history_v1.csv      same for v1 (40,000 steps)
 └── outputs/
-    ├── eval_history.csv       FID per checkpoint (every 5 epochs)
-    ├── figures/               data samples, loss and stability curves, qualitative results, worst cases
-    ├── human_audit/           30-sample blinded audit: audit_sheet.html, images/, rater1/2.csv, _key.csv
-    ├── pred_A2B/              empty (.gitkeep): 300 Photo→Monet predictions not copied here
-    └── pred_B2A/              empty (.gitkeep): 7,038 Monet→Photo predictions not copied here
+    ├── eval_history_v3.csv       validation FID / MiFID / score every 5 epochs
+    ├── eval_history_v1.csv       v1 FID every 5 epochs
+    ├── figures/                  data samples, loss + stability curves, translations with cycle reconstructions, worst cases (also on Google Drive, link in figures/README.md)
+    ├── human_audit/              30-sample blinded audit: images/, audit_sheet.html, rater1/2.csv, _key.csv
+    ├── pred_A2B/                 Monet -> photo predictions (300), Google Drive link in README.md
+    └── pred_B2A/                 photo -> Monet predictions (7,038), Google Drive link in README.md
 ```
+
+## Checkpoints
+
+The `.pt` files are too large for the repo. Download them from Google Drive and put them in `checkpoints/`:
+
+**https://drive.google.com/drive/folders/1CGzq0IoI6pX0s4msiYyyfpYXTPhZJhHp**
+
+| File | What it is |
+|---|---|
+| `last_v3_epoch80.pt` | full v3 training state at epoch 80 (generators, discriminators, EMA, optimizers, history, config), 514 MB |
+| `best_ema_v1_epoch45.pt` | v1 baseline EMA generators at epoch 45, 91 MB |
 
 ## Notebook walkthrough (v3)
 
@@ -78,13 +100,25 @@ Pratiksha_Kaushik/
 
 1. Put the Kaggle "I'm Something of a Painter Myself" data (`monet_jpg/`, `photo_jpg/`) under the notebook's data root. It was `/app/content` on the training machine.
 2. Open `src/Pratiksha_cyclegan_monet_v3.ipynb` and run it top to bottom with `QUICK=False`. A full run, including screening, takes about 6 h on an RTX 4090. The final run alone takes about 3.2 h.
-3. With `resume=true`, training resumes from `checkpoints/last.pt` if it exists.
+3. With `resume=true`, training resumes from `runs/<name>/checkpoints/last.pt` under the output folder if it exists. To restart from the copy in this repo, put `checkpoints/last_v3_epoch80.pt` there as `last.pt`.
 
-## Notes and open items
+## Commands
 
-- **Human audit is not done.** `rater1.csv` and `rater2.csv` are still blank. To finish it, fill them in using `audit_sheet.html`, then rerun notebook §16.
-- **Kaggle leaderboard:** no public or private score has been recorded yet.
-- **Mismatched `submission.csv`:** it reports FID 82.57 / MiFID 0.4074, which doesn't match the v3 numbers in RESULTS.md or the run log (100.06 / 0.4135). Check which run produced it before submitting. `submission_official_v3.csv` matches v3.
-- **`METRICS .md` and `configs/metrics.json` describe v1**, not v3. RESULTS.md has the v3 numbers.
-- **Duplicate files:** many files with a ` 2` / ` 3` suffix (in figures, human_audit and Improvements) are byte-identical duplicates (Finder copies).
-- **RESULTS.md file paths** (`data266_cyclegan_v3/...`, `FAILURES.md`, `screening.csv`) point to the training machine, not this folder.
+```bash
+# course score from the prediction folders
+python evaluate_local.py --root /app/content/data266_cyclegan_v3 --monet /app/content/monet_jpg --photo /app/content/photo_jpg
+
+# full metric set for a checkpoint
+python src/full_metrics.py --ckpt checkpoints/last_v3_epoch80.pt --monet /app/content/monet_jpg --photo /app/content/photo_jpg
+
+# human audit, after both raters fill their sheets
+python src/score_human_audit.py
+```
+
+Extra packages for the metrics: `torch-fidelity`, `lpips`, `scipy`, `pandas`, `pillow`.
+
+## Still to do before submission
+
+- **Human audit:** two people need to fill `outputs/human_audit/rater1.csv` and `rater2.csv` independently, using `audit_sheet.html` to view the images. Then run `src/score_human_audit.py` and copy the numbers into `results.md` section 9.
+- **Kaggle:** submit, then add the public score, private score (if shown) and rank to `results.md` section 10 and `full_metrics_report.csv`. Put a leaderboard screenshot in `outputs/kaggle/`.
+- **Final v3 weights:** `best_ema.pt` (the 60/65/70 average) and `color_cal.pt` from `/app/content/data266_cyclegan_v3/runs/final/checkpoints/` are not in this folder yet. `last_v3_epoch80.pt` is the epoch-80 state, not the averaged model.
