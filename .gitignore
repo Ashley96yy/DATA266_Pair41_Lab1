@@ -20,7 +20,10 @@ __pycache__/
 
 # Raw logs, manifests, notebook outputs, metrics and reports are NOT ignored.
 
-# Publish only Yuyao's download instructions inside ignored artifact folders.
+# Publish data download instructions inside ignored artifact folders.
+!/task1_llm/data/README.md
+!/task2_sentiment/data/README.md
+!/task3_gan/data/README.md
 !/task1_llm/Yuyao_Ding/data_processed/README.md
 !/task1_llm/Yuyao_Ding/checkpoints/README.md
 !/task2_sentiment/Yuyao_Ding/data_processed/README.md
