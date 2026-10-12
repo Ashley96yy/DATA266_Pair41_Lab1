@@ -149,7 +149,7 @@ any missing complete datasets before smoke checks, full evaluation or a new run.
 | Data | Download and destination |
 | --- | --- |
 | TinyStories | [Task 1 Drive folder](https://drive.google.com/drive/folders/14kpF6QaLSHfF4Ru-T6KEpcctCpRqDX9x): extract `TinyStories-train.txt` and `TinyStories-valid.txt` directly into `task1_llm/data/`. Use the original files, not V2-GPT4. |
-| Yelp Polarity | [Team Drive folder](https://drive.google.com/drive/folders/1Enmnu7482fsa0-9p_2rmzsyEImcwwMSg), Task 2 data: extract `train-00000-of-00001.parquet` and `test-00000-of-00001.parquet` into `task2_sentiment/data/`. |
+| Yelp Polarity | [Task 2 Drive folder](https://drive.google.com/drive/u/1/folders/17asGVqh6saSXe_cr-bD268MdIONiuU0s): extract `train-00000-of-00001.parquet` and `test-00000-of-00001.parquet` into `task2_sentiment/data/`. |
 | Monet/photo | [Task 3 Drive folder](https://drive.google.com/drive/u/1/folders/1z9cw21bh1u6PMAjUWG_wiAGlcRmHjxO5): extract all 300 Monet and 7,038 photo JPEGs into `task3_gan/data/monet_jpg/` and `photo_jpg/`, without an extra `dataset/` parent. |
 
 Use an account with read access. The per-task guides and manifests record expected

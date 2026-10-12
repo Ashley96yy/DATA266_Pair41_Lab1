@@ -107,8 +107,8 @@ new smoke session directories.
 
 ## Data from Drive
 
-Download yelp_polarity.zip from the Task 2 data directory in the
-[team Drive folder](https://drive.google.com/drive/folders/1Enmnu7482fsa0-9p_2rmzsyEImcwwMSg).
+Download yelp_polarity.zip from the
+[Task 2 Drive folder](https://drive.google.com/drive/u/1/folders/17asGVqh6saSXe_cr-bD268MdIONiuU0s).
 Sign in with an account that has read access, then place the ZIP here:
 
 ~~~text
